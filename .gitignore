@@ -154,3 +154,9 @@ test-results/
 Write-Host "🚀 ENTERPRISE .gitignore v2 UPDATED"
 node_modules
 node_modules
+
+# Secrets and environment archives
+_env_archive/
+.env
+.env.*
+*.env
