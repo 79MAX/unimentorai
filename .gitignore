@@ -1,8 +1,10 @@
 @'
 # =========================================================
 # UNIMENTORAI OBSERVABILITY SAAS PLATFORM
-# ENTERPRISE GITIGNORE v2
+# ENTERPRISE GITIGNORE v3
+# SECURITY HARDENED
 # =========================================================
+
 
 # =========================================================
 # ENVIRONMENT / SECRETS
@@ -11,6 +13,15 @@
 .env
 .env.*
 !.env.example
+*.env
+
+# API KEYS / CERTIFICATES
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+
 
 # =========================================================
 # NODE / REACT / VITE
@@ -30,11 +41,13 @@ pnpm-debug.log*
 
 vite.svg
 
+
 # =========================================================
 # TYPESCRIPT
 # =========================================================
 
 *.tsbuildinfo
+
 
 # =========================================================
 # LOGS
@@ -42,18 +55,16 @@ vite.svg
 
 logs/
 *.log
+backend/logs/
+
 
 # =========================================================
-# CACHE
+# CACHE / TEMP
 # =========================================================
 
 .cache/
 .parcel-cache/
 .eslintcache
-
-# =========================================================
-# TEMP FILES
-# =========================================================
 
 tmp/
 temp/
@@ -61,24 +72,27 @@ temp/
 *.temp
 *.swp
 
+
 # =========================================================
-# OS FILES
+# OS
 # =========================================================
 
 .DS_Store
 Thumbs.db
 desktop.ini
 
+
 # =========================================================
-# IDE / EDITORS
+# IDE
 # =========================================================
 
 .idea/
 .vscode/
 *.iml
 
+
 # =========================================================
-# FLUTTER / DART
+# FLUTTER
 # =========================================================
 
 .dart_tool/
@@ -87,8 +101,11 @@ desktop.ini
 .pub/
 .pub-cache/
 
+build/
+
+
 # =========================================================
-# ANDROID
+# ANDROID / IOS
 # =========================================================
 
 android/.gradle/
@@ -96,67 +113,79 @@ android/app/debug/
 android/app/profile/
 android/app/release/
 
-# =========================================================
-# IOS
-# =========================================================
-
 ios/Pods/
 ios/.symlinks/
 ios/Flutter/.last_build_id
 
-# =========================================================
-# OBSERVABILITY ENGINE
-# =========================================================
-
-backend/storage/
-backend/logs/
-backend/tmp/
-backend/cache/
 
 # =========================================================
-# DATABASES
+# DATABASE
 # =========================================================
 
 *.sqlite
 *.sqlite3
 *.db
 
+
 # =========================================================
-# TESTING
+# TEST
 # =========================================================
 
-coverage/
 playwright-report/
 test-results/
 
+
 # =========================================================
-# DOCKER
+# DOCKER / DEPLOYMENT
 # =========================================================
 
 .docker/
-
-# =========================================================
-# DEPLOYMENT
-# =========================================================
-
 .vercel/
 .netlify/
 
+
 # =========================================================
-# MISC
+# UNIMENTORAI SECURITY
+# =========================================================
+
+_env_archive/
+archive/
+archives/
+
+guardian-backups/
+snapshots/
+
+*_backup/
+*_backup.*
+
+UNIMENTORAI_AUDIT/
+audit/
+reports/
+
+
+# =========================================================
+# LARGE GENERATED FILES
+# =========================================================
+
+*.zip
+*.tar
+*.gz
+
+*.csv
+*.jsonl
+
+
+# =========================================================
+# PROCESS FILES
 # =========================================================
 
 *.pid
-*.seed
 *.pid.lock
+*.seed
+
+
 '@ | Set-Content ".gitignore"
 
-Write-Host "🚀 ENTERPRISE .gitignore v2 UPDATED"
-node_modules
-node_modules
-
-# Secrets and environment archives
-_env_archive/
-.env
-.env.*
-*.env
+Write-Host "🚀 ENTERPRISE .gitignore v3 SECURITY HARDENED UPDATED"
+# Runtime storage
+backend/storage/
