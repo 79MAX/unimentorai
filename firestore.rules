@@ -1,0 +1,189 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ========================
+    // 🔐 CORE AUTH HELPERS
+    // ========================
+
+    function isAuth() {
+      return request.auth != null;
+    }
+
+    function uid() {
+      return request.auth.uid;
+    }
+
+    function isAdmin() {
+      return isAuth() && request.auth.token.role == 'admin';
+    }
+
+    function isEnterpriseAdmin() {
+      return isAuth() && request.auth.token.role == 'enterprise_admin';
+    }
+
+    function isOwner(userId) {
+      return isAuth() && uid() == userId;
+    }
+
+    function orgId() {
+      return isAuth() ? request.auth.token.organizationId : null;
+    }
+
+    function sameOrg(dataOrgId) {
+      return orgId() != null && dataOrgId == orgId();
+    }
+
+    // ========================
+    // 👤 USERS
+    // ========================
+
+    match /users/{userId} {
+
+      allow read: if isOwner(userId) || isAdmin();
+
+      allow create: if isAuth()
+        && uid() == userId
+        && request.resource.data.uid == userId;
+
+      allow update: if isOwner(userId) || isAdmin();
+
+      allow delete: if isAdmin();
+    }
+
+    // ========================
+    // 📘 COURSES
+    // ========================
+
+    match /courses/{courseId} {
+
+      function course() {
+        return get(/databases/$(database)/documents/courses/$(courseId)).data;
+      }
+
+      allow read: if resource.data.isPublished == true
+        || isOwner(resource.data.authorId)
+        || isAdmin()
+        || sameOrg(resource.data.organizationId);
+
+      allow create: if isAuth()
+        && request.resource.data.authorId == uid();
+
+      allow update: if isOwner(resource.data.authorId) || isAdmin();
+
+      allow delete: if isOwner(resource.data.authorId) || isAdmin();
+
+      match /steps/{stepId} {
+        allow read: if true;
+        allow write: if isOwner(course().authorId) || isAdmin();
+      }
+
+      match /translations/{lang} {
+        allow read: if true;
+        allow write: if isOwner(course().authorId) || isAdmin();
+      }
+
+      match /progress/{userId} {
+        allow read, write: if isOwner(userId) || isAdmin();
+      }
+    }
+
+    // ========================
+    // 💳 PAYMENTS (LOCKED)
+    // ========================
+
+    match /payments/{paymentId} {
+
+      allow read: if isOwner(resource.data.userId) || isAdmin();
+
+      allow create: if isAuth()
+        && request.resource.data.userId == uid();
+
+      allow update: if false; // 🔐 uniquement backend
+
+      allow delete: if false;
+    }
+
+    // ========================
+    // 🎓 COURSE ACCESS
+    // ========================
+
+    match /course_access/{docId} {
+      allow read: if isOwner(resource.data.userId) || isAdmin();
+      allow write: if false;
+    }
+
+    // ========================
+    // 📊 LOGS
+    // ========================
+
+    match /logs/{logId} {
+      allow read: if isAdmin();
+      allow create: if isAuth();
+    }
+
+    // ========================
+    // 📡 PUBLIC METADATA
+    // ========================
+
+    match /metadata/{doc=**} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // ========================
+    // 🧠 AI SYSTEM
+    // ========================
+
+    match /ai_mentors/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /ai_decision_traces/{id} {
+      allow read: if isAdmin() || isOwner(resource.data.userId);
+      allow create: if isAuth();
+      allow update: if isAdmin();
+    }
+
+    // ========================
+    // 📈 ANALYTICS
+    // ========================
+
+    match /analytics/{doc=**} {
+      allow read: if isAdmin();
+      allow create: if isAuth();
+    }
+
+    // ========================
+    // 🧾 CERTIFICATES
+    // ========================
+
+    match /certificates/{certificateId} {
+
+      allow read: if isOwner(resource.data.userId) || isAdmin();
+
+      allow create: if isAuth()
+        && request.resource.data.userId == uid();
+
+      allow update, delete: if isAdmin();
+    }
+
+    // ========================
+    // 🔐 ADMIN AREA
+    // ========================
+
+    match /admin/{doc=**} {
+      allow read, write: if isAdmin();
+    }
+
+    // ========================
+    // ❌ DEFAULT DENY
+    // ========================
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

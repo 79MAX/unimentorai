@@ -1,0 +1,30 @@
+# android/fastlane/Fastfile
+default_platform(:android)
+
+platform :android do
+  desc "Deploy to Play Store"
+  lane :deploy do
+    gradle(
+      task: "clean assembleRelease",
+      project_dir: "android/"
+    )
+    
+    upload_to_play_store(
+      track: 'production',
+      aab: '../build/app/outputs/bundle/release/app-release.aab'
+    )
+  end
+
+  desc "Deploy to internal testing"
+  lane :beta do
+    gradle(
+      task: "clean assembleRelease",
+      project_dir: "android/"
+    )
+    
+    upload_to_play_store(
+      track: 'internal',
+      aab: '../build/app/outputs/bundle/release/app-release.aab'
+    )
+  end
+end 

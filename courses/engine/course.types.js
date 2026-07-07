@@ -1,0 +1,11 @@
+export const COURSE_LEVELS = Object.freeze({
+  BEGINNER: "BEGINNER",
+  INTERMEDIATE: "INTERMEDIATE",
+  ADVANCED: "ADVANCED"
+});
+
+export const COURSE_STATUS = Object.freeze({
+  DRAFT: "DRAFT",
+  PUBLISHED: "PUBLISHED",
+  ARCHIVED: "ARCHIVED"
+});

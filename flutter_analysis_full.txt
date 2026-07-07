@@ -1,0 +1,406 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 85.0.0 (101.0.0 available)
+  _flutterfire_internals 1.3.59 (1.3.72 available)
+  analyzer 7.6.0 (13.1.0 available)
+  analyzer_plugin 0.13.4 (0.14.10 available)
+  async 2.13.0 (2.13.1 available)
+  build 2.5.4 (4.0.6 available)
+  build_config 1.1.2 (1.3.0 available)
+  build_resolvers 2.5.4 (3.0.4 available)
+  build_runner 2.5.4 (2.15.0 available)
+  build_runner_core 9.1.2 (9.3.2 available)
+  cloud_firestore 5.6.12 (6.5.0 available)
+  cloud_firestore_platform_interface 6.6.12 (8.0.2 available)
+  cloud_firestore_web 4.4.12 (5.5.0 available)
+  cloud_functions 5.6.2 (6.3.2 available)
+  cloud_functions_platform_interface 5.8.2 (6.0.2 available)
+  cloud_functions_web 4.11.5 (5.1.8 available)
+  connectivity_plus 6.1.5 (7.1.1 available)
+  cupertino_icons 1.0.8 (1.0.9 available)
+  custom_lint_core 0.7.5 (0.8.2 available)
+  custom_lint_visitor 1.0.0+7.7.0 (1.0.0+9.0.0 available)
+  dart_style 3.1.1 (3.1.9 available)
+  firebase_analytics 11.6.0 (12.4.2 available)
+  firebase_analytics_platform_interface 4.4.3 (6.0.2 available)
+  firebase_analytics_web 0.5.10+16 (0.6.1+8 available)
+  firebase_auth 5.7.0 (6.5.2 available)
+  firebase_auth_platform_interface 7.7.3 (9.0.2 available)
+  firebase_auth_web 5.15.3 (6.2.2 available)
+  firebase_core 3.15.2 (4.10.0 available)
+  firebase_core_platform_interface 6.0.3 (7.0.1 available)
+  firebase_core_web 2.24.1 (3.8.0 available)
+  firebase_storage 12.4.10 (13.4.2 available)
+  firebase_storage_platform_interface 5.2.10 (6.0.2 available)
+  firebase_storage_web 3.10.17 (3.11.8 available)
+  flutter_dotenv 5.2.1 (6.0.1 available)
+  flutter_lints 5.0.0 (6.0.0 available)
+  flutter_riverpod 2.6.1 (3.3.1 available)
+  flutter_secure_storage 9.2.4 (10.3.1 available)
+  flutter_secure_storage_linux 1.2.3 (3.0.1 available)
+  flutter_secure_storage_macos 3.1.3 (4.0.0 available)
+  flutter_secure_storage_platform_interface 1.1.2 (2.0.1 available)
+  flutter_secure_storage_web 1.2.1 (2.1.1 available)
+  flutter_secure_storage_windows 3.1.2 (4.2.2 available)
+  flutter_stripe 11.5.0 (13.0.0 available)
+  freezed 2.5.8 (3.2.5 available)
+  freezed_annotation 2.4.4 (3.1.0 available)
+  google_sign_in 6.3.0 (7.2.0 available)
+  google_sign_in_android 6.2.1 (7.2.13 available)
+  google_sign_in_ios 5.9.0 (6.3.0 available)
+  google_sign_in_platform_interface 2.5.0 (3.1.0 available)
+  google_sign_in_web 0.12.4+4 (1.1.3 available)
+  image 4.5.4 (4.9.1 available)
+  intl 0.19.0 (0.20.2 available)
+  js 0.6.7 (0.7.2 available)
+  json_annotation 4.9.0 (4.12.0 available)
+  json_serializable 6.9.5 (6.14.0 available)
+  lints 5.1.1 (6.1.0 available)
+  matcher 0.12.19 (0.12.20 available)
+  meta 1.18.0 (1.18.3 available)
+  mobile_scanner 5.2.3 (7.2.0 available)
+  mockito 5.4.6 (5.7.0 available)
+  path_provider_android 2.2.19 (2.3.1 available)
+  path_provider_foundation 2.4.2 (2.6.0 available)
+  pdf 3.11.3 (3.12.0 available)
+  qr 3.0.2 (4.0.0 available)
+  riverpod 2.6.1 (3.2.1 available)
+  riverpod_analyzer_utils 0.5.9 (0.5.10 available)
+  riverpod_annotation 2.6.1 (4.0.2 available)
+  riverpod_generator 2.6.4 (4.0.3 available)
+  share_plus 11.1.0 (13.1.0 available)
+  share_plus_platform_interface 6.1.0 (7.1.0 available)
+  shared_preferences 2.5.3 (2.5.5 available)
+  shared_preferences_android 2.4.13 (2.4.25 available)
+  shared_preferences_foundation 2.5.4 (2.5.6 available)
+  shared_preferences_platform_interface 2.4.1 (2.4.2 available)
+  source_gen 2.0.0 (4.2.3 available)
+  source_helper 1.3.7 (1.3.12 available)
+  source_span 1.10.1 (1.10.2 available)
+  sqflite 2.4.2 (2.4.3 available)
+  sqflite_android 2.4.1 (2.4.3 available)
+  sqflite_common 2.5.6 (2.5.9 available)
+  sqflite_darwin 2.4.2 (2.4.3 available)
+  sqflite_platform_interface 2.4.0 (2.4.1 available)
+  stripe_android 11.5.0 (13.0.0 available)
+  stripe_ios 11.5.0 (13.0.0 available)
+  stripe_platform_interface 11.5.0 (13.0.0 available)
+  synchronized 3.4.0 (3.4.1 available)
+  test_api 0.7.11 (0.7.12 available)
+  url_launcher_android 6.3.20 (6.3.32 available)
+  url_launcher_ios 6.3.4 (6.4.1 available)
+  url_launcher_macos 3.2.3 (3.2.5 available)
+  url_launcher_web 2.4.1 (2.4.3 available)
+  vector_math 2.2.0 (2.4.0 available)
+  vm_service 15.0.0 (15.2.0 available)
+  win32 5.15.0 (6.3.0 available)
+  xml 6.6.1 (7.0.1 available)
+Got dependencies!
+95 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing unimentorai...                                        
+
+warning - 'avoid_returning_widgets' isn't a recognized lint rule. Try using the name of a recognized lint rule - analysis_options.yaml:30:5 - undefined_lint
+warning - 'avoid_unnecessary_setstate' isn't a recognized lint rule. Try using the name of a recognized lint rule - analysis_options.yaml:31:5 - undefined_lint
+warning - 'avoid_unnecessary_stateful_widgets' isn't a recognized lint rule. Try using the name of a recognized lint rule - analysis_options.yaml:32:5 - undefined_lint
+   info - Don't invoke 'print' in production code. Try using a logging framework - create_main_dart.dart:7:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - create_main_dart.dart:13:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - create_main_dart.dart:89:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - create_verify_file.dart:46:3 - avoid_print
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\course_progress_service.dart:14:39 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\course_progress_service.dart:30:37 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\models\course_progress_model.dart:18:6 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\models\course_progress_model.dart:27:62 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\models\course_progress_model.dart:51:49 - prefer_expression_function_bodies
+   info - 'stream' is deprecated and shouldn't be used. .stream will be removed in 3.0.0. As a replacement, either listen to the provider itself (AsyncValue) or .future. Try replacing the use of the deprecated member with the replacement - lib\core\router\app_router.dart:21:50 - deprecated_member_use
+  error - The name 'isPremiumProvider' is defined in the libraries 'package:unimentorai/features/auth/application/user_profile_provider.dart' and 'package:unimentorai/features/subscription/application/subscription_provider.dart'. Try using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports - lib\core\router\app_router.dart:23:31 - ambiguous_import
+  error - The getter 'onboardingDone' isn't defined for the type 'UserProfile'. Try importing the library that defines 'onboardingDone', correcting the name to the name of an existing getter, or defining a getter or field named 'onboardingDone' - lib\core\router\app_router.dart:59:24 - undefined_getter
+  error - Target of URI doesn't exist: '../../features/auth/screens/login_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\core\router\router.dart:5:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../features/auth/screens/verify_email_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\core\router\router.dart:6:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../features/home/screens/home_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\core\router\router.dart:7:8 - uri_does_not_exist
+warning - The value of the local variable 'auth' isn't used. Try removing the variable or using it - lib\core\router\router.dart:10:9 - unused_local_variable
+  error - Undefined name 'authStateStreamProvider'. Try correcting the name to one that is defined, or defining the name - lib\core\router\router.dart:10:26 - undefined_identifier
+  error - The function 'GoRouterRefreshStream' isn't defined. Try importing the library that defines 'GoRouterRefreshStream', correcting the name to the name of an existing function, or defining a function named 'GoRouterRefreshStream' - lib\core\router\router.dart:16:24 - undefined_function
+  error - The name 'LoginScreen' isn't a class. Try correcting the name to match an existing class - lib\core\router\router.dart:59:35 - creation_with_non_type
+  error - The name 'VerifyEmailScreen' isn't a class. Try correcting the name to match an existing class - lib\core\router\router.dart:64:35 - creation_with_non_type
+  error - The name 'HomeScreen' isn't a class. Try correcting the name to match an existing class - lib\core\router\router.dart:69:35 - creation_with_non_type
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\security\fraud_engine.dart:2:35 - prefer_expression_function_bodies
+   info - The imported package 'crypto' isn't a dependency of the importing package. Try adding a dependency for 'crypto' in the 'pubspec.yaml' file - lib\core\security\secure_config.dart:5:8 - depend_on_referenced_packages
+warning - The value of the field '_coursesKey' isn't used. Try removing the field, or using it - lib\core\services\cache_service.dart:19:23 - unused_field
+warning - The value of the field '_translationsKey' isn't used. Try removing the field, or using it - lib\core\services\cache_service.dart:20:23 - unused_field
+warning - The value of the field '_userDataKey' isn't used. Try removing the field, or using it - lib\core\services\cache_service.dart:21:23 - unused_field
+warning - The value of the field '_securityService' isn't used. Try removing the field, or using it - lib\core\services\course_service.dart:10:25 - unused_field
+warning - This default clause is covered by the previous cases. Try removing the default clause, or restructuring the preceding patterns - lib\core\services\payment_service.dart:98:9 - unreachable_switch_default
+warning - This default clause is covered by the previous cases. Try removing the default clause, or restructuring the preceding patterns - lib\core\services\payment_service.dart:376:9 - unreachable_switch_default
+warning - Dead code. Try removing the code, or fixing the code before it so that it can be reached - lib\core\services\payment_service.dart:443:5 - dead_code
+warning - Dead code. Try removing the code, or fixing the code before it so that it can be reached - lib\core\services\payment_service.dart:458:5 - dead_code
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\services\payment_service.dart:471:68 - prefer_expression_function_bodies
+   info - The imported package 'crypto' isn't a dependency of the importing package. Try adding a dependency for 'crypto' in the 'pubspec.yaml' file - lib\core\services\security_service.dart:3:8 - depend_on_referenced_packages
+   info - The imported package 'encrypt' isn't a dependency of the importing package. Try adding a dependency for 'encrypt' in the 'pubspec.yaml' file - lib\core\services\security_service.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:encrypt/encrypt.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\core\services\security_service.dart:4:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../firebase/firebase_options.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\core\startup\app_initializer.dart:4:8 - uri_does_not_exist
+  error - Undefined name 'DefaultFirebaseOptions'. Try correcting the name to one that is defined, or defining the name - lib\core\startup\app_initializer.dart:30:16 - undefined_identifier
+  error - Invalid constant value - lib\core\theme\app_theme.dart:10:16 - invalid_constant
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:10:16 - undefined_identifier
+  error - Invalid constant value - lib\core\theme\app_theme.dart:11:18 - invalid_constant
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:11:18 - undefined_identifier
+  error - Invalid constant value - lib\core\theme\app_theme.dart:12:14 - invalid_constant
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:12:14 - undefined_identifier
+  error - Invalid constant value - lib\core\theme\app_theme.dart:13:16 - invalid_constant
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:13:16 - undefined_identifier
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:20:32 - undefined_identifier
+  error - Invalid constant value - lib\core\theme\app_theme.dart:25:18 - invalid_constant
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:25:18 - undefined_identifier
+  error - Invalid constant value - lib\core\theme\app_theme.dart:30:18 - invalid_constant
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:30:18 - undefined_identifier
+  error - Invalid constant value - lib\core\theme\app_theme.dart:34:18 - invalid_constant
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:34:18 - undefined_identifier
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:43:20 - undefined_identifier
+  error - Invalid constant value - lib\core\theme\app_theme.dart:61:20 - invalid_constant
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:61:20 - undefined_identifier
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:73:28 - undefined_identifier
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\core\theme\app_theme.dart:84:18 - argument_type_not_assignable
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:85:16 - undefined_identifier
+  error - Invalid constant value - lib\core\theme\app_theme.dart:101:18 - invalid_constant
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\theme\app_theme.dart:101:18 - undefined_identifier
+  error - Target of URI doesn't exist: '../theme/app_colors.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\core\ui\components\app_button.dart:2:8 - uri_does_not_exist
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\ui\components\app_button.dart:45:43 - undefined_identifier
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\ui\components\app_button.dart:47:32 - undefined_identifier
+  error - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name - lib\core\widgets\app_card.dart:26:32 - undefined_identifier
+   info - The imported package 'csv' isn't a dependency of the importing package. Try adding a dependency for 'csv' in the 'pubspec.yaml' file - lib\features\admin\presentation\subscriptions_admin_screen.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:csv/csv.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\admin\presentation\subscriptions_admin_screen.dart:4:8 - uri_does_not_exist
+  error - The name 'ListToCsvConverter' isn't a class. Try correcting the name to match an existing class - lib\features\admin\presentation\subscriptions_admin_screen.dart:53:23 - creation_with_non_type
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\admin\presentation\translation_validator_screen.dart:129:21 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\admin\presentation\translation_validator_screen.dart:129:61 - deprecated_member_use
+  error - Target of URI doesn't exist: 'models/admin_dashboard_stats.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\admin\services\admin_intelligence_service.dart:3:8 - uri_does_not_exist
+warning - The declaration '_users' isn't referenced. Try removing the declaration of '_users' - lib\features\admin\services\admin_intelligence_service.dart:17:49 - unused_element
+  error - The name 'AdminDashboardStats' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'AdminDashboardStats' - lib\features\admin\services\admin_intelligence_service.dart:24:10 - non_type_as_type_argument
+  error - The method 'AdminDashboardStats' isn't defined for the type 'AdminIntelligenceService'. Try correcting the name to the name of an existing method, or defining a method named 'AdminDashboardStats' - lib\features\admin\services\admin_intelligence_service.dart:66:14 - undefined_method
+  error - The property 'totalUsers' can't be unconditionally accessed because the receiver can be 'null'. Try making the access conditional (using '?.') or adding a null check to the target ('!') - lib\features\admin\services\admin_intelligence_service.dart:78:17 - unchecked_use_of_nullable_value
+  error - The property 'totalUsers' can't be unconditionally accessed because the receiver can be 'null'. Try making the access conditional (using '?.') or adding a null check to the target ('!') - lib\features\admin\services\admin_intelligence_service.dart:82:17 - unchecked_use_of_nullable_value
+  error - The property 'totalUsers' can't be unconditionally accessed because the receiver can be 'null'. Try making the access conditional (using '?.') or adding a null check to the target ('!') - lib\features\admin\services\admin_intelligence_service.dart:91:17 - unchecked_use_of_nullable_value
+  error - The property 'activeRate' can't be unconditionally accessed because the receiver can be 'null'. Try making the access conditional (using '?.') or adding a null check to the target ('!') - lib\features\admin\services\admin_intelligence_service.dart:95:17 - unchecked_use_of_nullable_value
+  error - The property 'premiumRate' can't be unconditionally accessed because the receiver can be 'null'. Try making the access conditional (using '?.') or adding a null check to the target ('!') - lib\features\admin\services\admin_intelligence_service.dart:99:17 - unchecked_use_of_nullable_value
+  error - Target of URI doesn't exist: '../../../core/payment_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\ai_mentor\presentation\quiz_screen.dart:1:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../core/certificates/certificat_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\ai_mentor\presentation\quiz_screen.dart:5:8 - uri_does_not_exist
+  error - The method 'CertificatService' isn't defined for the type '_QuizScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'CertificatService' - lib\features\ai_mentor\presentation\quiz_screen.dart:82:13 - undefined_method
+  error - Undefined name 'PaymentService'. Try correcting the name to one that is defined, or defining the name - lib\features\ai_mentor\presentation\quiz_screen.dart:96:15 - undefined_identifier
+  error - Undefined name 'PaymentService'. Try correcting the name to one that is defined, or defining the name - lib\features\ai_mentor\presentation\quiz_screen.dart:104:15 - undefined_identifier
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\ai_mentor\presentation\quiz_screen.dart:155:21 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\ai_mentor\presentation\quiz_screen.dart:156:21 - deprecated_member_use
+  error - Target of URI doesn't exist: '../../../core/core/auth/auth_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\app\presentation\personalized_dashboard_screen.dart:8:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../core/dashboard_feed_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\app\presentation\personalized_dashboard_screen.dart:11:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../simple_course_preview_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\app\presentation\personalized_dashboard_screen.dart:12:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../reverse_mentoring_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\app\presentation\personalized_dashboard_screen.dart:13:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../webinar_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\app\presentation\personalized_dashboard_screen.dart:14:8 - uri_does_not_exist
+  error - The method 'DashboardFeedService' isn't defined for the type '_PersonalizedDashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'DashboardFeedService' - lib\features\app\presentation\personalized_dashboard_screen.dart:33:17 - undefined_method
+  error - The name 'MentorCardVm' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'MentorCardVm' - lib\features\app\presentation\personalized_dashboard_screen.dart:37:8 - non_type_as_type_argument
+  error - Undefined class 'OpportunityVm'. Try changing the name to the name of an existing class, or creating a class with the name 'OpportunityVm' - lib\features\app\presentation\personalized_dashboard_screen.dart:38:3 - undefined_class
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\features\app\presentation\personalized_dashboard_screen.dart:91:61 - use_build_context_synchronously
+  error - Undefined name 'AuthService'. Try correcting the name to one that is defined, or defining the name - lib\features\app\presentation\personalized_dashboard_screen.dart:93:23 - undefined_identifier
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\features\app\presentation\personalized_dashboard_screen.dart:94:64 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\features\app\presentation\personalized_dashboard_screen.dart:138:31 - use_build_context_synchronously
+  error - The method 'SimpleCoursePreviewScreen' isn't defined for the type '_PersonalizedDashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SimpleCoursePreviewScreen' - lib\features\app\presentation\personalized_dashboard_screen.dart:140:49 - undefined_method
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\features\app\presentation\personalized_dashboard_screen.dart:159:27 - use_build_context_synchronously
+  error - The name 'ReverseMentoringScreen' isn't a class. Try correcting the name to match an existing class - lib\features\app\presentation\personalized_dashboard_screen.dart:160:73 - creation_with_non_type
+  error - The property 'headline' can't be unconditionally accessed because the receiver can be 'null'. Try making the access conditional (using '?.') or adding a null check to the target ('!') - lib\features\app\presentation\personalized_dashboard_screen.dart:168:36 - unchecked_use_of_nullable_value
+  error - The property 'languages' can't be unconditionally accessed because the receiver can be 'null'. Try making the access conditional (using '?.') or adding a null check to the target ('!') - lib\features\app\presentation\personalized_dashboard_screen.dart:169:52 - unchecked_use_of_nullable_value
+  error - The name 'ReverseMentoringScreen' isn't a class. Try correcting the name to match an existing class - lib\features\app\presentation\personalized_dashboard_screen.dart:174:77 - creation_with_non_type
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\features\app\presentation\personalized_dashboard_screen.dart:187:25 - use_build_context_synchronously
+  error - The name 'WebinarScreen' isn't a class. Try correcting the name to match an existing class - lib\features\app\presentation\personalized_dashboard_screen.dart:188:71 - creation_with_non_type
+  error - Undefined class 'OpportunityVm'. Try changing the name to the name of an existing class, or creating a class with the name 'OpportunityVm' - lib\features\app\presentation\personalized_dashboard_screen.dart:282:9 - undefined_class
+  error - Target of URI doesn't exist: '../../domain/repositories/auth_repository.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\auth\data\repositories\auth_repository_impl.dart:2:8 - uri_does_not_exist
+  error - Classes and mixins can only implement other classes and mixins. Try specifying a class or mixin, or remove the name from the list - lib\features\auth\data\repositories\auth_repository_impl.dart:5:37 - implements_non_class
+warning - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation - lib\features\auth\data\repositories\auth_repository_impl.dart:11:22 - override_on_non_overriding_member
+warning - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation - lib\features\auth\data\repositories\auth_repository_impl.dart:17:22 - override_on_non_overriding_member
+warning - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation - lib\features\auth\data\repositories\auth_repository_impl.dart:23:16 - override_on_non_overriding_member
+warning - The method doesn't override an inherited method. Try updating this class to match the superclass, or removing the override annotation - lib\features\auth\data\repositories\auth_repository_impl.dart:28:22 - override_on_non_overriding_member
+  error - Target of URI doesn't exist: '../repositories/auth_repository.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\auth\domain\usecases\google_sign_in.dart:1:8 - uri_does_not_exist
+  error - Undefined class 'AuthRepository'. Try changing the name to the name of an existing class, or creating a class with the name 'AuthRepository' - lib\features\auth\domain\usecases\google_sign_in.dart:7:9 - undefined_class
+  error - Target of URI doesn't exist: '../repositories/auth_repository.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\auth\domain\usecases\google_sign_in_usecase.dart:1:8 - uri_does_not_exist
+  error - Undefined class 'AuthRepository'. Try changing the name to the name of an existing class, or creating a class with the name 'AuthRepository' - lib\features\auth\domain\usecases\google_sign_in_usecase.dart:7:9 - undefined_class
+  error - Target of URI doesn't exist: '../repositories/auth_repository.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\auth\domain\usecases\login_user.dart:1:8 - uri_does_not_exist
+  error - Undefined class 'AuthRepository'. Try changing the name to the name of an existing class, or creating a class with the name 'AuthRepository' - lib\features\auth\domain\usecases\login_user.dart:7:9 - undefined_class
+   info - 'color' is deprecated and shouldn't be used. use colors in eyeStyle and dataModuleStyle instead. Try replacing the use of the deprecated member with the replacement - lib\features\certificat\presentation\certificat_screen.dart:99:5 - deprecated_member_use
+   info - 'emptyColor' is deprecated and shouldn't be used. You should use the background color value of your container widget. Try replacing the use of the deprecated member with the replacement - lib\features\certificat\presentation\certificat_screen.dart:100:5 - deprecated_member_use
+  error - Target of URI doesn't exist: '../../../core/blockchain/certificate_hash_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\certificates\api\verification_api.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'verification_response.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\certificates\api\verification_api.dart:4:8 - uri_does_not_exist
+  error - Undefined class 'CertificateHashService'. Try changing the name to the name of an existing class, or creating a class with the name 'CertificateHashService' - lib\features\certificates\api\verification_api.dart:9:9 - undefined_class
+  error - The method 'CertificateHashService' isn't defined for the type 'VerificationAPI'. Try correcting the name to the name of an existing method, or defining a method named 'CertificateHashService' - lib\features\certificates\api\verification_api.dart:9:47 - undefined_method
+  error - The name 'VerificationResponse' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'VerificationResponse' - lib\features\certificates\api\verification_api.dart:13:10 - non_type_as_type_argument
+  error - The method 'VerificationResponse' isn't defined for the type 'VerificationAPI'. Try correcting the name to the name of an existing method, or defining a method named 'VerificationResponse' - lib\features\certificates\api\verification_api.dart:18:14 - undefined_method
+  error - The method 'analyze' isn't defined for the type 'FraudEngine'. Try correcting the name to the name of an existing method, or defining a method named 'analyze' - lib\features\certificates\api\verification_api.dart:38:32 - undefined_method
+  error - The method 'VerificationResponse' isn't defined for the type 'VerificationAPI'. Try correcting the name to the name of an existing method, or defining a method named 'VerificationResponse' - lib\features\certificates\api\verification_api.dart:47:12 - undefined_method
+   info - The imported package 'crypto' isn't a dependency of the importing package. Try adding a dependency for 'crypto' in the 'pubspec.yaml' file - lib\features\certificates\core\blockchain\blockchain_hash_engine.dart:2:8 - depend_on_referenced_packages
+   info - The imported package 'crypto' isn't a dependency of the importing package. Try adding a dependency for 'crypto' in the 'pubspec.yaml' file - lib\features\certificates\core\blockchain\certificate_hash_service.dart:2:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'services/verification_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\certificates\core\certificate_trust_engine.dart:1:8 - uri_does_not_exist
+  error - Undefined name 'VerificationService'. Try correcting the name to one that is defined, or defining the name - lib\features\certificates\core\certificate_trust_engine.dart:7:26 - undefined_identifier
+  error - Target of URI doesn't exist: 'fraud_result.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\certificates\core\fraud_engine.dart:1:8 - uri_does_not_exist
+  error - Undefined class 'FraudResult'. Try changing the name to the name of an existing class, or creating a class with the name 'FraudResult' - lib\features\certificates\core\fraud_engine.dart:5:3 - undefined_class
+  error - The method 'FraudResult' isn't defined for the type 'FraudEngine'. Try correcting the name to the name of an existing method, or defining a method named 'FraudResult' - lib\features\certificates\core\fraud_engine.dart:35:12 - undefined_method
+  error - Target of URI doesn't exist: '../../../../core/blockchain/blockchain_hash_engine.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\certificates\core\verification_api\verification_api_service.dart:2:8 - uri_does_not_exist
+  error - Undefined name 'BlockchainHashEngine'. Try correcting the name to one that is defined, or defining the name - lib\features\certificates\core\verification_api\verification_api_service.dart:30:33 - undefined_identifier
+  error - Undefined name 'FraudDetectionEngine'. Try correcting the name to one that is defined, or defining the name - lib\features\certificates\core\verification_api\verification_api_service.dart:35:26 - undefined_identifier
+  error - Target of URI doesn't exist: '../../../../core/verification_api/verification_api_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\certificates\presentation\screens\global_verification_page.dart:2:8 - uri_does_not_exist
+  error - Undefined class 'VerificationApiService'. Try changing the name to the name of an existing class, or creating a class with the name 'VerificationApiService' - lib\features\certificates\presentation\screens\global_verification_page.dart:18:9 - undefined_class
+  error - The method 'VerificationApiService' isn't defined for the type '_GlobalVerificationPageState'. Try correcting the name to the name of an existing method, or defining a method named 'VerificationApiService' - lib\features\certificates\presentation\screens\global_verification_page.dart:19:7 - undefined_method
+   info - The imported package 'crypto' isn't a dependency of the importing package. Try adding a dependency for 'crypto' in the 'pubspec.yaml' file - lib\features\certificates\services\blockchain_service.dart:2:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'models/scan_history_model.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\certificates\services\scan_history_service.dart:2:8 - uri_does_not_exist
+  error - The method 'ScanHistoryModel' isn't defined for the type 'ScanHistoryServices'. Try correcting the name to the name of an existing method, or defining a method named 'ScanHistoryModel' - lib\features\certificates\services\scan_history_service.dart:15:18 - undefined_method
+  error - Target of URI doesn't exist: 'services/chatbot_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\chatbot\presentation\chatbot_screen.dart:3:8 - uri_does_not_exist
+  error - Undefined class 'ChatbotService'. Try changing the name to the name of an existing class, or creating a class with the name 'ChatbotService' - lib\features\chatbot\presentation\chatbot_screen.dart:14:9 - undefined_class
+  error - The method 'ChatbotService' isn't defined for the type '_ChatbotScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ChatbotService' - lib\features\chatbot\presentation\chatbot_screen.dart:14:35 - undefined_method
+warning - The value of the local variable 'moderated' isn't used. Try removing the variable or using it - lib\features\chatbot\presentation\chatbot_screen.dart:124:33 - unused_local_variable
+   info - Use interpolation to compose strings and values. Try using string interpolation to build the composite string - lib\features\chatbot\presentation\chatbot_screen.dart:142:42 - prefer_interpolation_to_compose_strings
+   info - The imported package 'path_provider' isn't a dependency of the importing package. Try adding a dependency for 'path_provider' in the 'pubspec.yaml' file - lib\features\courses\admin\feedback_dashboard_screen.dart:4:8 - depend_on_referenced_packages
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:43:59 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:43:99 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:45:76 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:45:116 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:46:93 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:46:133 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:58:56 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:58:96 - deprecated_member_use
+   info - 'Share' is deprecated and shouldn't be used. Use SharePlus instead. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:78:33 - deprecated_member_use
+   info - 'shareXFiles' is deprecated and shouldn't be used. Use SharePlus.instance.share() instead. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:78:39 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:88:25 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:88:65 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:104:73 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:104:113 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:108:67 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:108:107 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:110:77 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:110:117 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:111:67 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:111:107 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:112:74 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:112:114 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:117:35 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:117:75 - deprecated_member_use
+warning - The value of the field '_ordre' isn't used. Try removing the field, or using it - lib\features\courses\presentation\add_etape_screen.dart:20:13 - unused_field
+  error - Target of URI doesn't exist: '../../quiz/quiz_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\presentation\course_detail_screen.dart:4:8 - uri_does_not_exist
+  error - The method 'getCourseProgress' isn't defined for the type 'CourseProgressService'. Try correcting the name to the name of an existing method, or defining a method named 'getCourseProgress' - lib\features\courses\presentation\course_detail_screen.dart:42:47 - undefined_method
+  error - The method 'saveCourseProgress' isn't defined for the type 'CourseProgressService'. Try correcting the name to the name of an existing method, or defining a method named 'saveCourseProgress' - lib\features\courses\presentation\course_detail_screen.dart:65:30 - undefined_method
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\features\courses\presentation\course_detail_screen.dart:106:38 - use_build_context_synchronously
+  error - The method 'QuizScreen' isn't defined for the type '_CourseDetailScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'QuizScreen' - lib\features\courses\presentation\course_detail_screen.dart:142:37 - undefined_method
+  error - Undefined name 'value'. Try correcting the name to one that is defined, or defining the name - lib\features\courses\presentation\edit_etape_screen.dart:149:33 - undefined_identifier
+  error - Expected to find ')' - lib\features\courses\presentation\edit_etape_screen.dart:150:23 - expected_token
+  error - Too many positional arguments: 0 expected, but 2 found. Try removing the extra positional arguments, or specifying the name for named arguments - lib\features\courses\presentation\edit_etape_screen.dart:152:21 - extra_positional_arguments_could_be_named
+  error - Expected to find ')' - lib\features\courses\presentation\edit_etape_screen.dart:160:19 - expected_token
+  error - Target of URI doesn't exist: '../domain/core/auth/auth_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\presentation\register_screen.dart:2:8 - uri_does_not_exist
+  error - Undefined class 'AuthService'. Try changing the name to the name of an existing class, or creating a class with the name 'AuthService' - lib\features\courses\presentation\register_screen.dart:15:9 - undefined_class
+  error - The method 'AuthService' isn't defined for the type '_RegisterScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'AuthService' - lib\features\courses\presentation\register_screen.dart:15:35 - undefined_method
+  error - Target of URI doesn't exist: '../services/admin_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:2:8 - uri_does_not_exist
+  error - The method 'AdminService' isn't defined for the type 'AdminDashboardScreen'. Try correcting the name to the name of an existing method, or defining a method named 'AdminService' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:9:21 - undefined_method
+  error - The operator '[]' isn't defined for the type 'Object'. Try defining the operator '[]' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:34:31 - undefined_operator
+  error - The operator '[]' isn't defined for the type 'Object'. Try defining the operator '[]' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:39:31 - undefined_operator
+  error - The operator '[]' isn't defined for the type 'Object'. Try defining the operator '[]' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:44:31 - undefined_operator
+  error - Target of URI doesn't exist: '../models/course_model.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\presentation\screens\courses_screen.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'CourseModel'. Try correcting the name to one that is defined, or defining the name - lib\features\courses\presentation\screens\courses_screen.dart:28:20 - undefined_identifier
+  error - Target of URI doesn't exist: 'services/qr_scanner_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\presentation\screens\qr_scanner_screen.dart:3:8 - uri_does_not_exist
+  error - Undefined class 'QRScannerService'. Try changing the name to the name of an existing class, or creating a class with the name 'QRScannerService' - lib\features\courses\presentation\screens\qr_scanner_screen.dart:13:9 - undefined_class
+  error - The method 'QRScannerService' isn't defined for the type '_QRScannerScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'QRScannerService' - lib\features\courses\presentation\screens\qr_scanner_screen.dart:13:37 - undefined_method
+  error - The named parameter 'progress' is required, but there's no corresponding argument. Try adding the required argument - lib\features\courses\provider\course_progress_provider.dart:44:11 - missing_required_argument
+  error - The named parameter 'updatedAt' is required, but there's no corresponding argument. Try adding the required argument - lib\features\courses\provider\course_progress_provider.dart:44:11 - missing_required_argument
+  error - The named parameter 'userId' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'userId' - lib\features\courses\provider\course_progress_provider.dart:45:13 - undefined_named_parameter
+  error - The named parameter 'completedModules' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'completedModules' - lib\features\courses\provider\course_progress_provider.dart:47:13 - undefined_named_parameter
+  error - The named parameter 'totalModules' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'totalModules' - lib\features\courses\provider\course_progress_provider.dart:48:13 - undefined_named_parameter
+  error - The named parameter 'lastAccessed' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'lastAccessed' - lib\features\courses\provider\course_progress_provider.dart:49:13 - undefined_named_parameter
+  error - The named parameter 'isCompleted' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'isCompleted' - lib\features\courses\provider\course_progress_provider.dart:50:13 - undefined_named_parameter
+  error - The getter 'completedModules' isn't defined for the type 'CourseProgress'. Try importing the library that defines 'completedModules', correcting the name to the name of an existing getter, or defining a getter or field named 'completedModules' - lib\features\courses\provider\course_progress_provider.dart:65:17 - undefined_getter
+  error - The getter 'completedModules' isn't defined for the type 'CourseProgress'. Try importing the library that defines 'completedModules', correcting the name to the name of an existing getter, or defining a getter or field named 'completedModules' - lib\features\courses\provider\course_progress_provider.dart:73:20 - undefined_getter
+  error - The named parameter 'completedModules' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'completedModules' - lib\features\courses\provider\course_progress_provider.dart:78:9 - undefined_named_parameter
+  error - The named parameter 'lastAccessed' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'lastAccessed' - lib\features\courses\provider\course_progress_provider.dart:79:9 - undefined_named_parameter
+  error - The named parameter 'isCompleted' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'isCompleted' - lib\features\courses\provider\course_progress_provider.dart:80:9 - undefined_named_parameter
+  error - The getter 'totalModules' isn't defined for the type 'CourseProgress'. Try importing the library that defines 'totalModules', correcting the name to the name of an existing getter, or defining a getter or field named 'totalModules' - lib\features\courses\provider\course_progress_provider.dart:82:21 - undefined_getter
+  error - Target of URI doesn't exist: 'courses_provider.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\provider\courses_search_provider.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'coursesProvider'. Try correcting the name to one that is defined, or defining the name - lib\features\courses\provider\courses_search_provider.dart:9:34 - undefined_identifier
+  error - Target of URI doesn't exist: '../../../core/firestore_translation_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\provider\firestore_translation_service_provider.dart:2:8 - uri_does_not_exist
+  error - The function 'FirestoreTranslationService' isn't defined. Try importing the library that defines 'FirestoreTranslationService', correcting the name to the name of an existing function, or defining a function named 'FirestoreTranslationService' - lib\features\courses\provider\firestore_translation_service_provider.dart:4:63 - undefined_function
+  error - The method 'fromMap' isn't defined for the type 'CourseProgress'. Try correcting the name to the name of an existing method, or defining a method named 'fromMap' - lib\features\courses\services\course_progress_service.dart:21:27 - undefined_method
+  error - The getter 'userId' isn't defined for the type 'CourseProgress'. Try importing the library that defines 'userId', correcting the name to the name of an existing getter, or defining a getter or field named 'userId' - lib\features\courses\services\course_progress_service.dart:27:30 - undefined_getter
+  error - The method 'toMap' isn't defined for the type 'CourseProgress'. Try correcting the name to the name of an existing method, or defining a method named 'toMap' - lib\features\courses\services\course_progress_service.dart:28:23 - undefined_method
+  error - Target of URI doesn't exist: 'models/enrollment_model.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\services\enrollment_service.dart:2:8 - uri_does_not_exist
+  error - The method 'EnrollmentModel' isn't defined for the type 'EnrollmentService'. Try correcting the name to the name of an existing method, or defining a method named 'EnrollmentModel' - lib\features\courses\services\enrollment_service.dart:25:24 - undefined_method
+  error - Target of URI doesn't exist: '../utils/certificate_share_builder.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\services\linkedin_service.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'CertificateShareBuilder'. Try correcting the name to one that is defined, or defining the name - lib\features\courses\services\linkedin_service.dart:11:18 - undefined_identifier
+  error - Target of URI doesn't exist: '../../../core/blockchain/certificate_hash_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\services\qr_scanner_service.dart:2:8 - uri_does_not_exist
+  error - Undefined class 'CertificateHashService'. Try changing the name to the name of an existing class, or creating a class with the name 'CertificateHashService' - lib\features\courses\services\qr_scanner_service.dart:7:9 - undefined_class
+  error - The method 'CertificateHashService' isn't defined for the type 'QRScannerService'. Try correcting the name to the name of an existing method, or defining a method named 'CertificateHashService' - lib\features\courses\services\qr_scanner_service.dart:7:47 - undefined_method
+  error - The method 'analyze' isn't defined for the type 'FraudEngine'. Try correcting the name to the name of an existing method, or defining a method named 'analyze' - lib\features\courses\services\qr_scanner_service.dart:32:32 - undefined_method
+  error - Target of URI doesn't exist: 'translation_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\localization\presentation\verified_text_widget.dart:5:8 - uri_does_not_exist
+  error - Undefined name 'TranslationService'. Try correcting the name to one that is defined, or defining the name - lib\features\localization\presentation\verified_text_widget.dart:24:49 - undefined_identifier
+warning - The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand - lib\features\localization\services\translation_service.dart:17:67 - dead_null_aware_expression
+  error - Target of URI doesn't exist: 'services/reverse_mentoring_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\mentoring\presentation\reverse_mentoring_screen.dart:4:8 - uri_does_not_exist
+  error - Undefined class 'ReverseMentoringService'. Try changing the name to the name of an existing class, or creating a class with the name 'ReverseMentoringService' - lib\features\mentoring\presentation\reverse_mentoring_screen.dart:14:9 - undefined_class
+  error - The method 'ReverseMentoringService' isn't defined for the type '_ReverseMentoringScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ReverseMentoringService' - lib\features\mentoring\presentation\reverse_mentoring_screen.dart:14:44 - undefined_method
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\features\onboarding\presentation\intelligent_onboarding_screen.dart:127:59 - use_build_context_synchronously
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\onboarding\presentation\intelligent_onboarding_screen.dart:255:13 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\onboarding\presentation\intelligent_onboarding_screen.dart:257:13 - deprecated_member_use
+  error - The method 'SecurityService' isn't defined for the type '_PaiementKkiapayScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SecurityService' - lib\features\paiement\presentation\paiement_kkiapay_screen.dart:24:21 - undefined_method
+   info - The imported package 'http' isn't a dependency of the importing package. Try adding a dependency for 'http' in the 'pubspec.yaml' file - lib\features\pricing\presentation\billing_screen.dart:3:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'services/pricing_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\pricing\presentation\billing_screen.dart:5:8 - uri_does_not_exist
+  error - Undefined class 'PricingService'. Try changing the name to the name of an existing class, or creating a class with the name 'PricingService' - lib\features\pricing\presentation\billing_screen.dart:27:9 - undefined_class
+  error - The method 'PricingService' isn't defined for the type '_BillingScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'PricingService' - lib\features\pricing\presentation\billing_screen.dart:27:35 - undefined_method
+  error - The named parameter 'customerEmail' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'customerEmail' - lib\features\pricing\presentation\billing_screen.dart:71:9 - undefined_named_parameter
+  error - Target of URI doesn't exist: 'services/pricing_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\pricing\presentation\pricing_screen.dart:4:8 - uri_does_not_exist
+  error - Undefined class 'PricingService'. Try changing the name to the name of an existing class, or creating a class with the name 'PricingService' - lib\features\pricing\presentation\pricing_screen.dart:15:9 - undefined_class
+  error - The method 'PricingService' isn't defined for the type '_PricingScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'PricingService' - lib\features\pricing\presentation\pricing_screen.dart:15:35 - undefined_method
+warning - The value of the local variable 'price' isn't used. Try removing the variable or using it - lib\features\pricing\presentation\pricing_screen.dart:38:11 - unused_local_variable
+   info - 'Table.fromTextArray' is deprecated and shouldn't be used. Use TableHelper.fromTextArray() instead. Try replacing the use of the deprecated member with the replacement - lib\features\pricing\presentation\pricing_screen.dart:73:11 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\features\profile\presentation\profile_screen.dart:65:26 - use_build_context_synchronously
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:107:19 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:107:59 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:147:76 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:147:116 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:163:46 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:163:86 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:203:55 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:203:95 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:220:21 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:220:61 - deprecated_member_use
+  error - Target of URI doesn't exist: 'app_bootstrap_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\splash\splash_controller.dart:2:8 - uri_does_not_exist
+  error - Undefined class 'AppBootstrapService'. Try changing the name to the name of an existing class, or creating a class with the name 'AppBootstrapService' - lib\features\splash\splash_controller.dart:10:9 - undefined_class
+  error - Undefined class 'AppBootstrapResult'. Try changing the name to the name of an existing class, or creating a class with the name 'AppBootstrapResult' - lib\features\splash\splash_controller.dart:32:24 - undefined_class
+  error - Target of URI doesn't exist: '../services/app_bootstrap_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\splash\splash_screen.dart:5:8 - uri_does_not_exist
+  error - Undefined name 'appBootstrapServiceProvider'. Try correcting the name to one that is defined, or defining the name - lib\features\splash\splash_screen.dart:30:32 - undefined_identifier
+  error - Undefined name 'appRouter'. Try correcting the name to one that is defined, or defining the name - lib\main.dart:29:21 - undefined_identifier
+  error - Target of URI doesn't exist: '../../../core/certificates/certificat_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\shared\widgets\widgets\course_actions.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../package:unimentorai/features/quiz/quiz_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\shared\widgets\widgets\course_actions.dart:3:8 - uri_does_not_exist
+  error - The method 'CertificatService' isn't defined for the type 'CertificatButton'. Try correcting the name to the name of an existing method, or defining a method named 'CertificatService' - lib\shared\widgets\widgets\course_actions.dart:14:25 - undefined_method
+  error - The method 'QuizScreen' isn't defined for the type 'QuizButton'. Try correcting the name to the name of an existing method, or defining a method named 'QuizScreen' - lib\shared\widgets\widgets\course_actions.dart:39:29 - undefined_method
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_app_structure.dart:21:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_app_structure.dart:26:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_app_structure.dart:30:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_missing_files.dart:18:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_missing_files.dart:20:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_missing_files.dart:24:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_verify_file.dart:16:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_verify_file.dart:27:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_verify_file.dart:30:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:6:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:23:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:24:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:25:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:26:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:30:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:42:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:44:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:60:13 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:62:13 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:71:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:83:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:85:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:91:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:108:9 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:110:9 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:117:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:126:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:132:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:146:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:148:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:153:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:163:11 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:165:11 - avoid_print
+
+302 issues found. (ran in 12.1s)

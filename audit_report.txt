@@ -1,0 +1,755 @@
+
+====================================================
+UNIMENTORAI AUDIT
+====================================================
+
+====================================================
+FLUTTER VERSION
+====================================================
+Flutter 3.44.1 ÔÇó channel stable ÔÇó https://github.com/flutter/flutter.git
+Framework ÔÇó revision 924134a44c (12 days ago) ÔÇó 2026-05-29 12:13:22 -0400
+Engine ÔÇó hash 39b1f7043775b9578bbb26a1676e79c4e31c8b5e (revision c416acfeb8) (13 days ago) ÔÇó 2026-05-27 20:19:31.000Z
+Tools ÔÇó Dart 3.12.1 ÔÇó DevTools 2.57.0
+
+====================================================
+DART VERSION
+====================================================
+Dart SDK version: 3.12.1 (stable) (Tue May 26 01:02:21 2026 -0700) on "windows_x64"
+
+====================================================
+OLLAMA MODELS
+====================================================
+NAME               ID              SIZE      MODIFIED     
+llama3.1:8b        46e0c10c039e    4.9 GB    20 hours ago    
+qwen3-coder:30b    06c1097efce0    18 GB     5 weeks ago     
+deepseek-r1:8b     6995872bfe4c    5.2 GB    5 weeks ago     
+
+====================================================
+PUBSPEC CHECK
+====================================================
+pubspec.yaml trouvé
+
+====================================================
+DART FILES COUNT
+====================================================
+Nombre de fichiers Dart : 259
+
+====================================================
+IMPORT CHECK
+====================================================
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\auto_fix_flutter.dart
+ -> dart:io
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\auto_fix_flutter.dart
+ -> ../../domain/user_profile.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\create_main_dart.dart
+ -> dart:io
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\create_verify_file.dart
+ -> dart:io
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\create_verify_file.dart
+ -> dart:io
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\main.dart
+ -> dart:async
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\course_progress_service.dart
+ -> dart:collection
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\course_progress_service.dart
+ -> ../models/course_progress.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\layouts\app_layout.dart
+ -> firebase_options.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\onboarding\onboarding_profile.dart
+ -> dart:convert
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\providers\auth_repository_provider.dart
+ -> onboarding_profile.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\router\go_router_refresh_stream.dart
+ -> dart:async
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\security\secure_config.dart
+ -> dart:convert
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\security\secure_config.dart
+ -> dart:math
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\services\cache_service.dart
+ -> dart:convert
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\services\security_service.dart
+ -> dart:convert
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\services\security_service.dart
+ -> dart:math
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\utils\logger.dart
+ -> ../../theme/app_colors.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\utils\validators.dart
+ -> ../../theme/app_colors.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\admin\presentation\subscriptions_admin_screen.dart
+ -> dart:io
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\application\auth_controller_provider.dart
+ -> dart:async
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\application\auth_provider.dart
+ -> dart:async
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\presentation\verify_email_screen.dart
+ -> dart:async
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificat\services\certificat_service.dart
+ -> dart:typed_data
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\certificate_trust_engine.dart
+ -> services/verification_service.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\blockchain\blockchain_hash_engine.dart
+ -> dart:convert
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\blockchain\certificate_hash_service.dart
+ -> dart:convert
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\fraud_engine\fraud_detection_engine.dart
+ -> dart:math
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\services\blockchain_service.dart
+ -> dart:convert
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\services\certificate_pdf_service.dart
+ -> dart:typed_data
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\services\certificate_service.dart
+ -> dart:typed_data
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\services\linkedin_auto_share_service.dart
+ -> dart:convert
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\services\scan_history_service.dart
+ -> models/scan_history_model.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\chatbot\presentation\chatbot_screen.dart
+ -> services/chatbot_service.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\admin\feedback_dashboard_screen.dart
+ -> dart:io
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\presentation\course_detail_screen.dart
+ -> ../../quiz/quiz_screen.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\presentation\register_screen.dart
+ -> ../domain/core/auth/auth_service.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\presentation\screens\admin_dashboard_screen.dart
+ -> ../services/admin_service.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\presentation\screens\courses_screen.dart
+ -> ../models/course_model.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\presentation\screens\qr_scanner_screen.dart
+ -> services/qr_scanner_service.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\provider\courses_search_provider.dart
+ -> courses_provider.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\provider\firestore_translation_service_provider.dart
+ -> ../../../core/firestore_translation_service.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\services\enrollment_service.dart
+ -> models/enrollment_model.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\services\linkedin_service.dart
+ -> dart:io
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\services\linkedin_service.dart
+ -> ../utils/certificate_share_builder.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\localization\presentation\verified_text_widget.dart
+ -> translation_service.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\mentoring\presentation\reverse_mentoring_screen.dart
+ -> services/reverse_mentoring_service.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\pricing\presentation\billing_screen.dart
+ -> dart:convert
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\pricing\presentation\billing_screen.dart
+ -> services/pricing_service.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\pricing\presentation\pricing_screen.dart
+ -> services/pricing_service.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\pricing\services\pricing_service.dart
+ -> dart:convert
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\splash\splash_controller.dart
+ -> app_bootstrap_service.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\splash\splash_screen.dart
+ -> ../services/app_bootstrap_service.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\shared\widgets\widgets\course_actions.dart
+ -> ../package:unimentorai/features/quiz/quiz_screen.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tool\create_app_structure.dart
+ -> dart:io
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tool\create_app_structure.dart
+ -> screens/splash_screen.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tool\create_app_structure.dart
+ -> home_screen.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tool\create_app_structure.dart
+ -> dashboard_screen.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tool\create_app_structure.dart
+ -> profile_screen.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tool\create_missing_files.dart
+ -> dart:io
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tool\create_missing_files.dart
+ -> screens/splash_screen.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tool\create_missing_files.dart
+ -> home_screen.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tool\create_missing_files.dart
+ -> dashboard_screen.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tool\create_missing_files.dart
+ -> profile_screen.dart
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tool\create_verify_file.dart
+ -> dart:io
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tools\audit_all.dart
+ -> dart:io
+
+IMPORT CASSE :
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tools\audit_all.dart
+ -> dart:convert
+
+====================================================
+FLUTTER ANALYZE
+====================================================
+Analyzing unimentorai...                                        
+
+   info - Don't invoke 'print' in production code. Try using a logging framework - auto_fix_flutter.dart:9:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - auto_fix_flutter.dart:28:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - auto_fix_flutter.dart:31:3 - avoid_print
+  error - Undefined name 'message'. Try correcting the name to one that is defined, or defining the name - auto_fix_flutter.dart:139:34 - undefined_identifier
+  error - Undefined name 'courseId'. Try correcting the name to one that is defined, or defining the name - auto_fix_flutter.dart:143:34 - undefined_identifier
+   info - Don't invoke 'print' in production code. Try using a logging framework - create_main_dart.dart:7:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - create_main_dart.dart:13:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - create_main_dart.dart:89:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - create_verify_file.dart:46:3 - avoid_print
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\blockchain\blockchain_hash_engine.dart:3:35 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\blockchain\blockchain_hash_engine.dart:7:45 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\blockchain\certificate_hash_service.dart:3:45 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\blockchain\certificate_hash_service.dart:7:56 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\blockchain\certificate_hash_service.dart:11:60 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\certificates\certificat_service.dart:3:65 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\certificates\certificat_service.dart:7:66 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\certificates\certificat_service.dart:11:62 - prefer_expression_function_bodies
+  error - Target of URI doesn't exist: '../models/course_progress.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\core\course_progress_service.dart:3:8 - uri_does_not_exist
+  error - The name 'CourseProgress' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'CourseProgress' - lib\core\course_progress_service.dart:6:21 - non_type_as_type_argument
+  error - Undefined class 'CourseProgress'. Try changing the name to the name of an existing class, or creating a class with the name 'CourseProgress' - lib\core\course_progress_service.dart:13:3 - undefined_class
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\course_progress_service.dart:13:63 - prefer_expression_function_bodies
+  error - Undefined class 'CourseProgress'. Try changing the name to the name of an existing class, or creating a class with the name 'CourseProgress' - lib\core\course_progress_service.dart:18:21 - undefined_class
+  error - The property 'progress' can't be unconditionally accessed because the receiver can be 'null'. Try making the access conditional (using '?.') or adding a null check to the target ('!') - lib\core\course_progress_service.dart:69:23 - unchecked_use_of_nullable_value
+  error - The operator '+' can't be unconditionally invoked because the receiver can be 'null'. Try adding a null check to the target ('!') - lib\core\course_progress_service.dart:70:29 - unchecked_use_of_nullable_value
+  error - The name 'CourseProgress' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'CourseProgress' - lib\core\course_progress_service.dart:76:31 - non_type_as_type_argument
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\models\course_progress_model.dart:18:6 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\models\course_progress_model.dart:27:62 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\models\course_progress_model.dart:51:49 - prefer_expression_function_bodies
+warning - Unused import: 'package:firebase_auth/firebase_auth.dart'. Try removing the import directive - lib\core\router\app_router.dart:4:8 - unused_import
+warning - Unused import: 'go_router_refresh_stream.dart'. Try removing the import directive - lib\core\router\app_router.dart:6:8 - unused_import
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\router\router.dart:11:49 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\security\fraud_engine.dart:2:35 - prefer_expression_function_bodies
+   info - Unnecessary use of double quotes. Try using single quotes unless the string contains single quotes - lib\core\services\auth_service.dart:42:23 - prefer_single_quotes
+   info - Unnecessary use of double quotes. Try using single quotes unless the string contains single quotes - lib\core\services\auth_service.dart:64:23 - prefer_single_quotes
+warning - The value of the field '_coursesKey' isn't used. Try removing the field, or using it - lib\core\services\cache_service.dart:19:23 - unused_field
+warning - The value of the field '_translationsKey' isn't used. Try removing the field, or using it - lib\core\services\cache_service.dart:20:23 - unused_field
+warning - The value of the field '_userDataKey' isn't used. Try removing the field, or using it - lib\core\services\cache_service.dart:21:23 - unused_field
+warning - The value of the field '_securityService' isn't used. Try removing the field, or using it - lib\core\services\course_service.dart:10:25 - unused_field
+warning - This default clause is covered by the previous cases. Try removing the default clause, or restructuring the preceding patterns - lib\core\services\payment_service.dart:99:9 - unreachable_switch_default
+warning - This default clause is covered by the previous cases. Try removing the default clause, or restructuring the preceding patterns - lib\core\services\payment_service.dart:377:9 - unreachable_switch_default
+warning - Dead code. Try removing the code, or fixing the code before it so that it can be reached - lib\core\services\payment_service.dart:444:5 - dead_code
+warning - Dead code. Try removing the code, or fixing the code before it so that it can be reached - lib\core\services\payment_service.dart:459:5 - dead_code
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\services\payment_service.dart:472:68 - prefer_expression_function_bodies
+   info - Use 'const' for final variables initialized to a constant value. Try replacing 'final' with 'const' - lib\core\theme\app_theme.dart:9:5 - prefer_const_declarations
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\core\theme\app_theme.dart:43:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\core\ui\components\app_button.dart:47:50 - deprecated_member_use
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\core\verification_api\verification_api_service.dart:3:62 - prefer_expression_function_bodies
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement - lib\core\widgets\app_card.dart:26:50 - deprecated_member_use
+   info - The imported package 'csv' isn't a dependency of the importing package. Try adding a dependency for 'csv' in the 'pubspec.yaml' file - lib\features\admin\presentation\subscriptions_admin_screen.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:csv/csv.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\admin\presentation\subscriptions_admin_screen.dart:4:8 - uri_does_not_exist
+  error - The name 'ListToCsvConverter' isn't a class. Try correcting the name to match an existing class - lib\features\admin\presentation\subscriptions_admin_screen.dart:53:23 - creation_with_non_type
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\admin\presentation\translation_validator_screen.dart:129:21 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\admin\presentation\translation_validator_screen.dart:129:61 - deprecated_member_use
+warning - The declaration '_users' isn't referenced. Try removing the declaration of '_users' - lib\features\admin\services\admin_intelligence_service.dart:17:49 - unused_element
+  error - The method 'CertificatService' isn't defined for the type '_QuizScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'CertificatService' - lib\features\ai_mentor\presentation\quiz_screen.dart:80:13 - undefined_method
+  error - Undefined name 'PaymentService'. Try correcting the name to one that is defined, or defining the name - lib\features\ai_mentor\presentation\quiz_screen.dart:94:15 - undefined_identifier
+  error - Undefined name 'PaymentService'. Try correcting the name to one that is defined, or defining the name - lib\features\ai_mentor\presentation\quiz_screen.dart:102:15 - undefined_identifier
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\ai_mentor\presentation\quiz_screen.dart:153:21 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\ai_mentor\presentation\quiz_screen.dart:154:21 - deprecated_member_use
+   info - The value of the argument is redundant because it matches the default value. Try removing the argument - lib\features\app\presentation\personalized_dashboard_screen.dart:56:13 - avoid_redundant_argument_values
+   info - The value of the argument is redundant because it matches the default value. Try removing the argument - lib\features\app\presentation\personalized_dashboard_screen.dart:58:98 - avoid_redundant_argument_values
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\features\app\presentation\personalized_dashboard_screen.dart:91:61 - use_build_context_synchronously
+  error - The getter 'instance' isn't defined for the type 'AuthService'. Try importing the library that defines 'instance', correcting the name to the name of an existing getter, or defining a getter or field named 'instance' - lib\features\app\presentation\personalized_dashboard_screen.dart:93:35 - undefined_getter
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\features\app\presentation\personalized_dashboard_screen.dart:94:64 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\features\app\presentation\personalized_dashboard_screen.dart:138:31 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\features\app\presentation\personalized_dashboard_screen.dart:159:27 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\features\app\presentation\personalized_dashboard_screen.dart:187:25 - use_build_context_synchronously
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\features\app\presentation\reverse_mentoring_screen.dart:8:38 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\features\app\presentation\webinar_screen.dart:8:38 - prefer_expression_function_bodies
+  error - The method 'signUpWithEmail' isn't defined for the type 'AuthService'. Try correcting the name to the name of an existing method, or defining a method named 'signUpWithEmail' - lib\features\auth\presentation\pages\register_password_page.dart:29:30 - undefined_method
+  error - The named parameter 'email' is required, but there's no corresponding argument. Try adding the required argument - lib\features\auth\presentation\pages\secure_login_page.dart:26:30 - missing_required_argument
+  error - The named parameter 'password' is required, but there's no corresponding argument. Try adding the required argument - lib\features\auth\presentation\pages\secure_login_page.dart:26:30 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 2 found. Try removing the extra positional arguments, or specifying the name for named arguments - lib\features\auth\presentation\pages\secure_login_page.dart:26:45 - extra_positional_arguments_could_be_named
+warning - The operand can't be 'null', so the condition is always 'true'. Remove the condition - lib\features\auth\presentation\pages\secure_login_page.dart:29:14 - unnecessary_null_comparison
+  error - The method 'signUpWithEmail' isn't defined for the type 'AuthService'. Try correcting the name to the name of an existing method, or defining a method named 'signUpWithEmail' - lib\features\auth\presentation\pages\signup_page.dart:25:37 - undefined_method
+   info - 'color' is deprecated and shouldn't be used. use colors in eyeStyle and dataModuleStyle instead. Try replacing the use of the deprecated member with the replacement - lib\features\certificat\presentation\certificat_screen.dart:99:5 - deprecated_member_use
+   info - 'emptyColor' is deprecated and shouldn't be used. You should use the background color value of your container widget. Try replacing the use of the deprecated member with the replacement - lib\features\certificat\presentation\certificat_screen.dart:100:5 - deprecated_member_use
+  error - The named parameter 'certificateHash' is required, but there's no corresponding argument. Try adding the required argument - lib\features\certificates\api\verification_api.dart:18:14 - missing_required_argument
+  error - The named parameter 'isValid' is required, but there's no corresponding argument. Try adding the required argument - lib\features\certificates\api\verification_api.dart:18:14 - missing_required_argument
+  error - The named parameter 'verifiedAt' is required, but there's no corresponding argument. Try adding the required argument - lib\features\certificates\api\verification_api.dart:18:14 - missing_required_argument
+  error - The named parameter 'valid' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'valid' - lib\features\certificates\api\verification_api.dart:19:9 - undefined_named_parameter
+  error - The named parameter 'fraudDetected' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'fraudDetected' - lib\features\certificates\api\verification_api.dart:20:9 - undefined_named_parameter
+  error - The named parameter 'trustScore' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'trustScore' - lib\features\certificates\api\verification_api.dart:21:9 - undefined_named_parameter
+  error - 2 positional arguments expected by 'verifyHash', but 0 found. Try adding the missing arguments - lib\features\certificates\api\verification_api.dart:30:7 - not_enough_positional_arguments
+  error - The named parameter 'expectedHash' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'expectedHash' - lib\features\certificates\api\verification_api.dart:30:7 - undefined_named_parameter
+  error - The named parameter 'userId' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'userId' - lib\features\certificates\api\verification_api.dart:31:7 - undefined_named_parameter
+  error - The named parameter 'courseId' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'courseId' - lib\features\certificates\api\verification_api.dart:32:7 - undefined_named_parameter
+  error - The named parameter 'certificateId' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'certificateId' - lib\features\certificates\api\verification_api.dart:33:7 - undefined_named_parameter
+  error - The named parameter 'issuedAt' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'issuedAt' - lib\features\certificates\api\verification_api.dart:34:7 - undefined_named_parameter
+  error - The method 'analyze' isn't defined for the type 'FraudEngine'. Try correcting the name to the name of an existing method, or defining a method named 'analyze' - lib\features\certificates\api\verification_api.dart:38:32 - undefined_method
+  error - The named parameter 'certificateHash' is required, but there's no corresponding argument. Try adding the required argument - lib\features\certificates\api\verification_api.dart:47:12 - missing_required_argument
+  error - The named parameter 'isValid' is required, but there's no corresponding argument. Try adding the required argument - lib\features\certificates\api\verification_api.dart:47:12 - missing_required_argument
+  error - The named parameter 'verifiedAt' is required, but there's no corresponding argument. Try adding the required argument - lib\features\certificates\api\verification_api.dart:47:12 - missing_required_argument
+  error - The named parameter 'valid' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'valid' - lib\features\certificates\api\verification_api.dart:48:7 - undefined_named_parameter
+  error - The named parameter 'fraudDetected' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'fraudDetected' - lib\features\certificates\api\verification_api.dart:49:7 - undefined_named_parameter
+  error - The named parameter 'trustScore' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'trustScore' - lib\features\certificates\api\verification_api.dart:50:7 - undefined_named_parameter
+  error - Target of URI doesn't exist: 'services/verification_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\certificates\core\certificate_trust_engine.dart:1:8 - uri_does_not_exist
+  error - Undefined name 'VerificationService'. Try correcting the name to one that is defined, or defining the name - lib\features\certificates\core\certificate_trust_engine.dart:7:26 - undefined_identifier
+  error - The named parameter 'analyzedAt' is required, but there's no corresponding argument. Try adding the required argument - lib\features\certificates\core\fraud_engine.dart:35:12 - missing_required_argument
+  error - The named parameter 'fraudScore' is required, but there's no corresponding argument. Try adding the required argument - lib\features\certificates\core\fraud_engine.dart:35:12 - missing_required_argument
+  error - The named parameter 'isFraudulent' is required, but there's no corresponding argument. Try adding the required argument - lib\features\certificates\core\fraud_engine.dart:35:12 - missing_required_argument
+  error - The named parameter 'reason' is required, but there's no corresponding argument. Try adding the required argument - lib\features\certificates\core\fraud_engine.dart:35:12 - missing_required_argument
+  error - The named parameter 'isFraud' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'isFraud' - lib\features\certificates\core\fraud_engine.dart:36:7 - undefined_named_parameter
+  error - The named parameter 'trustScore' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'trustScore' - lib\features\certificates\core\fraud_engine.dart:37:7 - undefined_named_parameter
+  error - The named parameter 'flags' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'flags' - lib\features\certificates\core\fraud_engine.dart:38:7 - undefined_named_parameter
+  error - Instance member 'verifyHash' can't be accessed using static access - lib\features\certificates\core\verification_api\verification_api_service.dart:30:54 - static_access_to_instance_member
+  error - 2 positional arguments expected by 'verifyHash', but 0 found. Try adding the missing arguments - lib\features\certificates\core\verification_api\verification_api_service.dart:31:9 - not_enough_positional_arguments
+  error - The named parameter 'originalHash' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'originalHash' - lib\features\certificates\core\verification_api\verification_api_service.dart:31:9 - undefined_named_parameter
+  error - The named parameter 'currentHash' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'currentHash' - lib\features\certificates\core\verification_api\verification_api_service.dart:32:9 - undefined_named_parameter
+  error - Undefined name 'FraudDetectionEngine'. Try correcting the name to one that is defined, or defining the name - lib\features\certificates\core\verification_api\verification_api_service.dart:35:26 - undefined_identifier
+  error - The method 'verifyCertificate' isn't defined for the type 'VerificationApiService'. Try correcting the name to the name of an existing method, or defining a method named 'verifyCertificate' - lib\features\certificates\presentation\screens\global_verification_page.dart:31:37 - undefined_method
+  error - Target of URI doesn't exist: 'models/scan_history_model.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\certificates\services\scan_history_service.dart:2:8 - uri_does_not_exist
+  error - The method 'ScanHistoryModel' isn't defined for the type 'ScanHistoryServices'. Try correcting the name to the name of an existing method, or defining a method named 'ScanHistoryModel' - lib\features\certificates\services\scan_history_service.dart:15:18 - undefined_method
+  error - Target of URI doesn't exist: 'services/chatbot_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\chatbot\presentation\chatbot_screen.dart:3:8 - uri_does_not_exist
+  error - Undefined class 'ChatbotService'. Try changing the name to the name of an existing class, or creating a class with the name 'ChatbotService' - lib\features\chatbot\presentation\chatbot_screen.dart:14:9 - undefined_class
+  error - The method 'ChatbotService' isn't defined for the type '_ChatbotScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ChatbotService' - lib\features\chatbot\presentation\chatbot_screen.dart:14:35 - undefined_method
+warning - The value of the local variable 'moderated' isn't used. Try removing the variable or using it - lib\features\chatbot\presentation\chatbot_screen.dart:124:33 - unused_local_variable
+   info - Use interpolation to compose strings and values. Try using string interpolation to build the composite string - lib\features\chatbot\presentation\chatbot_screen.dart:142:42 - prefer_interpolation_to_compose_strings
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:43:59 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:43:99 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:45:76 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:45:116 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:46:93 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:46:133 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:58:56 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:58:96 - deprecated_member_use
+   info - 'Share' is deprecated and shouldn't be used. Use SharePlus instead. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:78:33 - deprecated_member_use
+   info - 'shareXFiles' is deprecated and shouldn't be used. Use SharePlus.instance.share() instead. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:78:39 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:88:25 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:88:65 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:104:73 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:104:113 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:108:67 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:108:107 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:110:77 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:110:117 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:111:67 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:111:107 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:112:74 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:112:114 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:117:35 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\courses\admin\feedback_dashboard_screen.dart:117:75 - deprecated_member_use
+warning - The value of the field '_ordre' isn't used. Try removing the field, or using it - lib\features\courses\presentation\add_etape_screen.dart:20:13 - unused_field
+  error - Target of URI doesn't exist: '../../quiz/quiz_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\presentation\course_detail_screen.dart:4:8 - uri_does_not_exist
+  error - The method 'getCourseProgress' isn't defined for the type 'CourseProgressService'. Try correcting the name to the name of an existing method, or defining a method named 'getCourseProgress' - lib\features\courses\presentation\course_detail_screen.dart:42:47 - undefined_method
+  error - The method 'saveCourseProgress' isn't defined for the type 'CourseProgressService'. Try correcting the name to the name of an existing method, or defining a method named 'saveCourseProgress' - lib\features\courses\presentation\course_detail_screen.dart:65:30 - undefined_method
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\features\courses\presentation\course_detail_screen.dart:106:38 - use_build_context_synchronously
+  error - The method 'QuizScreen' isn't defined for the type '_CourseDetailScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'QuizScreen' - lib\features\courses\presentation\course_detail_screen.dart:142:37 - undefined_method
+  error - Undefined name 'value'. Try correcting the name to one that is defined, or defining the name - lib\features\courses\presentation\edit_etape_screen.dart:149:33 - undefined_identifier
+  error - Expected to find ')' - lib\features\courses\presentation\edit_etape_screen.dart:150:23 - expected_token
+  error - Too many positional arguments: 0 expected, but 2 found. Try removing the extra positional arguments, or specifying the name for named arguments - lib\features\courses\presentation\edit_etape_screen.dart:152:21 - extra_positional_arguments_could_be_named
+  error - Expected to find ')' - lib\features\courses\presentation\edit_etape_screen.dart:160:19 - expected_token
+  error - Target of URI doesn't exist: '../domain/core/auth/auth_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\presentation\register_screen.dart:2:8 - uri_does_not_exist
+  error - Undefined class 'AuthService'. Try changing the name to the name of an existing class, or creating a class with the name 'AuthService' - lib\features\courses\presentation\register_screen.dart:15:9 - undefined_class
+  error - The method 'AuthService' isn't defined for the type '_RegisterScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'AuthService' - lib\features\courses\presentation\register_screen.dart:15:35 - undefined_method
+  error - Target of URI doesn't exist: '../services/admin_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:2:8 - uri_does_not_exist
+  error - The method 'AdminService' isn't defined for the type 'AdminDashboardScreen'. Try correcting the name to the name of an existing method, or defining a method named 'AdminService' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:9:21 - undefined_method
+  error - The operator '[]' isn't defined for the type 'Object'. Try defining the operator '[]' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:34:31 - undefined_operator
+  error - The operator '[]' isn't defined for the type 'Object'. Try defining the operator '[]' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:39:31 - undefined_operator
+  error - The operator '[]' isn't defined for the type 'Object'. Try defining the operator '[]' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:44:31 - undefined_operator
+  error - Target of URI doesn't exist: '../models/course_model.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\presentation\screens\courses_screen.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'CourseModel'. Try correcting the name to one that is defined, or defining the name - lib\features\courses\presentation\screens\courses_screen.dart:28:20 - undefined_identifier
+  error - Target of URI doesn't exist: 'services/qr_scanner_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\presentation\screens\qr_scanner_screen.dart:3:8 - uri_does_not_exist
+  error - Undefined class 'QRScannerService'. Try changing the name to the name of an existing class, or creating a class with the name 'QRScannerService' - lib\features\courses\presentation\screens\qr_scanner_screen.dart:13:9 - undefined_class
+  error - The method 'QRScannerService' isn't defined for the type '_QRScannerScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'QRScannerService' - lib\features\courses\presentation\screens\qr_scanner_screen.dart:13:37 - undefined_method
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\features\courses\provider\course_progress_provider.dart:8:43 - prefer_expression_function_bodies
+warning - The value of the field '_totalModules' isn't used. Try removing the field, or using it - lib\features\courses\provider\course_progress_provider.dart:20:18 - unused_field
+  error - A value of type 'Object' can't be returned from the method 'build' because it has a return type of 'Future<CourseProgress?>' - lib\features\courses\provider\course_progress_provider.dart:39:12 - return_of_invalid_type
+  error - The method 'contains' isn't defined for the type 'int'. Try correcting the name to the name of an existing method, or defining a method named 'contains' - lib\features\courses\provider\course_progress_provider.dart:51:36 - undefined_method
+  error - Spread elements in list or set literals must implement 'Iterable' - lib\features\courses\provider\course_progress_provider.dart:56:12 - not_iterable_spread
+  error - The argument type 'List<dynamic>' can't be assigned to the parameter type 'int?'.  - lib\features\courses\provider\course_progress_provider.dart:61:27 - argument_type_not_assignable
+  error - The argument type 'CourseProgress (where CourseProgress is defined in C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\models\course_progress.dart)' can't be assigned to the parameter type 'CourseProgress (where CourseProgress is defined in C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\models\course_progress_model.dart)'.  - lib\features\courses\provider\course_progress_provider.dart:67:34 - argument_type_not_assignable
+  error - The argument type 'CourseProgress? (where CourseProgress is defined in C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\models\course_progress_model.dart)' can't be assigned to the parameter type 'CourseProgress? (where CourseProgress is defined in C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\models\course_progress.dart)'.  - lib\features\courses\provider\course_progress_provider.dart:86:25 - argument_type_not_assignable
+  error - Target of URI doesn't exist: 'courses_provider.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\provider\courses_search_provider.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'coursesProvider'. Try correcting the name to one that is defined, or defining the name - lib\features\courses\provider\courses_search_provider.dart:9:34 - undefined_identifier
+  error - Target of URI doesn't exist: '../../../core/firestore_translation_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\provider\firestore_translation_service_provider.dart:2:8 - uri_does_not_exist
+  error - The function 'FirestoreTranslationService' isn't defined. Try importing the library that defines 'FirestoreTranslationService', correcting the name to the name of an existing function, or defining a function named 'FirestoreTranslationService' - lib\features\courses\provider\firestore_translation_service_provider.dart:4:63 - undefined_function
+   info - Unnecessary use of a block function body. Try using an expression function body - lib\features\courses\quiz\quiz_screen.dart:18:38 - prefer_expression_function_bodies
+  error - The method 'fromMap' isn't defined for the type 'CourseProgress'. Try correcting the name to the name of an existing method, or defining a method named 'fromMap' - lib\features\courses\services\course_progress_service.dart:21:27 - undefined_method
+  error - The getter 'userId' isn't defined for the type 'CourseProgress'. Try importing the library that defines 'userId', correcting the name to the name of an existing getter, or defining a getter or field named 'userId' - lib\features\courses\services\course_progress_service.dart:27:30 - undefined_getter
+  error - The method 'toMap' isn't defined for the type 'CourseProgress'. Try correcting the name to the name of an existing method, or defining a method named 'toMap' - lib\features\courses\services\course_progress_service.dart:28:23 - undefined_method
+  error - Target of URI doesn't exist: 'models/enrollment_model.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\services\enrollment_service.dart:2:8 - uri_does_not_exist
+  error - The method 'EnrollmentModel' isn't defined for the type 'EnrollmentService'. Try correcting the name to the name of an existing method, or defining a method named 'EnrollmentModel' - lib\features\courses\services\enrollment_service.dart:25:24 - undefined_method
+  error - Target of URI doesn't exist: '../utils/certificate_share_builder.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\courses\services\linkedin_service.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'CertificateShareBuilder'. Try correcting the name to one that is defined, or defining the name - lib\features\courses\services\linkedin_service.dart:11:18 - undefined_identifier
+  error - 2 positional arguments expected by 'verifyHash', but 0 found. Try adding the missing arguments - lib\features\courses\services\qr_scanner_service.dart:25:7 - not_enough_positional_arguments
+  error - The named parameter 'expectedHash' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'expectedHash' - lib\features\courses\services\qr_scanner_service.dart:25:7 - undefined_named_parameter
+  error - The named parameter 'userId' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'userId' - lib\features\courses\services\qr_scanner_service.dart:26:7 - undefined_named_parameter
+  error - The named parameter 'courseId' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'courseId' - lib\features\courses\services\qr_scanner_service.dart:27:7 - undefined_named_parameter
+  error - The named parameter 'certificateId' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'certificateId' - lib\features\courses\services\qr_scanner_service.dart:28:7 - undefined_named_parameter
+  error - The named parameter 'issuedAt' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'issuedAt' - lib\features\courses\services\qr_scanner_service.dart:29:7 - undefined_named_parameter
+  error - The method 'analyze' isn't defined for the type 'FraudEngine'. Try correcting the name to the name of an existing method, or defining a method named 'analyze' - lib\features\courses\services\qr_scanner_service.dart:32:32 - undefined_method
+  error - Target of URI doesn't exist: 'translation_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\localization\presentation\verified_text_widget.dart:5:8 - uri_does_not_exist
+  error - Undefined name 'TranslationService'. Try correcting the name to one that is defined, or defining the name - lib\features\localization\presentation\verified_text_widget.dart:24:49 - undefined_identifier
+warning - The left operand can't be null, so the right operand is never executed. Try removing the operator and the right operand - lib\features\localization\services\translation_service.dart:17:67 - dead_null_aware_expression
+  error - Target of URI doesn't exist: 'services/reverse_mentoring_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\mentoring\presentation\reverse_mentoring_screen.dart:4:8 - uri_does_not_exist
+  error - Undefined class 'ReverseMentoringService'. Try changing the name to the name of an existing class, or creating a class with the name 'ReverseMentoringService' - lib\features\mentoring\presentation\reverse_mentoring_screen.dart:14:9 - undefined_class
+  error - The method 'ReverseMentoringService' isn't defined for the type '_ReverseMentoringScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'ReverseMentoringService' - lib\features\mentoring\presentation\reverse_mentoring_screen.dart:14:44 - undefined_method
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\features\onboarding\presentation\intelligent_onboarding_screen.dart:127:59 - use_build_context_synchronously
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\onboarding\presentation\intelligent_onboarding_screen.dart:255:13 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\onboarding\presentation\intelligent_onboarding_screen.dart:257:13 - deprecated_member_use
+  error - The method 'SecurityService' isn't defined for the type '_PaiementKkiapayScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'SecurityService' - lib\features\paiement\presentation\paiement_kkiapay_screen.dart:24:21 - undefined_method
+  error - Target of URI doesn't exist: 'services/pricing_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\pricing\presentation\billing_screen.dart:5:8 - uri_does_not_exist
+  error - Undefined class 'PricingService'. Try changing the name to the name of an existing class, or creating a class with the name 'PricingService' - lib\features\pricing\presentation\billing_screen.dart:27:9 - undefined_class
+  error - The method 'PricingService' isn't defined for the type '_BillingScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'PricingService' - lib\features\pricing\presentation\billing_screen.dart:27:35 - undefined_method
+  error - The named parameter 'customerEmail' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'customerEmail' - lib\features\pricing\presentation\billing_screen.dart:71:9 - undefined_named_parameter
+  error - Target of URI doesn't exist: 'services/pricing_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\pricing\presentation\pricing_screen.dart:4:8 - uri_does_not_exist
+  error - Undefined class 'PricingService'. Try changing the name to the name of an existing class, or creating a class with the name 'PricingService' - lib\features\pricing\presentation\pricing_screen.dart:15:9 - undefined_class
+  error - The method 'PricingService' isn't defined for the type '_PricingScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'PricingService' - lib\features\pricing\presentation\pricing_screen.dart:15:35 - undefined_method
+warning - The value of the local variable 'price' isn't used. Try removing the variable or using it - lib\features\pricing\presentation\pricing_screen.dart:38:11 - unused_local_variable
+   info - 'Table.fromTextArray' is deprecated and shouldn't be used. Use TableHelper.fromTextArray() instead. Try replacing the use of the deprecated member with the replacement - lib\features\pricing\presentation\pricing_screen.dart:73:11 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\features\profile\presentation\profile_screen.dart:65:26 - use_build_context_synchronously
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:107:19 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:107:59 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:147:76 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:147:116 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:163:46 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:163:86 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:203:55 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:203:95 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:220:21 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\features\profile\presentation\profile_screen.dart:220:61 - deprecated_member_use
+  error - Target of URI doesn't exist: 'app_bootstrap_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\splash\splash_controller.dart:2:8 - uri_does_not_exist
+  error - Undefined class 'AppBootstrapService'. Try changing the name to the name of an existing class, or creating a class with the name 'AppBootstrapService' - lib\features\splash\splash_controller.dart:10:9 - undefined_class
+  error - Undefined class 'AppBootstrapResult'. Try changing the name to the name of an existing class, or creating a class with the name 'AppBootstrapResult' - lib\features\splash\splash_controller.dart:32:24 - undefined_class
+  error - Target of URI doesn't exist: '../services/app_bootstrap_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\features\splash\splash_screen.dart:5:8 - uri_does_not_exist
+  error - Undefined name 'appBootstrapServiceProvider'. Try correcting the name to one that is defined, or defining the name - lib\features\splash\splash_screen.dart:30:32 - undefined_identifier
+  error - Undefined name 'appRouter'. Try correcting the name to one that is defined, or defining the name - lib\main.dart:29:21 - undefined_identifier
+  error - Target of URI doesn't exist: '../package:unimentorai/features/quiz/quiz_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist - lib\shared\widgets\widgets\course_actions.dart:3:8 - uri_does_not_exist
+   info - Uses 'await' on an instance of 'String', which is not a subtype of 'Future'. Try removing the 'await' or changing the expression - lib\shared\widgets\widgets\course_actions.dart:15:9 - await_only_futures
+  error - The method 'QuizScreen' isn't defined for the type 'QuizButton'. Try correcting the name to the name of an existing method, or defining a method named 'QuizScreen' - lib\shared\widgets\widgets\course_actions.dart:39:29 - undefined_method
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_app_structure.dart:21:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_app_structure.dart:26:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_app_structure.dart:30:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_missing_files.dart:18:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_missing_files.dart:20:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_missing_files.dart:24:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_verify_file.dart:16:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_verify_file.dart:27:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tool\create_verify_file.dart:30:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:6:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:23:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:24:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:25:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:26:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:30:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:42:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:44:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:60:13 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:62:13 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:71:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:83:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:85:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:91:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:108:9 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:110:9 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:117:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:126:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:132:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:146:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:148:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:153:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:163:11 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - tools\audit_all.dart:165:11 - avoid_print
+
+264 issues found. (ran in 14.8s)
+
+====================================================
+POTENTIAL DUPLICATES
+====================================================
+
+DUPLICATE FILE:
+admin_dashboard_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\lib\features\admin_control_tower\presentation\admin_dashboard_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\presentation\screens\admin_dashboard_screen.dart
+
+DUPLICATE FILE:
+admin_service.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\admin\services\admin_service.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\services\admin_service.dart
+
+DUPLICATE FILE:
+app_button.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\ui\components\app_button.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\widgets\app_button.dart
+
+DUPLICATE FILE:
+app_colors.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\config\app_colors.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\theme\app_colors.dart
+
+DUPLICATE FILE:
+auth_repository.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\repositories\auth_repository.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\domain\auth_repository.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\domain\repositories\auth_repository.dart
+
+DUPLICATE FILE:
+blockchain_hash_engine.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\blockchain\blockchain_hash_engine.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\blockchain\blockchain_hash_engine.dart
+
+DUPLICATE FILE:
+certificat_service.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\certificates\certificat_service.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificat\services\certificat_service.dart
+
+DUPLICATE FILE:
+certificate_hash_service.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\blockchain\certificate_hash_service.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\blockchain\certificate_hash_service.dart
+
+DUPLICATE FILE:
+certificate_verification_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\presentation\screens\certificate_verification_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\presentation\screens\certificate_verification_screen.dart
+
+DUPLICATE FILE:
+course_model.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\models\course_model.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\models\course_model.dart
+
+DUPLICATE FILE:
+course_progress_model.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\models\course_progress_model.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\shared\models\models\course_progress_model.dart
+
+DUPLICATE FILE:
+course_progress_service.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\course_progress_service.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\services\course_progress_service.dart
+
+DUPLICATE FILE:
+create_verify_file.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\create_verify_file.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tool\create_verify_file.dart
+
+DUPLICATE FILE:
+firebase_options.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\firebase\firebase_options.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\firebase\firebase_options.dart
+
+DUPLICATE FILE:
+fraud_engine.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\security\fraud_engine.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\fraud_engine.dart
+
+DUPLICATE FILE:
+fraud_result.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\fraud_result.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\fraud_engine\fraud_result.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\models\fraud_result.dart
+
+DUPLICATE FILE:
+home_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\home\home_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\home\presentation\home_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\home\screens\home_screen.dart
+
+DUPLICATE FILE:
+login_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\presentation\login_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\screens\login_screen.dart
+
+DUPLICATE FILE:
+onboarding_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\presentation\onboarding_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\screens\onboarding_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\onboarding\onboarding_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\onboarding\presentation\onboarding_screen.dart
+
+DUPLICATE FILE:
+quiz_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\ai_mentor\presentation\quiz_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\quiz\quiz_screen.dart
+
+DUPLICATE FILE:
+register_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\presentation\register_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\presentation\register_screen.dart
+
+DUPLICATE FILE:
+reverse_mentoring_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\app\presentation\reverse_mentoring_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\mentoring\presentation\reverse_mentoring_screen.dart
+
+DUPLICATE FILE:
+scan_history_model.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\models\scan_history_model.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\services\scan_history_model.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\models\scan_history_model.dart
+
+DUPLICATE FILE:
+session_manager.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\managers\session_manager.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\security\session_manager.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\session\session_manager.dart
+
+DUPLICATE FILE:
+user_model.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\models\user_model.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\user\models\user_model.dart
+
+DUPLICATE FILE:
+user_profile.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\domain\user_profile.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\user\domain\models\user_profile.dart
+
+DUPLICATE FILE:
+verification_api_service.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\verification_api\verification_api_service.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\verification_api\verification_api_service.dart
+
+DUPLICATE FILE:
+verify_email_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\presentation\verify_email_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\screens\verify_email_screen.dart
+
+DUPLICATE FILE:
+webinar_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\app\presentation\webinar_screen.dart
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\webinar\presentation\webinar_screen.dart
+
+====================================================
+SECURITY CHECK
+====================================================
+
+SECURITY FLAG [apiKey]
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tools\audit_all.dart
+  bool hasApiKeys = false;
+
+SECURITY FLAG [apiKey]
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tools\audit_all.dart
+      hasApiKeys = true;
+
+SECURITY FLAG [apiKey]
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\tools\audit_all.dart
+  if (!hasApiKeys) {
+
+====================================================
+AUDIT COMPLETED
+====================================================

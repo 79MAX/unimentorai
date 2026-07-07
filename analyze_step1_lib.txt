@@ -1,0 +1,17 @@
+﻿Resolving dependencies...
+flutter : The current Dart SDK version is 3.8.1.
+Au caractère C:\Users\DJOTOHOU\AppData\Local\Temp\ps-script-452149c5-fe12-4365-b3ee-9e6aaaf658e5.ps1:7 : 59
++ ... s\DJOTOHOU\UNIMENTORAI\unimentorai"; flutter analyze lib 2>&1 | Out-F ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (The current Dart SDK version is 3.8.1.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Because path_provider 2.1.6 requires SDK version ^3.10.0 and no versions of path_provider match >2.1.6 <3.0.0, 
+path_provider ^2.1.6 is forbidden.
+So, because unimentorai depends on path_provider ^2.1.6, version solving failed.
+
+
+You can try the following suggestion to make the pubspec resolve:
+* Try using the Flutter SDK version: 3.44.3. 
+Failed to update packages.

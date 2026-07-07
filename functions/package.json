@@ -1,0 +1,41 @@
+{
+  "name": "unimentorai-functions",
+  "version": "1.0.0",
+  "description": "Cloud Functions backend for UniMentorAI",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions",
+    "test": "node compliance/compliance.test.js",
+    "test:rules": "firebase emulators:exec --only firestore \"node tests/firestore.rules.test.js\"",
+    "test:all": "npm run test && npm run test:rules",
+    "smoke:post-rotation": "node scripts/post-rotation-smoke-tests.js"
+  },
+  "dependencies": {
+    "@google-cloud/secret-manager": "^5.5.0",
+    "@google-cloud/translate": "^8.0.0",
+    "firebase": "^12.13.0",
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^5.0.0",
+    "openai": "^4.30.0",
+    "stripe": "^17.5.0"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^4.0.0",
+    "eslint": "^8.55.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-tools": "^13.30.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

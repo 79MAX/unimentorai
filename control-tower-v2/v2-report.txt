@@ -1,0 +1,84 @@
+CONTROL TOWER V2 REPORT
+========================
+
+TOTAL FILES: 36758
+DUPLICATES: 4542
+VIOLATIONS: 69
+SYSTEM SCORE: 0 / 100
+
+QUARANTINED FILES:
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory.context.builder.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory.extractor.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory.retrieval.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory.router.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory.api.routes.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory.embedding.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory.profile.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory.rank.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory.vector.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory.compression.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory.context.injector.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory.extractor.ai.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory.memory.loop.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory.orchestrator.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory.personality.engine.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory.vector.db.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\certificate\certificate.model.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\certificate\certificate.pdf.renderer.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\certificate\certificate.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\certificate\certificate.template.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\certificate\certificate.verify.controller.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\certificate\assets\african-pattern.png
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\certificate\assets\seal-gold.png
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\certificate\assets\watermark-logo.png
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory\core\memory.loop.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory\core\memory.model.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory\core\memory.orchestrator.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory\engine\memory.extractor.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory\engine\memory.rank.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory\rag\memory.context.builder.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory\rag\memory.context.injector.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory\services\memory.profile.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory\vector\embedding.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\memory\vector\memory.vector.db.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\unimentorai-certificate\certificate.config.json
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\unimentorai-certificate\index.html
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\unimentorai-certificate\package.json
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\unimentorai-certificate\assets\logo-unimentor.png
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\unimentorai-certificate\assets\seal-gold.png
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\unimentorai-certificate\assets\watermark.png
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\unimentorai-certificate\css\certificate.css
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_1187241144\memory-api\memory-os\unimentorai-certificate\templates\certificate-template.html
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_172447483_1308526004\memory.context.builder.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_172447483_1308526004\memory.extractor.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_172447483_1308526004\memory.retrieval.service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\archive-v2\duplicate\memory-engine_172447483_1308526004\memory.router.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai\ai_router.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai\ai_service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai\context_builder.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai\prompt_engine.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai_backup\ai_router.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai_backup\ai_router.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai_backup\ai_service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai_backup\ai_service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai_backup\context_builder.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai_backup\context_builder.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai_backup\prompt_engine.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai_backup\prompt_engine.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\ai_backup\safety_filter.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\features\ai\ai_router.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\features\ai\ai_service.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\features\ai\context_builder.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\features\ai\prompt_engine.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\src\ai\router.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\functions\src\features\ai\router.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\app\services\quiz_ai_service.dar
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\src\ai\ai.router.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\src\core\ai\ai.router.js
+C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\src\services\ai_service.js
+
+RULES:
+- 1 AI engine max
+- No duplicate memory systems
+- No backup engines active in runtime
+- Architecture must be single-source-of-truth

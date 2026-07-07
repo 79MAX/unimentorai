@@ -1,0 +1,213 @@
+
+/* =========================
+   V9 GLOBAL THEME
+========================= */
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system;
+  background: radial-gradient(circle at top, #0b1220, #05070f);
+  color: #e5e7eb;
+}
+
+/* =========================
+   DASHBOARD ROOT
+========================= */
+
+.dashboard-v9 {
+  padding: 18px;
+  min-height: 100vh;
+}
+
+/* =========================
+   GRID SYSTEM V9
+========================= */
+
+.grid-v9 {
+  display: grid;
+  gap: 16px;
+}
+
+.row-1 {
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 16px;
+}
+
+.row-2 {
+  grid-template-columns: 1.2fr 1fr;
+}
+
+/* =========================
+   CARD BASE (V9 SILICON)
+========================= */
+
+.card,
+.v9-card {
+  background: rgba(17, 24, 39, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+
+  padding: 16px;
+  backdrop-filter: blur(14px);
+
+  transition: all 0.25s ease;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+/* =========================
+   CARD HEADER
+========================= */
+
+.card-header {
+  font-size: 13px;
+  font-weight: 600;
+  color: #93c5fd;
+  margin-bottom: 12px;
+  letter-spacing: 0.4px;
+}
+
+/* =========================
+   SYSTEM OVERVIEW METRICS
+========================= */
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.metric {
+  background: rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  transition: 0.2s;
+}
+
+.metric:hover {
+  transform: scale(1.02);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.metric .label {
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+.metric .value {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+/* =========================
+   LOGS PANEL V9
+========================= */
+
+.logs-container {
+  max-height: 260px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+.log {
+  display: flex;
+  gap: 10px;
+  padding: 6px 8px;
+  border-left: 2px solid transparent;
+  font-size: 12px;
+  transition: 0.2s;
+}
+
+.log:hover {
+  background: rgba(59, 130, 246, 0.08);
+  border-left-color: #3b82f6;
+}
+
+.log-level {
+  font-weight: bold;
+  width: 70px;
+}
+
+/* LEVEL COLORS */
+.log.info .log-level {
+  color: #60a5fa;
+}
+
+.log.debug .log-level {
+  color: #a78bfa;
+}
+
+.log.warn .log-level {
+  color: #facc15;
+}
+
+.log.error .log-level {
+  color: #ef4444;
+}
+
+/* =========================
+   EMPTY STATE
+========================= */
+
+.empty-state {
+  opacity: 0.5;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* =========================
+   SYSTEM GLOW CARD
+========================= */
+
+.system-glow {
+  position: relative;
+  overflow: hidden;
+}
+
+.system-glow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top,
+    rgba(59, 130, 246, 0.15),
+    transparent 60%
+  );
+  pointer-events: none;
+}
+
+/* =========================
+   SCROLLBAR (CLEAN V9)
+========================= */
+
+.logs-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.logs-container::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.4);
+  border-radius: 10px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1024px) {
+  .row-1,
+  .row-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .metric-grid {
+    grid-template-columns: 1fr;
+  }
+}

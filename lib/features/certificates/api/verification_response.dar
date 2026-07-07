@@ -1,0 +1,22 @@
+class VerificationResponse {
+  final bool valid;
+  final bool fraudDetected;
+  final double trustScore;
+  final String message;
+
+  VerificationResponse({
+    required this.valid,
+    required this.fraudDetected,
+    required this.trustScore,
+    required this.message,
+  });
+
+  Map<String, dynamic> toJson() {
+    return {
+      'valid': valid,
+      'fraudDetected': fraudDetected,
+      'trustScore': trustScore,
+      'message': message,
+    };
+  }
+}

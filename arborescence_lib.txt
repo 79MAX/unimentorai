@@ -1,0 +1,1235 @@
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          06/06/2026    12:23                app
+d----          28/07/2025    05:31                assets
+d----          14/05/2026    12:16                config
+d----          05/06/2026    16:54                core
+d----          06/06/2026    12:23                features
+d----          11/05/2026    21:47                firebase
+d----          14/07/2025    13:26                l10n
+d----          28/07/2025    05:31                languages
+d----          11/05/2026    20:24                lib
+d----          06/06/2026    12:23                models
+d----          14/05/2026    11:03                providers
+d----          14/05/2026    11:03                repositories
+d----          14/05/2026    11:03                routes
+d----          10/05/2026    15:09                screens
+d----          14/05/2026    12:16                shared
+d----          14/05/2026    11:05                theme
+d----          14/05/2026    11:03                widgets
+-a---          05/06/2026    23:31              0 app.dart
+-a---          05/06/2026    23:31              0 main.dart
+-a---          17/07/2025    04:14              0 Nouveau Document
+                                                  texte.txt
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\app
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          06/06/2026    12:23                colors
+d----          17/07/2025    18:21                env
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\app\env
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    09:18           1107 env.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\assets
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          14/05/2026    11:23            681 courses_seed.json
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\config
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          14/05/2026    12:16                env
+d----          06/06/2026    12:23                firebase
+d----          06/06/2026    12:23                router
+-a---          06/05/2026    23:00            215 app_colors.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\config\router
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:09           2153 app_router.dart
+-a---          06/06/2026    12:09           1490 router_guard.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/04/2026    22:32                analytics
+d----          18/10/2025    21:54                config
+d----          19/07/2025    11:38                constants
+d----          11/05/2026    10:00                di
+d----          11/05/2026    18:24                error
+d----          11/05/2026    10:00                errors
+d----          11/05/2026    10:00                injection
+d----          11/05/2026    10:00                localization
+d----          06/06/2026    12:23                models
+d----          10/05/2026    17:06                network
+d----          18/04/2026    22:33                onboarding
+d----          05/06/2026    22:50                security
+d----          11/05/2026    19:40                services
+d----          19/04/2026    01:03                tenant
+d----          06/06/2026    12:23                theme
+d----          05/06/2026    16:54                ui
+d----          05/06/2026    23:31                utils
+d----          05/06/2026    16:54                widgets
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\analytics
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    11:48           2436 analytics_events.dart
+-a---          11/05/2026    11:48           3233 analytics_service.dar
+                                                  t
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\config
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    09:18           9124 app_config.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\constants
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    09:18           1269 app_constants.dart
+-a---          21/07/2025    18:58           3814 pricing_config.json
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\localization
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/05/2026    18:47                assets
+d----          11/05/2026    10:00                data
+d----          10/05/2026    18:47                domain
+d----          11/05/2026    10:00                presentation
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\models
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          14/02/2026    20:55           3355 payment_model.dart
+-a---          11/05/2026    11:48            630 payment_result.dart
+-a---          11/05/2026    09:18            775 session_model.dart
+-a---          11/05/2026    09:18           6678 translation_model.dar
+                                                  t
+-a---          11/05/2026    09:18            478 webinar_model.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\onboarding
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    11:48           1350 onboarding_profile.da
+                                                  rt
+-a---          11/05/2026    11:48           1507 onboarding_storage.da
+                                                  rt
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\security
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:09           3107 permission_manager.da
+                                                  rt
+-a---          11/05/2026    11:48          10960 secure_config.dart
+-a---          06/06/2026    12:09           2213 security_guard.dart
+-a---          06/06/2026    12:09           1967 session_manager.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\services
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/04/2026    22:32                auth
+-a---          06/06/2026    12:09           1551 auth_service.dart
+-a---          22/05/2026    16:15          12698 cache_service.dart
+-a---          06/06/2026    12:09           9162 course_service.dart
+-a---          06/06/2026    12:09           5764 dashboard_feed_servic
+                                                  e.dart
+-a---          10/05/2026    11:06            609 firestore_service.dar
+                                                  t
+-a---          11/05/2026    09:18           1455 gamification_service.
+                                                  dart
+-a---          11/05/2026    11:48           1747 growth_service.dart
+-a---          06/06/2026    12:09          18781 payment_service.dart
+-a---          11/05/2026    19:40           1134 payment_service.g.dar
+                                                  t
+-a---          11/05/2026    11:48           8196 security_service.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\services\auth
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    11:48            145 local_auth_service.da
+                                                  rt
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\tenant
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    11:48            700 tenant_context.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\theme
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          10/05/2026    17:30            802 colors.dart
+-a---          10/05/2026    17:31            212 spacing.dart
+-a---          10/05/2026    17:31            619 typography.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\utils
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:31              0 logger.dart
+-a---          05/06/2026    23:31              0 validators.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          05/06/2026    19:11                admin
+d----          15/05/2026    03:06                admin_control
+d----          05/06/2026    23:28                ai
+d----          10/05/2026    15:09                ai_mentor
+d----          10/05/2026    15:09                app
+d----          05/06/2026    14:02                auth
+d----          17/07/2025    18:21                certificat
+d----          15/05/2026    02:38                certificates
+d----          21/07/2025    04:07                chatbot
+d----          14/05/2026    15:27                courses
+d----          05/06/2026    23:29                dashboard
+d----          06/05/2026    03:16                gamification
+d----          10/05/2026    17:07                learning
+d----          19/07/2025    00:40                localization
+d----          06/05/2026    03:22                marketplace
+d----          10/05/2026    15:09                mentoring
+d----          05/06/2026    23:31                notifications
+d----          06/06/2026    12:23                onboarding
+d----          17/07/2025    18:21                paiement
+d----          10/05/2026    13:34                payment
+d----          05/06/2026    23:30                payments
+d----          10/05/2026    18:58                pricing
+d----          10/05/2026    17:07                profile
+d----          10/05/2026    18:58                quiz
+d----          06/05/2026    03:11                recommendation
+d----          10/05/2026    15:09                settings
+d----          14/05/2026    18:13                splash
+d----          05/06/2026    22:53                user
+d----          10/05/2026    15:09                webinar
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\admin
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          11/05/2026    10:00                analytics
+d----          10/05/2026    17:07                data
+d----          10/05/2026    17:07                domain
+d----          05/06/2026    19:11                models
+d----          06/06/2026    12:23                presentation
+d----          06/06/2026    12:23                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\admin\models
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    19:13           3124 admin_dashboard_stats
+                                                  .dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\admin\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          06/06/2026    12:23                screens
+-a---          11/05/2026    11:48           5658 subscriptions_admin_s
+                                                  creen.dart
+-a---          06/06/2026    12:09           5334 translation_validator
+                                                  _screen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\admin\services
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    19:03           1342 admin_analytics_servi
+                                                  ce.dart
+-a---          06/06/2026    12:09           3091 admin_intelligence_se
+                                                  rvice.dart
+-a---          22/05/2026    16:15           1173 admin_service.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\admin_control
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          22/05/2026    13:12                domain
+d----          06/06/2026    12:23                presentation
+d----          22/05/2026    13:12                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\admin_control\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          22/05/2026    16:15            488 fraud_monitor_screen.
+                                                  dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\ai
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          06/06/2026    12:23                engine
+d----          05/06/2026    23:28                insights
+d----          05/06/2026    23:28                prediction
+d----          05/06/2026    23:28                scoring
+d----          11/05/2026    10:00                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\ai\engine
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:28              0 admin_ai_v2_service.d
+                                                  art
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\ai\insights
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:28              0 ai_insights_engine.da
+                                                  rt
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\ai\prediction
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:28              0 ai_prediction_engine.
+                                                  dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\ai\scoring
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:28              0 ai_scoring_engine.dar
+                                                  t
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\ai_mentor
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          06/06/2026    12:23                presentation
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\ai_mentor\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:06           5011 quiz_screen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\app
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/04/2026    22:34                presentation
+d----          11/05/2026    10:00                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\app\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    11:48            210 home_screen.dart
+-a---          06/06/2026    12:06          12474 personalized_dashboar
+                                                  d_screen.dart
+-a---          06/06/2026    12:06           1490 post_auth_gate_screen
+                                                  .dart
+-a---          06/06/2026    12:06           1379 simple_course_preview
+                                                  _screen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\app\services
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/05/2026    02:08              0 quiz_ai_service.dar
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          06/06/2026    12:23                data
+d----          06/06/2026    12:23                domain
+d----          06/06/2026    12:23                presentation
+d----          06/06/2026    12:23                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\data
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/05/2026    13:56                datasources
+d----          10/05/2026    17:55                models
+d----          10/05/2026    13:56                repositories
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\data\datasources
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          10/05/2026    14:16           1250 auth_remote_data_sour
+                                                  ce.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\data\repositories
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:13            929 auth_repository_impl.
+                                                  dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\domain
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/05/2026    13:55                entities
+d----          10/05/2026    13:55                repositories
+d----          10/05/2026    14:16                usecases
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\domain\entities
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          10/05/2026    14:10            111 user_entity.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\domain\repositories
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:13            261 auth_repository.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\domain\usecases
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:13            253 google_sign_in_usecas
+                                                  e.dart
+-a---          06/06/2026    12:13            253 google_sign_in.dart
+-a---          06/06/2026    12:13            266 login_user.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/05/2026    18:01                controllers
+d----          10/05/2026    17:56                pages
+d----          10/05/2026    17:55                widgets
+-a---          05/06/2026    19:59           2050 auth_wrapper.dart
+-a---          11/05/2026    11:48             44 register_password_scr
+                                                  een.dart
+-a---          11/05/2026    11:48             39 secure_login_screen.d
+                                                  art
+-a---          11/05/2026    11:48             33 signup_screen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\presentation\controllers
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          10/05/2026    18:03           3439 auth_controller.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\auth\presentation\pages
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:06           2524 login_page.dart
+-a---          06/06/2026    12:06           3670 register_password_pag
+                                                  e.dart
+-a---          06/06/2026    12:06           3734 secure_login_page.dar
+                                                  t
+-a---          06/06/2026    12:06           2229 signup_page.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificat
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          17/07/2025    20:43                presentation
+d----          17/07/2025    18:22                provider
+d----          06/06/2026    12:23                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificat\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    09:18            364 certificat_placeholde
+                                                  r_screen.dart
+-a---          22/05/2026    16:15           5794 certificat_screen.dar
+                                                  t
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificat\provider
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          14/02/2026    20:55            142 certificat_provider.d
+                                                  art
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificat\services
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    09:18           2434 certificat_service.da
+                                                  rt
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          15/05/2026    02:24                api
+d----          06/06/2026    12:23                core
+d----          11/05/2026    18:24                data
+d----          11/05/2026    18:24                domain
+d----          15/05/2026    01:14                presentation
+d----          06/06/2026    12:23                services
+d----          15/05/2026    02:43                utils
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\api
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          22/05/2026    16:15           1701 verification_api.dart
+-a---          15/05/2026    02:24            330 verification_controll
+                                                  er.dart
+-a---          15/05/2026    02:22            474 verification_response
+                                                  .dar
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          15/05/2026    03:23                blockchain
+d----          22/05/2026    13:12                fraud_engine
+d----          15/05/2026    03:29                verification_api
+-a---          06/06/2026    12:09            362 certificate_trust_eng
+                                                  ine.dart
+-a---          22/05/2026    16:15            942 fraud_engine.dart
+-a---          15/05/2026    02:13            496 fraud_logger.dar
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\blockchain
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          22/05/2026    16:15           1131 blockchain_hash_engin
+                                                  e.dart
+-a---          22/05/2026    16:15            410 blockchain_verifier.d
+                                                  art
+-a---          22/05/2026    16:15            557 certificate_hash_mode
+                                                  l.dart
+-a---          22/05/2026    16:15            991 certificate_hash_serv
+                                                  ice.dart
+-a---          22/05/2026    16:15            512 hash_verifier.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\fraud_engine
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          22/05/2026    16:15           1856 fraud_detection_engin
+                                                  e.dart
+-a---          15/05/2026    03:21            234 fraud_result.dart
+-a---          22/05/2026    16:15            456 fraud_score_model.dar
+                                                  t
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\core\verification_api
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          22/05/2026    16:15            341 public_verification_c
+                                                  ontroller.dart
+-a---          06/06/2026    12:09           1791 verification_api_serv
+                                                  ice.dart
+-a---          22/05/2026    16:15            714 verification_result_m
+                                                  odel.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          15/05/2026    01:14                admin
+d----          06/06/2026    12:23                screens
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\presentation\admin
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          22/05/2026    16:15           5137 admin_control_tower_s
+                                                  creen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\presentation\screens
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          14/05/2026    22:57                certificate_verificat
+                                                  ion_screen.dart
+-a---          06/06/2026    12:09          11216 global_verification_p
+                                                  age.dart
+-a---          22/05/2026    16:15           7057 scan_history_screen.d
+                                                  art
+-a---          22/05/2026    16:15           4405 verify_certificate_sc
+                                                  reen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\services
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          15/05/2026    01:02            281 blockchain_service.da
+                                                  rt
+-a---          22/05/2026    16:15           2676 certificate_pdf_servi
+                                                  ce.dart
+-a---          22/05/2026    16:15           3727 certificate_service.d
+                                                  art
+-a---          22/05/2026    16:15            239 fraud_service.dart
+-a---          22/05/2026    16:15           1416 linkedin_auto_share_s
+                                                  ervice.dart
+-a---          06/06/2026    12:09            901 scan_history_service.
+                                                  dart
+-a---          22/05/2026    16:15            582 verification_service.
+                                                  dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\certificates\utils
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          22/05/2026    16:15            561 certificate_share_bui
+                                                  lder.dart
+-a---          22/05/2026    16:15           1712 certificate_template.
+                                                  dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\chatbot
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          21/07/2025    04:07                presentation
+d----          21/07/2025    04:07                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\chatbot\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:09           9607 chatbot_screen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\chatbot\services
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    11:48           3610 chatbot_service.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          17/07/2025    20:55                admin
+d----          10/05/2026    15:09                data
+d----          10/05/2026    15:09                domain
+d----          14/05/2026    23:53                models
+d----          06/06/2026    12:23                presentation
+d----          17/07/2025    20:48                provider
+d----          14/05/2026    15:27                repositories
+d----          06/06/2026    12:23                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\admin
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    09:18           7128 feedback_dashboard_sc
+                                                  reen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\models
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          22/05/2026    16:15           1687 course_model.dart
+-a---          22/05/2026    16:15            448 enrollment_model.dart
+-a---          22/05/2026    16:15            561 scan_history_model.da
+                                                  rt
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          15/05/2026    02:57                screens
+d----          14/05/2026    15:27                widgets
+-a---          11/05/2026    09:18           4800 add_etape_screen.dart
+-a---          06/06/2026    12:06           8285 course_detail_screen.
+                                                  dart
+-a---          11/05/2026    09:18           4207 course_feedback_widge
+                                                  t.dart
+-a---          11/05/2026    09:18           2249 course_form_screen.da
+                                                  rt
+-a---          11/05/2026    09:18           2811 course_structure_over
+                                                  view.dart
+-a---          11/05/2026    09:18           5863 edit_etape_screen.dar
+                                                  t
+-a---          22/05/2026    16:15           2071 register_screen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\presentation\screens
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:09           1877 admin_dashboard_scree
+                                                  n.dart
+-a---          22/05/2026    16:15           4385 certificate_verificat
+                                                  ion_screen.dart
+-a---          22/05/2026    16:15           5263 course_details_screen
+                                                  .dart
+-a---          06/06/2026    12:09           1771 courses_screen.dart
+-a---          06/06/2026    12:09           1974 qr_scanner_screen.dar
+                                                  t
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\provider
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:09           1673 course_progress_provi
+                                                  der.dart
+-a---          06/06/2026    12:06            866 courses_search_provid
+                                                  er.dart
+-a---          06/06/2026    12:06            229 firestore_translation
+                                                  _service_provider.dar
+                                                  t
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\courses\services
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          15/05/2026    00:35                models
+-a---          06/06/2026    12:06           1275 course_progress_servi
+                                                  ce.dart
+-a---          06/06/2026    12:09           1562 enrollment_service.da
+                                                  rt
+-a---          22/05/2026    16:15            930 linkedin_service.dart
+-a---          15/05/2026    02:27            379 linkedin_share_model.
+                                                  dart
+-a---          06/06/2026    12:09           1405 qr_scanner_service.da
+                                                  rt
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\dashboard
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          06/06/2026    12:23                admin
+d----          05/06/2026    23:29                mentor
+d----          14/05/2026    14:26                presentation
+d----          05/06/2026    23:29                student
+d----          05/06/2026    23:29                widgets
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\dashboard\admin
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:29              0 admin_dashboard_ai_sc
+                                                  reen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\dashboard\mentor
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:29              0 mentor_dashboard_scre
+                                                  en.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\dashboard\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          22/05/2026    16:15           2568 dashboard_screen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\dashboard\student
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:29              0 student_dashboard_scr
+                                                  een.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\dashboard\widgets
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:29              0 kpi_card.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\gamification
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          11/05/2026    10:00                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\learning
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/05/2026    17:07                data
+d----          10/05/2026    17:07                domain
+d----          10/05/2026    17:07                presentation
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\localization
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          19/07/2025    00:41                presentation
+d----          17/07/2025    17:35                provider
+d----          19/07/2025    00:57                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\localization\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    09:18            372 localization_placehol
+                                                  der_screen.dart
+-a---          06/06/2026    12:09           1343 verified_text_widget.
+                                                  dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\localization\provider
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          14/02/2026    20:55            163 locale_provider.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\localization\services
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    09:18           1569 translation_service.d
+                                                  art
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\marketplace
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          11/05/2026    10:00                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\mentoring
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          21/07/2025    04:06                presentation
+d----          21/07/2025    04:07                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\mentoring\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    09:18            569 mentoring_dashboard_s
+                                                  creen.dart
+-a---          06/06/2026    12:09          17752 reverse_mentoring_scr
+                                                  een.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\mentoring\services
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    11:48             70 reverse_mentoring_ser
+                                                  vice.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\notifications
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:31              0 notification_service.
+                                                  dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\onboarding
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          05/06/2026    23:29                ai
+d----          10/05/2026    17:07                data
+d----          10/05/2026    17:07                domain
+d----          05/06/2026    23:29                logic
+d----          05/06/2026    22:18                presentation
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\onboarding\ai
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:29              0 onboarding_ai_engine.
+                                                  dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\onboarding\logic
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:29              0 onboarding_controller
+                                                  .dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\onboarding\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:06           9627 intelligent_onboardin
+                                                  g_screen.dart
+-a---          05/06/2026    23:29              0 onboarding_screen.dar
+                                                  t
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\paiement
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          12/04/2026    16:49                presentation
+d----          17/07/2025    18:22                provider
+d----          06/06/2026    12:23                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\paiement\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    11:48           4540 paiement_kkiapay_scre
+                                                  en.dart
+-a---          11/05/2026    11:48            300 paiement_kkiapay.dart
+-a---          06/06/2026    12:06           5722 paypal_checkout_scree
+                                                  n.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\paiement\provider
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          14/02/2026    20:55            138 paiement_provider.dar
+                                                  t
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\payment
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/05/2026    15:09                data
+d----          10/05/2026    15:09                domain
+d----          10/05/2026    15:09                presentation
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\payments
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/05/2026    17:07                data
+d----          10/05/2026    17:07                domain
+d----          10/05/2026    17:07                presentation
+d----          06/06/2026    12:23                services
+-a---          05/06/2026    23:30              0 pricing_engine.dart
+-a---          05/06/2026    23:30              0 stripe_service.dart
+-a---          05/06/2026    23:30              0 subscription_manager.
+                                                  dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\pricing
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/05/2026    18:58                data
+d----          10/05/2026    18:58                domain
+d----          19/07/2025    11:46                presentation
+d----          19/07/2025    11:40                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\pricing\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:09           9321 billing_screen.dart
+-a---          11/05/2026    09:18           2568 pricing_comparison_ca
+                                                  rd.dart
+-a---          06/06/2026    12:09           8849 pricing_screen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\pricing\services
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    09:18           4070 pricing_service.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\profile
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/05/2026    17:07                data
+d----          10/05/2026    17:07                domain
+d----          17/07/2025    17:30                presentation
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\profile\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:06          16710 profile_screen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\quiz
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          10/05/2026    18:58                data
+d----          10/05/2026    18:58                domain
+d----          06/06/2026    12:23                presentation
+d----          11/05/2026    10:00                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\recommendation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          11/05/2026    10:00                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\settings
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          17/07/2025    17:30                presentation
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\settings\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    09:18           1409 personal_data_screen.
+                                                  dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\splash
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          06/06/2026    12:23                presentation
+-a---          22/05/2026    16:15           2354 splash_screen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\user
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          05/06/2026    15:36                models
+d----          14/05/2026    19:07                presentation
+d----          05/06/2026    22:53                repositories
+d----          06/06/2026    12:23                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\user\models
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:28              0 app_user.dart
+-a---          05/06/2026    15:06           1944 user_model.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\user\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          06/06/2026    12:23                screens
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\user\repositories
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:28              0 user_repository.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\user\services
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:09           1568 user_service.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\webinar
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          17/07/2025    17:30                presentation
+d----          17/07/2025    18:50                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\webinar\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    11:48            283 webinar_screen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\features\webinar\services
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    11:48             61 webinar_service.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\firebase
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          22/05/2026    16:15           2655 firebase_options.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\l10n
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/05/2026    23:00           1854 intl_af.arb
+-a---          06/05/2026    23:00           2379 intl_ar.arb
+-a---          19/07/2025    00:38           1895 intl_bambara.arb
+-a---          06/05/2026    23:00           1926 intl_de.arb
+-a---          06/05/2026    23:00           1800 intl_en.arb
+-a---          06/05/2026    23:00           1962 intl_es.arb
+-a---          14/02/2026    20:55           1856 intl_eve.arb
+-a---          06/05/2026    23:00           1852 intl_ff.arb
+-a---          06/05/2026    23:00           1813 intl_fon.arb
+-a---          06/05/2026    23:00           1968 intl_fr.arb
+-a---          06/05/2026    23:00           1879 intl_ha.arb
+-a---          06/05/2026    23:00           2006 intl_ig.arb
+-a---          06/05/2026    23:00           1855 intl_it.arb
+-a---          06/05/2026    23:00           1866 intl_ja.arb
+-a---          06/05/2026    23:00           1810 intl_kab.arb
+-a---          06/05/2026    23:00           1904 intl_kg.arb
+-a---          06/05/2026    23:00           1899 intl_ko.arb
+-a---          06/05/2026    23:00           2082 intl_mg.arb
+-a---          06/05/2026    23:00           1859 intl_pt.arb
+-a---          06/05/2026    23:00           1971 intl_rn.arb
+-a---          06/05/2026    23:00           2516 intl_ru.arb
+-a---          06/05/2026    23:00           1950 intl_rw.arb
+-a---          06/05/2026    23:00           1828 intl_sn.arb
+-a---          06/05/2026    23:00           1916 intl_so.arb
+-a---          06/05/2026    23:00           1810 intl_sw.arb
+-a---          06/05/2026    23:00           2455 intl_ti.arb
+-a---          06/05/2026    23:00           1984 intl_ts.arb
+-a---          06/05/2026    23:00           1804 intl_wo.arb
+-a---          06/05/2026    23:00           1909 intl_xh.arb
+-a---          06/05/2026    23:00           2179 intl_yo.arb
+-a---          06/05/2026    23:00           1777 intl_zh.arb
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\languages
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/05/2026    23:00            134 language_fr.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          05/06/2026    23:13                core
+d----          11/05/2026    20:26                features
+d----          11/05/2026    20:24                l10n
+d----          11/05/2026    20:24                shared
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib\core
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          14/05/2026    12:22                config
+d----          11/05/2026    20:25                constants
+d----          05/06/2026    23:13                di
+d----          11/05/2026    20:25                errors
+d----          05/06/2026    23:13                network
+d----          06/06/2026    12:23                router
+d----          06/06/2026    12:23                security
+d----          05/06/2026    23:13                theme
+d----          11/05/2026    20:25                utils
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib\core\config
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          14/05/2026    12:22                firebase
+-a---          22/05/2026    16:15            350 firebase_config.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib\core\di
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:13              0 injector.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib\core\network
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:13              0 api_client.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib\core\router
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:13              0 router_refresh.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib\core\theme
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:13              0 app_theme.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib\features
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          05/06/2026    23:15                auth
+d----          14/05/2026    18:40                courses
+d----          11/05/2026    20:26                payments_stripe
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib\features\auth
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          11/05/2026    20:26                data
+d----          11/05/2026    20:26                domain
+d----          05/06/2026    23:15                presentation
+d----          06/06/2026    12:23                services
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib\features\auth\presentation
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          05/06/2026    23:14              0 auth_gate.dart
+-a---          05/06/2026    23:15              0 login_screen.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib\features\courses
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          11/05/2026    20:26                data
+d----          11/05/2026    20:26                domain
+d----          11/05/2026    20:26                presentation
+d----          14/05/2026    18:40                repositories
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib\features\courses\repositories
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:09            468 course_repository.dar
+                                                  t
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\lib\features\payments_stripe
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          11/05/2026    20:26                data
+d----          11/05/2026    20:26                domain
+d----          11/05/2026    20:26                presentation
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\shared
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          14/05/2026    12:16                components
+d----          10/05/2026    13:47                models
+d----          11/05/2026    18:24                providers
+d----          10/05/2026    17:06                services
+d----          14/05/2026    12:16                themes
+d----          06/06/2026    12:23                widgets
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\shared\models
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          06/06/2026    12:23                models
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\shared\models\models
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          11/05/2026    09:18            849 course_progress_model
+                                                  .dart
+-a---          11/05/2026    09:18            415 courses_step_model.da
+                                                  rt
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\shared\widgets
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          28/07/2025    05:31                widgets
+-a---          11/05/2026    09:18            645 accessible_button.dar
+                                                  t
+-a---          16/07/2025    13:13           1947 consent_banner.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\shared\widgets\widgets
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          06/06/2026    12:09           1418 course_actions.dart
+-a---          11/05/2026    09:18            573 custom_button.dart
+
+    Directory: C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\theme
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          14/05/2026    11:05                dark
+d----          14/05/2026    11:05                light
+

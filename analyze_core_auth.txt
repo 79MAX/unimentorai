@@ -1,0 +1,74 @@
+﻿Analyzing 7 items...                                            
+
+   info - Use relative imports for files in the 'lib' directory - lib\config\router\app_router.dart:7:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\config\router\app_router.dart:8:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\config\router\app_router.dart:9:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\config\router\app_router.dart:10:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\config\router\app_router.dart:11:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\config\router\router_guard.dart:3:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\config\router\router_guard.dart:4:8 - prefer_relative_imports
+   info - The value of the argument is redundant because it matches the default value - lib\core\config\app_config.dart:59:35 - avoid_redundant_argument_values
+   info - The import of 'package:json_annotation/json_annotation.dart' is unnecessary because all of the used elements are also provided by the import of 'package:freezed_annotation/freezed_annotation.dart' - lib\core\models\payment_model.dart:2:8 - unnecessary_import
+   info - Unnecessary use of a block function body - lib\core\models\user_model.dart:18:55 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body - lib\core\models\user_model.dart:29:32 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body - lib\core\security\fraud_engine.dart:2:35 - prefer_expression_function_bodies
+   info - Use relative imports for files in the 'lib' directory - lib\core\security\permission_manager.dart:1:8 - prefer_relative_imports
+   info - Unnecessary use of double quotes - lib\core\security\permission_manager.dart:84:9 - prefer_single_quotes
+   info - Unnecessary use of double quotes - lib\core\security\permission_manager.dart:85:9 - prefer_single_quotes
+   info - Unnecessary use of double quotes - lib\core\security\permission_manager.dart:86:9 - prefer_single_quotes
+   info - Unnecessary use of double quotes - lib\core\security\permission_manager.dart:87:9 - prefer_single_quotes
+   info - Unnecessary use of double quotes - lib\core\security\permission_manager.dart:88:9 - prefer_single_quotes
+   info - Unnecessary use of double quotes - lib\core\security\permission_manager.dart:89:9 - prefer_single_quotes
+   info - Unnecessary use of double quotes - lib\core\security\permission_manager.dart:90:9 - prefer_single_quotes
+   info - Use relative imports for files in the 'lib' directory - lib\core\security\security_guard.dart:3:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\core\security\session_manager.dart:3:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\core\security\session_manager.dart:4:8 - prefer_relative_imports
+   info - Unnecessary use of a block function body - lib\core\services\auth_service.dart:47:6 - prefer_expression_function_bodies
+warning - The value of the field '_coursesKey' isn't used - lib\core\services\cache_service.dart:19:23 - unused_field
+warning - The value of the field '_translationsKey' isn't used - lib\core\services\cache_service.dart:20:23 - unused_field
+warning - The value of the field '_userDataKey' isn't used - lib\core\services\cache_service.dart:21:23 - unused_field
+warning - The value of the field '_securityService' isn't used - lib\core\services\course_service.dart:10:25 - unused_field
+warning - Unused import: 'package:flutter_dotenv/flutter_dotenv.dart' - lib\core\services\payment_service.dart:3:8 - unused_import
+   info - The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' - lib\core\services\payment_service.dart:6:8 - unnecessary_import
+   info - The value of the argument is redundant because it matches the default value - lib\core\services\payment_service.dart:69:61 - avoid_redundant_argument_values
+warning - This default clause is covered by the previous cases - lib\core\services\payment_service.dart:100:9 - unreachable_switch_default
+warning - This default clause is covered by the previous cases - lib\core\services\payment_service.dart:378:9 - unreachable_switch_default
+warning - Dead code - lib\core\services\payment_service.dart:445:5 - dead_code
+warning - Dead code - lib\core\services\payment_service.dart:460:5 - dead_code
+   info - Unnecessary use of a block function body - lib\core\services\payment_service.dart:473:68 - prefer_expression_function_bodies
+   info - The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' - lib\core\services\security_service.dart:3:8 - unnecessary_import
+   info - Unnecessary use of a block function body - lib\features\auth\domain\usecases\google_sign_in.dart:9:29 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body - lib\features\auth\domain\usecases\google_sign_in_usecase.dart:9:29 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body - lib\features\auth\domain\usecases\login_user.dart:9:58 - prefer_expression_function_bodies
+   info - Use relative imports for files in the 'lib' directory - lib\features\auth\presentation\auth_wrapper.dart:4:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\features\auth\presentation\auth_wrapper.dart:5:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\features\auth\presentation\auth_wrapper.dart:6:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\features\auth\presentation\auth_wrapper.dart:7:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\features\auth\presentation\auth_wrapper.dart:8:8 - prefer_relative_imports
+   info - Unnecessary use of a block function body - lib\features\auth\presentation\auth_wrapper.dart:38:38 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body - lib\features\auth\presentation\login_screen.dart:58:38 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body - lib\features\auth\presentation\login_screen.dart:116:50 - prefer_expression_function_bodies
+   info - Use relative imports for files in the 'lib' directory - lib\features\auth\presentation\pages\register_password_page.dart:3:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\features\auth\presentation\pages\register_password_page.dart:4:8 - prefer_relative_imports
+   info - Unnecessary use of a block function body - lib\features\auth\presentation\pages\register_password_page.dart:47:38 - prefer_expression_function_bodies
+   info - Use relative imports for files in the 'lib' directory - lib\features\auth\presentation\pages\secure_login_page.dart:3:8 - prefer_relative_imports
+   info - Use relative imports for files in the 'lib' directory - lib\features\auth\presentation\pages\secure_login_page.dart:4:8 - prefer_relative_imports
+   info - Unnecessary use of a block function body - lib\features\auth\presentation\pages\secure_login_page.dart:58:38 - prefer_expression_function_bodies
+   info - Use relative imports for files in the 'lib' directory - lib\features\auth\presentation\pages\signup_page.dart:2:8 - prefer_relative_imports
+   info - Unnecessary use of a block function body - lib\features\auth\presentation\pages\signup_page.dart:44:38 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body - lib\features\onboarding\onboarding_screen.dart:26:62 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body - lib\features\onboarding\onboarding_screen.dart:46:38 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body - lib\features\user\models\user_model.dart:39:37 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body - lib\features\user\models\user_model.dart:51:32 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body - lib\features\user\models\user_model.dart:68:6 - prefer_expression_function_bodies
+   info - Use relative imports for files in the 'lib' directory - lib\features\user\services\user_service.dart:2:8 - prefer_relative_imports
+   info - Unnecessary use of a block function body - lib\features\user\services\user_service.dart:14:42 - prefer_expression_function_bodies
+   info - Unnecessary use of a block function body - lib\main.dart:21:38 - prefer_expression_function_bodies
+
+flutter : 64 issues found. (ran in 10.4s)
+Au caractère C:\Users\DJOTOHOU\AppData\Local\Temp\ps-script-6c80f9f5-e20e-4af2-8f5e-729ee609d9da.ps1:85 : 59
++ ... imentorai"; flutter analyze lib/main.dart lib/config lib/core lib/fea ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (64 issues found. (ran in 10.4s):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

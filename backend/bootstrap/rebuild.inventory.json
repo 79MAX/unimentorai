@@ -1,0 +1,5161 @@
+{
+  "generatedAt": "2026-06-27T01:43:44.979Z",
+  "totalFiles": 1030,
+  "breakdown": {
+    "js": 859,
+    "json": 0,
+    "other": 170
+  },
+  "files": [
+    {
+      "path": "backend\\.env",
+      "ext": "",
+      "size": 2050
+    },
+    {
+      "path": "backend\\admin\\admin.controller.js",
+      "ext": ".js",
+      "size": 412
+    },
+    {
+      "path": "backend\\admin\\admin.controller.js.v5.backup",
+      "ext": ".backup",
+      "size": 4828
+    },
+    {
+      "path": "backend\\admin\\admin.routes.js.v5.backup",
+      "ext": ".backup",
+      "size": 2268
+    },
+    {
+      "path": "backend\\admin\\admin.service.js",
+      "ext": ".js",
+      "size": 3253
+    },
+    {
+      "path": "backend\\admin\\admin.service.js.v5.backup",
+      "ext": ".backup",
+      "size": 3253
+    },
+    {
+      "path": "backend\\ai\\adaptive.path.engine.js",
+      "ext": ".js",
+      "size": 4465
+    },
+    {
+      "path": "backend\\ai\\admin.brain.engine.js",
+      "ext": ".js",
+      "size": 4534
+    },
+    {
+      "path": "backend\\ai\\admin.brain.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 4534
+    },
+    {
+      "path": "backend\\ai\\agents\\ai.admin.agent.js",
+      "ext": ".js",
+      "size": 4314
+    },
+    {
+      "path": "backend\\ai\\agents\\ai.market.agent.js",
+      "ext": ".js",
+      "size": 5023
+    },
+    {
+      "path": "backend\\ai\\agents\\ai.mentor.agent.js",
+      "ext": ".js",
+      "size": 5248
+    },
+    {
+      "path": "backend\\ai\\agents\\ai.tutor.agent.js",
+      "ext": ".js",
+      "size": 4750
+    },
+    {
+      "path": "backend\\ai\\ai.adaptive.learning.service.js",
+      "ext": ".js",
+      "size": 4589
+    },
+    {
+      "path": "backend\\ai\\ai.admin.agent.js",
+      "ext": ".js",
+      "size": 5284
+    },
+    {
+      "path": "backend\\ai\\ai.business.recommendation.engine.js",
+      "ext": ".js",
+      "size": 4594
+    },
+    {
+      "path": "backend\\ai\\ai.context.memory.service.js",
+      "ext": ".js",
+      "size": 4261
+    },
+    {
+      "path": "backend\\ai\\ai.controller.js",
+      "ext": ".js",
+      "size": 1215
+    },
+    {
+      "path": "backend\\ai\\ai.controller.js.v5.backup",
+      "ext": ".backup",
+      "size": 1215
+    },
+    {
+      "path": "backend\\ai\\ai.cost.engine.js",
+      "ext": ".js",
+      "size": 2395
+    },
+    {
+      "path": "backend\\ai\\ai.cost.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2393
+    },
+    {
+      "path": "backend\\ai\\ai.event.bus.service.js",
+      "ext": ".js",
+      "size": 5388
+    },
+    {
+      "path": "backend\\ai\\ai.gateway.service.js",
+      "ext": ".js",
+      "size": 4659
+    },
+    {
+      "path": "backend\\ai\\ai.growth.signal.detector.js",
+      "ext": ".js",
+      "size": 5409
+    },
+    {
+      "path": "backend\\ai\\ai.guard.js",
+      "ext": ".js",
+      "size": 1366
+    },
+    {
+      "path": "backend\\ai\\ai.guard.js.v5.backup",
+      "ext": ".backup",
+      "size": 1403
+    },
+    {
+      "path": "backend\\ai\\ai.learning.evolution.engine.js",
+      "ext": ".js",
+      "size": 5476
+    },
+    {
+      "path": "backend\\ai\\ai.market.agent.js",
+      "ext": ".js",
+      "size": 5066
+    },
+    {
+      "path": "backend\\ai\\ai.mentor.agent.js",
+      "ext": ".js",
+      "size": 4941
+    },
+    {
+      "path": "backend\\ai\\ai.metrics.service.js",
+      "ext": ".js",
+      "size": 6810
+    },
+    {
+      "path": "backend\\ai\\ai.monetization.engine.js",
+      "ext": ".js",
+      "size": 2687
+    },
+    {
+      "path": "backend\\ai\\ai.monetization.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2685
+    },
+    {
+      "path": "backend\\ai\\ai.orchestrator.service.js",
+      "ext": ".js",
+      "size": 5327
+    },
+    {
+      "path": "backend\\ai\\ai.prediction.panel.js",
+      "ext": ".js",
+      "size": 6753
+    },
+    {
+      "path": "backend\\ai\\ai.prediction.panel.js.v5.backup",
+      "ext": ".backup",
+      "size": 6753
+    },
+    {
+      "path": "backend\\ai\\ai.prompt.engine.js",
+      "ext": ".js",
+      "size": 2904
+    },
+    {
+      "path": "backend\\ai\\ai.recommendation.engine.js",
+      "ext": ".js",
+      "size": 4988
+    },
+    {
+      "path": "backend\\ai\\ai.revenue.forecast.service.js",
+      "ext": ".js",
+      "size": 4833
+    },
+    {
+      "path": "backend\\ai\\ai.revenue.prediction.engine.js",
+      "ext": ".js",
+      "size": 4647
+    },
+    {
+      "path": "backend\\ai\\ai.routes.js",
+      "ext": ".js",
+      "size": 805
+    },
+    {
+      "path": "backend\\ai\\ai.routes.js.v5.backup",
+      "ext": ".backup",
+      "size": 805
+    },
+    {
+      "path": "backend\\ai\\ai.security.guardian.agent.js",
+      "ext": ".js",
+      "size": 4545
+    },
+    {
+      "path": "backend\\ai\\ai.self.healing.engine.js",
+      "ext": ".js",
+      "size": 4658
+    },
+    {
+      "path": "backend\\ai\\ai.service.js",
+      "ext": ".js",
+      "size": 3730
+    },
+    {
+      "path": "backend\\ai\\ai.service.js.v5.backup",
+      "ext": ".backup",
+      "size": 3730
+    },
+    {
+      "path": "backend\\ai\\ai.tutor.agent.js",
+      "ext": ".js",
+      "size": 4480
+    },
+    {
+      "path": "backend\\ai\\ai.vector.store.service.js",
+      "ext": ".js",
+      "size": 3907
+    },
+    {
+      "path": "backend\\ai\\ai.websocket.gateway.js",
+      "ext": ".js",
+      "size": 6240
+    },
+    {
+      "path": "backend\\ai\\ai_admin_brain.engine.js",
+      "ext": ".js",
+      "size": 6863
+    },
+    {
+      "path": "backend\\ai\\ai_admin_brain.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 6863
+    },
+    {
+      "path": "backend\\ai\\ai_autonomous_brain.engine.js",
+      "ext": ".js",
+      "size": 4174
+    },
+    {
+      "path": "backend\\ai\\ai_autonomous_brain.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 4174
+    },
+    {
+      "path": "backend\\ai\\ai_ceo_brain.engine.js",
+      "ext": ".js",
+      "size": 4495
+    },
+    {
+      "path": "backend\\ai\\ai_ceo_brain.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 4495
+    },
+    {
+      "path": "backend\\ai\\ai_os.kernel.js",
+      "ext": ".js",
+      "size": 976
+    },
+    {
+      "path": "backend\\ai\\ai_os.kernel.js.v5.backup",
+      "ext": ".backup",
+      "size": 976
+    },
+    {
+      "path": "backend\\ai\\ai_self_learning.loop.js",
+      "ext": ".js",
+      "size": 3559
+    },
+    {
+      "path": "backend\\ai\\ai_self_learning.loop.js.v5.backup",
+      "ext": ".backup",
+      "size": 3559
+    },
+    {
+      "path": "backend\\ai\\alerts\\ai.alert.bus.js",
+      "ext": ".js",
+      "size": 3360
+    },
+    {
+      "path": "backend\\ai\\alerts\\ai.alert.engine.js",
+      "ext": ".js",
+      "size": 2238
+    },
+    {
+      "path": "backend\\ai\\alerts\\ai.alert.processor.js",
+      "ext": ".js",
+      "size": 3823
+    },
+    {
+      "path": "backend\\ai\\alerts\\ai.alert.rules.js",
+      "ext": ".js",
+      "size": 3726
+    },
+    {
+      "path": "backend\\ai\\alerts\\ai.alert.socket.js",
+      "ext": ".js",
+      "size": 2646
+    },
+    {
+      "path": "backend\\ai\\alerts\\ai.alert.webhook.js",
+      "ext": ".js",
+      "size": 3802
+    },
+    {
+      "path": "backend\\ai\\alerts\\alert.controller.js",
+      "ext": ".js",
+      "size": 2445
+    },
+    {
+      "path": "backend\\ai\\alerts\\alert.routes.js",
+      "ext": ".js",
+      "size": 1089
+    },
+    {
+      "path": "backend\\ai\\analytics\\ai.analytics.engine.js",
+      "ext": ".js",
+      "size": 4176
+    },
+    {
+      "path": "backend\\ai\\analytics\\ai.business.insights.js",
+      "ext": ".js",
+      "size": 4526
+    },
+    {
+      "path": "backend\\ai\\analytics\\ai.metrics.collector.js",
+      "ext": ".js",
+      "size": 3443
+    },
+    {
+      "path": "backend\\ai\\analytics\\analytics.controller.js",
+      "ext": ".js",
+      "size": 3717
+    },
+    {
+      "path": "backend\\ai\\analytics\\analytics.routes.js",
+      "ext": ".js",
+      "size": 2034
+    },
+    {
+      "path": "backend\\ai\\analytics\\behavior.analytics.js",
+      "ext": ".js",
+      "size": 7061
+    },
+    {
+      "path": "backend\\ai\\analytics\\learning.analytics.js",
+      "ext": ".js",
+      "size": 6914
+    },
+    {
+      "path": "backend\\ai\\analytics\\usage.tracker.js",
+      "ext": ".js",
+      "size": 6011
+    },
+    {
+      "path": "backend\\ai\\approval\\ai.approval.audit.js",
+      "ext": ".js",
+      "size": 2975
+    },
+    {
+      "path": "backend\\ai\\approval\\ai.approval.engine.js",
+      "ext": ".js",
+      "size": 2389
+    },
+    {
+      "path": "backend\\ai\\approval\\ai.approval.notifications.js",
+      "ext": ".js",
+      "size": 3666
+    },
+    {
+      "path": "backend\\ai\\approval\\ai.approval.policy.manager.js",
+      "ext": ".js",
+      "size": 3998
+    },
+    {
+      "path": "backend\\ai\\approval\\ai.approval.queue.js",
+      "ext": ".js",
+      "size": 3558
+    },
+    {
+      "path": "backend\\ai\\approval\\ai.approval.rules.js",
+      "ext": ".js",
+      "size": 2847
+    },
+    {
+      "path": "backend\\ai\\approval\\approval.controller.js",
+      "ext": ".js",
+      "size": 4635
+    },
+    {
+      "path": "backend\\ai\\approval\\approval.routes.js",
+      "ext": ".js",
+      "size": 1288
+    },
+    {
+      "path": "backend\\ai\\bridge\\learning.engine.bridge.js",
+      "ext": ".js",
+      "size": 5142
+    },
+    {
+      "path": "backend\\ai\\business\\revenue.engine.js",
+      "ext": ".js",
+      "size": 3917
+    },
+    {
+      "path": "backend\\ai\\business\\revenue.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3917
+    },
+    {
+      "path": "backend\\ai\\ceo\\ai_ceo_brain.engine.js",
+      "ext": ".js",
+      "size": 3307
+    },
+    {
+      "path": "backend\\ai\\ceo\\ai_ceo_brain.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3307
+    },
+    {
+      "path": "backend\\ai\\chatbot\\ai.agent.executor.js",
+      "ext": ".js",
+      "size": 4502
+    },
+    {
+      "path": "backend\\ai\\chatbot\\ai.analytics.chatbot.assistant.js",
+      "ext": ".js",
+      "size": 3253
+    },
+    {
+      "path": "backend\\ai\\chatbot\\ai.chat.formatter.js",
+      "ext": ".js",
+      "size": 2569
+    },
+    {
+      "path": "backend\\ai\\chatbot\\ai.chat.memory.js",
+      "ext": ".js",
+      "size": 2371
+    },
+    {
+      "path": "backend\\ai\\chatbot\\ai.chat.router.js",
+      "ext": ".js",
+      "size": 3185
+    },
+    {
+      "path": "backend\\ai\\chatbot\\chatbot.controller.js",
+      "ext": ".js",
+      "size": 3522
+    },
+    {
+      "path": "backend\\ai\\chatbot\\chatbot.routes.js",
+      "ext": ".js",
+      "size": 1088
+    },
+    {
+      "path": "backend\\ai\\command_center\\ai_command.engine.js",
+      "ext": ".js",
+      "size": 2538
+    },
+    {
+      "path": "backend\\ai\\command_center\\ai_command.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2538
+    },
+    {
+      "path": "backend\\ai\\control\\self-learning-autonomous-control.system.js",
+      "ext": ".js",
+      "size": 6079
+    },
+    {
+      "path": "backend\\ai\\control\\self-learning-autonomous-control.system.js.v5.backup",
+      "ext": ".backup",
+      "size": 6096
+    },
+    {
+      "path": "backend\\ai\\control\\system-control-brain.js",
+      "ext": ".js",
+      "size": 4578
+    },
+    {
+      "path": "backend\\ai\\control\\system-control-brain.js.v5.backup",
+      "ext": ".backup",
+      "size": 4578
+    },
+    {
+      "path": "backend\\ai\\core\\ai_admin_brain.engine.js",
+      "ext": ".js",
+      "size": 4741
+    },
+    {
+      "path": "backend\\ai\\core\\ai_admin_brain.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 4741
+    },
+    {
+      "path": "backend\\ai\\difficulty.adjuster.js",
+      "ext": ".js",
+      "size": 3775
+    },
+    {
+      "path": "backend\\ai\\engines\\adaptive.path.engine.js",
+      "ext": ".js",
+      "size": 6193
+    },
+    {
+      "path": "backend\\ai\\engines\\difficulty.adjuster.js",
+      "ext": ".js",
+      "size": 4564
+    },
+    {
+      "path": "backend\\ai\\engines\\learner.profile.engine.js",
+      "ext": ".js",
+      "size": 7497
+    },
+    {
+      "path": "backend\\ai\\engines\\mastery.scoring.engine.js",
+      "ext": ".js",
+      "size": 4292
+    },
+    {
+      "path": "backend\\ai\\engines\\mistake.analyzer.js",
+      "ext": ".js",
+      "size": 5825
+    },
+    {
+      "path": "backend\\ai\\engines\\question.generator.ai.js",
+      "ext": ".js",
+      "size": 5211
+    },
+    {
+      "path": "backend\\ai\\engines\\session.memory.engine.js",
+      "ext": ".js",
+      "size": 5644
+    },
+    {
+      "path": "backend\\ai\\forecast\\ai.revenue.forecast.engine.js",
+      "ext": ".js",
+      "size": 4516
+    },
+    {
+      "path": "backend\\ai\\forecast\\ai.revenue.pattern.detector.js",
+      "ext": ".js",
+      "size": 3790
+    },
+    {
+      "path": "backend\\ai\\forecast\\ai.revenue.predictor.js",
+      "ext": ".js",
+      "size": 3878
+    },
+    {
+      "path": "backend\\ai\\forecast\\ai.revenue.time.series.js",
+      "ext": ".js",
+      "size": 3701
+    },
+    {
+      "path": "backend\\ai\\forecast\\forecast.controller.js",
+      "ext": ".js",
+      "size": 2136
+    },
+    {
+      "path": "backend\\ai\\forecast\\forecast.routes.js",
+      "ext": ".js",
+      "size": 1452
+    },
+    {
+      "path": "backend\\ai\\fraud\\ai.fraud.anomaly.detector.js",
+      "ext": ".js",
+      "size": 4305
+    },
+    {
+      "path": "backend\\ai\\fraud\\ai.fraud.engine.js",
+      "ext": ".js",
+      "size": 2373
+    },
+    {
+      "path": "backend\\ai\\fraud\\ai.fraud.response.engine.js",
+      "ext": ".js",
+      "size": 3858
+    },
+    {
+      "path": "backend\\ai\\fraud\\ai.fraud.risk.scorer.js",
+      "ext": ".js",
+      "size": 3387
+    },
+    {
+      "path": "backend\\ai\\fraud\\ai.fraud.rules.js",
+      "ext": ".js",
+      "size": 4164
+    },
+    {
+      "path": "backend\\ai\\fraud\\ai.fraud.signals.js",
+      "ext": ".js",
+      "size": 3325
+    },
+    {
+      "path": "backend\\ai\\fraud\\fraud.controller.js",
+      "ext": ".js",
+      "size": 2622
+    },
+    {
+      "path": "backend\\ai\\fraud\\fraud.routes.js",
+      "ext": ".js",
+      "size": 1680
+    },
+    {
+      "path": "backend\\ai\\graph\\learning.graph.engine.js",
+      "ext": ".js",
+      "size": 3584
+    },
+    {
+      "path": "backend\\ai\\graph\\learning.graph.router.js",
+      "ext": ".js",
+      "size": 5018
+    },
+    {
+      "path": "backend\\ai\\graph\\learning.graph.rules.js",
+      "ext": ".js",
+      "size": 3958
+    },
+    {
+      "path": "backend\\ai\\index.js",
+      "ext": ".js",
+      "size": 3681
+    },
+    {
+      "path": "backend\\ai\\index.js.v5.backup",
+      "ext": ".backup",
+      "size": 3681
+    },
+    {
+      "path": "backend\\ai\\jobs\\analytics\\jobs.analytics.engine.js",
+      "ext": ".js",
+      "size": 474
+    },
+    {
+      "path": "backend\\ai\\jobs\\analytics\\jobs.analytics.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 474
+    },
+    {
+      "path": "backend\\ai\\jobs\\api\\jobs.api.engine.js",
+      "ext": ".js",
+      "size": 778
+    },
+    {
+      "path": "backend\\ai\\jobs\\api\\jobs.api.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 778
+    },
+    {
+      "path": "backend\\ai\\jobs\\core\\jobs.ai.nextlevel.engine.js",
+      "ext": ".js",
+      "size": 321
+    },
+    {
+      "path": "backend\\ai\\jobs\\core\\jobs.ai.nextlevel.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 321
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.analytics.engine.js",
+      "ext": ".js",
+      "size": 3188
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.analytics.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3188
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.api.engine.js",
+      "ext": ".js",
+      "size": 2827
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.api.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2827
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.engine.js",
+      "ext": ".js",
+      "size": 3099
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3099
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.explanation.engine.js",
+      "ext": ".js",
+      "size": 5804
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.explanation.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 5804
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.match.engine.js",
+      "ext": ".js",
+      "size": 2835
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.match.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2835
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.profile.engine.js",
+      "ext": ".js",
+      "size": 3934
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.profile.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3934
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.recommendation.engine.js",
+      "ext": ".js",
+      "size": 2262
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.recommendation.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2262
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.vector.engine.js",
+      "ext": ".js",
+      "size": 7092
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.vector.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 7092
+    },
+    {
+      "path": "backend\\ai\\jobs\\match\\jobs.match.engine.js",
+      "ext": ".js",
+      "size": 1369
+    },
+    {
+      "path": "backend\\ai\\jobs\\match\\jobs.match.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1369
+    },
+    {
+      "path": "backend\\ai\\jobs\\profile\\jobs.profile.engine.js",
+      "ext": ".js",
+      "size": 370
+    },
+    {
+      "path": "backend\\ai\\jobs\\profile\\jobs.profile.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 370
+    },
+    {
+      "path": "backend\\ai\\jobs\\recommendation\\jobs.recommendation.engine.js",
+      "ext": ".js",
+      "size": 425
+    },
+    {
+      "path": "backend\\ai\\jobs\\recommendation\\jobs.recommendation.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 427
+    },
+    {
+      "path": "backend\\ai\\jobs\\vector\\jobs.vector.engine.js",
+      "ext": ".js",
+      "size": 1544
+    },
+    {
+      "path": "backend\\ai\\jobs\\vector\\jobs.vector.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1544
+    },
+    {
+      "path": "backend\\ai\\learner.profile.engine.js",
+      "ext": ".js",
+      "size": 5185
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\analytics\\learning.analytics.js",
+      "ext": ".js",
+      "size": 2980
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\core\\adaptive.path.engine.js",
+      "ext": ".js",
+      "size": 3424
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\core\\learner.profile.engine.js",
+      "ext": ".js",
+      "size": 4276
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\core\\mastery.scoring.engine.js",
+      "ext": ".js",
+      "size": 3092
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\learning.orchestrator.js",
+      "ext": ".js",
+      "size": 3534
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\memory\\session.memory.engine.js",
+      "ext": ".js",
+      "size": 3156
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\recommendation\\recommendation.engine.js",
+      "ext": ".js",
+      "size": 2288
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\services\\difficulty.adjuster.js",
+      "ext": ".js",
+      "size": 3201
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\services\\mistake.analyzer.js",
+      "ext": ".js",
+      "size": 4304
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\services\\question.generator.ai.js",
+      "ext": ".js",
+      "size": 2968
+    },
+    {
+      "path": "backend\\ai\\learning.engine.bridge.js",
+      "ext": ".js",
+      "size": 3215
+    },
+    {
+      "path": "backend\\ai\\learning.orchestrator.js",
+      "ext": ".js",
+      "size": 4476
+    },
+    {
+      "path": "backend\\ai\\legal\\ai-policy.engine.js",
+      "ext": ".js",
+      "size": 200
+    },
+    {
+      "path": "backend\\ai\\legal\\ai-policy.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 200
+    },
+    {
+      "path": "backend\\ai\\legal\\analytics\\legal-risk.analytics.js",
+      "ext": ".js",
+      "size": 2520
+    },
+    {
+      "path": "backend\\ai\\legal\\analytics\\legal-risk.analytics.js.v5.backup",
+      "ext": ".backup",
+      "size": 2520
+    },
+    {
+      "path": "backend\\ai\\legal\\autonomous\\decision-policy.engine.js",
+      "ext": ".js",
+      "size": 1495
+    },
+    {
+      "path": "backend\\ai\\legal\\autonomous\\decision-policy.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1495
+    },
+    {
+      "path": "backend\\ai\\legal\\autonomous\\legal-ai.self-decision.engine.js",
+      "ext": ".js",
+      "size": 2744
+    },
+    {
+      "path": "backend\\ai\\legal\\autonomous\\legal-ai.self-decision.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2744
+    },
+    {
+      "path": "backend\\ai\\legal\\autonomous\\legal-autonomous.engine.js",
+      "ext": ".js",
+      "size": 1335
+    },
+    {
+      "path": "backend\\ai\\legal\\autonomous\\legal-autonomous.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1335
+    },
+    {
+      "path": "backend\\ai\\legal\\certificate-policy.engine.js",
+      "ext": ".js",
+      "size": 183
+    },
+    {
+      "path": "backend\\ai\\legal\\certificate-policy.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 183
+    },
+    {
+      "path": "backend\\ai\\legal\\cgu.engine.js",
+      "ext": ".js",
+      "size": 268
+    },
+    {
+      "path": "backend\\ai\\legal\\cgu.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 268
+    },
+    {
+      "path": "backend\\ai\\legal\\cgv.engine.js",
+      "ext": ".js",
+      "size": 151
+    },
+    {
+      "path": "backend\\ai\\legal\\cgv.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 151
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\compliance.engine.js",
+      "ext": ".js",
+      "size": 3105
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\compliance.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3105
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\fraud-detection.engine.js",
+      "ext": ".js",
+      "size": 1863
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\fraud-detection.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1863
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\legal-check.engine.js",
+      "ext": ".js",
+      "size": 1416
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\legal-check.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1416
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\legal.router.js",
+      "ext": ".js",
+      "size": 2727
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\legal.router.js.v5.backup",
+      "ext": ".backup",
+      "size": 2727
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\risk-scoring.engine.js",
+      "ext": ".js",
+      "size": 813
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\risk-scoring.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 813
+    },
+    {
+      "path": "backend\\ai\\legal\\index.js",
+      "ext": ".js",
+      "size": 1265
+    },
+    {
+      "path": "backend\\ai\\legal\\index.js.v5.backup",
+      "ext": ".backup",
+      "size": 1265
+    },
+    {
+      "path": "backend\\ai\\legal\\kyc.engine.js",
+      "ext": ".js",
+      "size": 134
+    },
+    {
+      "path": "backend\\ai\\legal\\kyc.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 134
+    },
+    {
+      "path": "backend\\ai\\legal\\legal-checklist.engine.js",
+      "ext": ".js",
+      "size": 170
+    },
+    {
+      "path": "backend\\ai\\legal\\legal-checklist.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 170
+    },
+    {
+      "path": "backend\\ai\\legal\\legal.router.js",
+      "ext": ".js",
+      "size": 758
+    },
+    {
+      "path": "backend\\ai\\legal\\legal.router.js.v5.backup",
+      "ext": ".backup",
+      "size": 758
+    },
+    {
+      "path": "backend\\ai\\legal\\moderation.engine.js",
+      "ext": ".js",
+      "size": 200
+    },
+    {
+      "path": "backend\\ai\\legal\\moderation.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 202
+    },
+    {
+      "path": "backend\\ai\\legal\\nda.engine.js",
+      "ext": ".js",
+      "size": 134
+    },
+    {
+      "path": "backend\\ai\\legal\\nda.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 134
+    },
+    {
+      "path": "backend\\ai\\legal\\partner-contract.engine.js",
+      "ext": ".js",
+      "size": 165
+    },
+    {
+      "path": "backend\\ai\\legal\\partner-contract.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 165
+    },
+    {
+      "path": "backend\\ai\\legal\\payment-policy.engine.js",
+      "ext": ".js",
+      "size": 155
+    },
+    {
+      "path": "backend\\ai\\legal\\payment-policy.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 155
+    },
+    {
+      "path": "backend\\ai\\legal\\privacy.engine.js",
+      "ext": ".js",
+      "size": 193
+    },
+    {
+      "path": "backend\\ai\\legal\\privacy.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 193
+    },
+    {
+      "path": "backend\\ai\\legal\\realtime\\legal-event-stream.engine.js",
+      "ext": ".js",
+      "size": 2213
+    },
+    {
+      "path": "backend\\ai\\legal\\realtime\\legal-event-stream.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2213
+    },
+    {
+      "path": "backend\\ai\\legal\\refund.engine.js",
+      "ext": ".js",
+      "size": 163
+    },
+    {
+      "path": "backend\\ai\\legal\\refund.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 163
+    },
+    {
+      "path": "backend\\ai\\legal\\security-policy.engine.js",
+      "ext": ".js",
+      "size": 137
+    },
+    {
+      "path": "backend\\ai\\legal\\security-policy.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 137
+    },
+    {
+      "path": "backend\\ai\\mastery.scoring.engine.js",
+      "ext": ".js",
+      "size": 3812
+    },
+    {
+      "path": "backend\\ai\\maturity\\autonomous-maturity-control.system.js",
+      "ext": ".js",
+      "size": 4518
+    },
+    {
+      "path": "backend\\ai\\maturity\\autonomous-maturity-control.system.js.v5.backup",
+      "ext": ".backup",
+      "size": 4518
+    },
+    {
+      "path": "backend\\ai\\maturity\\feature-flag.engine.js",
+      "ext": ".js",
+      "size": 2127
+    },
+    {
+      "path": "backend\\ai\\maturity\\feature-flag.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2127
+    },
+    {
+      "path": "backend\\ai\\maturity\\maturity.integration.js",
+      "ext": ".js",
+      "size": 2567
+    },
+    {
+      "path": "backend\\ai\\maturity\\maturity.integration.js.v5.backup",
+      "ext": ".backup",
+      "size": 2567
+    },
+    {
+      "path": "backend\\ai\\maturity\\maturity.level.engine.js",
+      "ext": ".js",
+      "size": 1992
+    },
+    {
+      "path": "backend\\ai\\maturity\\maturity.level.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1992
+    },
+    {
+      "path": "backend\\ai\\maturity\\maturity.metrics.engine.js",
+      "ext": ".js",
+      "size": 2190
+    },
+    {
+      "path": "backend\\ai\\maturity\\maturity.metrics.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2190
+    },
+    {
+      "path": "backend\\ai\\maturity\\system-maturity.engine.js",
+      "ext": ".js",
+      "size": 3287
+    },
+    {
+      "path": "backend\\ai\\maturity\\system-maturity.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3287
+    },
+    {
+      "path": "backend\\ai\\memory\\learner.profile.engine.js",
+      "ext": ".js",
+      "size": 7812
+    },
+    {
+      "path": "backend\\ai\\memory\\session.memory.engine.js",
+      "ext": ".js",
+      "size": 6301
+    },
+    {
+      "path": "backend\\ai\\mentor.gateway.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\ai\\mentor.orchestrator.js",
+      "ext": ".js",
+      "size": 4274
+    },
+    {
+      "path": "backend\\ai\\mistake.analyzer.js",
+      "ext": ".js",
+      "size": 4436
+    },
+    {
+      "path": "backend\\ai\\openai.client.js",
+      "ext": ".js",
+      "size": 847
+    },
+    {
+      "path": "backend\\ai\\openai.client.js.v5.backup",
+      "ext": ".backup",
+      "size": 847
+    },
+    {
+      "path": "backend\\ai\\orchestrator\\ai_orchestrator.engine.js",
+      "ext": ".js",
+      "size": 4625
+    },
+    {
+      "path": "backend\\ai\\orchestrator\\ai_orchestrator.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 4659
+    },
+    {
+      "path": "backend\\ai\\orchestrator\\learning.orchestrator.js",
+      "ext": ".js",
+      "size": 5827
+    },
+    {
+      "path": "backend\\ai\\orchestrator\\mentor.orchestrator.js",
+      "ext": ".js",
+      "size": 5409
+    },
+    {
+      "path": "backend\\ai\\prompts\\system.prompt.js",
+      "ext": ".js",
+      "size": 1702
+    },
+    {
+      "path": "backend\\ai\\prompts\\system.prompt.js.v5.backup",
+      "ext": ".backup",
+      "size": 1702
+    },
+    {
+      "path": "backend\\ai\\question.generator.ai.js",
+      "ext": ".js",
+      "size": 4923
+    },
+    {
+      "path": "backend\\ai\\realtime\\realtime.gateway.js",
+      "ext": ".js",
+      "size": 3919
+    },
+    {
+      "path": "backend\\ai\\realtime\\realtime.gateway.js.v5.backup",
+      "ext": ".backup",
+      "size": 3919
+    },
+    {
+      "path": "backend\\ai\\recommendation\\content.ranker.js",
+      "ext": ".js",
+      "size": 5462
+    },
+    {
+      "path": "backend\\ai\\recommendation\\recommendation.engine.js",
+      "ext": ".js",
+      "size": 6714
+    },
+    {
+      "path": "backend\\ai\\rules\\learning.rules.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\ai\\self-healing\\ai.diagnosis.engine.js",
+      "ext": ".js",
+      "size": 3391
+    },
+    {
+      "path": "backend\\ai\\self-healing\\ai.error.pattern.detector.js",
+      "ext": ".js",
+      "size": 3847
+    },
+    {
+      "path": "backend\\ai\\self-healing\\ai.failure.classifier.js",
+      "ext": ".js",
+      "size": 4328
+    },
+    {
+      "path": "backend\\ai\\self-healing\\ai.performance.bottleneck.detector.js",
+      "ext": ".js",
+      "size": 7653
+    },
+    {
+      "path": "backend\\ai\\self-healing\\ai.root.cause.engine.js",
+      "ext": ".js",
+      "size": 4897
+    },
+    {
+      "path": "backend\\ai\\self-healing\\ai.system.health.analyzer.js",
+      "ext": ".js",
+      "size": 2835
+    },
+    {
+      "path": "backend\\ai\\self-healing\\diagnosis.controller.js",
+      "ext": ".js",
+      "size": 3882
+    },
+    {
+      "path": "backend\\ai\\self-healing\\diagnosis.routes.js",
+      "ext": ".js",
+      "size": 1439
+    },
+    {
+      "path": "backend\\ai\\self_learning\\ai_self_learning.loop.js",
+      "ext": ".js",
+      "size": 3770
+    },
+    {
+      "path": "backend\\ai\\self_learning\\ai_self_learning.loop.js.v5.backup",
+      "ext": ".backup",
+      "size": 3770
+    },
+    {
+      "path": "backend\\ai\\stream\\ai.learning.stream.js",
+      "ext": ".js",
+      "size": 3994
+    },
+    {
+      "path": "backend\\ai\\stream\\ai.stream.controller.js",
+      "ext": ".js",
+      "size": 2380
+    },
+    {
+      "path": "backend\\ai\\stream\\ai.stream.controller.js.v5.backup",
+      "ext": ".backup",
+      "size": 2390
+    },
+    {
+      "path": "backend\\ai\\stream\\ai.stream.routes.js",
+      "ext": ".js",
+      "size": 821
+    },
+    {
+      "path": "backend\\ai\\stream\\ai.stream.routes.js.v5.backup",
+      "ext": ".backup",
+      "size": 837
+    },
+    {
+      "path": "backend\\ai\\stream\\learning.stream.engine.js",
+      "ext": ".js",
+      "size": 4489
+    },
+    {
+      "path": "backend\\ai\\stream\\learning.stream.gateway.js",
+      "ext": ".js",
+      "size": 3829
+    },
+    {
+      "path": "backend\\ai\\stream\\learning.websocket.server.js",
+      "ext": ".js",
+      "size": 4380
+    },
+    {
+      "path": "backend\\ai\\translation\\translation.cache.engine.js",
+      "ext": ".js",
+      "size": 5262
+    },
+    {
+      "path": "backend\\ai\\translation\\translation.consensus.engine.js",
+      "ext": ".js",
+      "size": 5200
+    },
+    {
+      "path": "backend\\ai\\translation\\translation.governance.engine.js",
+      "ext": ".js",
+      "size": 6886
+    },
+    {
+      "path": "backend\\ai\\translation\\translation.review.engine.js",
+      "ext": ".js",
+      "size": 8038
+    },
+    {
+      "path": "backend\\ai\\websocket\\learning.websocket.server.js",
+      "ext": ".js",
+      "size": 3445
+    },
+    {
+      "path": "backend\\analytics\\revenue.aggregator.js",
+      "ext": ".js",
+      "size": 4003
+    },
+    {
+      "path": "backend\\analytics\\revenue.controller.js",
+      "ext": ".js",
+      "size": 2762
+    },
+    {
+      "path": "backend\\analytics\\revenue.realtime.gateway.js",
+      "ext": ".js",
+      "size": 2218
+    },
+    {
+      "path": "backend\\analytics\\revenue.routes.js",
+      "ext": ".js",
+      "size": 1241
+    },
+    {
+      "path": "backend\\analytics\\revenue.service.js",
+      "ext": ".js",
+      "size": 4145
+    },
+    {
+      "path": "backend\\analytics\\routes\\audit.analytics.routes.js",
+      "ext": ".js",
+      "size": 2257
+    },
+    {
+      "path": "backend\\analytics\\saas.dashboard.js",
+      "ext": ".js",
+      "size": 2834
+    },
+    {
+      "path": "backend\\analytics\\saas.dashboard.js.v5.backup",
+      "ext": ".backup",
+      "size": 2832
+    },
+    {
+      "path": "backend\\analytics\\services\\audit.analytics.service.js",
+      "ext": ".js",
+      "size": 2966
+    },
+    {
+      "path": "backend\\api\\api\\ai.api.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\ai.api.js.v5.backup",
+      "ext": ".backup",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\course.api.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\course.api.js.v5.backup",
+      "ext": ".backup",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\index.js",
+      "ext": ".js",
+      "size": 1459
+    },
+    {
+      "path": "backend\\api\\api\\index.js.v5.backup",
+      "ext": ".backup",
+      "size": 1459
+    },
+    {
+      "path": "backend\\api\\api\\jobs.api.js",
+      "ext": ".js",
+      "size": 823
+    },
+    {
+      "path": "backend\\api\\api\\jobs.api.js.v5.backup",
+      "ext": ".backup",
+      "size": 823
+    },
+    {
+      "path": "backend\\api\\api\\payment.api.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\payment.api.js.v5.backup",
+      "ext": ".backup",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\user.api.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\user.api.js.v5.backup",
+      "ext": ".backup",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\user.routes.js",
+      "ext": ".js",
+      "size": 1463
+    },
+    {
+      "path": "backend\\api\\api\\user.routes.js.v5.backup",
+      "ext": ".backup",
+      "size": 1511
+    },
+    {
+      "path": "backend\\api\\consensus.translation.api.js",
+      "ext": ".js",
+      "size": 3448
+    },
+    {
+      "path": "backend\\api\\translation.api.js",
+      "ext": ".js",
+      "size": 6310
+    },
+    {
+      "path": "backend\\app.js",
+      "ext": ".js",
+      "size": 730
+    },
+    {
+      "path": "backend\\auth\\auth.controller.js",
+      "ext": ".js",
+      "size": 3567
+    },
+    {
+      "path": "backend\\auth\\auth.middleware.js",
+      "ext": ".js",
+      "size": 1664
+    },
+    {
+      "path": "backend\\auth\\auth.routes.js",
+      "ext": ".js",
+      "size": 918
+    },
+    {
+      "path": "backend\\auth\\auth.service.js",
+      "ext": ".js",
+      "size": 3955
+    },
+    {
+      "path": "backend\\auth\\auth.validator.js",
+      "ext": ".js",
+      "size": 3078
+    },
+    {
+      "path": "backend\\auth\\rbac.js",
+      "ext": ".js",
+      "size": 2768
+    },
+    {
+      "path": "backend\\auth\\rbac.js.v5.backup",
+      "ext": ".backup",
+      "size": 4358
+    },
+    {
+      "path": "backend\\auth\\token.service.js",
+      "ext": ".js",
+      "size": 2468
+    },
+    {
+      "path": "backend\\auth.middleware.js",
+      "ext": ".js",
+      "size": 513
+    },
+    {
+      "path": "backend\\auth.middleware.js.v5.backup",
+      "ext": ".backup",
+      "size": 1464
+    },
+    {
+      "path": "backend\\batch-generator.js",
+      "ext": ".js",
+      "size": 2235
+    },
+    {
+      "path": "backend\\billing\\stripe.monetization.js",
+      "ext": ".js",
+      "size": 3833
+    },
+    {
+      "path": "backend\\billing\\stripe.plans.js",
+      "ext": ".js",
+      "size": 2158
+    },
+    {
+      "path": "backend\\billing\\stripe.service.js",
+      "ext": ".js",
+      "size": 4021
+    },
+    {
+      "path": "backend\\billing\\stripe.usage.service.js",
+      "ext": ".js",
+      "size": 3761
+    },
+    {
+      "path": "backend\\billing\\stripe.webhook.js",
+      "ext": ".js",
+      "size": 4371
+    },
+    {
+      "path": "backend\\billing\\webhook.routes.js",
+      "ext": ".js",
+      "size": 7444
+    },
+    {
+      "path": "backend\\bootstrap\\app.js",
+      "ext": ".js",
+      "size": 1527
+    },
+    {
+      "path": "backend\\bootstrap\\auto-fix.engine.js",
+      "ext": ".js",
+      "size": 3519
+    },
+    {
+      "path": "backend\\bootstrap\\auto-fix.engine.v2.js",
+      "ext": ".js",
+      "size": 5270
+    },
+    {
+      "path": "backend\\bootstrap\\module.registry.js",
+      "ext": ".js",
+      "size": 1049
+    },
+    {
+      "path": "backend\\bootstrap\\rebuild.inventory.js",
+      "ext": ".js",
+      "size": 2199
+    },
+    {
+      "path": "backend\\careers\\jobs.engine.js",
+      "ext": ".js",
+      "size": 2986
+    },
+    {
+      "path": "backend\\careers\\jobs.routes.js",
+      "ext": ".js",
+      "size": 1112
+    },
+    {
+      "path": "backend\\certificates\\controllers\\audit.admin.controller.js",
+      "ext": ".js",
+      "size": 2122
+    },
+    {
+      "path": "backend\\certificates\\controllers\\certificate.admin.controller.js",
+      "ext": ".js",
+      "size": 3709
+    },
+    {
+      "path": "backend\\certificates\\controllers\\certificate.controller.js",
+      "ext": ".js",
+      "size": 1962
+    },
+    {
+      "path": "backend\\certificates\\controllers\\certificate.verify.controller.js",
+      "ext": ".js",
+      "size": 1747
+    },
+    {
+      "path": "backend\\certificates\\models\\certificate.model.js",
+      "ext": ".js",
+      "size": 1725
+    },
+    {
+      "path": "backend\\certificates\\routes\\admin.certificates.routes.js",
+      "ext": ".js",
+      "size": 2526
+    },
+    {
+      "path": "backend\\certificates\\routes\\audit.admin.routes.js",
+      "ext": ".js",
+      "size": 2114
+    },
+    {
+      "path": "backend\\certificates\\routes\\certificate.admin.routes.js",
+      "ext": ".js",
+      "size": 1186
+    },
+    {
+      "path": "backend\\certificates\\routes\\certificate.public.routes.js",
+      "ext": ".js",
+      "size": 449
+    },
+    {
+      "path": "backend\\certificates\\routes\\certificate.routes.js",
+      "ext": ".js",
+      "size": 1703
+    },
+    {
+      "path": "backend\\certificates\\routes\\certificate.verify.routes.js",
+      "ext": ".js",
+      "size": 818
+    },
+    {
+      "path": "backend\\certificates\\routes\\verify.routes.js",
+      "ext": ".js",
+      "size": 1819
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.admin.service.js",
+      "ext": ".js",
+      "size": 2129
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.db.service.js",
+      "ext": ".js",
+      "size": 1965
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.hash.js",
+      "ext": ".js",
+      "size": 1010
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.pdf.js",
+      "ext": ".js",
+      "size": 3722
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.qr.js",
+      "ext": ".js",
+      "size": 1331
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.service.js",
+      "ext": ".js",
+      "size": 1672
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.template.js",
+      "ext": ".js",
+      "size": 976
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.trigger.service.js",
+      "ext": ".js",
+      "size": 881
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.verify.service.js",
+      "ext": ".js",
+      "size": 1040
+    },
+    {
+      "path": "backend\\config\\ai\\ai.config.js",
+      "ext": ".js",
+      "size": 4150
+    },
+    {
+      "path": "backend\\config\\ai\\learning.rules.js",
+      "ext": ".js",
+      "size": 4893
+    },
+    {
+      "path": "backend\\config\\aws.config.js",
+      "ext": ".js",
+      "size": 884
+    },
+    {
+      "path": "backend\\config\\db.js",
+      "ext": ".js",
+      "size": 1652
+    },
+    {
+      "path": "backend\\config\\env.js",
+      "ext": ".js",
+      "size": 1673
+    },
+    {
+      "path": "backend\\config\\firebase.config.js",
+      "ext": ".js",
+      "size": 1232
+    },
+    {
+      "path": "backend\\control-plane\\autoScaler.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\control-plane\\clusterManager.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\control-plane\\healthMonitor.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\control-plane\\incidentRouter.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\control-plane\\loadBalancer.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\control-plane\\ObservabilityControlPlaneV7.js",
+      "ext": ".js",
+      "size": 5243
+    },
+    {
+      "path": "backend\\controllers\\certificate.controller.js",
+      "ext": ".js",
+      "size": 3702
+    },
+    {
+      "path": "backend\\controllers\\stripe.controller.js",
+      "ext": ".js",
+      "size": 3949
+    },
+    {
+      "path": "backend\\controllers\\stripe.webhook.controller.js",
+      "ext": ".js",
+      "size": 3098
+    },
+    {
+      "path": "backend\\core\\certificate.core.engine.js",
+      "ext": ".js",
+      "size": 2165
+    },
+    {
+      "path": "backend\\core\\course_engine.js",
+      "ext": ".js",
+      "size": 3752
+    },
+    {
+      "path": "backend\\core\\mentor.analytics.engine.js",
+      "ext": ".js",
+      "size": 4475
+    },
+    {
+      "path": "backend\\core\\mentor.context.analyzer.js",
+      "ext": ".js",
+      "size": 2933
+    },
+    {
+      "path": "backend\\core\\mentor.dialogue.engine.js",
+      "ext": ".js",
+      "size": 2974
+    },
+    {
+      "path": "backend\\core\\mentor.difficulty.adjuster.js",
+      "ext": ".js",
+      "size": 2090
+    },
+    {
+      "path": "backend\\core\\mentor.feedback.loop.js",
+      "ext": ".js",
+      "size": 3289
+    },
+    {
+      "path": "backend\\core\\mentor.learning.engine.js",
+      "ext": ".js",
+      "size": 3680
+    },
+    {
+      "path": "backend\\core\\mentor.memory.store.js",
+      "ext": ".js",
+      "size": 2182
+    },
+    {
+      "path": "backend\\core\\mentor.orchestrator.js",
+      "ext": ".js",
+      "size": 3220
+    },
+    {
+      "path": "backend\\core\\mentor.personality.engine.js",
+      "ext": ".js",
+      "size": 2557
+    },
+    {
+      "path": "backend\\core\\mentor.response.generator.js",
+      "ext": ".js",
+      "size": 3291
+    },
+    {
+      "path": "backend\\core\\mentoring.core.js",
+      "ext": ".js",
+      "size": 3356
+    },
+    {
+      "path": "backend\\courses\\controllers\\course.controller.js",
+      "ext": ".js",
+      "size": 2366
+    },
+    {
+      "path": "backend\\courses\\course.seed.js",
+      "ext": ".js",
+      "size": 1817
+    },
+    {
+      "path": "backend\\courses\\models\\course.model.js",
+      "ext": ".js",
+      "size": 1801
+    },
+    {
+      "path": "backend\\courses\\routes\\course.routes.js",
+      "ext": ".js",
+      "size": 864
+    },
+    {
+      "path": "backend\\courses\\services\\course.progress.js",
+      "ext": ".js",
+      "size": 1158
+    },
+    {
+      "path": "backend\\courses\\services\\course.progress.service.js",
+      "ext": ".js",
+      "size": 2324
+    },
+    {
+      "path": "backend\\courses\\services\\course.service.js",
+      "ext": ".js",
+      "size": 1670
+    },
+    {
+      "path": "backend\\data\\memory.db.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\database\\core.db.js",
+      "ext": ".js",
+      "size": 3381
+    },
+    {
+      "path": "backend\\database\\index.js",
+      "ext": ".js",
+      "size": 3236
+    },
+    {
+      "path": "backend\\database\\mongo.js",
+      "ext": ".js",
+      "size": 4221
+    },
+    {
+      "path": "backend\\database\\mongodb.js",
+      "ext": ".js",
+      "size": 2023
+    },
+    {
+      "path": "backend\\db.js",
+      "ext": ".js",
+      "size": 1986
+    },
+    {
+      "path": "backend\\eslint.config.js",
+      "ext": ".js",
+      "size": 226
+    },
+    {
+      "path": "backend\\events\\ai.event.bus.service.js",
+      "ext": ".js",
+      "size": 2849
+    },
+    {
+      "path": "backend\\generate-pdf.js",
+      "ext": ".js",
+      "size": 5105
+    },
+    {
+      "path": "backend\\ledger\\certificate.ledger.js",
+      "ext": ".js",
+      "size": 2509
+    },
+    {
+      "path": "backend\\legal\\unimentorai_legal_foundation_pack.md",
+      "ext": ".md",
+      "size": 9899
+    },
+    {
+      "path": "backend\\loaders\\route.loader.js",
+      "ext": ".js",
+      "size": 926
+    },
+    {
+      "path": "backend\\middleware\\error.middleware.js",
+      "ext": ".js",
+      "size": 592
+    },
+    {
+      "path": "backend\\middleware\\language.middleware.js",
+      "ext": ".js",
+      "size": 1267
+    },
+    {
+      "path": "backend\\middleware\\logger.middleware.js",
+      "ext": ".js",
+      "size": 1366
+    },
+    {
+      "path": "backend\\middleware\\pricing.guard.js",
+      "ext": ".js",
+      "size": 4363
+    },
+    {
+      "path": "backend\\middleware\\rateLimiter.middleware.js",
+      "ext": ".js",
+      "size": 1656
+    },
+    {
+      "path": "backend\\middleware\\security.middleware.js",
+      "ext": ".js",
+      "size": 1425
+    },
+    {
+      "path": "backend\\middleware\\usage.limit.middleware.js",
+      "ext": ".js",
+      "size": 2250
+    },
+    {
+      "path": "backend\\middlewares\\auth.middleware.js",
+      "ext": ".js",
+      "size": 1191
+    },
+    {
+      "path": "backend\\middlewares\\bot.protection.js",
+      "ext": ".js",
+      "size": 1593
+    },
+    {
+      "path": "backend\\middlewares\\course.access.middleware.js",
+      "ext": ".js",
+      "size": 1683
+    },
+    {
+      "path": "backend\\middlewares\\error.middleware.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\middlewares\\global.rateLimit.js",
+      "ext": ".js",
+      "size": 1172
+    },
+    {
+      "path": "backend\\middlewares\\rateLimit.auth.middleware.js",
+      "ext": ".js",
+      "size": 710
+    },
+    {
+      "path": "backend\\middlewares\\role.middleware.js",
+      "ext": ".js",
+      "size": 1280
+    },
+    {
+      "path": "backend\\middlewares\\security.check.js",
+      "ext": ".js",
+      "size": 1000
+    },
+    {
+      "path": "backend\\models\\ai\\analytics.model.js",
+      "ext": ".js",
+      "size": 2180
+    },
+    {
+      "path": "backend\\models\\ai\\feedback.model.js",
+      "ext": ".js",
+      "size": 2181
+    },
+    {
+      "path": "backend\\models\\ai\\memory.model.js",
+      "ext": ".js",
+      "size": 1621
+    },
+    {
+      "path": "backend\\models\\aiLog.model.js",
+      "ext": ".js",
+      "size": 3008
+    },
+    {
+      "path": "backend\\models\\ai_log.model.js",
+      "ext": ".js",
+      "size": 3538
+    },
+    {
+      "path": "backend\\models\\billing\\pricing.model.js",
+      "ext": ".js",
+      "size": 2799
+    },
+    {
+      "path": "backend\\models\\billing\\subscription.model.js",
+      "ext": ".js",
+      "size": 3298
+    },
+    {
+      "path": "backend\\models\\certificate.audit.model.js",
+      "ext": ".js",
+      "size": 1521
+    },
+    {
+      "path": "backend\\models\\certificate.model.js",
+      "ext": ".js",
+      "size": 3210
+    },
+    {
+      "path": "backend\\models\\course.model.js",
+      "ext": ".js",
+      "size": 2456
+    },
+    {
+      "path": "backend\\models\\payment.model.js",
+      "ext": ".js",
+      "size": 2293
+    },
+    {
+      "path": "backend\\models\\progress.model.js",
+      "ext": ".js",
+      "size": 2556
+    },
+    {
+      "path": "backend\\models\\user.language.model.js",
+      "ext": ".js",
+      "size": 2690
+    },
+    {
+      "path": "backend\\models\\user.model.js",
+      "ext": ".js",
+      "size": 2018
+    },
+    {
+      "path": "backend\\models\\user.usage.model.js",
+      "ext": ".js",
+      "size": 3285
+    },
+    {
+      "path": "backend\\modules\\auth\\auth.controller.js",
+      "ext": ".js",
+      "size": 3456
+    },
+    {
+      "path": "backend\\modules\\auth\\auth.middleware.js",
+      "ext": ".js",
+      "size": 1491
+    },
+    {
+      "path": "backend\\modules\\auth\\auth.routes.js",
+      "ext": ".js",
+      "size": 1754
+    },
+    {
+      "path": "backend\\modules\\auth\\auth.service.js",
+      "ext": ".js",
+      "size": 4514
+    },
+    {
+      "path": "backend\\modules\\courses\\course.controller.js",
+      "ext": ".js",
+      "size": 3211
+    },
+    {
+      "path": "backend\\modules\\courses\\course.model.js",
+      "ext": ".js",
+      "size": 1730
+    },
+    {
+      "path": "backend\\modules\\courses\\course.routes.js",
+      "ext": ".js",
+      "size": 1893
+    },
+    {
+      "path": "backend\\modules\\courses\\course.service.js",
+      "ext": ".js",
+      "size": 3766
+    },
+    {
+      "path": "backend\\modules\\marketplace\\market.controller.js",
+      "ext": ".js",
+      "size": 4130
+    },
+    {
+      "path": "backend\\modules\\marketplace\\market.model.js",
+      "ext": ".js",
+      "size": 3694
+    },
+    {
+      "path": "backend\\modules\\marketplace\\market.routes.js",
+      "ext": ".js",
+      "size": 1891
+    },
+    {
+      "path": "backend\\modules\\marketplace\\market.service.js",
+      "ext": ".js",
+      "size": 5048
+    },
+    {
+      "path": "backend\\modules\\notifications\\notification.controller.js",
+      "ext": ".js",
+      "size": 5117
+    },
+    {
+      "path": "backend\\modules\\notifications\\notification.routes.js",
+      "ext": ".js",
+      "size": 2132
+    },
+    {
+      "path": "backend\\modules\\notifications\\notification.service.js",
+      "ext": ".js",
+      "size": 4668
+    },
+    {
+      "path": "backend\\modules\\payments\\payment.controller.js",
+      "ext": ".js",
+      "size": 4208
+    },
+    {
+      "path": "backend\\modules\\payments\\payment.model.js",
+      "ext": ".js",
+      "size": 3569
+    },
+    {
+      "path": "backend\\modules\\payments\\payment.routes.js",
+      "ext": ".js",
+      "size": 1593
+    },
+    {
+      "path": "backend\\modules\\payments\\payment.service.js",
+      "ext": ".js",
+      "size": 4387
+    },
+    {
+      "path": "backend\\modules\\progress\\progress.controller.js",
+      "ext": ".js",
+      "size": 4339
+    },
+    {
+      "path": "backend\\modules\\progress\\progress.model.js",
+      "ext": ".js",
+      "size": 3888
+    },
+    {
+      "path": "backend\\modules\\progress\\progress.service.js",
+      "ext": ".js",
+      "size": 6254
+    },
+    {
+      "path": "backend\\modules\\users\\user.controller.js",
+      "ext": ".js",
+      "size": 5445
+    },
+    {
+      "path": "backend\\modules\\users\\user.model.js",
+      "ext": ".js",
+      "size": 3448
+    },
+    {
+      "path": "backend\\modules\\users\\user.routes.js",
+      "ext": ".js",
+      "size": 1809
+    },
+    {
+      "path": "backend\\modules\\users\\user.service.js",
+      "ext": ".js",
+      "size": 6341
+    },
+    {
+      "path": "backend\\payment\\payment.controller.js",
+      "ext": ".js",
+      "size": 2577
+    },
+    {
+      "path": "backend\\payment\\payment.gateway.routes.js",
+      "ext": ".js",
+      "size": 2717
+    },
+    {
+      "path": "backend\\payment\\payment.routes.js",
+      "ext": ".js",
+      "size": 2851
+    },
+    {
+      "path": "backend\\payment\\payment.service.js",
+      "ext": ".js",
+      "size": 3423
+    },
+    {
+      "path": "backend\\payment\\payment.webhook.js",
+      "ext": ".js",
+      "size": 2632
+    },
+    {
+      "path": "backend\\query\\ObservabilityQueryEngineV9.js",
+      "ext": ".js",
+      "size": 4580
+    },
+    {
+      "path": "backend\\rateLimit.js",
+      "ext": ".js",
+      "size": 708
+    },
+    {
+      "path": "backend\\realtime\\ai.websocket.gateway.js",
+      "ext": ".js",
+      "size": 4823
+    },
+    {
+      "path": "backend\\realtime\\audit.stream.js",
+      "ext": ".js",
+      "size": 1406
+    },
+    {
+      "path": "backend\\realtime\\events.js",
+      "ext": ".js",
+      "size": 1552
+    },
+    {
+      "path": "backend\\realtime\\realtime.server.js",
+      "ext": ".js",
+      "size": 4586
+    },
+    {
+      "path": "backend\\realtime\\realtime.service.js",
+      "ext": ".js",
+      "size": 1742
+    },
+    {
+      "path": "backend\\realtime\\socket.init.js",
+      "ext": ".js",
+      "size": 838
+    },
+    {
+      "path": "backend\\realtime\\socket.js",
+      "ext": ".js",
+      "size": 2097
+    },
+    {
+      "path": "backend\\realtime\\websocket.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\routes\\admin.routes.js",
+      "ext": ".js",
+      "size": 470
+    },
+    {
+      "path": "backend\\routes\\ai.routes.js",
+      "ext": ".js",
+      "size": 2434
+    },
+    {
+      "path": "backend\\routes\\auth.routes.js",
+      "ext": ".js",
+      "size": 2485
+    },
+    {
+      "path": "backend\\routes\\certificate.routes.js",
+      "ext": ".js",
+      "size": 1193
+    },
+    {
+      "path": "backend\\routes\\course.routes.js",
+      "ext": ".js",
+      "size": 2952
+    },
+    {
+      "path": "backend\\routes\\incidents.routes.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\routes\\jobs.routes.js",
+      "ext": ".js",
+      "size": 1733
+    },
+    {
+      "path": "backend\\routes\\logs.routes.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\routes\\mentor.routes.js",
+      "ext": ".js",
+      "size": 1593
+    },
+    {
+      "path": "backend\\routes\\metrics.routes.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\routes\\payment.routes.js",
+      "ext": ".js",
+      "size": 2142
+    },
+    {
+      "path": "backend\\routes\\profile.routes.js",
+      "ext": ".js",
+      "size": 1458
+    },
+    {
+      "path": "backend\\routes\\stripe.routes.js",
+      "ext": ".js",
+      "size": 896
+    },
+    {
+      "path": "backend\\routes\\verify.routes.js",
+      "ext": ".js",
+      "size": 870
+    },
+    {
+      "path": "backend\\run-batch.js",
+      "ext": ".js",
+      "size": 1206
+    },
+    {
+      "path": "backend\\scripts\\seed.audit.logs.js",
+      "ext": ".js",
+      "size": 1827
+    },
+    {
+      "path": "backend\\scripts\\v6_master_log.txt",
+      "ext": ".txt",
+      "size": 139
+    },
+    {
+      "path": "backend\\security\\ai\\ai.hook.js",
+      "ext": ".js",
+      "size": 2927
+    },
+    {
+      "path": "backend\\security\\ai\\ai.metrics.service.js",
+      "ext": ".js",
+      "size": 3405
+    },
+    {
+      "path": "backend\\security\\ai\\feature.engine.js",
+      "ext": ".js",
+      "size": 3240
+    },
+    {
+      "path": "backend\\security\\ai\\fraud.model.js",
+      "ext": ".js",
+      "size": 2905
+    },
+    {
+      "path": "backend\\security\\ai\\risk.scoring.service.js",
+      "ext": ".js",
+      "size": 3714
+    },
+    {
+      "path": "backend\\security\\ai\\seed.ai.fraud.js",
+      "ext": ".js",
+      "size": 3401
+    },
+    {
+      "path": "backend\\security\\ai.guard.js",
+      "ext": ".js",
+      "size": 2605
+    },
+    {
+      "path": "backend\\security\\alert\\alert.engine.service.js",
+      "ext": ".js",
+      "size": 2933
+    },
+    {
+      "path": "backend\\security\\alert\\alert.hook.js",
+      "ext": ".js",
+      "size": 2762
+    },
+    {
+      "path": "backend\\security\\alert\\alert.rules.engine.js",
+      "ext": ".js",
+      "size": 2126
+    },
+    {
+      "path": "backend\\security\\alert\\alert.types.js",
+      "ext": ".js",
+      "size": 3053
+    },
+    {
+      "path": "backend\\security\\alert\\notification.service.js",
+      "ext": ".js",
+      "size": 3439
+    },
+    {
+      "path": "backend\\security\\alert\\security.actions.service.js",
+      "ext": ".js",
+      "size": 3228
+    },
+    {
+      "path": "backend\\security\\alert\\seed.alerts.js",
+      "ext": ".js",
+      "size": 2931
+    },
+    {
+      "path": "backend\\security\\auto\\adaptive.throttle.js",
+      "ext": ".js",
+      "size": 3018
+    },
+    {
+      "path": "backend\\security\\auto\\auto.protection.hook.js",
+      "ext": ".js",
+      "size": 2536
+    },
+    {
+      "path": "backend\\security\\auto\\auto.protection.metrics.js",
+      "ext": ".js",
+      "size": 4808
+    },
+    {
+      "path": "backend\\security\\auto\\auto.protection.service.js",
+      "ext": ".js",
+      "size": 3299
+    },
+    {
+      "path": "backend\\security\\auto\\quarantine.service.js",
+      "ext": ".js",
+      "size": 3460
+    },
+    {
+      "path": "backend\\security\\auto\\safety.guard.js",
+      "ext": ".js",
+      "size": 1768
+    },
+    {
+      "path": "backend\\security\\core\\security.adaptive.learning.js",
+      "ext": ".js",
+      "size": 4509
+    },
+    {
+      "path": "backend\\security\\core\\security.decision.engine.js",
+      "ext": ".js",
+      "size": 4414
+    },
+    {
+      "path": "backend\\security\\core\\security.enforcement.layer.js",
+      "ext": ".js",
+      "size": 4400
+    },
+    {
+      "path": "backend\\security\\core\\security.intelligence.core.js",
+      "ext": ".js",
+      "size": 3825
+    },
+    {
+      "path": "backend\\security\\core\\security.ml.gateway.js",
+      "ext": ".js",
+      "size": 3661
+    },
+    {
+      "path": "backend\\security\\core\\security.observability.js",
+      "ext": ".js",
+      "size": 4820
+    },
+    {
+      "path": "backend\\security\\core\\security.stream.engine.js",
+      "ext": ".js",
+      "size": 3603
+    },
+    {
+      "path": "backend\\security\\cors.config.js",
+      "ext": ".js",
+      "size": 763
+    },
+    {
+      "path": "backend\\security\\helmet.config.js",
+      "ext": ".js",
+      "size": 747
+    },
+    {
+      "path": "backend\\security\\models\\security.model.js",
+      "ext": ".js",
+      "size": 3169
+    },
+    {
+      "path": "backend\\security\\predictive\\feature.engine.js",
+      "ext": ".js",
+      "size": 4440
+    },
+    {
+      "path": "backend\\security\\predictive\\predictive.metrics.js",
+      "ext": ".js",
+      "size": 4830
+    },
+    {
+      "path": "backend\\security\\predictive\\predictive.quarantine.service.js",
+      "ext": ".js",
+      "size": 4105
+    },
+    {
+      "path": "backend\\security\\predictive\\predictive.security.engine.js",
+      "ext": ".js",
+      "size": 4992
+    },
+    {
+      "path": "backend\\security\\predictive\\predictive.security.hook.js",
+      "ext": ".js",
+      "size": 4387
+    },
+    {
+      "path": "backend\\security\\predictive\\predictive.stream.js",
+      "ext": ".js",
+      "size": 3040
+    },
+    {
+      "path": "backend\\security\\predictive\\risk.forecast.model.js",
+      "ext": ".js",
+      "size": 3949
+    },
+    {
+      "path": "backend\\security\\predictive\\threat.scoring.service.js",
+      "ext": ".js",
+      "size": 3552
+    },
+    {
+      "path": "backend\\security\\rbac.js",
+      "ext": ".js",
+      "size": 503
+    },
+    {
+      "path": "backend\\security\\routes\\security.routes.js",
+      "ext": ".js",
+      "size": 4076
+    },
+    {
+      "path": "backend\\security\\self-heal\\policy.evolver.js",
+      "ext": ".js",
+      "size": 3765
+    },
+    {
+      "path": "backend\\security\\self-heal\\self.heal.feedback.js",
+      "ext": ".js",
+      "size": 3514
+    },
+    {
+      "path": "backend\\security\\self-heal\\self.heal.metrics.js",
+      "ext": ".js",
+      "size": 4029
+    },
+    {
+      "path": "backend\\security\\self-heal\\self.heal.scheduler.js",
+      "ext": ".js",
+      "size": 3447
+    },
+    {
+      "path": "backend\\security\\self-heal\\self.healing.engine.js",
+      "ext": ".js",
+      "size": 4085
+    },
+    {
+      "path": "backend\\security\\self-heal\\threshold.manager.js",
+      "ext": ".js",
+      "size": 3168
+    },
+    {
+      "path": "backend\\security\\services\\security.alert.service.js",
+      "ext": ".js",
+      "size": 2616
+    },
+    {
+      "path": "backend\\security\\services\\security.analyzer.service.js",
+      "ext": ".js",
+      "size": 4135
+    },
+    {
+      "path": "backend\\security\\services\\security.stream.js",
+      "ext": ".js",
+      "size": 3503
+    },
+    {
+      "path": "backend\\self-heal-backend-v3.ps1",
+      "ext": ".ps1",
+      "size": 5874
+    },
+    {
+      "path": "backend\\server.js",
+      "ext": ".js",
+      "size": 928
+    },
+    {
+      "path": "backend\\services\\ai.billing.js",
+      "ext": ".js",
+      "size": 3168
+    },
+    {
+      "path": "backend\\services\\ai.cache.js",
+      "ext": ".js",
+      "size": 2193
+    },
+    {
+      "path": "backend\\services\\ai.engine.js",
+      "ext": ".js",
+      "size": 3728
+    },
+    {
+      "path": "backend\\services\\ai.guard.js",
+      "ext": ".js",
+      "size": 3591
+    },
+    {
+      "path": "backend\\services\\ai.logger.js",
+      "ext": ".js",
+      "size": 2391
+    },
+    {
+      "path": "backend\\services\\ai.optimizer.js",
+      "ext": ".js",
+      "size": 3913
+    },
+    {
+      "path": "backend\\services\\ai.service.js",
+      "ext": ".js",
+      "size": 1162
+    },
+    {
+      "path": "backend\\services\\analytics\\language.analytics.js",
+      "ext": ".js",
+      "size": 2889
+    },
+    {
+      "path": "backend\\services\\analytics.service.js",
+      "ext": ".js",
+      "size": 2503
+    },
+    {
+      "path": "backend\\services\\audit.service.js",
+      "ext": ".js",
+      "size": 1429
+    },
+    {
+      "path": "backend\\services\\certificate.service.js",
+      "ext": ".js",
+      "size": 3307
+    },
+    {
+      "path": "backend\\services\\i18n\\ai.localizer.js",
+      "ext": ".js",
+      "size": 1810
+    },
+    {
+      "path": "backend\\services\\i18n\\language.detector.js",
+      "ext": ".js",
+      "size": 1656
+    },
+    {
+      "path": "backend\\services\\i18n\\translation.engine.js",
+      "ext": ".js",
+      "size": 2083
+    },
+    {
+      "path": "backend\\services\\stripe.service.js",
+      "ext": ".js",
+      "size": 2669
+    },
+    {
+      "path": "backend\\services\\stripe.usage.service.js",
+      "ext": ".js",
+      "size": 2783
+    },
+    {
+      "path": "backend\\services\\usage\\usage.engine.js",
+      "ext": ".js",
+      "size": 2645
+    },
+    {
+      "path": "backend\\services\\usage\\usage.tracker.js",
+      "ext": ".js",
+      "size": 2419
+    },
+    {
+      "path": "backend\\session\\session.memory.engine.js",
+      "ext": ".js",
+      "size": 3694
+    },
+    {
+      "path": "backend\\shared\\legacy_middlewares\\middlewares\\auth.middleware.js",
+      "ext": ".js",
+      "size": 2566
+    },
+    {
+      "path": "backend\\shared\\legacy_middlewares\\middlewares\\paywall.middleware.js",
+      "ext": ".js",
+      "size": 1264
+    },
+    {
+      "path": "backend\\shared\\legacy_middlewares\\middlewares\\rateLimit.js",
+      "ext": ".js",
+      "size": 786
+    },
+    {
+      "path": "backend\\socket\\socket.init.js",
+      "ext": ".js",
+      "size": 2493
+    },
+    {
+      "path": "backend\\src\\api\\admin.js",
+      "ext": ".js",
+      "size": 193
+    },
+    {
+      "path": "backend\\src\\api\\auth.js",
+      "ext": ".js",
+      "size": 564
+    },
+    {
+      "path": "backend\\src\\api\\certificate.js",
+      "ext": ".js",
+      "size": 128
+    },
+    {
+      "path": "backend\\src\\api\\client.js",
+      "ext": ".js",
+      "size": 729
+    },
+    {
+      "path": "backend\\src\\app.js",
+      "ext": ".js",
+      "size": 752
+    },
+    {
+      "path": "backend\\src\\config\\database.js",
+      "ext": ".js",
+      "size": 201
+    },
+    {
+      "path": "backend\\src\\controllers\\auth.controller.js",
+      "ext": ".js",
+      "size": 4618
+    },
+    {
+      "path": "backend\\src\\middlewares\\abuse.middleware.js",
+      "ext": ".js",
+      "size": 5111
+    },
+    {
+      "path": "backend\\src\\middlewares\\auth.middleware.js",
+      "ext": ".js",
+      "size": 4360
+    },
+    {
+      "path": "backend\\src\\middlewares\\error.middleware.js",
+      "ext": ".js",
+      "size": 2972
+    },
+    {
+      "path": "backend\\src\\middlewares\\jwt.middleware.js",
+      "ext": ".js",
+      "size": 4384
+    },
+    {
+      "path": "backend\\src\\middlewares\\policy.middleware.js",
+      "ext": ".js",
+      "size": 4168
+    },
+    {
+      "path": "backend\\src\\middlewares\\rateLimiter.middleware.js",
+      "ext": ".js",
+      "size": 4927
+    },
+    {
+      "path": "backend\\src\\middlewares\\security.middleware.js",
+      "ext": ".js",
+      "size": 3056
+    },
+    {
+      "path": "backend\\src\\models\\user.model.js",
+      "ext": ".js",
+      "size": 4519
+    },
+    {
+      "path": "backend\\src\\routes\\auth.routes.js",
+      "ext": ".js",
+      "size": 1888
+    },
+    {
+      "path": "backend\\src\\services\\audit.service.js",
+      "ext": ".js",
+      "size": 5061
+    },
+    {
+      "path": "backend\\src\\services\\auth.service.js",
+      "ext": ".js",
+      "size": 5307
+    },
+    {
+      "path": "backend\\src\\utils\\jwt.js",
+      "ext": ".js",
+      "size": 1508
+    },
+    {
+      "path": "backend\\stabilize_report_20260522_203508.txt",
+      "ext": ".txt",
+      "size": 734
+    },
+    {
+      "path": "backend\\storage\\ObservabilityStorageEngineV8.js",
+      "ext": ".js",
+      "size": 4699
+    },
+    {
+      "path": "backend\\tools\\auto-launch-engine.v6.clean.js",
+      "ext": ".js",
+      "size": 2679
+    },
+    {
+      "path": "backend\\tools\\auto-root-detector.v6.js",
+      "ext": ".js",
+      "size": 590
+    },
+    {
+      "path": "backend\\tools\\boot-engine.js",
+      "ext": ".js",
+      "size": 518
+    },
+    {
+      "path": "backend\\tools\\launch-ollama-agent.js",
+      "ext": ".js",
+      "size": 1553
+    },
+    {
+      "path": "backend\\tools\\ollama-auto-repair.agent.js",
+      "ext": ".js",
+      "size": 4762
+    },
+    {
+      "path": "backend\\tools\\ollama-auto-repair.agent.v3.js",
+      "ext": ".js",
+      "size": 4968
+    },
+    {
+      "path": "backend\\tools\\ollama-auto-repair.agent.v4.js",
+      "ext": ".js",
+      "size": 3849
+    },
+    {
+      "path": "backend\\tools\\ollama-auto-repair.agent.v5.js",
+      "ext": ".js",
+      "size": 6935
+    },
+    {
+      "path": "backend\\tools\\ollama-repair.engine.js",
+      "ext": ".js",
+      "size": 3360
+    },
+    {
+      "path": "backend\\tools\\smart-backend-finder.v6.js",
+      "ext": ".js",
+      "size": 1773
+    },
+    {
+      "path": "backend\\tools\\v6-launcher.js",
+      "ext": ".js",
+      "size": 2199
+    },
+    {
+      "path": "backend\\utils\\certificate.crypto.js",
+      "ext": ".js",
+      "size": 2358
+    },
+    {
+      "path": "backend\\utils\\language.map.js",
+      "ext": ".js",
+      "size": 2141
+    },
+    {
+      "path": "backend\\utils\\logger.js",
+      "ext": ".js",
+      "size": 879
+    },
+    {
+      "path": "backend\\utils\\shutdown.js",
+      "ext": ".js",
+      "size": 1409
+    },
+    {
+      "path": "backend\\validators\\auth.validator.js",
+      "ext": ".js",
+      "size": 1023
+    },
+    {
+      "path": "backend\\video\\tutor\\video.tutor.connection.manager.js",
+      "ext": ".js",
+      "size": 3353
+    },
+    {
+      "path": "backend\\video\\tutor\\video.tutor.media.codec.manager.js",
+      "ext": ".js",
+      "size": 4954
+    },
+    {
+      "path": "backend\\video\\tutor\\video.tutor.media.stream.manager.js",
+      "ext": ".js",
+      "size": 4248
+    },
+    {
+      "path": "backend\\video\\tutor\\video.tutor.network.optimizer.js",
+      "ext": ".js",
+      "size": 3471
+    },
+    {
+      "path": "backend\\video\\tutor\\video.tutor.realtime.session.manager.js",
+      "ext": ".js",
+      "size": 4701
+    },
+    {
+      "path": "backend\\video\\tutor\\video.tutor.stun.turn.config.js",
+      "ext": ".js",
+      "size": 3295
+    },
+    {
+      "path": "backend\\video\\tutor\\video.tutor.subscription.manager.js",
+      "ext": ".js",
+      "size": 4365
+    },
+    {
+      "path": "backend\\video\\tutor\\video.tutor.sync.engine.js",
+      "ext": ".js",
+      "size": 3563
+    },
+    {
+      "path": "backend\\video\\tutor\\video.tutor.webrtc.engine.js",
+      "ext": ".js",
+      "size": 4601
+    },
+    {
+      "path": "backend\\video\\video.access.guard.js",
+      "ext": ".js",
+      "size": 3392
+    },
+    {
+      "path": "backend\\video\\video.audit.logger.js",
+      "ext": ".js",
+      "size": 4632
+    },
+    {
+      "path": "backend\\video\\video.auth.middleware.js",
+      "ext": ".js",
+      "size": 2989
+    },
+    {
+      "path": "backend\\video\\video.join.policy.engine.js",
+      "ext": ".js",
+      "size": 4828
+    },
+    {
+      "path": "backend\\video\\video.room.security.js",
+      "ext": ".js",
+      "size": 4063
+    },
+    {
+      "path": "backend\\video\\video.secure.signaling.gateway.js",
+      "ext": ".js",
+      "size": 4783
+    },
+    {
+      "path": "backend\\video\\video.security.monitor.js",
+      "ext": ".js",
+      "size": 5045
+    },
+    {
+      "path": "backend\\video\\video.session.manager.js",
+      "ext": ".js",
+      "size": 4015
+    },
+    {
+      "path": "backend\\video\\video.session.validator.js",
+      "ext": ".js",
+      "size": 4784
+    },
+    {
+      "path": "backend\\video\\video.token.service.js",
+      "ext": ".js",
+      "size": 3640
+    },
+    {
+      "path": "backend\\websocket\\learning.websocket.server.js",
+      "ext": ".js",
+      "size": 5384
+    },
+    {
+      "path": "backend\\src\\api\\admin.js",
+      "ext": ".js",
+      "size": 193
+    },
+    {
+      "path": "backend\\src\\api\\auth.js",
+      "ext": ".js",
+      "size": 564
+    },
+    {
+      "path": "backend\\src\\api\\certificate.js",
+      "ext": ".js",
+      "size": 128
+    },
+    {
+      "path": "backend\\src\\api\\client.js",
+      "ext": ".js",
+      "size": 729
+    },
+    {
+      "path": "backend\\src\\app.js",
+      "ext": ".js",
+      "size": 752
+    },
+    {
+      "path": "backend\\src\\config\\database.js",
+      "ext": ".js",
+      "size": 201
+    },
+    {
+      "path": "backend\\src\\controllers\\auth.controller.js",
+      "ext": ".js",
+      "size": 4618
+    },
+    {
+      "path": "backend\\src\\middlewares\\abuse.middleware.js",
+      "ext": ".js",
+      "size": 5111
+    },
+    {
+      "path": "backend\\src\\middlewares\\auth.middleware.js",
+      "ext": ".js",
+      "size": 4360
+    },
+    {
+      "path": "backend\\src\\middlewares\\error.middleware.js",
+      "ext": ".js",
+      "size": 2972
+    },
+    {
+      "path": "backend\\src\\middlewares\\jwt.middleware.js",
+      "ext": ".js",
+      "size": 4384
+    },
+    {
+      "path": "backend\\src\\middlewares\\policy.middleware.js",
+      "ext": ".js",
+      "size": 4168
+    },
+    {
+      "path": "backend\\src\\middlewares\\rateLimiter.middleware.js",
+      "ext": ".js",
+      "size": 4927
+    },
+    {
+      "path": "backend\\src\\middlewares\\security.middleware.js",
+      "ext": ".js",
+      "size": 3056
+    },
+    {
+      "path": "backend\\src\\models\\user.model.js",
+      "ext": ".js",
+      "size": 4519
+    },
+    {
+      "path": "backend\\src\\routes\\auth.routes.js",
+      "ext": ".js",
+      "size": 1888
+    },
+    {
+      "path": "backend\\src\\services\\audit.service.js",
+      "ext": ".js",
+      "size": 5061
+    },
+    {
+      "path": "backend\\src\\services\\auth.service.js",
+      "ext": ".js",
+      "size": 5307
+    },
+    {
+      "path": "backend\\src\\utils\\jwt.js",
+      "ext": ".js",
+      "size": 1508
+    },
+    {
+      "path": "backend\\modules\\auth\\auth.controller.js",
+      "ext": ".js",
+      "size": 3456
+    },
+    {
+      "path": "backend\\modules\\auth\\auth.middleware.js",
+      "ext": ".js",
+      "size": 1491
+    },
+    {
+      "path": "backend\\modules\\auth\\auth.routes.js",
+      "ext": ".js",
+      "size": 1754
+    },
+    {
+      "path": "backend\\modules\\auth\\auth.service.js",
+      "ext": ".js",
+      "size": 4514
+    },
+    {
+      "path": "backend\\modules\\courses\\course.controller.js",
+      "ext": ".js",
+      "size": 3211
+    },
+    {
+      "path": "backend\\modules\\courses\\course.model.js",
+      "ext": ".js",
+      "size": 1730
+    },
+    {
+      "path": "backend\\modules\\courses\\course.routes.js",
+      "ext": ".js",
+      "size": 1893
+    },
+    {
+      "path": "backend\\modules\\courses\\course.service.js",
+      "ext": ".js",
+      "size": 3766
+    },
+    {
+      "path": "backend\\modules\\marketplace\\market.controller.js",
+      "ext": ".js",
+      "size": 4130
+    },
+    {
+      "path": "backend\\modules\\marketplace\\market.model.js",
+      "ext": ".js",
+      "size": 3694
+    },
+    {
+      "path": "backend\\modules\\marketplace\\market.routes.js",
+      "ext": ".js",
+      "size": 1891
+    },
+    {
+      "path": "backend\\modules\\marketplace\\market.service.js",
+      "ext": ".js",
+      "size": 5048
+    },
+    {
+      "path": "backend\\modules\\notifications\\notification.controller.js",
+      "ext": ".js",
+      "size": 5117
+    },
+    {
+      "path": "backend\\modules\\notifications\\notification.routes.js",
+      "ext": ".js",
+      "size": 2132
+    },
+    {
+      "path": "backend\\modules\\notifications\\notification.service.js",
+      "ext": ".js",
+      "size": 4668
+    },
+    {
+      "path": "backend\\modules\\payments\\payment.controller.js",
+      "ext": ".js",
+      "size": 4208
+    },
+    {
+      "path": "backend\\modules\\payments\\payment.model.js",
+      "ext": ".js",
+      "size": 3569
+    },
+    {
+      "path": "backend\\modules\\payments\\payment.routes.js",
+      "ext": ".js",
+      "size": 1593
+    },
+    {
+      "path": "backend\\modules\\payments\\payment.service.js",
+      "ext": ".js",
+      "size": 4387
+    },
+    {
+      "path": "backend\\modules\\progress\\progress.controller.js",
+      "ext": ".js",
+      "size": 4339
+    },
+    {
+      "path": "backend\\modules\\progress\\progress.model.js",
+      "ext": ".js",
+      "size": 3888
+    },
+    {
+      "path": "backend\\modules\\progress\\progress.service.js",
+      "ext": ".js",
+      "size": 6254
+    },
+    {
+      "path": "backend\\modules\\users\\user.controller.js",
+      "ext": ".js",
+      "size": 5445
+    },
+    {
+      "path": "backend\\modules\\users\\user.model.js",
+      "ext": ".js",
+      "size": 3448
+    },
+    {
+      "path": "backend\\modules\\users\\user.routes.js",
+      "ext": ".js",
+      "size": 1809
+    },
+    {
+      "path": "backend\\modules\\users\\user.service.js",
+      "ext": ".js",
+      "size": 6341
+    },
+    {
+      "path": "backend\\security\\ai\\ai.hook.js",
+      "ext": ".js",
+      "size": 2927
+    },
+    {
+      "path": "backend\\security\\ai\\ai.metrics.service.js",
+      "ext": ".js",
+      "size": 3405
+    },
+    {
+      "path": "backend\\security\\ai\\feature.engine.js",
+      "ext": ".js",
+      "size": 3240
+    },
+    {
+      "path": "backend\\security\\ai\\fraud.model.js",
+      "ext": ".js",
+      "size": 2905
+    },
+    {
+      "path": "backend\\security\\ai\\risk.scoring.service.js",
+      "ext": ".js",
+      "size": 3714
+    },
+    {
+      "path": "backend\\security\\ai\\seed.ai.fraud.js",
+      "ext": ".js",
+      "size": 3401
+    },
+    {
+      "path": "backend\\security\\ai.guard.js",
+      "ext": ".js",
+      "size": 2605
+    },
+    {
+      "path": "backend\\security\\alert\\alert.engine.service.js",
+      "ext": ".js",
+      "size": 2933
+    },
+    {
+      "path": "backend\\security\\alert\\alert.hook.js",
+      "ext": ".js",
+      "size": 2762
+    },
+    {
+      "path": "backend\\security\\alert\\alert.rules.engine.js",
+      "ext": ".js",
+      "size": 2126
+    },
+    {
+      "path": "backend\\security\\alert\\alert.types.js",
+      "ext": ".js",
+      "size": 3053
+    },
+    {
+      "path": "backend\\security\\alert\\notification.service.js",
+      "ext": ".js",
+      "size": 3439
+    },
+    {
+      "path": "backend\\security\\alert\\security.actions.service.js",
+      "ext": ".js",
+      "size": 3228
+    },
+    {
+      "path": "backend\\security\\alert\\seed.alerts.js",
+      "ext": ".js",
+      "size": 2931
+    },
+    {
+      "path": "backend\\security\\auto\\adaptive.throttle.js",
+      "ext": ".js",
+      "size": 3018
+    },
+    {
+      "path": "backend\\security\\auto\\auto.protection.hook.js",
+      "ext": ".js",
+      "size": 2536
+    },
+    {
+      "path": "backend\\security\\auto\\auto.protection.metrics.js",
+      "ext": ".js",
+      "size": 4808
+    },
+    {
+      "path": "backend\\security\\auto\\auto.protection.service.js",
+      "ext": ".js",
+      "size": 3299
+    },
+    {
+      "path": "backend\\security\\auto\\quarantine.service.js",
+      "ext": ".js",
+      "size": 3460
+    },
+    {
+      "path": "backend\\security\\auto\\safety.guard.js",
+      "ext": ".js",
+      "size": 1768
+    },
+    {
+      "path": "backend\\security\\core\\security.adaptive.learning.js",
+      "ext": ".js",
+      "size": 4509
+    },
+    {
+      "path": "backend\\security\\core\\security.decision.engine.js",
+      "ext": ".js",
+      "size": 4414
+    },
+    {
+      "path": "backend\\security\\core\\security.enforcement.layer.js",
+      "ext": ".js",
+      "size": 4400
+    },
+    {
+      "path": "backend\\security\\core\\security.intelligence.core.js",
+      "ext": ".js",
+      "size": 3825
+    },
+    {
+      "path": "backend\\security\\core\\security.ml.gateway.js",
+      "ext": ".js",
+      "size": 3661
+    },
+    {
+      "path": "backend\\security\\core\\security.observability.js",
+      "ext": ".js",
+      "size": 4820
+    },
+    {
+      "path": "backend\\security\\core\\security.stream.engine.js",
+      "ext": ".js",
+      "size": 3603
+    },
+    {
+      "path": "backend\\security\\cors.config.js",
+      "ext": ".js",
+      "size": 763
+    },
+    {
+      "path": "backend\\security\\helmet.config.js",
+      "ext": ".js",
+      "size": 747
+    },
+    {
+      "path": "backend\\security\\models\\security.model.js",
+      "ext": ".js",
+      "size": 3169
+    },
+    {
+      "path": "backend\\security\\predictive\\feature.engine.js",
+      "ext": ".js",
+      "size": 4440
+    },
+    {
+      "path": "backend\\security\\predictive\\predictive.metrics.js",
+      "ext": ".js",
+      "size": 4830
+    },
+    {
+      "path": "backend\\security\\predictive\\predictive.quarantine.service.js",
+      "ext": ".js",
+      "size": 4105
+    },
+    {
+      "path": "backend\\security\\predictive\\predictive.security.engine.js",
+      "ext": ".js",
+      "size": 4992
+    },
+    {
+      "path": "backend\\security\\predictive\\predictive.security.hook.js",
+      "ext": ".js",
+      "size": 4387
+    },
+    {
+      "path": "backend\\security\\predictive\\predictive.stream.js",
+      "ext": ".js",
+      "size": 3040
+    },
+    {
+      "path": "backend\\security\\predictive\\risk.forecast.model.js",
+      "ext": ".js",
+      "size": 3949
+    },
+    {
+      "path": "backend\\security\\predictive\\threat.scoring.service.js",
+      "ext": ".js",
+      "size": 3552
+    },
+    {
+      "path": "backend\\security\\rbac.js",
+      "ext": ".js",
+      "size": 503
+    },
+    {
+      "path": "backend\\security\\routes\\security.routes.js",
+      "ext": ".js",
+      "size": 4076
+    },
+    {
+      "path": "backend\\security\\self-heal\\policy.evolver.js",
+      "ext": ".js",
+      "size": 3765
+    },
+    {
+      "path": "backend\\security\\self-heal\\self.heal.feedback.js",
+      "ext": ".js",
+      "size": 3514
+    },
+    {
+      "path": "backend\\security\\self-heal\\self.heal.metrics.js",
+      "ext": ".js",
+      "size": 4029
+    },
+    {
+      "path": "backend\\security\\self-heal\\self.heal.scheduler.js",
+      "ext": ".js",
+      "size": 3447
+    },
+    {
+      "path": "backend\\security\\self-heal\\self.healing.engine.js",
+      "ext": ".js",
+      "size": 4085
+    },
+    {
+      "path": "backend\\security\\self-heal\\threshold.manager.js",
+      "ext": ".js",
+      "size": 3168
+    },
+    {
+      "path": "backend\\security\\services\\security.alert.service.js",
+      "ext": ".js",
+      "size": 2616
+    },
+    {
+      "path": "backend\\security\\services\\security.analyzer.service.js",
+      "ext": ".js",
+      "size": 4135
+    },
+    {
+      "path": "backend\\security\\services\\security.stream.js",
+      "ext": ".js",
+      "size": 3503
+    },
+    {
+      "path": "backend\\ai\\adaptive.path.engine.js",
+      "ext": ".js",
+      "size": 4465
+    },
+    {
+      "path": "backend\\ai\\admin.brain.engine.js",
+      "ext": ".js",
+      "size": 4534
+    },
+    {
+      "path": "backend\\ai\\admin.brain.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 4534
+    },
+    {
+      "path": "backend\\ai\\agents\\ai.admin.agent.js",
+      "ext": ".js",
+      "size": 4314
+    },
+    {
+      "path": "backend\\ai\\agents\\ai.market.agent.js",
+      "ext": ".js",
+      "size": 5023
+    },
+    {
+      "path": "backend\\ai\\agents\\ai.mentor.agent.js",
+      "ext": ".js",
+      "size": 5248
+    },
+    {
+      "path": "backend\\ai\\agents\\ai.tutor.agent.js",
+      "ext": ".js",
+      "size": 4750
+    },
+    {
+      "path": "backend\\ai\\ai.adaptive.learning.service.js",
+      "ext": ".js",
+      "size": 4589
+    },
+    {
+      "path": "backend\\ai\\ai.admin.agent.js",
+      "ext": ".js",
+      "size": 5284
+    },
+    {
+      "path": "backend\\ai\\ai.business.recommendation.engine.js",
+      "ext": ".js",
+      "size": 4594
+    },
+    {
+      "path": "backend\\ai\\ai.context.memory.service.js",
+      "ext": ".js",
+      "size": 4261
+    },
+    {
+      "path": "backend\\ai\\ai.controller.js",
+      "ext": ".js",
+      "size": 1215
+    },
+    {
+      "path": "backend\\ai\\ai.controller.js.v5.backup",
+      "ext": ".backup",
+      "size": 1215
+    },
+    {
+      "path": "backend\\ai\\ai.cost.engine.js",
+      "ext": ".js",
+      "size": 2395
+    },
+    {
+      "path": "backend\\ai\\ai.cost.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2393
+    },
+    {
+      "path": "backend\\ai\\ai.event.bus.service.js",
+      "ext": ".js",
+      "size": 5388
+    },
+    {
+      "path": "backend\\ai\\ai.gateway.service.js",
+      "ext": ".js",
+      "size": 4659
+    },
+    {
+      "path": "backend\\ai\\ai.growth.signal.detector.js",
+      "ext": ".js",
+      "size": 5409
+    },
+    {
+      "path": "backend\\ai\\ai.guard.js",
+      "ext": ".js",
+      "size": 1366
+    },
+    {
+      "path": "backend\\ai\\ai.guard.js.v5.backup",
+      "ext": ".backup",
+      "size": 1403
+    },
+    {
+      "path": "backend\\ai\\ai.learning.evolution.engine.js",
+      "ext": ".js",
+      "size": 5476
+    },
+    {
+      "path": "backend\\ai\\ai.market.agent.js",
+      "ext": ".js",
+      "size": 5066
+    },
+    {
+      "path": "backend\\ai\\ai.mentor.agent.js",
+      "ext": ".js",
+      "size": 4941
+    },
+    {
+      "path": "backend\\ai\\ai.metrics.service.js",
+      "ext": ".js",
+      "size": 6810
+    },
+    {
+      "path": "backend\\ai\\ai.monetization.engine.js",
+      "ext": ".js",
+      "size": 2687
+    },
+    {
+      "path": "backend\\ai\\ai.monetization.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2685
+    },
+    {
+      "path": "backend\\ai\\ai.orchestrator.service.js",
+      "ext": ".js",
+      "size": 5327
+    },
+    {
+      "path": "backend\\ai\\ai.prediction.panel.js",
+      "ext": ".js",
+      "size": 6753
+    },
+    {
+      "path": "backend\\ai\\ai.prediction.panel.js.v5.backup",
+      "ext": ".backup",
+      "size": 6753
+    },
+    {
+      "path": "backend\\ai\\ai.prompt.engine.js",
+      "ext": ".js",
+      "size": 2904
+    },
+    {
+      "path": "backend\\ai\\ai.recommendation.engine.js",
+      "ext": ".js",
+      "size": 4988
+    },
+    {
+      "path": "backend\\ai\\ai.revenue.forecast.service.js",
+      "ext": ".js",
+      "size": 4833
+    },
+    {
+      "path": "backend\\ai\\ai.revenue.prediction.engine.js",
+      "ext": ".js",
+      "size": 4647
+    },
+    {
+      "path": "backend\\ai\\ai.routes.js",
+      "ext": ".js",
+      "size": 805
+    },
+    {
+      "path": "backend\\ai\\ai.routes.js.v5.backup",
+      "ext": ".backup",
+      "size": 805
+    },
+    {
+      "path": "backend\\ai\\ai.security.guardian.agent.js",
+      "ext": ".js",
+      "size": 4545
+    },
+    {
+      "path": "backend\\ai\\ai.self.healing.engine.js",
+      "ext": ".js",
+      "size": 4658
+    },
+    {
+      "path": "backend\\ai\\ai.service.js",
+      "ext": ".js",
+      "size": 3730
+    },
+    {
+      "path": "backend\\ai\\ai.service.js.v5.backup",
+      "ext": ".backup",
+      "size": 3730
+    },
+    {
+      "path": "backend\\ai\\ai.tutor.agent.js",
+      "ext": ".js",
+      "size": 4480
+    },
+    {
+      "path": "backend\\ai\\ai.vector.store.service.js",
+      "ext": ".js",
+      "size": 3907
+    },
+    {
+      "path": "backend\\ai\\ai.websocket.gateway.js",
+      "ext": ".js",
+      "size": 6240
+    },
+    {
+      "path": "backend\\ai\\ai_admin_brain.engine.js",
+      "ext": ".js",
+      "size": 6863
+    },
+    {
+      "path": "backend\\ai\\ai_admin_brain.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 6863
+    },
+    {
+      "path": "backend\\ai\\ai_autonomous_brain.engine.js",
+      "ext": ".js",
+      "size": 4174
+    },
+    {
+      "path": "backend\\ai\\ai_autonomous_brain.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 4174
+    },
+    {
+      "path": "backend\\ai\\ai_ceo_brain.engine.js",
+      "ext": ".js",
+      "size": 4495
+    },
+    {
+      "path": "backend\\ai\\ai_ceo_brain.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 4495
+    },
+    {
+      "path": "backend\\ai\\ai_os.kernel.js",
+      "ext": ".js",
+      "size": 976
+    },
+    {
+      "path": "backend\\ai\\ai_os.kernel.js.v5.backup",
+      "ext": ".backup",
+      "size": 976
+    },
+    {
+      "path": "backend\\ai\\ai_self_learning.loop.js",
+      "ext": ".js",
+      "size": 3559
+    },
+    {
+      "path": "backend\\ai\\ai_self_learning.loop.js.v5.backup",
+      "ext": ".backup",
+      "size": 3559
+    },
+    {
+      "path": "backend\\ai\\alerts\\ai.alert.bus.js",
+      "ext": ".js",
+      "size": 3360
+    },
+    {
+      "path": "backend\\ai\\alerts\\ai.alert.engine.js",
+      "ext": ".js",
+      "size": 2238
+    },
+    {
+      "path": "backend\\ai\\alerts\\ai.alert.processor.js",
+      "ext": ".js",
+      "size": 3823
+    },
+    {
+      "path": "backend\\ai\\alerts\\ai.alert.rules.js",
+      "ext": ".js",
+      "size": 3726
+    },
+    {
+      "path": "backend\\ai\\alerts\\ai.alert.socket.js",
+      "ext": ".js",
+      "size": 2646
+    },
+    {
+      "path": "backend\\ai\\alerts\\ai.alert.webhook.js",
+      "ext": ".js",
+      "size": 3802
+    },
+    {
+      "path": "backend\\ai\\alerts\\alert.controller.js",
+      "ext": ".js",
+      "size": 2445
+    },
+    {
+      "path": "backend\\ai\\alerts\\alert.routes.js",
+      "ext": ".js",
+      "size": 1089
+    },
+    {
+      "path": "backend\\ai\\analytics\\ai.analytics.engine.js",
+      "ext": ".js",
+      "size": 4176
+    },
+    {
+      "path": "backend\\ai\\analytics\\ai.business.insights.js",
+      "ext": ".js",
+      "size": 4526
+    },
+    {
+      "path": "backend\\ai\\analytics\\ai.metrics.collector.js",
+      "ext": ".js",
+      "size": 3443
+    },
+    {
+      "path": "backend\\ai\\analytics\\analytics.controller.js",
+      "ext": ".js",
+      "size": 3717
+    },
+    {
+      "path": "backend\\ai\\analytics\\analytics.routes.js",
+      "ext": ".js",
+      "size": 2034
+    },
+    {
+      "path": "backend\\ai\\analytics\\behavior.analytics.js",
+      "ext": ".js",
+      "size": 7061
+    },
+    {
+      "path": "backend\\ai\\analytics\\learning.analytics.js",
+      "ext": ".js",
+      "size": 6914
+    },
+    {
+      "path": "backend\\ai\\analytics\\usage.tracker.js",
+      "ext": ".js",
+      "size": 6011
+    },
+    {
+      "path": "backend\\ai\\approval\\ai.approval.audit.js",
+      "ext": ".js",
+      "size": 2975
+    },
+    {
+      "path": "backend\\ai\\approval\\ai.approval.engine.js",
+      "ext": ".js",
+      "size": 2389
+    },
+    {
+      "path": "backend\\ai\\approval\\ai.approval.notifications.js",
+      "ext": ".js",
+      "size": 3666
+    },
+    {
+      "path": "backend\\ai\\approval\\ai.approval.policy.manager.js",
+      "ext": ".js",
+      "size": 3998
+    },
+    {
+      "path": "backend\\ai\\approval\\ai.approval.queue.js",
+      "ext": ".js",
+      "size": 3558
+    },
+    {
+      "path": "backend\\ai\\approval\\ai.approval.rules.js",
+      "ext": ".js",
+      "size": 2847
+    },
+    {
+      "path": "backend\\ai\\approval\\approval.controller.js",
+      "ext": ".js",
+      "size": 4635
+    },
+    {
+      "path": "backend\\ai\\approval\\approval.routes.js",
+      "ext": ".js",
+      "size": 1288
+    },
+    {
+      "path": "backend\\ai\\bridge\\learning.engine.bridge.js",
+      "ext": ".js",
+      "size": 5142
+    },
+    {
+      "path": "backend\\ai\\business\\revenue.engine.js",
+      "ext": ".js",
+      "size": 3917
+    },
+    {
+      "path": "backend\\ai\\business\\revenue.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3917
+    },
+    {
+      "path": "backend\\ai\\ceo\\ai_ceo_brain.engine.js",
+      "ext": ".js",
+      "size": 3307
+    },
+    {
+      "path": "backend\\ai\\ceo\\ai_ceo_brain.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3307
+    },
+    {
+      "path": "backend\\ai\\chatbot\\ai.agent.executor.js",
+      "ext": ".js",
+      "size": 4502
+    },
+    {
+      "path": "backend\\ai\\chatbot\\ai.analytics.chatbot.assistant.js",
+      "ext": ".js",
+      "size": 3253
+    },
+    {
+      "path": "backend\\ai\\chatbot\\ai.chat.formatter.js",
+      "ext": ".js",
+      "size": 2569
+    },
+    {
+      "path": "backend\\ai\\chatbot\\ai.chat.memory.js",
+      "ext": ".js",
+      "size": 2371
+    },
+    {
+      "path": "backend\\ai\\chatbot\\ai.chat.router.js",
+      "ext": ".js",
+      "size": 3185
+    },
+    {
+      "path": "backend\\ai\\chatbot\\chatbot.controller.js",
+      "ext": ".js",
+      "size": 3522
+    },
+    {
+      "path": "backend\\ai\\chatbot\\chatbot.routes.js",
+      "ext": ".js",
+      "size": 1088
+    },
+    {
+      "path": "backend\\ai\\command_center\\ai_command.engine.js",
+      "ext": ".js",
+      "size": 2538
+    },
+    {
+      "path": "backend\\ai\\command_center\\ai_command.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2538
+    },
+    {
+      "path": "backend\\ai\\control\\self-learning-autonomous-control.system.js",
+      "ext": ".js",
+      "size": 6079
+    },
+    {
+      "path": "backend\\ai\\control\\self-learning-autonomous-control.system.js.v5.backup",
+      "ext": ".backup",
+      "size": 6096
+    },
+    {
+      "path": "backend\\ai\\control\\system-control-brain.js",
+      "ext": ".js",
+      "size": 4578
+    },
+    {
+      "path": "backend\\ai\\control\\system-control-brain.js.v5.backup",
+      "ext": ".backup",
+      "size": 4578
+    },
+    {
+      "path": "backend\\ai\\core\\ai_admin_brain.engine.js",
+      "ext": ".js",
+      "size": 4741
+    },
+    {
+      "path": "backend\\ai\\core\\ai_admin_brain.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 4741
+    },
+    {
+      "path": "backend\\ai\\difficulty.adjuster.js",
+      "ext": ".js",
+      "size": 3775
+    },
+    {
+      "path": "backend\\ai\\engines\\adaptive.path.engine.js",
+      "ext": ".js",
+      "size": 6193
+    },
+    {
+      "path": "backend\\ai\\engines\\difficulty.adjuster.js",
+      "ext": ".js",
+      "size": 4564
+    },
+    {
+      "path": "backend\\ai\\engines\\learner.profile.engine.js",
+      "ext": ".js",
+      "size": 7497
+    },
+    {
+      "path": "backend\\ai\\engines\\mastery.scoring.engine.js",
+      "ext": ".js",
+      "size": 4292
+    },
+    {
+      "path": "backend\\ai\\engines\\mistake.analyzer.js",
+      "ext": ".js",
+      "size": 5825
+    },
+    {
+      "path": "backend\\ai\\engines\\question.generator.ai.js",
+      "ext": ".js",
+      "size": 5211
+    },
+    {
+      "path": "backend\\ai\\engines\\session.memory.engine.js",
+      "ext": ".js",
+      "size": 5644
+    },
+    {
+      "path": "backend\\ai\\forecast\\ai.revenue.forecast.engine.js",
+      "ext": ".js",
+      "size": 4516
+    },
+    {
+      "path": "backend\\ai\\forecast\\ai.revenue.pattern.detector.js",
+      "ext": ".js",
+      "size": 3790
+    },
+    {
+      "path": "backend\\ai\\forecast\\ai.revenue.predictor.js",
+      "ext": ".js",
+      "size": 3878
+    },
+    {
+      "path": "backend\\ai\\forecast\\ai.revenue.time.series.js",
+      "ext": ".js",
+      "size": 3701
+    },
+    {
+      "path": "backend\\ai\\forecast\\forecast.controller.js",
+      "ext": ".js",
+      "size": 2136
+    },
+    {
+      "path": "backend\\ai\\forecast\\forecast.routes.js",
+      "ext": ".js",
+      "size": 1452
+    },
+    {
+      "path": "backend\\ai\\fraud\\ai.fraud.anomaly.detector.js",
+      "ext": ".js",
+      "size": 4305
+    },
+    {
+      "path": "backend\\ai\\fraud\\ai.fraud.engine.js",
+      "ext": ".js",
+      "size": 2373
+    },
+    {
+      "path": "backend\\ai\\fraud\\ai.fraud.response.engine.js",
+      "ext": ".js",
+      "size": 3858
+    },
+    {
+      "path": "backend\\ai\\fraud\\ai.fraud.risk.scorer.js",
+      "ext": ".js",
+      "size": 3387
+    },
+    {
+      "path": "backend\\ai\\fraud\\ai.fraud.rules.js",
+      "ext": ".js",
+      "size": 4164
+    },
+    {
+      "path": "backend\\ai\\fraud\\ai.fraud.signals.js",
+      "ext": ".js",
+      "size": 3325
+    },
+    {
+      "path": "backend\\ai\\fraud\\fraud.controller.js",
+      "ext": ".js",
+      "size": 2622
+    },
+    {
+      "path": "backend\\ai\\fraud\\fraud.routes.js",
+      "ext": ".js",
+      "size": 1680
+    },
+    {
+      "path": "backend\\ai\\graph\\learning.graph.engine.js",
+      "ext": ".js",
+      "size": 3584
+    },
+    {
+      "path": "backend\\ai\\graph\\learning.graph.router.js",
+      "ext": ".js",
+      "size": 5018
+    },
+    {
+      "path": "backend\\ai\\graph\\learning.graph.rules.js",
+      "ext": ".js",
+      "size": 3958
+    },
+    {
+      "path": "backend\\ai\\index.js",
+      "ext": ".js",
+      "size": 3681
+    },
+    {
+      "path": "backend\\ai\\index.js.v5.backup",
+      "ext": ".backup",
+      "size": 3681
+    },
+    {
+      "path": "backend\\ai\\jobs\\analytics\\jobs.analytics.engine.js",
+      "ext": ".js",
+      "size": 474
+    },
+    {
+      "path": "backend\\ai\\jobs\\analytics\\jobs.analytics.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 474
+    },
+    {
+      "path": "backend\\ai\\jobs\\api\\jobs.api.engine.js",
+      "ext": ".js",
+      "size": 778
+    },
+    {
+      "path": "backend\\ai\\jobs\\api\\jobs.api.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 778
+    },
+    {
+      "path": "backend\\ai\\jobs\\core\\jobs.ai.nextlevel.engine.js",
+      "ext": ".js",
+      "size": 321
+    },
+    {
+      "path": "backend\\ai\\jobs\\core\\jobs.ai.nextlevel.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 321
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.analytics.engine.js",
+      "ext": ".js",
+      "size": 3188
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.analytics.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3188
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.api.engine.js",
+      "ext": ".js",
+      "size": 2827
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.api.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2827
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.engine.js",
+      "ext": ".js",
+      "size": 3099
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3099
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.explanation.engine.js",
+      "ext": ".js",
+      "size": 5804
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.explanation.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 5804
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.match.engine.js",
+      "ext": ".js",
+      "size": 2835
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.match.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2835
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.profile.engine.js",
+      "ext": ".js",
+      "size": 3934
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.profile.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3934
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.recommendation.engine.js",
+      "ext": ".js",
+      "size": 2262
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.recommendation.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2262
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.vector.engine.js",
+      "ext": ".js",
+      "size": 7092
+    },
+    {
+      "path": "backend\\ai\\jobs\\jobs.vector.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 7092
+    },
+    {
+      "path": "backend\\ai\\jobs\\match\\jobs.match.engine.js",
+      "ext": ".js",
+      "size": 1369
+    },
+    {
+      "path": "backend\\ai\\jobs\\match\\jobs.match.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1369
+    },
+    {
+      "path": "backend\\ai\\jobs\\profile\\jobs.profile.engine.js",
+      "ext": ".js",
+      "size": 370
+    },
+    {
+      "path": "backend\\ai\\jobs\\profile\\jobs.profile.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 370
+    },
+    {
+      "path": "backend\\ai\\jobs\\recommendation\\jobs.recommendation.engine.js",
+      "ext": ".js",
+      "size": 425
+    },
+    {
+      "path": "backend\\ai\\jobs\\recommendation\\jobs.recommendation.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 427
+    },
+    {
+      "path": "backend\\ai\\jobs\\vector\\jobs.vector.engine.js",
+      "ext": ".js",
+      "size": 1544
+    },
+    {
+      "path": "backend\\ai\\jobs\\vector\\jobs.vector.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1544
+    },
+    {
+      "path": "backend\\ai\\learner.profile.engine.js",
+      "ext": ".js",
+      "size": 5185
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\analytics\\learning.analytics.js",
+      "ext": ".js",
+      "size": 2980
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\core\\adaptive.path.engine.js",
+      "ext": ".js",
+      "size": 3424
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\core\\learner.profile.engine.js",
+      "ext": ".js",
+      "size": 4276
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\core\\mastery.scoring.engine.js",
+      "ext": ".js",
+      "size": 3092
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\learning.orchestrator.js",
+      "ext": ".js",
+      "size": 3534
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\memory\\session.memory.engine.js",
+      "ext": ".js",
+      "size": 3156
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\recommendation\\recommendation.engine.js",
+      "ext": ".js",
+      "size": 2288
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\services\\difficulty.adjuster.js",
+      "ext": ".js",
+      "size": 3201
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\services\\mistake.analyzer.js",
+      "ext": ".js",
+      "size": 4304
+    },
+    {
+      "path": "backend\\ai\\learning-engine\\services\\question.generator.ai.js",
+      "ext": ".js",
+      "size": 2968
+    },
+    {
+      "path": "backend\\ai\\learning.engine.bridge.js",
+      "ext": ".js",
+      "size": 3215
+    },
+    {
+      "path": "backend\\ai\\learning.orchestrator.js",
+      "ext": ".js",
+      "size": 4476
+    },
+    {
+      "path": "backend\\ai\\legal\\ai-policy.engine.js",
+      "ext": ".js",
+      "size": 200
+    },
+    {
+      "path": "backend\\ai\\legal\\ai-policy.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 200
+    },
+    {
+      "path": "backend\\ai\\legal\\analytics\\legal-risk.analytics.js",
+      "ext": ".js",
+      "size": 2520
+    },
+    {
+      "path": "backend\\ai\\legal\\analytics\\legal-risk.analytics.js.v5.backup",
+      "ext": ".backup",
+      "size": 2520
+    },
+    {
+      "path": "backend\\ai\\legal\\autonomous\\decision-policy.engine.js",
+      "ext": ".js",
+      "size": 1495
+    },
+    {
+      "path": "backend\\ai\\legal\\autonomous\\decision-policy.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1495
+    },
+    {
+      "path": "backend\\ai\\legal\\autonomous\\legal-ai.self-decision.engine.js",
+      "ext": ".js",
+      "size": 2744
+    },
+    {
+      "path": "backend\\ai\\legal\\autonomous\\legal-ai.self-decision.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2744
+    },
+    {
+      "path": "backend\\ai\\legal\\autonomous\\legal-autonomous.engine.js",
+      "ext": ".js",
+      "size": 1335
+    },
+    {
+      "path": "backend\\ai\\legal\\autonomous\\legal-autonomous.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1335
+    },
+    {
+      "path": "backend\\ai\\legal\\certificate-policy.engine.js",
+      "ext": ".js",
+      "size": 183
+    },
+    {
+      "path": "backend\\ai\\legal\\certificate-policy.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 183
+    },
+    {
+      "path": "backend\\ai\\legal\\cgu.engine.js",
+      "ext": ".js",
+      "size": 268
+    },
+    {
+      "path": "backend\\ai\\legal\\cgu.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 268
+    },
+    {
+      "path": "backend\\ai\\legal\\cgv.engine.js",
+      "ext": ".js",
+      "size": 151
+    },
+    {
+      "path": "backend\\ai\\legal\\cgv.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 151
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\compliance.engine.js",
+      "ext": ".js",
+      "size": 3105
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\compliance.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3105
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\fraud-detection.engine.js",
+      "ext": ".js",
+      "size": 1863
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\fraud-detection.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1863
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\legal-check.engine.js",
+      "ext": ".js",
+      "size": 1416
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\legal-check.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1416
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\legal.router.js",
+      "ext": ".js",
+      "size": 2727
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\legal.router.js.v5.backup",
+      "ext": ".backup",
+      "size": 2727
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\risk-scoring.engine.js",
+      "ext": ".js",
+      "size": 813
+    },
+    {
+      "path": "backend\\ai\\legal\\core\\risk-scoring.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 813
+    },
+    {
+      "path": "backend\\ai\\legal\\index.js",
+      "ext": ".js",
+      "size": 1265
+    },
+    {
+      "path": "backend\\ai\\legal\\index.js.v5.backup",
+      "ext": ".backup",
+      "size": 1265
+    },
+    {
+      "path": "backend\\ai\\legal\\kyc.engine.js",
+      "ext": ".js",
+      "size": 134
+    },
+    {
+      "path": "backend\\ai\\legal\\kyc.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 134
+    },
+    {
+      "path": "backend\\ai\\legal\\legal-checklist.engine.js",
+      "ext": ".js",
+      "size": 170
+    },
+    {
+      "path": "backend\\ai\\legal\\legal-checklist.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 170
+    },
+    {
+      "path": "backend\\ai\\legal\\legal.router.js",
+      "ext": ".js",
+      "size": 758
+    },
+    {
+      "path": "backend\\ai\\legal\\legal.router.js.v5.backup",
+      "ext": ".backup",
+      "size": 758
+    },
+    {
+      "path": "backend\\ai\\legal\\moderation.engine.js",
+      "ext": ".js",
+      "size": 200
+    },
+    {
+      "path": "backend\\ai\\legal\\moderation.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 202
+    },
+    {
+      "path": "backend\\ai\\legal\\nda.engine.js",
+      "ext": ".js",
+      "size": 134
+    },
+    {
+      "path": "backend\\ai\\legal\\nda.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 134
+    },
+    {
+      "path": "backend\\ai\\legal\\partner-contract.engine.js",
+      "ext": ".js",
+      "size": 165
+    },
+    {
+      "path": "backend\\ai\\legal\\partner-contract.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 165
+    },
+    {
+      "path": "backend\\ai\\legal\\payment-policy.engine.js",
+      "ext": ".js",
+      "size": 155
+    },
+    {
+      "path": "backend\\ai\\legal\\payment-policy.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 155
+    },
+    {
+      "path": "backend\\ai\\legal\\privacy.engine.js",
+      "ext": ".js",
+      "size": 193
+    },
+    {
+      "path": "backend\\ai\\legal\\privacy.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 193
+    },
+    {
+      "path": "backend\\ai\\legal\\realtime\\legal-event-stream.engine.js",
+      "ext": ".js",
+      "size": 2213
+    },
+    {
+      "path": "backend\\ai\\legal\\realtime\\legal-event-stream.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2213
+    },
+    {
+      "path": "backend\\ai\\legal\\refund.engine.js",
+      "ext": ".js",
+      "size": 163
+    },
+    {
+      "path": "backend\\ai\\legal\\refund.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 163
+    },
+    {
+      "path": "backend\\ai\\legal\\security-policy.engine.js",
+      "ext": ".js",
+      "size": 137
+    },
+    {
+      "path": "backend\\ai\\legal\\security-policy.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 137
+    },
+    {
+      "path": "backend\\ai\\mastery.scoring.engine.js",
+      "ext": ".js",
+      "size": 3812
+    },
+    {
+      "path": "backend\\ai\\maturity\\autonomous-maturity-control.system.js",
+      "ext": ".js",
+      "size": 4518
+    },
+    {
+      "path": "backend\\ai\\maturity\\autonomous-maturity-control.system.js.v5.backup",
+      "ext": ".backup",
+      "size": 4518
+    },
+    {
+      "path": "backend\\ai\\maturity\\feature-flag.engine.js",
+      "ext": ".js",
+      "size": 2127
+    },
+    {
+      "path": "backend\\ai\\maturity\\feature-flag.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2127
+    },
+    {
+      "path": "backend\\ai\\maturity\\maturity.integration.js",
+      "ext": ".js",
+      "size": 2567
+    },
+    {
+      "path": "backend\\ai\\maturity\\maturity.integration.js.v5.backup",
+      "ext": ".backup",
+      "size": 2567
+    },
+    {
+      "path": "backend\\ai\\maturity\\maturity.level.engine.js",
+      "ext": ".js",
+      "size": 1992
+    },
+    {
+      "path": "backend\\ai\\maturity\\maturity.level.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 1992
+    },
+    {
+      "path": "backend\\ai\\maturity\\maturity.metrics.engine.js",
+      "ext": ".js",
+      "size": 2190
+    },
+    {
+      "path": "backend\\ai\\maturity\\maturity.metrics.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 2190
+    },
+    {
+      "path": "backend\\ai\\maturity\\system-maturity.engine.js",
+      "ext": ".js",
+      "size": 3287
+    },
+    {
+      "path": "backend\\ai\\maturity\\system-maturity.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 3287
+    },
+    {
+      "path": "backend\\ai\\memory\\learner.profile.engine.js",
+      "ext": ".js",
+      "size": 7812
+    },
+    {
+      "path": "backend\\ai\\memory\\session.memory.engine.js",
+      "ext": ".js",
+      "size": 6301
+    },
+    {
+      "path": "backend\\ai\\mentor.gateway.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\ai\\mentor.orchestrator.js",
+      "ext": ".js",
+      "size": 4274
+    },
+    {
+      "path": "backend\\ai\\mistake.analyzer.js",
+      "ext": ".js",
+      "size": 4436
+    },
+    {
+      "path": "backend\\ai\\openai.client.js",
+      "ext": ".js",
+      "size": 847
+    },
+    {
+      "path": "backend\\ai\\openai.client.js.v5.backup",
+      "ext": ".backup",
+      "size": 847
+    },
+    {
+      "path": "backend\\ai\\orchestrator\\ai_orchestrator.engine.js",
+      "ext": ".js",
+      "size": 4625
+    },
+    {
+      "path": "backend\\ai\\orchestrator\\ai_orchestrator.engine.js.v5.backup",
+      "ext": ".backup",
+      "size": 4659
+    },
+    {
+      "path": "backend\\ai\\orchestrator\\learning.orchestrator.js",
+      "ext": ".js",
+      "size": 5827
+    },
+    {
+      "path": "backend\\ai\\orchestrator\\mentor.orchestrator.js",
+      "ext": ".js",
+      "size": 5409
+    },
+    {
+      "path": "backend\\ai\\prompts\\system.prompt.js",
+      "ext": ".js",
+      "size": 1702
+    },
+    {
+      "path": "backend\\ai\\prompts\\system.prompt.js.v5.backup",
+      "ext": ".backup",
+      "size": 1702
+    },
+    {
+      "path": "backend\\ai\\question.generator.ai.js",
+      "ext": ".js",
+      "size": 4923
+    },
+    {
+      "path": "backend\\ai\\realtime\\realtime.gateway.js",
+      "ext": ".js",
+      "size": 3919
+    },
+    {
+      "path": "backend\\ai\\realtime\\realtime.gateway.js.v5.backup",
+      "ext": ".backup",
+      "size": 3919
+    },
+    {
+      "path": "backend\\ai\\recommendation\\content.ranker.js",
+      "ext": ".js",
+      "size": 5462
+    },
+    {
+      "path": "backend\\ai\\recommendation\\recommendation.engine.js",
+      "ext": ".js",
+      "size": 6714
+    },
+    {
+      "path": "backend\\ai\\rules\\learning.rules.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\ai\\self-healing\\ai.diagnosis.engine.js",
+      "ext": ".js",
+      "size": 3391
+    },
+    {
+      "path": "backend\\ai\\self-healing\\ai.error.pattern.detector.js",
+      "ext": ".js",
+      "size": 3847
+    },
+    {
+      "path": "backend\\ai\\self-healing\\ai.failure.classifier.js",
+      "ext": ".js",
+      "size": 4328
+    },
+    {
+      "path": "backend\\ai\\self-healing\\ai.performance.bottleneck.detector.js",
+      "ext": ".js",
+      "size": 7653
+    },
+    {
+      "path": "backend\\ai\\self-healing\\ai.root.cause.engine.js",
+      "ext": ".js",
+      "size": 4897
+    },
+    {
+      "path": "backend\\ai\\self-healing\\ai.system.health.analyzer.js",
+      "ext": ".js",
+      "size": 2835
+    },
+    {
+      "path": "backend\\ai\\self-healing\\diagnosis.controller.js",
+      "ext": ".js",
+      "size": 3882
+    },
+    {
+      "path": "backend\\ai\\self-healing\\diagnosis.routes.js",
+      "ext": ".js",
+      "size": 1439
+    },
+    {
+      "path": "backend\\ai\\self_learning\\ai_self_learning.loop.js",
+      "ext": ".js",
+      "size": 3770
+    },
+    {
+      "path": "backend\\ai\\self_learning\\ai_self_learning.loop.js.v5.backup",
+      "ext": ".backup",
+      "size": 3770
+    },
+    {
+      "path": "backend\\ai\\stream\\ai.learning.stream.js",
+      "ext": ".js",
+      "size": 3994
+    },
+    {
+      "path": "backend\\ai\\stream\\ai.stream.controller.js",
+      "ext": ".js",
+      "size": 2380
+    },
+    {
+      "path": "backend\\ai\\stream\\ai.stream.controller.js.v5.backup",
+      "ext": ".backup",
+      "size": 2390
+    },
+    {
+      "path": "backend\\ai\\stream\\ai.stream.routes.js",
+      "ext": ".js",
+      "size": 821
+    },
+    {
+      "path": "backend\\ai\\stream\\ai.stream.routes.js.v5.backup",
+      "ext": ".backup",
+      "size": 837
+    },
+    {
+      "path": "backend\\ai\\stream\\learning.stream.engine.js",
+      "ext": ".js",
+      "size": 4489
+    },
+    {
+      "path": "backend\\ai\\stream\\learning.stream.gateway.js",
+      "ext": ".js",
+      "size": 3829
+    },
+    {
+      "path": "backend\\ai\\stream\\learning.websocket.server.js",
+      "ext": ".js",
+      "size": 4380
+    },
+    {
+      "path": "backend\\ai\\translation\\translation.cache.engine.js",
+      "ext": ".js",
+      "size": 5262
+    },
+    {
+      "path": "backend\\ai\\translation\\translation.consensus.engine.js",
+      "ext": ".js",
+      "size": 5200
+    },
+    {
+      "path": "backend\\ai\\translation\\translation.governance.engine.js",
+      "ext": ".js",
+      "size": 6886
+    },
+    {
+      "path": "backend\\ai\\translation\\translation.review.engine.js",
+      "ext": ".js",
+      "size": 8038
+    },
+    {
+      "path": "backend\\ai\\websocket\\learning.websocket.server.js",
+      "ext": ".js",
+      "size": 3445
+    },
+    {
+      "path": "backend\\api\\api\\ai.api.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\ai.api.js.v5.backup",
+      "ext": ".backup",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\course.api.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\course.api.js.v5.backup",
+      "ext": ".backup",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\index.js",
+      "ext": ".js",
+      "size": 1459
+    },
+    {
+      "path": "backend\\api\\api\\index.js.v5.backup",
+      "ext": ".backup",
+      "size": 1459
+    },
+    {
+      "path": "backend\\api\\api\\jobs.api.js",
+      "ext": ".js",
+      "size": 823
+    },
+    {
+      "path": "backend\\api\\api\\jobs.api.js.v5.backup",
+      "ext": ".backup",
+      "size": 823
+    },
+    {
+      "path": "backend\\api\\api\\payment.api.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\payment.api.js.v5.backup",
+      "ext": ".backup",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\user.api.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\user.api.js.v5.backup",
+      "ext": ".backup",
+      "size": 0
+    },
+    {
+      "path": "backend\\api\\api\\user.routes.js",
+      "ext": ".js",
+      "size": 1463
+    },
+    {
+      "path": "backend\\api\\api\\user.routes.js.v5.backup",
+      "ext": ".backup",
+      "size": 1511
+    },
+    {
+      "path": "backend\\api\\consensus.translation.api.js",
+      "ext": ".js",
+      "size": 3448
+    },
+    {
+      "path": "backend\\api\\translation.api.js",
+      "ext": ".js",
+      "size": 6310
+    },
+    {
+      "path": "backend\\certificates\\controllers\\audit.admin.controller.js",
+      "ext": ".js",
+      "size": 2122
+    },
+    {
+      "path": "backend\\certificates\\controllers\\certificate.admin.controller.js",
+      "ext": ".js",
+      "size": 3709
+    },
+    {
+      "path": "backend\\certificates\\controllers\\certificate.controller.js",
+      "ext": ".js",
+      "size": 1962
+    },
+    {
+      "path": "backend\\certificates\\controllers\\certificate.verify.controller.js",
+      "ext": ".js",
+      "size": 1747
+    },
+    {
+      "path": "backend\\certificates\\models\\certificate.model.js",
+      "ext": ".js",
+      "size": 1725
+    },
+    {
+      "path": "backend\\certificates\\routes\\admin.certificates.routes.js",
+      "ext": ".js",
+      "size": 2526
+    },
+    {
+      "path": "backend\\certificates\\routes\\audit.admin.routes.js",
+      "ext": ".js",
+      "size": 2114
+    },
+    {
+      "path": "backend\\certificates\\routes\\certificate.admin.routes.js",
+      "ext": ".js",
+      "size": 1186
+    },
+    {
+      "path": "backend\\certificates\\routes\\certificate.public.routes.js",
+      "ext": ".js",
+      "size": 449
+    },
+    {
+      "path": "backend\\certificates\\routes\\certificate.routes.js",
+      "ext": ".js",
+      "size": 1703
+    },
+    {
+      "path": "backend\\certificates\\routes\\certificate.verify.routes.js",
+      "ext": ".js",
+      "size": 818
+    },
+    {
+      "path": "backend\\certificates\\routes\\verify.routes.js",
+      "ext": ".js",
+      "size": 1819
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.admin.service.js",
+      "ext": ".js",
+      "size": 2129
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.db.service.js",
+      "ext": ".js",
+      "size": 1965
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.hash.js",
+      "ext": ".js",
+      "size": 1010
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.pdf.js",
+      "ext": ".js",
+      "size": 3722
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.qr.js",
+      "ext": ".js",
+      "size": 1331
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.service.js",
+      "ext": ".js",
+      "size": 1672
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.template.js",
+      "ext": ".js",
+      "size": 976
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.trigger.service.js",
+      "ext": ".js",
+      "size": 881
+    },
+    {
+      "path": "backend\\certificates\\services\\certificate.verify.service.js",
+      "ext": ".js",
+      "size": 1040
+    },
+    {
+      "path": "backend\\routes\\admin.routes.js",
+      "ext": ".js",
+      "size": 470
+    },
+    {
+      "path": "backend\\routes\\ai.routes.js",
+      "ext": ".js",
+      "size": 2434
+    },
+    {
+      "path": "backend\\routes\\auth.routes.js",
+      "ext": ".js",
+      "size": 2485
+    },
+    {
+      "path": "backend\\routes\\certificate.routes.js",
+      "ext": ".js",
+      "size": 1193
+    },
+    {
+      "path": "backend\\routes\\course.routes.js",
+      "ext": ".js",
+      "size": 2952
+    },
+    {
+      "path": "backend\\routes\\incidents.routes.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\routes\\jobs.routes.js",
+      "ext": ".js",
+      "size": 1733
+    },
+    {
+      "path": "backend\\routes\\logs.routes.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\routes\\mentor.routes.js",
+      "ext": ".js",
+      "size": 1593
+    },
+    {
+      "path": "backend\\routes\\metrics.routes.js",
+      "ext": ".js",
+      "size": 0
+    },
+    {
+      "path": "backend\\routes\\payment.routes.js",
+      "ext": ".js",
+      "size": 2142
+    },
+    {
+      "path": "backend\\routes\\profile.routes.js",
+      "ext": ".js",
+      "size": 1458
+    },
+    {
+      "path": "backend\\routes\\stripe.routes.js",
+      "ext": ".js",
+      "size": 896
+    },
+    {
+      "path": "backend\\routes\\verify.routes.js",
+      "ext": ".js",
+      "size": 870
+    }
+  ]
+}

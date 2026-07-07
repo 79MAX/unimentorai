@@ -1,0 +1,6 @@
+🔍 UNI MENTOR AI SAFE RESTORE INIT
+✅ Backup OK
+📁 Zone SAFE créée : C:\Users\DJOTOHOU\UNIMENTORAI\RESTORE_TEST
+🧪 Simulation de restauration...
+📦 Fichiers détectés : 94986
+✅ RESTORE TEST TERMINÉ (SAFE MODE)                

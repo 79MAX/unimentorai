@@ -1,0 +1,19 @@
+import 'dart:convert';
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+Future<void> importCoursesFromJson() async {
+  final String jsonString = await rootBundle.loadString('assets/courses_seed.json');
+  final List<dynamic> courses = json.decode(jsonString);
+
+  final FirebaseFirestore firestore = FirebaseFirestore.instance;
+  final WriteBatch batch = firestore.batch();
+
+  for (final course in courses) {
+    final docRef = firestore.collection('courses').doc(course['id']);
+    batch.set(docRef, course);
+  }
+
+  await batch.commit();
+  print("✅ Importation des cours terminée avec succès.");
+}

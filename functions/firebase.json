@@ -1,0 +1,20 @@
+{
+  "functions": {
+    "source": "functions",
+    "predeploy": [
+      "echo \"Skipping lint for stable production deploy\""
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

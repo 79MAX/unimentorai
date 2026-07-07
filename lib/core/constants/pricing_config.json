@@ -1,0 +1,126 @@
+{
+  "pricing": {
+    "schools": {
+      "tiers": [
+        {
+          "name": "Starter",
+          "min_price": 1500,
+          "price_per_user": 20,
+          "min_users": 50,
+          "max_users": 200,
+          "volume_discounts": [
+            { "threshold": 500, "discount_percent": 10 }
+          ],
+          "features": ["certificates", "analytics"]
+        },
+        {
+          "name": "Pro",
+          "min_price": 5000,
+          "price_per_user": 15,
+          "min_users": 201,
+          "max_users": 2000,
+          "volume_discounts": [
+            { "threshold": 2000, "discount_percent": 15 }
+          ],
+          "features": ["certificates", "analytics", "api", "sso", "support"]
+        },
+        {
+          "name": "Premium",
+          "min_price": 15000,
+          "price_per_user": 12,
+          "min_users": 2001,
+          "max_users": 20000,
+          "volume_discounts": [
+            { "threshold": 10000, "discount_percent": 20 }
+          ],
+          "features": ["certificates", "analytics", "api", "sso", "support", "on_premise", "sla"]
+        }
+      ]
+    },
+    "enterprises": {
+      "tiers": [
+        {
+          "name": "Starter",
+          "min_price": 3000,
+          "price_per_user": 40,
+          "min_users": 50,
+          "max_users": 200,
+          "volume_discounts": [
+            { "threshold": 500, "discount_percent": 10 }
+          ],
+          "features": ["certificates", "analytics"]
+        },
+        {
+          "name": "Pro",
+          "min_price": 10000,
+          "price_per_user": 30,
+          "min_users": 201,
+          "max_users": 2000,
+          "volume_discounts": [
+            { "threshold": 2000, "discount_percent": 15 }
+          ],
+          "features": ["certificates", "analytics", "api", "sso", "support"]
+        },
+        {
+          "name": "Premium",
+          "min_price": 30000,
+          "price_per_user": 25,
+          "min_users": 2001,
+          "max_users": 20000,
+          "volume_discounts": [
+            { "threshold": 10000, "discount_percent": 20 }
+          ],
+          "features": ["certificates", "analytics", "api", "sso", "support", "on_premise", "sla"]
+        }
+      ]
+    },
+    "ngos": {
+      "tiers": [
+        {
+          "name": "Starter",
+          "min_price": 500,
+          "price_per_user": 8,
+          "min_users": 20,
+          "max_users": 200,
+          "volume_discounts": [
+            { "threshold": 200, "discount_percent": 20 }
+          ],
+          "features": ["certificates", "analytics"]
+        },
+        {
+          "name": "Pro",
+          "min_price": 2000,
+          "price_per_user": 6,
+          "min_users": 201,
+          "max_users": 1000,
+          "volume_discounts": [
+            { "threshold": 1000, "discount_percent": 25 }
+          ],
+          "features": ["certificates", "analytics", "api", "sso", "support"]
+        },
+        {
+          "name": "Premium",
+          "min_price": 7000,
+          "price_per_user": 5,
+          "min_users": 1001,
+          "max_users": 5000,
+          "volume_discounts": [
+            { "threshold": 5000, "discount_percent": 30 }
+          ],
+          "features": ["certificates", "analytics", "api", "sso", "support", "on_premise", "sla"]
+        }
+      ]
+    },
+    "addons": {
+      "support_24h": { "price": 1000, "included_in": ["Premium"] },
+      "on_premise": { "price_from": 10000 },
+      "custom_dev": { "price_per_day": 500 },
+      "training": { "price_per_session": 1200, "max_people": 20 }
+    },
+    "regional_adjustments": {
+      "africa": { "discount_percent": 20 },
+      "ngo_africa": { "discount_percent": 30 }
+    },
+    "currencies": ["EUR", "USD", "XOF"]
+  }
+} 

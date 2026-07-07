@@ -1,0 +1,17 @@
+{
+  "version": "v2",
+  "strict_mode": true,
+  "rules": {
+    "no_hallucination": true,
+    "no_uncontrolled_file_creation": true,
+    "system_map_only_source": true
+  },
+  "architecture": {
+    "reuse_existing_files": true,
+    "max_new_files_per_run": 1
+  },
+  "security": {
+    "sanitize_input": true,
+    "log_requests": true
+  }
+}

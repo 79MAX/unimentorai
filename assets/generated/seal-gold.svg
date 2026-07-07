@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF1A8"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8C6B1E"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0B1220" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Glow -->
+  <circle cx="150" cy="150" r="140" fill="url(#glow)"/>
+
+  <!-- Outer ring -->
+  <circle cx="150" cy="150" r="120"
+          fill="none"
+          stroke="url(#gold)"
+          stroke-width="8"/>
+
+  <!-- Inner ring -->
+  <circle cx="150" cy="150" r="95"
+          fill="none"
+          stroke="#D4AF37"
+          stroke-width="2"
+          opacity="0.6"/>
+
+  <!-- Center core -->
+  <circle cx="150" cy="150" r="28"
+          fill="#0B1220"
+          stroke="url(#gold)"
+          stroke-width="3"/>
+
+  <!-- Verification mark -->
+  <circle cx="150" cy="150" r="10" fill="#D4AF37"/>
+
+  <!-- Verification lines -->
+  <path d="M60 155 Q150 60 240 155"
+        fill="none"
+        stroke="#D4AF37"
+        stroke-width="2"
+        opacity="0.7"/>
+
+  <path d="M75 180 Q150 110 225 180"
+        fill="none"
+        stroke="#F8E9A1"
+        stroke-width="1.5"
+        opacity="0.5"/>
+
+  <!-- Security nodes -->
+  <circle cx="60" cy="155" r="4" fill="#D4AF37"/>
+  <circle cx="240" cy="155" r="4" fill="#D4AF37"/>
+
+  <!-- Text -->
+  <text x="150" y="265"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="14"
+        fill="#0B1220"
+        font-weight="bold">
+    VERIFIED
+  </text>
+
+  <text x="150" y="285"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="10"
+        fill="#8C6B1E">
+    UniMentorAI Security Seal
+  </text>
+</svg>

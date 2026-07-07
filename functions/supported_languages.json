@@ -1,0 +1,362 @@
+[
+  {
+    "code": "af",
+    "name": "Afrikaans",
+    "englishName": "Afrikaans",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "am",
+    "name": "????",
+    "englishName": "Amharic",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "ar",
+    "name": "???????",
+    "englishName": "Arabic",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": true,
+    "group": "Global",
+    "rtl": true
+  },
+  {
+    "code": "bambara",
+    "name": "Bamanankan",
+    "englishName": "Bambara",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "ch",
+    "name": "??",
+    "englishName": "Chinese",
+    "continent": "Asia",
+    "flag": "????",
+    "isActive": true,
+    "group": "Global",
+    "rtl": false
+  },
+  {
+    "code": "de",
+    "name": "Deutsch",
+    "englishName": "German",
+    "continent": "Europe",
+    "flag": "????",
+    "isActive": true,
+    "group": "Global",
+    "rtl": false
+  },
+  {
+    "code": "en",
+    "name": "English",
+    "englishName": "English",
+    "continent": "Europe",
+    "flag": "????",
+    "isActive": true,
+    "group": "Global",
+    "rtl": false
+  },
+  {
+    "code": "es",
+    "name": "Español",
+    "englishName": "Spanish",
+    "continent": "Europe",
+    "flag": "????",
+    "isActive": true,
+    "group": "Global",
+    "rtl": false
+  },
+  {
+    "code": "ewe",
+    "name": "E?egbe",
+    "englishName": "Ewe",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "ff",
+    "name": "Fulfulde",
+    "englishName": "Fula",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "fon",
+    "name": "F?ngbè",
+    "englishName": "Fon",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": true,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "fr",
+    "name": "Français",
+    "englishName": "French",
+    "continent": "Europe",
+    "flag": "????",
+    "isActive": true,
+    "group": "Global",
+    "rtl": false
+  },
+  {
+    "code": "ha",
+    "name": "Hausa",
+    "englishName": "Hausa",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": true,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "ig",
+    "name": "Igbo",
+    "englishName": "Igbo",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": true,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "it",
+    "name": "Italiano",
+    "englishName": "Italian",
+    "continent": "Europe",
+    "flag": "????",
+    "isActive": true,
+    "group": "Global",
+    "rtl": false
+  },
+  {
+    "code": "ja",
+    "name": "???",
+    "englishName": "Japanese",
+    "continent": "Asia",
+    "flag": "????",
+    "isActive": false,
+    "group": "Premium",
+    "rtl": false
+  },
+  {
+    "code": "kanuri",
+    "name": "Kanuri",
+    "englishName": "Kanuri",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "kirundi",
+    "name": "Ikirundi",
+    "englishName": "Kirundi",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "ko",
+    "name": "???",
+    "englishName": "Korean",
+    "continent": "Asia",
+    "flag": "????",
+    "isActive": false,
+    "group": "Premium",
+    "rtl": false
+  },
+  {
+    "code": "ln",
+    "name": "Lingála",
+    "englishName": "Lingala",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": true,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "moore",
+    "name": "Mòoré",
+    "englishName": "Moore",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "nde",
+    "name": "Sindebele",
+    "englishName": "Ndebele",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "pt",
+    "name": "Português",
+    "englishName": "Portuguese",
+    "continent": "Europe",
+    "flag": "????",
+    "isActive": true,
+    "group": "Global",
+    "rtl": false
+  },
+  {
+    "code": "ru",
+    "name": "???????",
+    "englishName": "Russian",
+    "continent": "Europe",
+    "flag": "????",
+    "isActive": true,
+    "group": "Global",
+    "rtl": false
+  },
+  {
+    "code": "sn",
+    "name": "ChiShona",
+    "englishName": "Shona",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "so",
+    "name": "Soomaali",
+    "englishName": "Somali",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": true,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "sw",
+    "name": "Kiswahili",
+    "englishName": "Swahili",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": true,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "taq",
+    "name": "Tamasheq",
+    "englishName": "Tamasheq",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "ti",
+    "name": "????",
+    "englishName": "Tigrinya",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "tsonga",
+    "name": "Xitsonga",
+    "englishName": "Tsonga",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "twi",
+    "name": "Twi",
+    "englishName": "Twi",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "wolaytta",
+    "name": "Wolaytta",
+    "englishName": "Wolaytta",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": false,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "wo",
+    "name": "Wolof",
+    "englishName": "Wolof",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": true,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "xh",
+    "name": "isiXhosa",
+    "englishName": "Xhosa",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": true,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "yo",
+    "name": "Yorùbá",
+    "englishName": "Yoruba",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": true,
+    "group": "African",
+    "rtl": false
+  },
+  {
+    "code": "zu",
+    "name": "isiZulu",
+    "englishName": "Zulu",
+    "continent": "Africa",
+    "flag": "????",
+    "isActive": true,
+    "group": "African",
+    "rtl": false
+  }
+]

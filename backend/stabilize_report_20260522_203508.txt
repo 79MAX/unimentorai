@@ -1,0 +1,22 @@
+==================================================
+UniMentorAI Backend Stabilization Report V2
+Generated: 20260522_203508
+==================================================
+
+Backup created: ..\backend_backup_20260522_203508
+Duplicate: admin.routes.js
+Duplicate: ai_admin_brain.engine.js
+Duplicate: ai_ceo_brain.engine.js
+Duplicate: ai_self_learning.loop.js
+Duplicate: ai.routes.js
+Duplicate: auth.routes.js
+Duplicate: index.js
+Duplicate: jobs.analytics.engine.js
+Duplicate: jobs.api.engine.js
+Duplicate: jobs.engine.js
+Duplicate: jobs.match.engine.js
+Duplicate: jobs.profile.engine.js
+Duplicate: jobs.recommendation.engine.js
+Duplicate: jobs.routes.js
+Duplicate: jobs.vector.engine.js
+Duplicate: legal.router.js

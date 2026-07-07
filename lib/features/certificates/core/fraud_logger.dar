@@ -1,0 +1,18 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+class FraudLogger {
+  final FirebaseFirestore _db = FirebaseFirestore.instance;
+
+  Future<void> logFraudAttempt({
+    required String certificateId,
+    required String reason,
+    required double trustScore,
+  }) async {
+    await _db.collection('fraud_logs').add({
+      'certificateId': certificateId,
+      'reason': reason,
+      'trustScore': trustScore,
+      'timestamp': FieldValue.serverTimestamp(),
+    });
+  }
+}

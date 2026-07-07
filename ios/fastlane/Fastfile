@@ -1,0 +1,35 @@
+# ios/fastlane/Fastfile
+default_platform(:ios)
+
+platform :ios do
+  desc "Deploy to App Store"
+  lane :deploy do
+    build_ios_app(
+      scheme: "Runner",
+      export_method: "app-store",
+      output_directory: "build/ios",
+      output_name: "UniMentorAI.ipa"
+    )
+    
+    upload_to_app_store(
+      ipa: "build/ios/UniMentorAI.ipa",
+      skip_metadata: true,
+      skip_screenshots: true
+    )
+  end
+
+  desc "Deploy to TestFlight"
+  lane :beta do
+    build_ios_app(
+      scheme: "Runner",
+      export_method: "app-store",
+      output_directory: "build/ios",
+      output_name: "UniMentorAI.ipa"
+    )
+    
+    upload_to_testflight(
+      ipa: "build/ios/UniMentorAI.ipa",
+      skip_waiting_for_build_processing: true
+    )
+  end
+end 

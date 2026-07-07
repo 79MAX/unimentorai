@@ -1,0 +1,166 @@
+export const rbac = (config = {}) => {
+  const {
+    roles = [],
+    plans = ["FREE", "PRO", "ENTERPRISE"],
+    maxRequestsPerDay,
+    maxTokensPerDay,
+    enableFraudCheck = true,
+  } = config;
+
+  return (req, res, next) => {
+    try {
+      const user = req.user;
+
+      // =========================
+      // AUTH CHECK
+      // =========================
+      if (!user) {
+        return deny(res, 401, "UNAUTHORIZED", "User not authenticated");
+      }
+
+      const role = user.role || "guest";
+      const plan = user.plan || "FREE";
+      const usage = user.usage || {};
+
+      const requests = usage.requestsToday ?? 0;
+      const tokens = usage.tokensToday ?? 0;
+
+      // =========================
+      // FRAUD ENGINE (AI RISK SCORING)
+      // =========================
+      const risk = enableFraudCheck
+        ? computeRiskScore({ user, requests, tokens })
+        : { score: 0, level: "LOW" };
+
+      if (risk.level === "CRITICAL") {
+        return deny(res, 403, "FRAUD_SUSPECTED", "Account flagged by AI security", {
+          riskScore: risk.score,
+          reason: risk.reason,
+        });
+      }
+
+      // =========================
+      // ROLE CHECK
+      // =========================
+      if (roles.length && !roles.includes(role)) {
+        return deny(res, 403, "FORBIDDEN_ROLE", "Role not allowed", {
+          role,
+          requiredRoles: roles,
+        });
+      }
+
+      // =========================
+      // PLAN CHECK (STRIPE LEVEL)
+      // =========================
+      if (plans.length && !plans.includes(plan)) {
+        return deny(res, 402, "PAYMENT_REQUIRED", "Upgrade required", {
+          plan,
+          requiredPlans: plans,
+        });
+      }
+
+      // =========================
+      // USAGE LIMITS (AI MONETIZATION)
+      // =========================
+      if (maxRequestsPerDay && requests >= maxRequestsPerDay) {
+        return deny(res, 429, "REQUEST_LIMIT_EXCEEDED", "Request limit reached", {
+          limit: maxRequestsPerDay,
+          used: requests,
+        });
+      }
+
+      if (maxTokensPerDay && tokens >= maxTokensPerDay) {
+        return deny(res, 429, "TOKEN_LIMIT_EXCEEDED", "Token limit reached", {
+          limit: maxTokensPerDay,
+          used: tokens,
+        });
+      }
+
+      // =========================
+      // CONTEXT ATTACHMENT (SAAS INTELLIGENCE)
+      // =========================
+      req.access = {
+        role,
+        plan,
+        usage,
+        risk,
+        limits: {
+          maxRequestsPerDay: maxRequestsPerDay ?? null,
+          maxTokensPerDay: maxTokensPerDay ?? null,
+        },
+      };
+
+      next();
+
+    } catch (error) {
+      return deny(res, 500, "RBAC_V3_ERROR", "Security system failure", {
+        error: error.message,
+      });
+    }
+  };
+};
+
+/* =========================
+   AI FRAUD SCORING ENGINE
+========================= */
+function computeRiskScore({ user, requests, tokens }) {
+  let score = 0;
+  const reasons = [];
+
+  // 🚨 1. usage spike detection
+  if (requests > 500) {
+    score += 40;
+    reasons.push("HIGH_REQUEST_VOLUME");
+  }
+
+  if (tokens > 200000) {
+    score += 40;
+    reasons.push("HIGH_TOKEN_USAGE");
+  }
+
+  // 🚨 2. suspicious free plan abuse
+  if (user.plan === "FREE" && requests > 200) {
+    score += 30;
+    reasons.push("FREE_PLAN_ABUSE");
+  }
+
+  // 🚨 3. missing user metadata (bot signal)
+  if (!user.email || !user.id) {
+    score += 25;
+    reasons.push("MISSING_IDENTITY");
+  }
+
+  // 🚨 4. rapid usage pattern (placeholder future ML)
+  if (user.usage?.requestsToday > 100 && user.usage?.tokensToday > 50000) {
+    score += 20;
+    reasons.push("RAPID_AI_CONSUMPTION");
+  }
+
+  // =========================
+  // RISK LEVEL CLASSIFICATION
+  // =========================
+  let level = "LOW";
+
+  if (score >= 80) level = "CRITICAL";
+  else if (score >= 50) level = "HIGH";
+  else if (score >= 25) level = "MEDIUM";
+
+  return {
+    score,
+    level,
+    reason: reasons,
+  };
+}
+
+/* =========================
+   RESPONSE HELPER
+========================= */
+function deny(res, status, code, message, meta = {}) {
+  return res.status(status).json({
+    success: false,
+    code,
+    message,
+    ...meta,
+    timestamp: Date.now(),
+  });
+}

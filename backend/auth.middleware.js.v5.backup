@@ -1,0 +1,59 @@
+import jwt from "jsonwebtoken";
+
+export const protect = (req, res, next) => {
+  try {
+    const authHeader = req.headers.authorization;
+
+    // 1. Check header
+    if (!authHeader || !authHeader.startsWith("Bearer ")) {
+      return res.status(401).json({
+        success: false,
+        code: "NO_TOKEN",
+        message: "Authorization token required"
+      });
+    }
+
+    // 2. Extract token safely
+    const token = authHeader.split(" ")[1]?.trim();
+
+    if (!token) {
+      return res.status(401).json({
+        success: false,
+        code: "INVALID_TOKEN_FORMAT",
+        message: "Malformed token"
+      });
+    }
+
+    // 3. Verify token (fail fast)
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+
+    if (!decoded) {
+      return res.status(401).json({
+        success: false,
+        code: "INVALID_TOKEN",
+        message: "Token verification failed"
+      });
+    }
+
+    // 4. Attach user (clean + predictable shape)
+    req.user = {
+      id: decoded.id,
+      email: decoded.email,
+      role: decoded.role || "user",
+      plan: decoded.plan || "free"
+    };
+
+    return next();
+
+  } catch (err) {
+    const isExpired = err.name === "TokenExpiredError";
+
+    return res.status(401).json({
+      success: false,
+      code: isExpired ? "TOKEN_EXPIRED" : "UNAUTHORIZED",
+      message: isExpired
+        ? "Session expired"
+        : "Invalid or expired token"
+    });
+  }
+};

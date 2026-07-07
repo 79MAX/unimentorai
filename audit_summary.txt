@@ -1,0 +1,28 @@
+=== AUDIT CRITIQUE ===
+
+FICHIERS MANQUANTS CLÉS:
+1. lib/core/firebase/firebase_options.dart - CRITIQUE (utilisé par AppInitializer)
+2. lib/features/auth/screens/login_screen.dart - CRITIQUE (importer au routing)
+3. lib/features/auth/screens/verify_email_screen.dart - CRITIQUE (importer au routing)
+
+FICHIERS EXISTANTS MAIS MAL RÉFÉRENCÉS:
+- lib/features/home/home_screen.dart - EXISTE mais importer attend lib/features/home/screens/home_screen.dart
+- lib/core/theme/app_colors.dart - EXISTE (pas d'erreur)
+- lib/core/router/go_router_refresh_stream.dart - EXISTE mais pas importé
+
+DÉPENDANCES MANQUANTES DANS PUBSPEC:
+- crypto (utilisé par security & blockchain)
+- encrypt (utilisé par security_service)
+- csv (utilisé par admin subscriptions)
+- path_provider (utilisé par feedback_dashboard)
+- http (utilisé par billing)
+
+FICHIERS MAL IMPORTER:
+- app_bootstrap_service.dart
+- admin_service.dart
+- admin_dashboard_stats.dart
+- AuthService (plusieurs chemins)
+- ChatbotService
+- PricingService
+- TranslationService
+- ReverseMentoringService

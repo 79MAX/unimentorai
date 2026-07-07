@@ -1,0 +1,25 @@
+AUDIT MODE
+
+Analyze ONLY the provided SYSTEM_MAP.
+
+Return UNKNOWN when evidence is absent.
+
+SYSTEM_MAP:
+$SystemMap = Get-Content ".\system-map.json" -Raw
+
+$Prompt = @"
+AUDIT MODE
+
+Analyze ONLY the provided SYSTEM_MAP.
+
+Return UNKNOWN when evidence is absent.
+
+SYSTEM_MAP:
+
+$SystemMap
+"@
+
+$Prompt | Out-File ".\audit-prompt.txt" -Encoding utf8
+
+Get-Content ".\audit-prompt.txt" -Raw | ollama run qwen3-coder:30b
+

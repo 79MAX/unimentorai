@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "690200033074",
+    "project_id": "unimentorai-pjhwn",
+    "storage_bucket": "unimentorai-pjhwn.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690200033074:android:97bb7bda6b854ebc90492b",
+        "android_client_info": {
+          "package_name": "com.unimentorai.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690200033074-97le00qhsuhi2mvg13ut2cqgmrk9ecog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXhwX3kPM7uXsGvSrHRNnia12c1gDetwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690200033074-97le00qhsuhi2mvg13ut2cqgmrk9ecog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

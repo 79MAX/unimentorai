@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- =========================
+       META CORE
+  ========================= -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>UniMentorAI | QR Certificate Scanner</title>
+
+  <meta name="description" content="Scan and verify UniMentorAI certificates instantly using QR code technology." />
+
+  <link rel="stylesheet" href="qr.scanner.css" />
+
+</head>
+
+<body>
+
+  <!-- =========================
+       HEADER (BRANDING)
+  ========================= -->
+  <header class="header">
+
+    <h1>📷 UniMentorAI Scanner</h1>
+    <p>Real-time Certificate Verification System</p>
+
+  </header>
+
+  <!-- =========================
+       MAIN SCANNER
+  ========================= -->
+  <main class="container">
+
+    <section class="scanner-box">
+
+      <!-- CAMERA -->
+      <video id="video" autoplay playsinline></video>
+
+      <!-- SCAN FRAME OVERLAY -->
+      <div class="overlay">
+        🔲 Position QR Code inside frame
+      </div>
+
+    </section>
+
+    <!-- =========================
+         STATUS RESULT
+    ========================= -->
+    <div id="result" class="result-box"></div>
+
+  </main>
+
+  <!-- =========================
+       LOADING SCRIPT
+  ========================= -->
+  <script src="https://unpkg.com/jsqr/dist/jsQR.js"></script>
+  <script src="qr.scanner.js"></script>
+
+</body>
+</html>

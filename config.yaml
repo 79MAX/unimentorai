@@ -1,0 +1,31 @@
+models:
+  default: llama3
+
+  agents:
+    general:
+      model: llama3
+      temperature: 0.7
+
+    reasoning:
+      model: gemma
+      temperature: 0.3
+
+    code:
+      model: qwen
+      temperature: 0.2
+
+    fast_chat:
+      model: deepseek
+      temperature: 0.6
+
+routing_rules:
+  - keywords: ["code", "bug", "error", "flutter", "dart"]
+    agent: code
+
+  - keywords: ["analyse", "expliquer", "raisonnement"]
+    agent: reasoning
+
+  - keywords: ["bonjour", "chat", "simple"]
+    agent: fast_chat
+
+  - default: general

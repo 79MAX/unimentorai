@@ -1,0 +1,188 @@
+import { getRevenueKPIs } from "../billing/stripe.monetization.js";
+import { getUsageKPIs } from "../billing/stripe.usage.service.js";
+import { getCostSummary } from "../ai/ai.cost.engine.js";
+
+/**
+ * =========================================
+ * UniMentorAI - ADMIN SAAS DASHBOARD V3+
+ * OPTIMIZED BUSINESS INTELLIGENCE LAYER
+ * =========================================
+ */
+
+export const getAdminStats = async (req, res) => {
+  try {
+    // =========================
+    // SAFE DEFAULTS (ANTI CRASH)
+    // =========================
+    const revenue = getRevenueKPIs() || {};
+    const usage = getUsageKPIs() || {};
+
+    const totalRevenue = revenue.totalRevenue || 0;
+    const totalTokens = usage.totalTokens || 0;
+    const totalRequests = usage.totalRequests || 0;
+    const totalUsers = usage.totalUsers || 1;
+
+    const activeSubscriptions = revenue.activeSubscriptions || 0;
+    const failedPayments = revenue.failedPayments || 0;
+
+    // =========================
+    // COST ENGINE
+    // =========================
+    const cost = getCostSummary({
+      inputTokens: totalTokens,
+      outputTokens: totalTokens * 0.5,
+      plan: "PRO",
+    }) || { cost: 0 };
+
+    const totalCost = cost.cost || 0;
+
+    // =========================
+    // CORE ECONOMICS
+    // =========================
+    const profit = totalRevenue - totalCost;
+
+    const arpu = totalRevenue / totalUsers;
+
+    const conversionRate =
+      totalUsers > 0
+        ? (activeSubscriptions / totalUsers) * 100
+        : 0;
+
+    const churnRate =
+      activeSubscriptions > 0
+        ? (failedPayments / (activeSubscriptions + 1)) * 100
+        : 0;
+
+    const costPerRequest =
+      totalRequests > 0 ? totalCost / totalRequests : 0;
+
+    const revenuePerRequest =
+      totalRequests > 0 ? totalRevenue / totalRequests : 0;
+
+    const margin =
+      totalRevenue > 0 ? (profit / totalRevenue) * 100 : 0;
+
+    // =========================
+    // BUSINESS HEALTH ENGINE
+    // =========================
+    let businessHealth = "HEALTHY";
+
+    if (profit < 0) businessHealth = "LOSS";
+    if (conversionRate < 2) businessHealth = "LOW_CONVERSION";
+    if (churnRate > 20) businessHealth = "HIGH_CHURN";
+    if (totalCost > totalRevenue) businessHealth = "UNBALANCED_COST";
+
+    // =========================
+    // GROWTH SIGNALS
+    // =========================
+    const growthSignals = {
+      revenueGrowth: totalRevenue > 0 ? "TRACKING" : "NO_DATA",
+      userGrowth: totalUsers > 100 ? "SCALING" : "EARLY_STAGE",
+      aiUsageGrowth: totalTokens > 10000 ? "ACTIVE" : "LOW_ACTIVITY",
+    };
+
+    // =========================
+    // ALERT ENGINE
+    // =========================
+    const alerts = generateAlerts({
+      profit,
+      churnRate,
+      totalCost,
+      totalRevenue,
+    });
+
+    // =========================
+    // FINAL RESPONSE
+    // =========================
+    return res.status(200).json({
+      success: true,
+      data: {
+        timestamp: Date.now(),
+
+        system: {
+          status: "OK",
+          uptime: process.uptime(),
+          node: process.version,
+        },
+
+        revenue: {
+          totalRevenue,
+          activeSubscriptions,
+          failedPayments,
+        },
+
+        ai: {
+          totalRequests,
+          totalTokens,
+          costPerRequest,
+          revenuePerRequest,
+        },
+
+        economics: {
+          cost: totalCost,
+          profit,
+          margin,
+          arpu,
+        },
+
+        growth: growthSignals,
+
+        business: {
+          health: businessHealth,
+          conversionRate: `${conversionRate.toFixed(2)}%`,
+          churnRate: `${churnRate.toFixed(2)}%`,
+        },
+
+        alerts,
+      },
+    });
+
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: "ADMIN_DASHBOARD_V3_ERROR",
+      error: error.message,
+    });
+  }
+};
+
+/* =========================
+   ALERT ENGINE (ROBUST)
+========================= */
+function generateAlerts({ profit, churnRate, totalCost, totalRevenue }) {
+  const alerts = [];
+
+  if (profit < 0) {
+    alerts.push({
+      type: "CRITICAL",
+      code: "NEGATIVE_PROFIT",
+      message: "SaaS is not profitable",
+    });
+  }
+
+  if (churnRate > 20) {
+    alerts.push({
+      type: "WARNING",
+      code: "HIGH_CHURN",
+      message: "High churn rate detected",
+    });
+  }
+
+  if (totalCost > totalRevenue) {
+    alerts.push({
+      type: "CRITICAL",
+      code: "COST_OVER_REVENUE",
+      message: "AI cost exceeds revenue",
+    });
+  }
+
+  if (alerts.length === 0) {
+    alerts.push({
+      type: "OK",
+      code: "SYSTEM_HEALTHY",
+      message: "System healthy",
+    });
+  }
+
+  return alerts;
+}

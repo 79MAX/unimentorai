@@ -1,0 +1,96 @@
+import express from "express";
+import { RevenueAnalytics } from "../analytics/revenue.analytics.js";
+import { getBillingLogs } from "../logs/billing.logs.js";
+
+const router = express.Router();
+
+/* =========================
+   🧠 RESPONSE WRAPPER
+========================= */
+function success(res, data) {
+  return res.json({
+    success: true,
+    data
+  });
+}
+
+/* =========================
+   📊 DASHBOARD OVERVIEW
+========================= */
+router.get("/dashboard", (req, res) => {
+
+  const metrics = RevenueAnalytics.getDashboardMetrics();
+
+  return success(res, metrics);
+});
+
+/* =========================
+   💰 TOTAL REVENUE
+========================= */
+router.get("/revenue", (req, res) => {
+
+  return success(res, {
+    totalRevenue: RevenueAnalytics.getTotalRevenue()
+  });
+});
+
+/* =========================
+   📈 REVENUE BY PROVIDER
+========================= */
+router.get("/revenue/providers", (req, res) => {
+
+  return success(res, RevenueAnalytics.revenueByProvider());
+});
+
+/* =========================
+   🌍 REVENUE BY CURRENCY
+========================= */
+router.get("/revenue/currency", (req, res) => {
+
+  return success(res, RevenueAnalytics.revenueByCurrency());
+});
+
+/* =========================
+   📊 SUCCESS & FAILURE RATE
+========================= */
+router.get("/stats/rates", (req, res) => {
+
+  return success(res, {
+    successRate: RevenueAnalytics.successRate(),
+    failureRate: RevenueAnalytics.failureRate()
+  });
+});
+
+/* =========================
+   📋 BILLING LOGS (PAGINATED)
+========================= */
+router.get("/logs", (req, res) => {
+
+  const page = parseInt(req.query.page || "1");
+  const limit = parseInt(req.query.limit || "50");
+
+  const logs = getBillingLogs();
+
+  const start = (page - 1) * limit;
+  const end = start + limit;
+
+  return success(res, {
+    page,
+    limit,
+    total: logs.length,
+    logs: logs.slice(start, end)
+  });
+});
+
+/* =========================
+   📊 TOP CUSTOMERS
+========================= */
+router.get("/customers/top", (req, res) => {
+
+  const limit = parseInt(req.query.limit || "10");
+
+  return success(res, RevenueAnalytics.topCustomers(limit));
+});
+
+export default router;
+

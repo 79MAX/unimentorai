@@ -1,0 +1,879 @@
+Analyzing unimentorai...                                        
+
+warning - 'avoid_returning_widgets' is not a recognized lint rule - analysis_options.yaml:30:5 - undefined_lint
+warning - 'avoid_unnecessary_setstate' is not a recognized lint rule - analysis_options.yaml:31:5 - undefined_lint
+warning - 'avoid_unnecessary_stateful_widgets' is not a recognized lint rule - analysis_options.yaml:32:5 - undefined_lint
+warning - 'avoid_returning_widgets' is not a recognized lint rule - backups\unimentorai_backup_20260522_174052\analysis_options.yaml:30:5 - undefined_lint
+warning - 'avoid_unnecessary_setstate' is not a recognized lint rule - backups\unimentorai_backup_20260522_174052\analysis_options.yaml:31:5 - undefined_lint
+warning - 'avoid_unnecessary_stateful_widgets' is not a recognized lint rule - backups\unimentorai_backup_20260522_174052\analysis_options.yaml:32:5 - undefined_lint
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\create_main_dart.dart:7:5 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\create_main_dart.dart:13:5 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\create_main_dart.dart:89:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\create_verify_file.dart:46:3 - avoid_print
+  error - Target of URI doesn't exist: 'features/dashboard/presentation/pages/home_page.dart' - backups\unimentorai_backup_20260522_174052\lib\app.dart:2:8 - uri_does_not_exist
+  error - The name 'HomePage' isn't a class - backups\unimentorai_backup_20260522_174052\lib\app.dart:25:19 - creation_with_non_type
+   info - The imported package 'flutter_dotenv' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\app\env\env.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:flutter_dotenv/flutter_dotenv.dart' - backups\unimentorai_backup_20260522_174052\lib\app\env\env.dart:1:8 - uri_does_not_exist
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\app\env\env.dart:7:11 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\app\env\env.dart:20:19 - undefined_identifier
+  error - Target of URI doesn't exist: 'config/firebase/firebase_config.dart' - backups\unimentorai_backup_20260522_174052\lib\app\main.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'features/auth/presentation/auth_gate.dart' - backups\unimentorai_backup_20260522_174052\lib\app\main.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'FirebaseConfig' - backups\unimentorai_backup_20260522_174052\lib\app\main.dart:7:9 - undefined_identifier
+  error - Invalid constant value - backups\unimentorai_backup_20260522_174052\lib\app\main.dart:17:13 - invalid_constant
+  error - The method 'AuthGate' isn't defined for the type 'MyApp' - backups\unimentorai_backup_20260522_174052\lib\app\main.dart:17:13 - undefined_method
+  error - The method 'GoRouterRefreshStream' isn't defined for the type 'AppRouter' - backups\unimentorai_backup_20260522_174052\lib\config\router\app_router.dart:15:24 - undefined_method
+   info - The imported package 'firebase_analytics' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\core\analytics\analytics_service.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:firebase_analytics/firebase_analytics.dart' - backups\unimentorai_backup_20260522_174052\lib\core\analytics\analytics_service.dart:1:8 - uri_does_not_exist
+  error - Undefined class 'FirebaseAnalytics' - backups\unimentorai_backup_20260522_174052\lib\core\analytics\analytics_service.dart:8:16 - undefined_class
+  error - Undefined name 'FirebaseAnalytics' - backups\unimentorai_backup_20260522_174052\lib\core\analytics\analytics_service.dart:8:39 - undefined_identifier
+   info - The imported package 'flutter_dotenv' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:flutter_dotenv/flutter_dotenv.dart' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:1:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../security_service.dart' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:3:8 - uri_does_not_exist
+  error - Undefined class 'SecurityService' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:12:9 - undefined_class
+  error - The method 'SecurityService' isn't defined for the type 'AppConfig' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:12:44 - undefined_method
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:59:13 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:65:28 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:67:24 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:68:36 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:84:24 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:85:20 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:88:22 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:89:20 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:90:19 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:93:42 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:94:48 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:95:38 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:98:41 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:99:24 - undefined_identifier
+  error - Undefined name 'dotenv' - backups\unimentorai_backup_20260522_174052\lib\core\config\app_config.dart:100:26 - undefined_identifier
+   info - The imported package 'equatable' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:equatable/equatable.dart' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:1:8 - uri_does_not_exist
+   info - The imported package 'json_annotation' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:2:8 - depend_on_referenced_packages
+   info - The imported package 'freezed_annotation' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:3:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:freezed_annotation/freezed_annotation.dart' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:3:8 - uri_does_not_exist
+  error - Target of URI hasn't been generated: 'file:///C:/Users/DJOTOHOU/UNIMENTORAI/unimentorai/backups/unimentorai_backup_20260522_174052/lib/core/models/payment_model.g.dart' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:5:6 - uri_has_not_been_generated
+  error - Target of URI doesn't exist: 'file:///C:/Users/DJOTOHOU/UNIMENTORAI/unimentorai/backups/unimentorai_backup_20260522_174052/lib/core/models/payment_model.freezed.dart' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:6:6 - uri_does_not_exist
+  error - Undefined name 'freezed' used as an annotation - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:9:1 - undefined_annotation
+  error - Classes can only mix in mixins and classes - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:10:41 - mixin_of_non_class
+  error - The name '_PaymentModel' isn't a type and can't be used in a redirected constructor - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:24:8 - redirect_to_non_class
+warning - The declaration 'PaymentModel._' isn't referenced - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:26:22 - unused_element
+  error - The method '_$PaymentModelFromJson' isn't defined for the type 'PaymentModel' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:28:63 - undefined_method
+  error - Undefined name 'status' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:30:27 - undefined_identifier
+  error - Undefined name 'status' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:31:25 - undefined_identifier
+  error - Undefined name 'status' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:32:24 - undefined_identifier
+warning - The getter doesn't override an inherited getter - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:35:21 - override_on_non_overriding_member
+  error - Undefined name 'id' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:36:5 - undefined_identifier
+  error - Undefined name 'userId' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:36:9 - undefined_identifier
+  error - Undefined name 'amount' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:36:17 - undefined_identifier
+  error - Undefined name 'currency' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:36:25 - undefined_identifier
+  error - Undefined name 'method' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:36:35 - undefined_identifier
+  error - Undefined name 'status' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:36:43 - undefined_identifier
+  error - Undefined name 'createdAt' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:36:51 - undefined_identifier
+  error - Undefined name 'transactionId' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:37:5 - undefined_identifier
+  error - Undefined name 'description' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:37:20 - undefined_identifier
+  error - Undefined name 'metadata' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:37:33 - undefined_identifier
+  error - Undefined name 'completedAt' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:37:43 - undefined_identifier
+  error - Undefined name 'errorMessage' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:37:56 - undefined_identifier
+  error - Undefined name 'freezed' used as an annotation - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:42:1 - undefined_annotation
+  error - Classes can only mix in mixins and classes - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:43:51 - mixin_of_non_class
+  error - The name '_SubscriptionModel' isn't a type and can't be used in a redirected constructor - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:59:8 - redirect_to_non_class
+warning - The declaration 'SubscriptionModel._' isn't referenced - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:61:27 - unused_element
+  error - The method '_$SubscriptionModelFromJson' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:63:68 - undefined_method
+  error - Undefined name 'status' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:65:24 - undefined_identifier
+  error - Undefined name 'endDate' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:66:48 - undefined_identifier
+  error - Undefined name 'endDate' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:67:37 - undefined_identifier
+warning - The getter doesn't override an inherited getter - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:70:21 - override_on_non_overriding_member
+  error - Undefined name 'id' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:71:5 - undefined_identifier
+  error - Undefined name 'userId' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:71:9 - undefined_identifier
+  error - Undefined name 'type' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:71:17 - undefined_identifier
+  error - Undefined name 'status' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:71:23 - undefined_identifier
+  error - Undefined name 'startDate' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:71:31 - undefined_identifier
+  error - Undefined name 'endDate' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:71:42 - undefined_identifier
+  error - Undefined name 'amount' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:71:51 - undefined_identifier
+  error - Undefined name 'currency' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:72:5 - undefined_identifier
+  error - Undefined name 'paymentMethod' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:72:15 - undefined_identifier
+  error - Undefined name 'metadata' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:72:30 - undefined_identifier
+  error - Undefined name 'createdAt' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:72:40 - undefined_identifier
+  error - Undefined name 'updatedAt' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:72:51 - undefined_identifier
+  error - Undefined name 'transactionId' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:73:5 - undefined_identifier
+  error - Undefined name 'autoRenew' - backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart:73:20 - undefined_identifier
+  error - Target of URI doesn't exist: 'package:unimentorai/core/auth/local_auth_service.dart' - backups\unimentorai_backup_20260522_174052\lib\core\services\auth\local_auth_service.dart:3:8 - uri_does_not_exist
+warning - The value of the field '_coursesKey' isn't used - backups\unimentorai_backup_20260522_174052\lib\core\services\cache_service.dart:19:23 - unused_field
+warning - The value of the field '_translationsKey' isn't used - backups\unimentorai_backup_20260522_174052\lib\core\services\cache_service.dart:20:23 - unused_field
+warning - The value of the field '_userDataKey' isn't used - backups\unimentorai_backup_20260522_174052\lib\core\services\cache_service.dart:21:23 - unused_field
+warning - The value of the field '_securityService' isn't used - backups\unimentorai_backup_20260522_174052\lib\core\services\course_service.dart:10:25 - unused_field
+   info - The imported package 'flutter_dotenv' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:3:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:flutter_dotenv/flutter_dotenv.dart' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:3:8 - uri_does_not_exist
+   info - The imported package 'flutter_stripe' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:flutter_stripe/flutter_stripe.dart' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:4:8 - uri_does_not_exist
+   info - The imported package 'riverpod_annotation' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:6:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:riverpod_annotation/riverpod_annotation.dart' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:6:8 - uri_does_not_exist
+  error - Undefined name 'riverpod' used as an annotation - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:18:1 - undefined_annotation
+  error - Classes can only extend other classes - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:19:30 - extends_non_class
+warning - The method doesn't override an inherited method - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:25:31 - override_on_non_overriding_member
+  error - Undefined name 'Stripe' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:39:9 - undefined_identifier
+  error - Undefined name 'Stripe' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:40:15 - undefined_identifier
+  error - Undefined name 'state' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:56:7 - undefined_identifier
+  error - Undefined name 'state' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:56:15 - undefined_identifier
+  error - The argument type 'PaymentMethod (where PaymentMethod is defined in C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart)' can't be assigned to the parameter type 'PaymentMethod (where PaymentMethod is defined in C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\backups\unimentorai_backup_20260522_174052\lib\core\models\payment_model.dart)'.  - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:67:24 - argument_type_not_assignable
+warning - This default clause is covered by the previous cases - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:87:9 - unreachable_switch_default
+  error - The getter 'id' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:93:64 - undefined_getter
+  error - Undefined name 'state' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:99:7 - undefined_identifier
+  error - Undefined name 'state' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:99:15 - undefined_identifier
+  error - Undefined name 'state' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:105:7 - undefined_identifier
+  error - Undefined name 'state' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:105:15 - undefined_identifier
+  error - Undefined name 'Stripe' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:150:13 - undefined_identifier
+  error - The name 'card' isn't a class - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:152:21 - creation_with_non_type
+  error - The method 'PaymentMethodData' isn't defined for the type 'PaymentService' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:153:30 - undefined_method
+  error - The method 'BillingDetails' isn't defined for the type 'PaymentService' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:154:29 - undefined_method
+  error - The getter 'id' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:187:39 - undefined_getter
+  error - The getter 'userId' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:188:31 - undefined_getter
+  error - The getter 'metadata' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:189:23 - undefined_getter
+  error - The getter 'amount' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:192:30 - undefined_getter
+  error - The getter 'currency' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:193:32 - undefined_getter
+  error - The getter 'type' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:194:49 - undefined_getter
+  error - The getter 'id' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:208:41 - undefined_getter
+  error - The getter 'userId' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:209:33 - undefined_getter
+  error - The getter 'metadata' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:210:38 - undefined_getter
+  error - The getter 'amount' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:216:32 - undefined_getter
+  error - The getter 'currency' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:217:34 - undefined_getter
+  error - The getter 'type' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:218:51 - undefined_getter
+  error - The getter 'id' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:256:41 - undefined_getter
+  error - The getter 'userId' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:257:33 - undefined_getter
+  error - The getter 'metadata' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:258:38 - undefined_getter
+  error - The getter 'amount' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:264:32 - undefined_getter
+  error - The getter 'currency' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:265:34 - undefined_getter
+  error - The getter 'type' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:266:51 - undefined_getter
+  error - The getter 'userId' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:267:39 - undefined_getter
+  error - The getter 'id' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:300:41 - undefined_getter
+  error - The getter 'userId' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:301:33 - undefined_getter
+  error - The getter 'metadata' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:302:38 - undefined_getter
+  error - The getter 'amount' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:307:38 - undefined_getter
+  error - The getter 'currency' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:308:40 - undefined_getter
+  error - The getter 'currency' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:309:40 - undefined_getter
+  error - The getter 'type' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:325:49 - undefined_getter
+  error - The getter 'amount' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:326:40 - undefined_getter
+  error - The getter 'currency' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:327:34 - undefined_getter
+warning - This default clause is covered by the previous cases - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:365:9 - unreachable_switch_default
+  error - The getter 'id' isn't defined for the type 'SubscriptionModel' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:451:54 - undefined_getter
+   info - Unnecessary use of a block function body - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.dart:458:68 - prefer_expression_function_bodies
+  error - Undefined name 'ProviderFor' used as an annotation - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.g.dart:15:1 - undefined_annotation
+  error - The name 'AutoDisposeAsyncNotifierProvider' isn't a class - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.g.dart:16:32 - creation_with_non_type
+  error - Undefined class 'AutoDisposeAsyncNotifier' - backups\unimentorai_backup_20260522_174052\lib\core\services\payment_service.g.dart:27:28 - undefined_class
+   info - The imported package 'encrypt' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\core\services\security_service.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:encrypt/encrypt.dart' - backups\unimentorai_backup_20260522_174052\lib\core\services\security_service.dart:4:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../core/payment_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\admin\presentation\admin_dashboard_screen.dart:3:8 - uri_does_not_exist
+  error - The method 'SecurityService' isn't defined for the type '_AdminDashboardScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\admin\presentation\admin_dashboard_screen.dart:39:31 - undefined_method
+  error - The method 'SecurityService' isn't defined for the type 'AdminDashboardContent' - backups\unimentorai_backup_20260522_174052\lib\features\admin\presentation\admin_dashboard_screen.dart:489:43 - undefined_method
+   info - The imported package 'csv' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\features\admin\presentation\subscriptions_admin_screen.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:csv/csv.dart' - backups\unimentorai_backup_20260522_174052\lib\features\admin\presentation\subscriptions_admin_screen.dart:4:8 - uri_does_not_exist
+  error - The name 'ListToCsvConverter' isn't a class - backups\unimentorai_backup_20260522_174052\lib\features\admin\presentation\subscriptions_admin_screen.dart:53:23 - creation_with_non_type
+  error - Target of URI doesn't exist: '../../features/courses/provider/firestore_translation_service_provider.dart' - backups\unimentorai_backup_20260522_174052\lib\features\admin\presentation\translation_validator_screen.dart:5:8 - uri_does_not_exist
+  error - Undefined name 'firestoreTranslationServiceProvider' - backups\unimentorai_backup_20260522_174052\lib\features\admin\presentation\translation_validator_screen.dart:25:30 - undefined_identifier
+  error - Undefined name 'firestoreTranslationServiceProvider' - backups\unimentorai_backup_20260522_174052\lib\features\admin\presentation\translation_validator_screen.dart:40:30 - undefined_identifier
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\admin\presentation\translation_validator_screen.dart:129:21 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\admin\presentation\translation_validator_screen.dart:129:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - backups\unimentorai_backup_20260522_174052\lib\features\admin_control\presentation\admin_dashboard_screen.dart:143:43 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - backups\unimentorai_backup_20260522_174052\lib\features\ai_mentor\presentation\profile_screen.dart:55:26 - use_build_context_synchronously
+  error - Target of URI doesn't exist: '../../../core/payment_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\ai_mentor\presentation\quiz_screen.dart:1:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../core/certificat/certificat_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\ai_mentor\presentation\quiz_screen.dart:5:8 - uri_does_not_exist
+  error - The method 'CertificatService' isn't defined for the type '_QuizScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\ai_mentor\presentation\quiz_screen.dart:82:13 - undefined_method
+  error - Undefined name 'PaymentService' - backups\unimentorai_backup_20260522_174052\lib\features\ai_mentor\presentation\quiz_screen.dart:96:15 - undefined_identifier
+  error - Undefined name 'PaymentService' - backups\unimentorai_backup_20260522_174052\lib\features\ai_mentor\presentation\quiz_screen.dart:104:15 - undefined_identifier
+   info - The imported package 'firebase_analytics' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:2:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:firebase_analytics/firebase_analytics.dart' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../core/auth_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:8:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../core/dashboard_feed_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:11:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../simple_course_preview_screen.dart' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:12:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../reverse_mentoring_screen.dart' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:13:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../webinar_screen.dart' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:14:8 - uri_does_not_exist
+  error - The method 'DashboardFeedService' isn't defined for the type '_PersonalizedDashboardScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:33:17 - undefined_method
+  error - The name 'MentorCardVm' isn't a type, so it can't be used as a type argument - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:37:8 - non_type_as_type_argument
+  error - Undefined class 'OpportunityVm' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:38:3 - undefined_class
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:91:61 - use_build_context_synchronously
+  error - Undefined name 'AuthService' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:93:23 - undefined_identifier
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:94:64 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:138:31 - use_build_context_synchronously
+  error - The method 'SimpleCoursePreviewScreen' isn't defined for the type '_PersonalizedDashboardScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:140:49 - undefined_method
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:159:27 - use_build_context_synchronously
+  error - The name 'ReverseMentoringScreen' isn't a class - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:160:73 - creation_with_non_type
+  error - The property 'headline' can't be unconditionally accessed because the receiver can be 'null' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:168:36 - unchecked_use_of_nullable_value
+  error - The property 'languages' can't be unconditionally accessed because the receiver can be 'null' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:169:52 - unchecked_use_of_nullable_value
+  error - The name 'ReverseMentoringScreen' isn't a class - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:174:77 - creation_with_non_type
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:187:25 - use_build_context_synchronously
+  error - The name 'WebinarScreen' isn't a class - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:188:71 - creation_with_non_type
+  error - Undefined name 'FirebaseAnalytics' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:204:21 - undefined_identifier
+  error - Undefined class 'OpportunityVm' - backups\unimentorai_backup_20260522_174052\lib\features\app\presentation\personalized_dashboard_screen.dart:282:9 - undefined_class
+warning - The method doesn't override an inherited method - backups\unimentorai_backup_20260522_174052\lib\features\auth\data\repositories\auth_repository_impl.dart:28:22 - override_on_non_overriding_member
+  error - A function body must be provided - backups\unimentorai_backup_20260522_174052\lib\features\auth\domain\repositories\auth_repository.dart:8:40 - missing_function_body
+  error - The method 'signInWithGoogle' isn't defined for the type 'AuthRepository' - backups\unimentorai_backup_20260522_174052\lib\features\auth\domain\usecases\google_sign_in.dart:9:43 - undefined_method
+  error - The method 'signInWithGoogle' isn't defined for the type 'AuthRepository' - backups\unimentorai_backup_20260522_174052\lib\features\auth\domain\usecases\google_sign_in_usecase.dart:9:43 - undefined_method
+  error - Target of URI doesn't exist: '../services/user_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\auth_gate.dart:4:8 - uri_does_not_exist
+  error - The method 'UserService' isn't defined for the type 'AuthGate' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\auth_gate.dart:16:25 - undefined_method
+  error - Target of URI doesn't exist: '../../../../core/auth_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\login_page.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../home_screen.dart' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\login_page.dart:3:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'signup_screen.dart' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\login_page.dart:4:8 - uri_does_not_exist
+  error - The method 'AuthService' isn't defined for the type '_LoginScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\login_page.dart:16:24 - undefined_method
+   info - Don't use 'BuildContext's across async gaps - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\login_page.dart:38:9 - use_build_context_synchronously
+  error - The name 'HomeScreen' isn't a class - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\login_page.dart:39:49 - creation_with_non_type
+  error - The name 'SignUpScreen' isn't a class - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\login_page.dart:51:47 - creation_with_non_type
+  error - Target of URI doesn't exist: '../../../../core/auth_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\register_password_page.dart:3:8 - uri_does_not_exist
+  error - The method 'AuthService' isn't defined for the type '_RegisterPasswordScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\register_password_page.dart:18:17 - undefined_method
+  error - Target of URI doesn't exist: '../../../../core/auth_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\secure_login_page.dart:4:8 - uri_does_not_exist
+  error - The method 'AuthService' isn't defined for the type '_SecureLoginScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\secure_login_page.dart:17:17 - undefined_method
+  error - Target of URI doesn't exist: '../../../../core/auth_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\signup_page.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../home_screen.dart' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\signup_page.dart:3:8 - uri_does_not_exist
+  error - The method 'AuthService' isn't defined for the type '_SignUpScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\signup_page.dart:15:24 - undefined_method
+   info - Don't use 'BuildContext's across async gaps - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\signup_page.dart:37:9 - use_build_context_synchronously
+  error - The name 'HomeScreen' isn't a class - backups\unimentorai_backup_20260522_174052\lib\features\auth\presentation\pages\signup_page.dart:38:49 - creation_with_non_type
+   info - 'color' is deprecated and shouldn't be used. use colors in eyeStyle and dataModuleStyle instead - backups\unimentorai_backup_20260522_174052\lib\features\certificat\presentation\certificat_screen.dart:99:5 - deprecated_member_use
+   info - 'emptyColor' is deprecated and shouldn't be used. You should use the background color value of your container widget - backups\unimentorai_backup_20260522_174052\lib\features\certificat\presentation\certificat_screen.dart:100:5 - deprecated_member_use
+  error - Target of URI doesn't exist: '../core/fraud/fraud_engine.dart' - backups\unimentorai_backup_20260522_174052\lib\features\certificates\api\verification_api.dart:3:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'verification_response.dart' - backups\unimentorai_backup_20260522_174052\lib\features\certificates\api\verification_api.dart:4:8 - uri_does_not_exist
+  error - Undefined class 'FraudEngine' - backups\unimentorai_backup_20260522_174052\lib\features\certificates\api\verification_api.dart:10:9 - undefined_class
+  error - The method 'FraudEngine' isn't defined for the type 'VerificationAPI' - backups\unimentorai_backup_20260522_174052\lib\features\certificates\api\verification_api.dart:10:36 - undefined_method
+  error - The name 'VerificationResponse' isn't a type, so it can't be used as a type argument - backups\unimentorai_backup_20260522_174052\lib\features\certificates\api\verification_api.dart:13:10 - non_type_as_type_argument
+  error - The method 'VerificationResponse' isn't defined for the type 'VerificationAPI' - backups\unimentorai_backup_20260522_174052\lib\features\certificates\api\verification_api.dart:18:14 - undefined_method
+  error - The method 'VerificationResponse' isn't defined for the type 'VerificationAPI' - backups\unimentorai_backup_20260522_174052\lib\features\certificates\api\verification_api.dart:47:12 - undefined_method
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - backups\unimentorai_backup_20260522_174052\lib\features\certificates\presentation\admin\admin_control_tower_screen.dart:157:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - backups\unimentorai_backup_20260522_174052\lib\features\certificates\presentation\screens\global_verification_page.dart:297:44 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - backups\unimentorai_backup_20260522_174052\lib\features\certificates\presentation\screens\qr_scanner_screen.dart:40:28 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\lib\features\certificates\services\linkedin_service.dart:5:5 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\lib\features\certificates\services\linkedin_service.dart:6:5 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\lib\features\certificates\services\linkedin_service.dart:7:5 - avoid_print
+  error - Target of URI doesn't exist: '../models/scan_history_model.dart' - backups\unimentorai_backup_20260522_174052\lib\features\certificates\services\scan_history_service.dart:2:8 - uri_does_not_exist
+  error - The method 'ScanHistoryModel' isn't defined for the type 'ScanHistoryServices' - backups\unimentorai_backup_20260522_174052\lib\features\certificates\services\scan_history_service.dart:15:18 - undefined_method
+warning - The value of the local variable 'moderated' isn't used - backups\unimentorai_backup_20260522_174052\lib\features\chatbot\presentation\chatbot_screen.dart:124:33 - unused_local_variable
+   info - Use interpolation to compose strings and values - backups\unimentorai_backup_20260522_174052\lib\features\chatbot\presentation\chatbot_screen.dart:142:42 - prefer_interpolation_to_compose_strings
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:43:59 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:43:99 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:45:76 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:45:116 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:46:93 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:46:133 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:58:56 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:58:96 - deprecated_member_use
+   info - 'Share' is deprecated and shouldn't be used. Use SharePlus instead - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:78:33 - deprecated_member_use
+   info - 'shareXFiles' is deprecated and shouldn't be used. Use SharePlus.instance.share() instead - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:78:39 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:88:25 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:88:65 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:104:73 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:104:113 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:108:67 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:108:107 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:110:77 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:110:117 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:111:67 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:111:107 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:112:74 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:112:114 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:117:35 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\courses\admin\feedback_dashboard_screen.dart:117:75 - deprecated_member_use
+warning - The value of the field '_ordre' isn't used - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\add_etape_screen.dart:20:13 - unused_field
+  error - Target of URI doesn't exist: '../../../core/course_progress_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\course_detail_screen.dart:3:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../quiz/quiz_screen.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\course_detail_screen.dart:4:8 - uri_does_not_exist
+  error - Undefined class 'CourseProgressService' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\course_detail_screen.dart:22:9 - undefined_class
+  error - The method 'CourseProgressService' isn't defined for the type '_CourseDetailScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\course_detail_screen.dart:22:50 - undefined_method
+   info - Don't use 'BuildContext's across async gaps - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\course_detail_screen.dart:106:38 - use_build_context_synchronously
+  error - The method 'QuizScreen' isn't defined for the type '_CourseDetailScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\course_detail_screen.dart:142:37 - undefined_method
+  error - Target of URI doesn't exist: '../course_detail_screen.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\courses_screen.dart:3:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../courses/course_structure_overview.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\courses_screen.dart:4:8 - uri_does_not_exist
+  error - The method 'CourseDetailScreen' isn't defined for the type '_CoursesScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\courses_screen.dart:117:45 - undefined_method
+  error - The name 'CourseStructureOverview' isn't a class - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\courses_screen.dart:151:43 - creation_with_non_type
+  error - Undefined name 'value' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\edit_etape_screen.dart:149:33 - undefined_identifier
+  error - Expected to find ')' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\edit_etape_screen.dart:150:23 - expected_token
+  error - Too many positional arguments: 0 expected, but 2 found - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\edit_etape_screen.dart:152:21 - extra_positional_arguments_could_be_named
+  error - Expected to find ')' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\edit_etape_screen.dart:160:19 - expected_token
+  error - Target of URI doesn't exist: '../domain/auth_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\register_screen.dart:2:8 - uri_does_not_exist
+  error - Undefined class 'AuthService' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\register_screen.dart:15:9 - undefined_class
+  error - The method 'AuthService' isn't defined for the type '_RegisterScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\register_screen.dart:15:35 - undefined_method
+  error - Target of URI doesn't exist: '../../services/admin_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\screens\admin_dashboard_screen.dart:2:8 - uri_does_not_exist
+  error - The method 'AdminService' isn't defined for the type 'AdminDashboardScreen' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\screens\admin_dashboard_screen.dart:9:21 - undefined_method
+  error - The operator '[]' isn't defined for the type 'Object' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\screens\admin_dashboard_screen.dart:34:31 - undefined_operator
+  error - The operator '[]' isn't defined for the type 'Object' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\screens\admin_dashboard_screen.dart:39:31 - undefined_operator
+  error - The operator '[]' isn't defined for the type 'Object' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\screens\admin_dashboard_screen.dart:44:31 - undefined_operator
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\screens\certificate_verification_screen.dart:110:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\screens\certificate_verification_screen.dart:111:36 - deprecated_member_use
+  error - The getter 'fromFirestore' isn't defined for the type 'CourseModel' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\screens\courses_screen.dart:28:32 - undefined_getter
+  error - Target of URI doesn't exist: '../services/qr_scanner_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\screens\qr_scanner_screen.dart:3:8 - uri_does_not_exist
+  error - Undefined class 'QRScannerService' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\screens\qr_scanner_screen.dart:13:9 - undefined_class
+  error - The method 'QRScannerService' isn't defined for the type '_QRScannerScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\courses\presentation\screens\qr_scanner_screen.dart:13:37 - undefined_method
+  error - The name 'CourseProgress' is defined in the libraries 'file:///C:/Users/DJOTOHOU/UNIMENTORAI/unimentorai/backups/unimentorai_backup_20260522_174052/lib/core/models/course_model.dart' and 'file:///C:/Users/DJOTOHOU/UNIMENTORAI/unimentorai/backups/unimentorai_backup_20260522_174052/lib/core/models/course_progress_model.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\course_progress_provider.dart:9:52 - ambiguous_import
+  error - The name 'CourseProgress' is defined in the libraries 'file:///C:/Users/DJOTOHOU/UNIMENTORAI/unimentorai/backups/unimentorai_backup_20260522_174052/lib/core/models/course_model.dart' and 'file:///C:/Users/DJOTOHOU/UNIMENTORAI/unimentorai/backups/unimentorai_backup_20260522_174052/lib/core/models/course_progress_model.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\course_progress_provider.dart:15:10 - ambiguous_import
+  error - 'CourseProgressNotifier.build' ('Future<dynamic> Function({required String courseId, required int totalSteps})') isn't a valid override of 'AsyncNotifier.build' ('FutureOr<dynamic> Function()') - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\course_progress_provider.dart:15:27 - invalid_override
+  error - 'CourseProgress' isn't a function - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\course_progress_provider.dart:27:36 - invocation_of_non_function
+  error - The name 'CourseProgress' is defined in the libraries 'file:///C:/Users/DJOTOHOU/UNIMENTORAI/unimentorai/backups/unimentorai_backup_20260522_174052/lib/core/models/course_model.dart' and 'file:///C:/Users/DJOTOHOU/UNIMENTORAI/unimentorai/backups/unimentorai_backup_20260522_174052/lib/core/models/course_progress_model.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\course_progress_provider.dart:27:36 - ambiguous_import
+  error - 'CourseProgress' isn't a function - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\course_progress_provider.dart:28:18 - invocation_of_non_function
+  error - The name 'CourseProgress' is defined in the libraries 'file:///C:/Users/DJOTOHOU/UNIMENTORAI/unimentorai/backups/unimentorai_backup_20260522_174052/lib/core/models/course_model.dart' and 'file:///C:/Users/DJOTOHOU/UNIMENTORAI/unimentorai/backups/unimentorai_backup_20260522_174052/lib/core/models/course_progress_model.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\course_progress_provider.dart:28:18 - ambiguous_import
+  error - 'CourseProgressNotifier' doesn't conform to the bound 'FamilyAsyncNotifier<InvalidType, ({String courseId, int totalSteps})>' of the type parameter 'NotifierT' - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\course_progress_provider.dart:39:61 - type_argument_not_matching_bounds
+  error - The name 'CourseProgress' is defined in the libraries 'file:///C:/Users/DJOTOHOU/UNIMENTORAI/unimentorai/backups/unimentorai_backup_20260522_174052/lib/core/models/course_model.dart' and 'file:///C:/Users/DJOTOHOU/UNIMENTORAI/unimentorai/backups/unimentorai_backup_20260522_174052/lib/core/models/course_progress_model.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\course_progress_provider.dart:39:85 - ambiguous_import
+  error - Target of URI doesn't exist: 'courses_provider.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\courses_search_provider.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'coursesProvider' - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\courses_search_provider.dart:9:34 - undefined_identifier
+  error - Target of URI doesn't exist: '../../../core/firestore_translation_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\firestore_translation_service_provider.dart:2:8 - uri_does_not_exist
+  error - The function 'FirestoreTranslationService' isn't defined - backups\unimentorai_backup_20260522_174052\lib\features\courses\provider\firestore_translation_service_provider.dart:4:63 - undefined_function
+  error - Undefined name 'userId' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\course_progress_service.dart:22:9 - undefined_identifier
+  error - Undefined name '_db' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\course_progress_service.dart:23:23 - undefined_identifier
+  error - Undefined name 'userId' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\course_progress_service.dart:23:60 - undefined_identifier
+  error - Undefined name 'userId' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\course_progress_service.dart:29:9 - undefined_identifier
+  error - Undefined name '_db' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\course_progress_service.dart:30:11 - undefined_identifier
+  error - Undefined name 'userId' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\course_progress_service.dart:30:48 - undefined_identifier
+  error - Undefined name 'userId' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\course_progress_service.dart:31:17 - undefined_identifier
+  error - Expected a method, getter, setter or operator declaration - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\course_progress_service.dart:37:1 - expected_executable
+  error - The argument type 'List<int>' can't be assigned to the parameter type 'Uint8List'.  - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\course_service.dart:23:42 - argument_type_not_assignable
+  error - Target of URI doesn't exist: '../utils/certificate_share_builder.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\linkedin_service.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'CertificateShareBuilder' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\linkedin_service.dart:11:18 - undefined_identifier
+  error - Target of URI doesn't exist: '../../core/blockchain/certificate_hash_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\qr_scanner_service.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../core/fraud/fraud_engine.dart' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\qr_scanner_service.dart:3:8 - uri_does_not_exist
+  error - Undefined class 'CertificateHashService' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\qr_scanner_service.dart:7:9 - undefined_class
+  error - The method 'CertificateHashService' isn't defined for the type 'QRScannerService' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\qr_scanner_service.dart:7:47 - undefined_method
+  error - Undefined class 'FraudEngine' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\qr_scanner_service.dart:8:9 - undefined_class
+  error - The method 'FraudEngine' isn't defined for the type 'QRScannerService' - backups\unimentorai_backup_20260522_174052\lib\features\courses\services\qr_scanner_service.dart:8:36 - undefined_method
+  error - Target of URI doesn't exist: 'courses/courses_screen.dart' - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:1:8 - uri_does_not_exist
+   info - The variable name 'ElevatedButton' isn't a lowerCamelCase identifier - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:20:6 - non_constant_identifier_names
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:21:13 - named_parameter_outside_group
+  error - The default value of an optional parameter must be constant - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:21:15 - non_constant_default_value
+  error - Undefined name 'context' - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:22:20 - undefined_identifier
+  error - The name 'ProfileScreen' isn't a class - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:22:69 - creation_with_non_type
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:24:9 - named_parameter_outside_group
+  error - A function body must be provided - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:26:1 - missing_function_body
+   info - The variable name 'ElevatedButton' isn't a lowerCamelCase identifier - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:26:6 - non_constant_identifier_names
+  error - The name 'ElevatedButton' is already defined - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:26:6 - duplicate_definition
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:27:13 - named_parameter_outside_group
+  error - The default value of an optional parameter must be constant - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:27:15 - non_constant_default_value
+  error - Undefined name 'context' - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:28:20 - undefined_identifier
+  error - The name 'CoursesScreen' isn't a class - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:28:69 - creation_with_non_type
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:30:9 - named_parameter_outside_group
+  error - A function body must be provided - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:31:2 - missing_function_body
+  error - Expected a method, getter, setter or operator declaration - backups\unimentorai_backup_20260522_174052\lib\features\home_screen.dart:31:2 - expected_executable
+  error - Target of URI doesn't exist: 'translation_service.dart' - backups\unimentorai_backup_20260522_174052\lib\features\localization\presentation\verified_text_widget.dart:5:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../features/localization/provider/locale_provider.dart' - backups\unimentorai_backup_20260522_174052\lib\features\localization\presentation\verified_text_widget.dart:6:8 - uri_does_not_exist
+  error - Undefined name 'localeProvider' - backups\unimentorai_backup_20260522_174052\lib\features\localization\presentation\verified_text_widget.dart:24:30 - undefined_identifier
+  error - Undefined name 'TranslationService' - backups\unimentorai_backup_20260522_174052\lib\features\localization\presentation\verified_text_widget.dart:24:49 - undefined_identifier
+warning - The left operand can't be null, so the right operand is never executed - backups\unimentorai_backup_20260522_174052\lib\features\localization\services\translation_service.dart:17:67 - dead_null_aware_expression
+  error - The method 'upsertProfile' isn't defined for the type 'ReverseMentoringService' - backups\unimentorai_backup_20260522_174052\lib\features\mentoring\presentation\reverse_mentoring_screen.dart:177:54 - undefined_method
+  error - The method 'matchCandidates' isn't defined for the type 'ReverseMentoringService' - backups\unimentorai_backup_20260522_174052\lib\features\mentoring\presentation\reverse_mentoring_screen.dart:224:60 - undefined_method
+  error - The method 'createSession' isn't defined for the type 'ReverseMentoringService' - backups\unimentorai_backup_20260522_174052\lib\features\mentoring\presentation\reverse_mentoring_screen.dart:251:62 - undefined_method
+  error - The method 'getSessionsForUser' isn't defined for the type 'ReverseMentoringService' - backups\unimentorai_backup_20260522_174052\lib\features\mentoring\presentation\reverse_mentoring_screen.dart:269:34 - undefined_method
+  error - The method 'submitFeedback' isn't defined for the type 'ReverseMentoringService' - backups\unimentorai_backup_20260522_174052\lib\features\mentoring\presentation\reverse_mentoring_screen.dart:317:52 - undefined_method
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - backups\unimentorai_backup_20260522_174052\lib\features\onboarding\presentation\intelligent_onboarding_screen.dart:127:59 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - backups\unimentorai_backup_20260522_174052\lib\features\onboarding\presentation\intelligent_onboarding_screen.dart:220:63 - deprecated_member_use
+  error - The method 'SecurityService' isn't defined for the type '_PaiementKkiapayScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\paiement\presentation\paiement_kkiapay_screen.dart:24:21 - undefined_method
+  error - Target of URI doesn't exist: 'paiement_kkiapay_screen.dart' - backups\unimentorai_backup_20260522_174052\lib\features\paiement_kkiapay.dart:2:8 - uri_does_not_exist
+  error - The name 'PaiementKkiapayScreen' isn't a class - backups\unimentorai_backup_20260522_174052\lib\features\paiement_kkiapay.dart:9:47 - creation_with_non_type
+   info - The imported package 'flutter_stripe' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\features\pricing\presentation\billing_screen.dart:2:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:flutter_stripe/flutter_stripe.dart' - backups\unimentorai_backup_20260522_174052\lib\features\pricing\presentation\billing_screen.dart:2:8 - uri_does_not_exist
+   info - The imported package 'http' isn't a dependency of the importing package - backups\unimentorai_backup_20260522_174052\lib\features\pricing\presentation\billing_screen.dart:3:8 - depend_on_referenced_packages
+  error - The getter '_config' isn't defined for the type 'PricingService' - backups\unimentorai_backup_20260522_174052\lib\features\pricing\presentation\billing_screen.dart:34:27 - undefined_getter
+  error - Undefined name 'Stripe' - backups\unimentorai_backup_20260522_174052\lib\features\pricing\presentation\billing_screen.dart:68:13 - undefined_identifier
+  error - The method 'SetupPaymentSheetParameters' isn't defined for the type '_BillingScreenState' - backups\unimentorai_backup_20260522_174052\lib\features\pricing\presentation\billing_screen.dart:68:70 - undefined_method
+  error - Undefined name 'Stripe' - backups\unimentorai_backup_20260522_174052\lib\features\pricing\presentation\billing_screen.dart:73:13 - undefined_identifier
+  error - The getter '_config' isn't defined for the type 'PricingService' - backups\unimentorai_backup_20260522_174052\lib\features\pricing\presentation\pricing_screen.dart:29:27 - undefined_getter
+warning - The value of the local variable 'price' isn't used - backups\unimentorai_backup_20260522_174052\lib\features\pricing\presentation\pricing_screen.dart:38:11 - unused_local_variable
+   info - 'Table.fromTextArray' is deprecated and shouldn't be used. Use TableHelper.fromTextArray() instead - backups\unimentorai_backup_20260522_174052\lib\features\pricing\presentation\pricing_screen.dart:73:11 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - backups\unimentorai_backup_20260522_174052\lib\features\profile\presentation\profile_screen.dart:65:26 - use_build_context_synchronously
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\profile\presentation\profile_screen.dart:107:19 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\profile\presentation\profile_screen.dart:107:59 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\profile\presentation\profile_screen.dart:147:76 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\profile\presentation\profile_screen.dart:147:116 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\profile\presentation\profile_screen.dart:163:46 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\profile\presentation\profile_screen.dart:163:86 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\profile\presentation\profile_screen.dart:203:55 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\profile\presentation\profile_screen.dart:203:95 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\profile\presentation\profile_screen.dart:220:21 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\profile\presentation\profile_screen.dart:220:61 - deprecated_member_use
+  error - The name 'QuizModel' isn't a type, so it can't be used as a type argument - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:4:14 - non_type_as_type_argument
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:37:17 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:37:57 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:47:17 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:47:57 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:58:45 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:58:85 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:74:50 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:74:90 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:85:48 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:85:88 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:95:50 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:95:90 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:107:19 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:107:59 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:117:50 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - backups\unimentorai_backup_20260522_174052\lib\features\quiz\presentation\quiz_screen.dart:117:90 - deprecated_member_use
+  error - Target of URI doesn't exist: '../models/course_model.dart' - backups\unimentorai_backup_20260522_174052\lib\lib\features\courses\repositories\course_repository.dart:2:8 - uri_does_not_exist
+  error - The name 'CourseModel' isn't a type, so it can't be used as a type argument - backups\unimentorai_backup_20260522_174052\lib\lib\features\courses\repositories\course_repository.dart:7:15 - non_type_as_type_argument
+  error - Undefined name 'CourseModel' - backups\unimentorai_backup_20260522_174052\lib\lib\features\courses\repositories\course_repository.dart:12:20 - undefined_identifier
+  error - The name 'Timestamp' isn't a type, so it can't be used in an 'as' expression - backups\unimentorai_backup_20260522_174052\lib\shared\models\models\course_progress_model.dart:17:46 - cast_to_non_type
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - backups\unimentorai_backup_20260522_174052\lib\shared\widgets\consent_banner.dart:40:27 - deprecated_member_use
+  error - Target of URI doesn't exist: '../../../core/certificat/certificat_service.dart' - backups\unimentorai_backup_20260522_174052\lib\shared\widgets\widgets\course_actions.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../features/quiz/quiz_screen.dart' - backups\unimentorai_backup_20260522_174052\lib\shared\widgets\widgets\course_actions.dart:3:8 - uri_does_not_exist
+  error - The method 'CertificatService' isn't defined for the type 'CertificatButton' - backups\unimentorai_backup_20260522_174052\lib\shared\widgets\widgets\course_actions.dart:14:25 - undefined_method
+  error - The method 'QuizScreen' isn't defined for the type 'QuizButton' - backups\unimentorai_backup_20260522_174052\lib\shared\widgets\widgets\course_actions.dart:39:29 - undefined_method
+warning - The asset directory 'assets/certificates/' doesn't exist - backups\unimentorai_backup_20260522_174052\pubspec.yaml:101:7 - asset_directory_does_not_exist
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tool\create_app_structure.dart:21:7 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tool\create_app_structure.dart:26:7 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tool\create_app_structure.dart:30:5 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tool\create_missing_files.dart:18:7 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tool\create_missing_files.dart:20:7 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tool\create_missing_files.dart:24:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tool\create_verify_file.dart:16:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tool\create_verify_file.dart:27:5 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tool\create_verify_file.dart:30:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:6:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:23:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:24:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:25:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:26:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:30:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:42:7 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:44:7 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:60:13 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:62:13 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:71:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:83:7 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:85:7 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:91:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:108:9 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:110:9 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:117:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:126:7 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:132:5 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:146:5 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:148:5 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:153:3 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:163:11 - avoid_print
+   info - Don't invoke 'print' in production code - backups\unimentorai_backup_20260522_174052\tools\audit_all.dart:165:11 - avoid_print
+   info - Don't invoke 'print' in production code - create_main_dart.dart:7:5 - avoid_print
+   info - Don't invoke 'print' in production code - create_main_dart.dart:13:5 - avoid_print
+   info - Don't invoke 'print' in production code - create_main_dart.dart:89:3 - avoid_print
+   info - Don't invoke 'print' in production code - create_verify_file.dart:46:3 - avoid_print
+  error - Target of URI doesn't exist: 'features/dashboard/presentation/pages/home_page.dart' - lib\app.dart:2:8 - uri_does_not_exist
+  error - The name 'HomePage' isn't a class - lib\app.dart:25:19 - creation_with_non_type
+   info - The imported package 'flutter_dotenv' isn't a dependency of the importing package - lib\app\env\env.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:flutter_dotenv/flutter_dotenv.dart' - lib\app\env\env.dart:1:8 - uri_does_not_exist
+  error - Undefined name 'dotenv' - lib\app\env\env.dart:7:11 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\app\env\env.dart:20:19 - undefined_identifier
+  error - Target of URI doesn't exist: 'config/firebase/firebase_config.dart' - lib\app\main.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'features/auth/presentation/auth_gate.dart' - lib\app\main.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'FirebaseConfig' - lib\app\main.dart:7:9 - undefined_identifier
+  error - Invalid constant value - lib\app\main.dart:17:13 - invalid_constant
+  error - The method 'AuthGate' isn't defined for the type 'MyApp' - lib\app\main.dart:17:13 - undefined_method
+  error - The method 'GoRouterRefreshStream' isn't defined for the type 'AppRouter' - lib\config\router\app_router.dart:15:24 - undefined_method
+   info - The imported package 'firebase_analytics' isn't a dependency of the importing package - lib\core\analytics\analytics_service.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:firebase_analytics/firebase_analytics.dart' - lib\core\analytics\analytics_service.dart:1:8 - uri_does_not_exist
+  error - Undefined class 'FirebaseAnalytics' - lib\core\analytics\analytics_service.dart:8:16 - undefined_class
+  error - Undefined name 'FirebaseAnalytics' - lib\core\analytics\analytics_service.dart:8:39 - undefined_identifier
+   info - The imported package 'flutter_dotenv' isn't a dependency of the importing package - lib\core\config\app_config.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:flutter_dotenv/flutter_dotenv.dart' - lib\core\config\app_config.dart:1:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../security_service.dart' - lib\core\config\app_config.dart:3:8 - uri_does_not_exist
+  error - Undefined class 'SecurityService' - lib\core\config\app_config.dart:12:9 - undefined_class
+  error - The method 'SecurityService' isn't defined for the type 'AppConfig' - lib\core\config\app_config.dart:12:44 - undefined_method
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:59:13 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:65:28 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:67:24 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:68:36 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:84:24 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:85:20 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:88:22 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:89:20 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:90:19 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:93:42 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:94:48 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:95:38 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:98:41 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:99:24 - undefined_identifier
+  error - Undefined name 'dotenv' - lib\core\config\app_config.dart:100:26 - undefined_identifier
+   info - The imported package 'equatable' isn't a dependency of the importing package - lib\core\models\payment_model.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:equatable/equatable.dart' - lib\core\models\payment_model.dart:1:8 - uri_does_not_exist
+   info - The imported package 'json_annotation' isn't a dependency of the importing package - lib\core\models\payment_model.dart:2:8 - depend_on_referenced_packages
+   info - The imported package 'freezed_annotation' isn't a dependency of the importing package - lib\core\models\payment_model.dart:3:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:freezed_annotation/freezed_annotation.dart' - lib\core\models\payment_model.dart:3:8 - uri_does_not_exist
+  error - Target of URI hasn't been generated: 'package:unimentorai/core/models/payment_model.g.dart' - lib\core\models\payment_model.dart:5:6 - uri_has_not_been_generated
+  error - Target of URI doesn't exist: 'package:unimentorai/core/models/payment_model.freezed.dart' - lib\core\models\payment_model.dart:6:6 - uri_does_not_exist
+  error - Undefined name 'freezed' used as an annotation - lib\core\models\payment_model.dart:9:1 - undefined_annotation
+  error - Classes can only mix in mixins and classes - lib\core\models\payment_model.dart:10:41 - mixin_of_non_class
+  error - The name '_PaymentModel' isn't a type and can't be used in a redirected constructor - lib\core\models\payment_model.dart:24:8 - redirect_to_non_class
+warning - The declaration 'PaymentModel._' isn't referenced - lib\core\models\payment_model.dart:26:22 - unused_element
+  error - The method '_$PaymentModelFromJson' isn't defined for the type 'PaymentModel' - lib\core\models\payment_model.dart:28:63 - undefined_method
+  error - Undefined name 'status' - lib\core\models\payment_model.dart:30:27 - undefined_identifier
+  error - Undefined name 'status' - lib\core\models\payment_model.dart:31:25 - undefined_identifier
+  error - Undefined name 'status' - lib\core\models\payment_model.dart:32:24 - undefined_identifier
+warning - The getter doesn't override an inherited getter - lib\core\models\payment_model.dart:35:21 - override_on_non_overriding_member
+  error - Undefined name 'id' - lib\core\models\payment_model.dart:36:5 - undefined_identifier
+  error - Undefined name 'userId' - lib\core\models\payment_model.dart:36:9 - undefined_identifier
+  error - Undefined name 'amount' - lib\core\models\payment_model.dart:36:17 - undefined_identifier
+  error - Undefined name 'currency' - lib\core\models\payment_model.dart:36:25 - undefined_identifier
+  error - Undefined name 'method' - lib\core\models\payment_model.dart:36:35 - undefined_identifier
+  error - Undefined name 'status' - lib\core\models\payment_model.dart:36:43 - undefined_identifier
+  error - Undefined name 'createdAt' - lib\core\models\payment_model.dart:36:51 - undefined_identifier
+  error - Undefined name 'transactionId' - lib\core\models\payment_model.dart:37:5 - undefined_identifier
+  error - Undefined name 'description' - lib\core\models\payment_model.dart:37:20 - undefined_identifier
+  error - Undefined name 'metadata' - lib\core\models\payment_model.dart:37:33 - undefined_identifier
+  error - Undefined name 'completedAt' - lib\core\models\payment_model.dart:37:43 - undefined_identifier
+  error - Undefined name 'errorMessage' - lib\core\models\payment_model.dart:37:56 - undefined_identifier
+  error - Undefined name 'freezed' used as an annotation - lib\core\models\payment_model.dart:42:1 - undefined_annotation
+  error - Classes can only mix in mixins and classes - lib\core\models\payment_model.dart:43:51 - mixin_of_non_class
+  error - The name '_SubscriptionModel' isn't a type and can't be used in a redirected constructor - lib\core\models\payment_model.dart:59:8 - redirect_to_non_class
+warning - The declaration 'SubscriptionModel._' isn't referenced - lib\core\models\payment_model.dart:61:27 - unused_element
+  error - The method '_$SubscriptionModelFromJson' isn't defined for the type 'SubscriptionModel' - lib\core\models\payment_model.dart:63:68 - undefined_method
+  error - Undefined name 'status' - lib\core\models\payment_model.dart:65:24 - undefined_identifier
+  error - Undefined name 'endDate' - lib\core\models\payment_model.dart:66:48 - undefined_identifier
+  error - Undefined name 'endDate' - lib\core\models\payment_model.dart:67:37 - undefined_identifier
+warning - The getter doesn't override an inherited getter - lib\core\models\payment_model.dart:70:21 - override_on_non_overriding_member
+  error - Undefined name 'id' - lib\core\models\payment_model.dart:71:5 - undefined_identifier
+  error - Undefined name 'userId' - lib\core\models\payment_model.dart:71:9 - undefined_identifier
+  error - Undefined name 'type' - lib\core\models\payment_model.dart:71:17 - undefined_identifier
+  error - Undefined name 'status' - lib\core\models\payment_model.dart:71:23 - undefined_identifier
+  error - Undefined name 'startDate' - lib\core\models\payment_model.dart:71:31 - undefined_identifier
+  error - Undefined name 'endDate' - lib\core\models\payment_model.dart:71:42 - undefined_identifier
+  error - Undefined name 'amount' - lib\core\models\payment_model.dart:71:51 - undefined_identifier
+  error - Undefined name 'currency' - lib\core\models\payment_model.dart:72:5 - undefined_identifier
+  error - Undefined name 'paymentMethod' - lib\core\models\payment_model.dart:72:15 - undefined_identifier
+  error - Undefined name 'metadata' - lib\core\models\payment_model.dart:72:30 - undefined_identifier
+  error - Undefined name 'createdAt' - lib\core\models\payment_model.dart:72:40 - undefined_identifier
+  error - Undefined name 'updatedAt' - lib\core\models\payment_model.dart:72:51 - undefined_identifier
+  error - Undefined name 'transactionId' - lib\core\models\payment_model.dart:73:5 - undefined_identifier
+  error - Undefined name 'autoRenew' - lib\core\models\payment_model.dart:73:20 - undefined_identifier
+  error - Target of URI doesn't exist: 'package:unimentorai/core/auth/local_auth_service.dart' - lib\core\services\auth\local_auth_service.dart:3:8 - uri_does_not_exist
+warning - The value of the field '_coursesKey' isn't used - lib\core\services\cache_service.dart:19:23 - unused_field
+warning - The value of the field '_translationsKey' isn't used - lib\core\services\cache_service.dart:20:23 - unused_field
+warning - The value of the field '_userDataKey' isn't used - lib\core\services\cache_service.dart:21:23 - unused_field
+warning - The value of the field '_securityService' isn't used - lib\core\services\course_service.dart:10:25 - unused_field
+   info - The imported package 'flutter_dotenv' isn't a dependency of the importing package - lib\core\services\payment_service.dart:3:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:flutter_dotenv/flutter_dotenv.dart' - lib\core\services\payment_service.dart:3:8 - uri_does_not_exist
+   info - The imported package 'flutter_stripe' isn't a dependency of the importing package - lib\core\services\payment_service.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:flutter_stripe/flutter_stripe.dart' - lib\core\services\payment_service.dart:4:8 - uri_does_not_exist
+   info - The imported package 'riverpod_annotation' isn't a dependency of the importing package - lib\core\services\payment_service.dart:6:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:riverpod_annotation/riverpod_annotation.dart' - lib\core\services\payment_service.dart:6:8 - uri_does_not_exist
+  error - Undefined name 'riverpod' used as an annotation - lib\core\services\payment_service.dart:18:1 - undefined_annotation
+  error - Classes can only extend other classes - lib\core\services\payment_service.dart:19:30 - extends_non_class
+warning - The method doesn't override an inherited method - lib\core\services\payment_service.dart:25:31 - override_on_non_overriding_member
+  error - Undefined name 'Stripe' - lib\core\services\payment_service.dart:39:9 - undefined_identifier
+  error - Undefined name 'Stripe' - lib\core\services\payment_service.dart:40:15 - undefined_identifier
+  error - Undefined name 'state' - lib\core\services\payment_service.dart:56:7 - undefined_identifier
+  error - Undefined name 'state' - lib\core\services\payment_service.dart:56:15 - undefined_identifier
+  error - The argument type 'PaymentMethod (where PaymentMethod is defined in C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\services\payment_service.dart)' can't be assigned to the parameter type 'PaymentMethod (where PaymentMethod is defined in C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai\lib\core\models\payment_model.dart)'.  - lib\core\services\payment_service.dart:67:24 - argument_type_not_assignable
+warning - This default clause is covered by the previous cases - lib\core\services\payment_service.dart:87:9 - unreachable_switch_default
+  error - The getter 'id' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:93:64 - undefined_getter
+  error - Undefined name 'state' - lib\core\services\payment_service.dart:99:7 - undefined_identifier
+  error - Undefined name 'state' - lib\core\services\payment_service.dart:99:15 - undefined_identifier
+  error - Undefined name 'state' - lib\core\services\payment_service.dart:105:7 - undefined_identifier
+  error - Undefined name 'state' - lib\core\services\payment_service.dart:105:15 - undefined_identifier
+  error - Undefined name 'Stripe' - lib\core\services\payment_service.dart:150:13 - undefined_identifier
+  error - The name 'card' isn't a class - lib\core\services\payment_service.dart:152:21 - creation_with_non_type
+  error - The method 'PaymentMethodData' isn't defined for the type 'PaymentService' - lib\core\services\payment_service.dart:153:30 - undefined_method
+  error - The method 'BillingDetails' isn't defined for the type 'PaymentService' - lib\core\services\payment_service.dart:154:29 - undefined_method
+  error - The getter 'id' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:187:39 - undefined_getter
+  error - The getter 'userId' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:188:31 - undefined_getter
+  error - The getter 'metadata' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:189:23 - undefined_getter
+  error - The getter 'amount' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:192:30 - undefined_getter
+  error - The getter 'currency' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:193:32 - undefined_getter
+  error - The getter 'type' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:194:49 - undefined_getter
+  error - The getter 'id' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:208:41 - undefined_getter
+  error - The getter 'userId' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:209:33 - undefined_getter
+  error - The getter 'metadata' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:210:38 - undefined_getter
+  error - The getter 'amount' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:216:32 - undefined_getter
+  error - The getter 'currency' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:217:34 - undefined_getter
+  error - The getter 'type' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:218:51 - undefined_getter
+  error - The getter 'id' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:256:41 - undefined_getter
+  error - The getter 'userId' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:257:33 - undefined_getter
+  error - The getter 'metadata' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:258:38 - undefined_getter
+  error - The getter 'amount' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:264:32 - undefined_getter
+  error - The getter 'currency' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:265:34 - undefined_getter
+  error - The getter 'type' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:266:51 - undefined_getter
+  error - The getter 'userId' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:267:39 - undefined_getter
+  error - The getter 'id' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:300:41 - undefined_getter
+  error - The getter 'userId' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:301:33 - undefined_getter
+  error - The getter 'metadata' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:302:38 - undefined_getter
+  error - The getter 'amount' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:307:38 - undefined_getter
+  error - The getter 'currency' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:308:40 - undefined_getter
+  error - The getter 'currency' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:309:40 - undefined_getter
+  error - The getter 'type' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:325:49 - undefined_getter
+  error - The getter 'amount' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:326:40 - undefined_getter
+  error - The getter 'currency' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:327:34 - undefined_getter
+warning - This default clause is covered by the previous cases - lib\core\services\payment_service.dart:365:9 - unreachable_switch_default
+  error - The getter 'id' isn't defined for the type 'SubscriptionModel' - lib\core\services\payment_service.dart:451:54 - undefined_getter
+   info - Unnecessary use of a block function body - lib\core\services\payment_service.dart:458:68 - prefer_expression_function_bodies
+  error - Undefined name 'ProviderFor' used as an annotation - lib\core\services\payment_service.g.dart:15:1 - undefined_annotation
+  error - The name 'AutoDisposeAsyncNotifierProvider' isn't a class - lib\core\services\payment_service.g.dart:16:32 - creation_with_non_type
+  error - Undefined class 'AutoDisposeAsyncNotifier' - lib\core\services\payment_service.g.dart:27:28 - undefined_class
+   info - The imported package 'encrypt' isn't a dependency of the importing package - lib\core\services\security_service.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:encrypt/encrypt.dart' - lib\core\services\security_service.dart:4:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../core/payment_service.dart' - lib\features\admin\presentation\admin_dashboard_screen.dart:3:8 - uri_does_not_exist
+  error - The method 'SecurityService' isn't defined for the type '_AdminDashboardScreenState' - lib\features\admin\presentation\admin_dashboard_screen.dart:39:31 - undefined_method
+  error - The method 'SecurityService' isn't defined for the type 'AdminDashboardContent' - lib\features\admin\presentation\admin_dashboard_screen.dart:489:43 - undefined_method
+   info - The imported package 'csv' isn't a dependency of the importing package - lib\features\admin\presentation\subscriptions_admin_screen.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:csv/csv.dart' - lib\features\admin\presentation\subscriptions_admin_screen.dart:4:8 - uri_does_not_exist
+  error - The name 'ListToCsvConverter' isn't a class - lib\features\admin\presentation\subscriptions_admin_screen.dart:53:23 - creation_with_non_type
+  error - Target of URI doesn't exist: '../../features/courses/provider/firestore_translation_service_provider.dart' - lib\features\admin\presentation\translation_validator_screen.dart:5:8 - uri_does_not_exist
+  error - Undefined name 'firestoreTranslationServiceProvider' - lib\features\admin\presentation\translation_validator_screen.dart:25:30 - undefined_identifier
+  error - Undefined name 'firestoreTranslationServiceProvider' - lib\features\admin\presentation\translation_validator_screen.dart:40:30 - undefined_identifier
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\admin\presentation\translation_validator_screen.dart:129:21 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\admin\presentation\translation_validator_screen.dart:129:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\admin_control\presentation\admin_dashboard_screen.dart:143:43 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\features\ai_mentor\presentation\profile_screen.dart:55:26 - use_build_context_synchronously
+  error - Target of URI doesn't exist: '../../../core/payment_service.dart' - lib\features\ai_mentor\presentation\quiz_screen.dart:1:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../core/certificat/certificat_service.dart' - lib\features\ai_mentor\presentation\quiz_screen.dart:5:8 - uri_does_not_exist
+  error - The method 'CertificatService' isn't defined for the type '_QuizScreenState' - lib\features\ai_mentor\presentation\quiz_screen.dart:82:13 - undefined_method
+  error - Undefined name 'PaymentService' - lib\features\ai_mentor\presentation\quiz_screen.dart:96:15 - undefined_identifier
+  error - Undefined name 'PaymentService' - lib\features\ai_mentor\presentation\quiz_screen.dart:104:15 - undefined_identifier
+   info - The imported package 'firebase_analytics' isn't a dependency of the importing package - lib\features\app\presentation\personalized_dashboard_screen.dart:2:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:firebase_analytics/firebase_analytics.dart' - lib\features\app\presentation\personalized_dashboard_screen.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../core/auth_service.dart' - lib\features\app\presentation\personalized_dashboard_screen.dart:8:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../core/dashboard_feed_service.dart' - lib\features\app\presentation\personalized_dashboard_screen.dart:11:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../simple_course_preview_screen.dart' - lib\features\app\presentation\personalized_dashboard_screen.dart:12:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../reverse_mentoring_screen.dart' - lib\features\app\presentation\personalized_dashboard_screen.dart:13:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../webinar_screen.dart' - lib\features\app\presentation\personalized_dashboard_screen.dart:14:8 - uri_does_not_exist
+  error - The method 'DashboardFeedService' isn't defined for the type '_PersonalizedDashboardScreenState' - lib\features\app\presentation\personalized_dashboard_screen.dart:33:17 - undefined_method
+  error - The name 'MentorCardVm' isn't a type, so it can't be used as a type argument - lib\features\app\presentation\personalized_dashboard_screen.dart:37:8 - non_type_as_type_argument
+  error - Undefined class 'OpportunityVm' - lib\features\app\presentation\personalized_dashboard_screen.dart:38:3 - undefined_class
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\app\presentation\personalized_dashboard_screen.dart:91:61 - use_build_context_synchronously
+  error - Undefined name 'AuthService' - lib\features\app\presentation\personalized_dashboard_screen.dart:93:23 - undefined_identifier
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\app\presentation\personalized_dashboard_screen.dart:94:64 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\app\presentation\personalized_dashboard_screen.dart:138:31 - use_build_context_synchronously
+  error - The method 'SimpleCoursePreviewScreen' isn't defined for the type '_PersonalizedDashboardScreenState' - lib\features\app\presentation\personalized_dashboard_screen.dart:140:49 - undefined_method
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\app\presentation\personalized_dashboard_screen.dart:159:27 - use_build_context_synchronously
+  error - The name 'ReverseMentoringScreen' isn't a class - lib\features\app\presentation\personalized_dashboard_screen.dart:160:73 - creation_with_non_type
+  error - The property 'headline' can't be unconditionally accessed because the receiver can be 'null' - lib\features\app\presentation\personalized_dashboard_screen.dart:168:36 - unchecked_use_of_nullable_value
+  error - The property 'languages' can't be unconditionally accessed because the receiver can be 'null' - lib\features\app\presentation\personalized_dashboard_screen.dart:169:52 - unchecked_use_of_nullable_value
+  error - The name 'ReverseMentoringScreen' isn't a class - lib\features\app\presentation\personalized_dashboard_screen.dart:174:77 - creation_with_non_type
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\app\presentation\personalized_dashboard_screen.dart:187:25 - use_build_context_synchronously
+  error - The name 'WebinarScreen' isn't a class - lib\features\app\presentation\personalized_dashboard_screen.dart:188:71 - creation_with_non_type
+  error - Undefined name 'FirebaseAnalytics' - lib\features\app\presentation\personalized_dashboard_screen.dart:204:21 - undefined_identifier
+  error - Undefined class 'OpportunityVm' - lib\features\app\presentation\personalized_dashboard_screen.dart:282:9 - undefined_class
+warning - The method doesn't override an inherited method - lib\features\auth\data\repositories\auth_repository_impl.dart:28:22 - override_on_non_overriding_member
+  error - A function body must be provided - lib\features\auth\domain\repositories\auth_repository.dart:8:40 - missing_function_body
+  error - The method 'signInWithGoogle' isn't defined for the type 'AuthRepository' - lib\features\auth\domain\usecases\google_sign_in.dart:9:43 - undefined_method
+  error - The method 'signInWithGoogle' isn't defined for the type 'AuthRepository' - lib\features\auth\domain\usecases\google_sign_in_usecase.dart:9:43 - undefined_method
+  error - Target of URI doesn't exist: '../services/user_service.dart' - lib\features\auth\presentation\auth_gate.dart:4:8 - uri_does_not_exist
+  error - The method 'UserService' isn't defined for the type 'AuthGate' - lib\features\auth\presentation\auth_gate.dart:16:25 - undefined_method
+  error - Target of URI doesn't exist: '../../../../core/auth_service.dart' - lib\features\auth\presentation\pages\login_page.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../home_screen.dart' - lib\features\auth\presentation\pages\login_page.dart:3:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'signup_screen.dart' - lib\features\auth\presentation\pages\login_page.dart:4:8 - uri_does_not_exist
+  error - The method 'AuthService' isn't defined for the type '_LoginScreenState' - lib\features\auth\presentation\pages\login_page.dart:16:24 - undefined_method
+   info - Don't use 'BuildContext's across async gaps - lib\features\auth\presentation\pages\login_page.dart:38:9 - use_build_context_synchronously
+  error - The name 'HomeScreen' isn't a class - lib\features\auth\presentation\pages\login_page.dart:39:49 - creation_with_non_type
+  error - The name 'SignUpScreen' isn't a class - lib\features\auth\presentation\pages\login_page.dart:51:47 - creation_with_non_type
+  error - Target of URI doesn't exist: '../../../../core/auth_service.dart' - lib\features\auth\presentation\pages\register_password_page.dart:3:8 - uri_does_not_exist
+  error - The method 'AuthService' isn't defined for the type '_RegisterPasswordScreenState' - lib\features\auth\presentation\pages\register_password_page.dart:18:17 - undefined_method
+  error - Target of URI doesn't exist: '../../../../core/auth_service.dart' - lib\features\auth\presentation\pages\secure_login_page.dart:4:8 - uri_does_not_exist
+  error - The method 'AuthService' isn't defined for the type '_SecureLoginScreenState' - lib\features\auth\presentation\pages\secure_login_page.dart:17:17 - undefined_method
+  error - Target of URI doesn't exist: '../../../../core/auth_service.dart' - lib\features\auth\presentation\pages\signup_page.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../home_screen.dart' - lib\features\auth\presentation\pages\signup_page.dart:3:8 - uri_does_not_exist
+  error - The method 'AuthService' isn't defined for the type '_SignUpScreenState' - lib\features\auth\presentation\pages\signup_page.dart:15:24 - undefined_method
+   info - Don't use 'BuildContext's across async gaps - lib\features\auth\presentation\pages\signup_page.dart:37:9 - use_build_context_synchronously
+  error - The name 'HomeScreen' isn't a class - lib\features\auth\presentation\pages\signup_page.dart:38:49 - creation_with_non_type
+   info - 'color' is deprecated and shouldn't be used. use colors in eyeStyle and dataModuleStyle instead - lib\features\certificat\presentation\certificat_screen.dart:99:5 - deprecated_member_use
+   info - 'emptyColor' is deprecated and shouldn't be used. You should use the background color value of your container widget - lib\features\certificat\presentation\certificat_screen.dart:100:5 - deprecated_member_use
+  error - Target of URI doesn't exist: '../core/fraud/fraud_engine.dart' - lib\features\certificates\api\verification_api.dart:3:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'verification_response.dart' - lib\features\certificates\api\verification_api.dart:4:8 - uri_does_not_exist
+  error - Undefined class 'FraudEngine' - lib\features\certificates\api\verification_api.dart:10:9 - undefined_class
+  error - The method 'FraudEngine' isn't defined for the type 'VerificationAPI' - lib\features\certificates\api\verification_api.dart:10:36 - undefined_method
+  error - The name 'VerificationResponse' isn't a type, so it can't be used as a type argument - lib\features\certificates\api\verification_api.dart:13:10 - non_type_as_type_argument
+  error - The method 'VerificationResponse' isn't defined for the type 'VerificationAPI' - lib\features\certificates\api\verification_api.dart:18:14 - undefined_method
+  error - The method 'VerificationResponse' isn't defined for the type 'VerificationAPI' - lib\features\certificates\api\verification_api.dart:47:12 - undefined_method
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\certificates\presentation\admin\admin_control_tower_screen.dart:157:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\certificates\presentation\screens\global_verification_page.dart:297:44 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\features\certificates\presentation\screens\qr_scanner_screen.dart:40:28 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\features\certificates\services\linkedin_service.dart:5:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\certificates\services\linkedin_service.dart:6:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\certificates\services\linkedin_service.dart:7:5 - avoid_print
+  error - Target of URI doesn't exist: '../models/scan_history_model.dart' - lib\features\certificates\services\scan_history_service.dart:2:8 - uri_does_not_exist
+  error - The method 'ScanHistoryModel' isn't defined for the type 'ScanHistoryServices' - lib\features\certificates\services\scan_history_service.dart:15:18 - undefined_method
+warning - The value of the local variable 'moderated' isn't used - lib\features\chatbot\presentation\chatbot_screen.dart:124:33 - unused_local_variable
+   info - Use interpolation to compose strings and values - lib\features\chatbot\presentation\chatbot_screen.dart:142:42 - prefer_interpolation_to_compose_strings
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:43:59 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:43:99 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:45:76 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:45:116 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:46:93 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:46:133 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:58:56 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:58:96 - deprecated_member_use
+   info - 'Share' is deprecated and shouldn't be used. Use SharePlus instead - lib\features\courses\admin\feedback_dashboard_screen.dart:78:33 - deprecated_member_use
+   info - 'shareXFiles' is deprecated and shouldn't be used. Use SharePlus.instance.share() instead - lib\features\courses\admin\feedback_dashboard_screen.dart:78:39 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:88:25 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:88:65 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:104:73 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:104:113 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:108:67 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:108:107 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:110:77 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:110:117 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:111:67 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:111:107 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:112:74 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:112:114 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:117:35 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\courses\admin\feedback_dashboard_screen.dart:117:75 - deprecated_member_use
+warning - The value of the field '_ordre' isn't used - lib\features\courses\presentation\add_etape_screen.dart:20:13 - unused_field
+  error - Target of URI doesn't exist: '../../../core/course_progress_service.dart' - lib\features\courses\presentation\course_detail_screen.dart:3:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../quiz/quiz_screen.dart' - lib\features\courses\presentation\course_detail_screen.dart:4:8 - uri_does_not_exist
+  error - Undefined class 'CourseProgressService' - lib\features\courses\presentation\course_detail_screen.dart:22:9 - undefined_class
+  error - The method 'CourseProgressService' isn't defined for the type '_CourseDetailScreenState' - lib\features\courses\presentation\course_detail_screen.dart:22:50 - undefined_method
+   info - Don't use 'BuildContext's across async gaps - lib\features\courses\presentation\course_detail_screen.dart:106:38 - use_build_context_synchronously
+  error - The method 'QuizScreen' isn't defined for the type '_CourseDetailScreenState' - lib\features\courses\presentation\course_detail_screen.dart:142:37 - undefined_method
+  error - Target of URI doesn't exist: '../course_detail_screen.dart' - lib\features\courses\presentation\courses_screen.dart:3:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../courses/course_structure_overview.dart' - lib\features\courses\presentation\courses_screen.dart:4:8 - uri_does_not_exist
+  error - The method 'CourseDetailScreen' isn't defined for the type '_CoursesScreenState' - lib\features\courses\presentation\courses_screen.dart:117:45 - undefined_method
+  error - The name 'CourseStructureOverview' isn't a class - lib\features\courses\presentation\courses_screen.dart:151:43 - creation_with_non_type
+  error - Undefined name 'value' - lib\features\courses\presentation\edit_etape_screen.dart:149:33 - undefined_identifier
+  error - Expected to find ')' - lib\features\courses\presentation\edit_etape_screen.dart:150:23 - expected_token
+  error - Too many positional arguments: 0 expected, but 2 found - lib\features\courses\presentation\edit_etape_screen.dart:152:21 - extra_positional_arguments_could_be_named
+  error - Expected to find ')' - lib\features\courses\presentation\edit_etape_screen.dart:160:19 - expected_token
+  error - Target of URI doesn't exist: '../domain/auth_service.dart' - lib\features\courses\presentation\register_screen.dart:2:8 - uri_does_not_exist
+  error - Undefined class 'AuthService' - lib\features\courses\presentation\register_screen.dart:15:9 - undefined_class
+  error - The method 'AuthService' isn't defined for the type '_RegisterScreenState' - lib\features\courses\presentation\register_screen.dart:15:35 - undefined_method
+  error - Target of URI doesn't exist: '../../services/admin_service.dart' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:2:8 - uri_does_not_exist
+  error - The method 'AdminService' isn't defined for the type 'AdminDashboardScreen' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:9:21 - undefined_method
+  error - The operator '[]' isn't defined for the type 'Object' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:34:31 - undefined_operator
+  error - The operator '[]' isn't defined for the type 'Object' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:39:31 - undefined_operator
+  error - The operator '[]' isn't defined for the type 'Object' - lib\features\courses\presentation\screens\admin_dashboard_screen.dart:44:31 - undefined_operator
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\courses\presentation\screens\certificate_verification_screen.dart:110:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\courses\presentation\screens\certificate_verification_screen.dart:111:36 - deprecated_member_use
+  error - The getter 'fromFirestore' isn't defined for the type 'CourseModel' - lib\features\courses\presentation\screens\courses_screen.dart:28:32 - undefined_getter
+  error - Target of URI doesn't exist: '../services/qr_scanner_service.dart' - lib\features\courses\presentation\screens\qr_scanner_screen.dart:3:8 - uri_does_not_exist
+  error - Undefined class 'QRScannerService' - lib\features\courses\presentation\screens\qr_scanner_screen.dart:13:9 - undefined_class
+  error - The method 'QRScannerService' isn't defined for the type '_QRScannerScreenState' - lib\features\courses\presentation\screens\qr_scanner_screen.dart:13:37 - undefined_method
+  error - The name 'CourseProgress' is defined in the libraries 'package:unimentorai/core/models/course_model.dart' and 'package:unimentorai/core/models/course_progress_model.dart' - lib\features\courses\provider\course_progress_provider.dart:9:52 - ambiguous_import
+  error - The name 'CourseProgress' is defined in the libraries 'package:unimentorai/core/models/course_model.dart' and 'package:unimentorai/core/models/course_progress_model.dart' - lib\features\courses\provider\course_progress_provider.dart:15:10 - ambiguous_import
+  error - 'CourseProgressNotifier.build' ('Future<dynamic> Function({required String courseId, required int totalSteps})') isn't a valid override of 'AsyncNotifier.build' ('FutureOr<dynamic> Function()') - lib\features\courses\provider\course_progress_provider.dart:15:27 - invalid_override
+  error - 'CourseProgress' isn't a function - lib\features\courses\provider\course_progress_provider.dart:27:36 - invocation_of_non_function
+  error - The name 'CourseProgress' is defined in the libraries 'package:unimentorai/core/models/course_model.dart' and 'package:unimentorai/core/models/course_progress_model.dart' - lib\features\courses\provider\course_progress_provider.dart:27:36 - ambiguous_import
+  error - 'CourseProgress' isn't a function - lib\features\courses\provider\course_progress_provider.dart:28:18 - invocation_of_non_function
+  error - The name 'CourseProgress' is defined in the libraries 'package:unimentorai/core/models/course_model.dart' and 'package:unimentorai/core/models/course_progress_model.dart' - lib\features\courses\provider\course_progress_provider.dart:28:18 - ambiguous_import
+  error - 'CourseProgressNotifier' doesn't conform to the bound 'FamilyAsyncNotifier<InvalidType, ({String courseId, int totalSteps})>' of the type parameter 'NotifierT' - lib\features\courses\provider\course_progress_provider.dart:39:61 - type_argument_not_matching_bounds
+  error - The name 'CourseProgress' is defined in the libraries 'package:unimentorai/core/models/course_model.dart' and 'package:unimentorai/core/models/course_progress_model.dart' - lib\features\courses\provider\course_progress_provider.dart:39:85 - ambiguous_import
+  error - Target of URI doesn't exist: 'courses_provider.dart' - lib\features\courses\provider\courses_search_provider.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'coursesProvider' - lib\features\courses\provider\courses_search_provider.dart:9:34 - undefined_identifier
+  error - Target of URI doesn't exist: '../../../core/firestore_translation_service.dart' - lib\features\courses\provider\firestore_translation_service_provider.dart:2:8 - uri_does_not_exist
+  error - The function 'FirestoreTranslationService' isn't defined - lib\features\courses\provider\firestore_translation_service_provider.dart:4:63 - undefined_function
+  error - Undefined name 'userId' - lib\features\courses\services\course_progress_service.dart:22:9 - undefined_identifier
+  error - Undefined name '_db' - lib\features\courses\services\course_progress_service.dart:23:23 - undefined_identifier
+  error - Undefined name 'userId' - lib\features\courses\services\course_progress_service.dart:23:60 - undefined_identifier
+  error - Undefined name 'userId' - lib\features\courses\services\course_progress_service.dart:29:9 - undefined_identifier
+  error - Undefined name '_db' - lib\features\courses\services\course_progress_service.dart:30:11 - undefined_identifier
+  error - Undefined name 'userId' - lib\features\courses\services\course_progress_service.dart:30:48 - undefined_identifier
+  error - Undefined name 'userId' - lib\features\courses\services\course_progress_service.dart:31:17 - undefined_identifier
+  error - Expected a method, getter, setter or operator declaration - lib\features\courses\services\course_progress_service.dart:37:1 - expected_executable
+  error - The argument type 'List<int>' can't be assigned to the parameter type 'Uint8List'.  - lib\features\courses\services\course_service.dart:23:42 - argument_type_not_assignable
+  error - Target of URI doesn't exist: '../utils/certificate_share_builder.dart' - lib\features\courses\services\linkedin_service.dart:3:8 - uri_does_not_exist
+  error - Undefined name 'CertificateShareBuilder' - lib\features\courses\services\linkedin_service.dart:11:18 - undefined_identifier
+  error - Target of URI doesn't exist: '../../core/blockchain/certificate_hash_service.dart' - lib\features\courses\services\qr_scanner_service.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../core/fraud/fraud_engine.dart' - lib\features\courses\services\qr_scanner_service.dart:3:8 - uri_does_not_exist
+  error - Undefined class 'CertificateHashService' - lib\features\courses\services\qr_scanner_service.dart:7:9 - undefined_class
+  error - The method 'CertificateHashService' isn't defined for the type 'QRScannerService' - lib\features\courses\services\qr_scanner_service.dart:7:47 - undefined_method
+  error - Undefined class 'FraudEngine' - lib\features\courses\services\qr_scanner_service.dart:8:9 - undefined_class
+  error - The method 'FraudEngine' isn't defined for the type 'QRScannerService' - lib\features\courses\services\qr_scanner_service.dart:8:36 - undefined_method
+  error - Target of URI doesn't exist: 'courses/courses_screen.dart' - lib\features\home_screen.dart:1:8 - uri_does_not_exist
+   info - The variable name 'ElevatedButton' isn't a lowerCamelCase identifier - lib\features\home_screen.dart:20:6 - non_constant_identifier_names
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - lib\features\home_screen.dart:21:13 - named_parameter_outside_group
+  error - The default value of an optional parameter must be constant - lib\features\home_screen.dart:21:15 - non_constant_default_value
+  error - Undefined name 'context' - lib\features\home_screen.dart:22:20 - undefined_identifier
+  error - The name 'ProfileScreen' isn't a class - lib\features\home_screen.dart:22:69 - creation_with_non_type
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - lib\features\home_screen.dart:24:9 - named_parameter_outside_group
+  error - A function body must be provided - lib\features\home_screen.dart:26:1 - missing_function_body
+   info - The variable name 'ElevatedButton' isn't a lowerCamelCase identifier - lib\features\home_screen.dart:26:6 - non_constant_identifier_names
+  error - The name 'ElevatedButton' is already defined - lib\features\home_screen.dart:26:6 - duplicate_definition
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - lib\features\home_screen.dart:27:13 - named_parameter_outside_group
+  error - The default value of an optional parameter must be constant - lib\features\home_screen.dart:27:15 - non_constant_default_value
+  error - Undefined name 'context' - lib\features\home_screen.dart:28:20 - undefined_identifier
+  error - The name 'CoursesScreen' isn't a class - lib\features\home_screen.dart:28:69 - creation_with_non_type
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - lib\features\home_screen.dart:30:9 - named_parameter_outside_group
+  error - A function body must be provided - lib\features\home_screen.dart:31:2 - missing_function_body
+  error - Expected a method, getter, setter or operator declaration - lib\features\home_screen.dart:31:2 - expected_executable
+  error - Target of URI doesn't exist: 'translation_service.dart' - lib\features\localization\presentation\verified_text_widget.dart:5:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../features/localization/provider/locale_provider.dart' - lib\features\localization\presentation\verified_text_widget.dart:6:8 - uri_does_not_exist
+  error - Undefined name 'localeProvider' - lib\features\localization\presentation\verified_text_widget.dart:24:30 - undefined_identifier
+  error - Undefined name 'TranslationService' - lib\features\localization\presentation\verified_text_widget.dart:24:49 - undefined_identifier
+warning - The left operand can't be null, so the right operand is never executed - lib\features\localization\services\translation_service.dart:17:67 - dead_null_aware_expression
+  error - The method 'upsertProfile' isn't defined for the type 'ReverseMentoringService' - lib\features\mentoring\presentation\reverse_mentoring_screen.dart:177:54 - undefined_method
+  error - The method 'matchCandidates' isn't defined for the type 'ReverseMentoringService' - lib\features\mentoring\presentation\reverse_mentoring_screen.dart:224:60 - undefined_method
+  error - The method 'createSession' isn't defined for the type 'ReverseMentoringService' - lib\features\mentoring\presentation\reverse_mentoring_screen.dart:251:62 - undefined_method
+  error - The method 'getSessionsForUser' isn't defined for the type 'ReverseMentoringService' - lib\features\mentoring\presentation\reverse_mentoring_screen.dart:269:34 - undefined_method
+  error - The method 'submitFeedback' isn't defined for the type 'ReverseMentoringService' - lib\features\mentoring\presentation\reverse_mentoring_screen.dart:317:52 - undefined_method
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\onboarding\presentation\intelligent_onboarding_screen.dart:127:59 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\onboarding\presentation\intelligent_onboarding_screen.dart:220:63 - deprecated_member_use
+  error - The method 'SecurityService' isn't defined for the type '_PaiementKkiapayScreenState' - lib\features\paiement\presentation\paiement_kkiapay_screen.dart:24:21 - undefined_method
+  error - Target of URI doesn't exist: 'paiement_kkiapay_screen.dart' - lib\features\paiement_kkiapay.dart:2:8 - uri_does_not_exist
+  error - The name 'PaiementKkiapayScreen' isn't a class - lib\features\paiement_kkiapay.dart:9:47 - creation_with_non_type
+   info - The imported package 'flutter_stripe' isn't a dependency of the importing package - lib\features\pricing\presentation\billing_screen.dart:2:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:flutter_stripe/flutter_stripe.dart' - lib\features\pricing\presentation\billing_screen.dart:2:8 - uri_does_not_exist
+   info - The imported package 'http' isn't a dependency of the importing package - lib\features\pricing\presentation\billing_screen.dart:3:8 - depend_on_referenced_packages
+  error - The getter '_config' isn't defined for the type 'PricingService' - lib\features\pricing\presentation\billing_screen.dart:34:27 - undefined_getter
+  error - Undefined name 'Stripe' - lib\features\pricing\presentation\billing_screen.dart:68:13 - undefined_identifier
+  error - The method 'SetupPaymentSheetParameters' isn't defined for the type '_BillingScreenState' - lib\features\pricing\presentation\billing_screen.dart:68:70 - undefined_method
+  error - Undefined name 'Stripe' - lib\features\pricing\presentation\billing_screen.dart:73:13 - undefined_identifier
+  error - The getter '_config' isn't defined for the type 'PricingService' - lib\features\pricing\presentation\pricing_screen.dart:29:27 - undefined_getter
+warning - The value of the local variable 'price' isn't used - lib\features\pricing\presentation\pricing_screen.dart:38:11 - unused_local_variable
+   info - 'Table.fromTextArray' is deprecated and shouldn't be used. Use TableHelper.fromTextArray() instead - lib\features\pricing\presentation\pricing_screen.dart:73:11 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\features\profile\presentation\profile_screen.dart:65:26 - use_build_context_synchronously
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\profile\presentation\profile_screen.dart:107:19 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\profile\presentation\profile_screen.dart:107:59 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\profile\presentation\profile_screen.dart:147:76 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\profile\presentation\profile_screen.dart:147:116 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\profile\presentation\profile_screen.dart:163:46 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\profile\presentation\profile_screen.dart:163:86 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\profile\presentation\profile_screen.dart:203:55 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\profile\presentation\profile_screen.dart:203:95 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\profile\presentation\profile_screen.dart:220:21 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\profile\presentation\profile_screen.dart:220:61 - deprecated_member_use
+  error - The name 'QuizModel' isn't a type, so it can't be used as a type argument - lib\features\quiz\presentation\quiz_screen.dart:4:14 - non_type_as_type_argument
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:37:17 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:37:57 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:47:17 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:47:57 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:58:45 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:58:85 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:74:50 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:74:90 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:85:48 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:85:88 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:95:50 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:95:90 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:107:19 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:107:59 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:117:50 - deprecated_member_use
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre - lib\features\quiz\presentation\quiz_screen.dart:117:90 - deprecated_member_use
+  error - Target of URI doesn't exist: '../models/course_model.dart' - lib\lib\features\courses\repositories\course_repository.dart:2:8 - uri_does_not_exist
+  error - The name 'CourseModel' isn't a type, so it can't be used as a type argument - lib\lib\features\courses\repositories\course_repository.dart:7:15 - non_type_as_type_argument
+  error - Undefined name 'CourseModel' - lib\lib\features\courses\repositories\course_repository.dart:12:20 - undefined_identifier
+  error - The name 'Timestamp' isn't a type, so it can't be used in an 'as' expression - lib\shared\models\models\course_progress_model.dart:17:46 - cast_to_non_type
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\shared\widgets\consent_banner.dart:40:27 - deprecated_member_use
+  error - Target of URI doesn't exist: '../../../core/certificat/certificat_service.dart' - lib\shared\widgets\widgets\course_actions.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../features/quiz/quiz_screen.dart' - lib\shared\widgets\widgets\course_actions.dart:3:8 - uri_does_not_exist
+  error - The method 'CertificatService' isn't defined for the type 'CertificatButton' - lib\shared\widgets\widgets\course_actions.dart:14:25 - undefined_method
+  error - The method 'QuizScreen' isn't defined for the type 'QuizButton' - lib\shared\widgets\widgets\course_actions.dart:39:29 - undefined_method
+warning - The asset directory 'assets/certificates/' doesn't exist - pubspec.yaml:101:7 - asset_directory_does_not_exist
+   info - Don't invoke 'print' in production code - tool\create_app_structure.dart:21:7 - avoid_print
+   info - Don't invoke 'print' in production code - tool\create_app_structure.dart:26:7 - avoid_print
+   info - Don't invoke 'print' in production code - tool\create_app_structure.dart:30:5 - avoid_print
+   info - Don't invoke 'print' in production code - tool\create_missing_files.dart:18:7 - avoid_print
+   info - Don't invoke 'print' in production code - tool\create_missing_files.dart:20:7 - avoid_print
+   info - Don't invoke 'print' in production code - tool\create_missing_files.dart:24:3 - avoid_print
+   info - Don't invoke 'print' in production code - tool\create_verify_file.dart:16:3 - avoid_print
+   info - Don't invoke 'print' in production code - tool\create_verify_file.dart:27:5 - avoid_print
+   info - Don't invoke 'print' in production code - tool\create_verify_file.dart:30:3 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:6:3 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:23:3 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:24:3 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:25:3 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:26:3 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:30:3 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:42:7 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:44:7 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:60:13 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:62:13 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:71:3 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:83:7 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:85:7 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:91:3 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:108:9 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:110:9 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:117:3 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:126:7 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:132:5 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:146:5 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:148:5 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:153:3 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:163:11 - avoid_print
+   info - Don't invoke 'print' in production code - tools\audit_all.dart:165:11 - avoid_print
+

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+
+  <defs>
+    <linearGradient id="wm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#8C6B1E" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Large diagonal brand text -->
+  <text x="300" y="300"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="48"
+        fill="url(#wm)"
+        transform="rotate(-30 300 300)"
+        font-weight="bold">
+    UNIMENTORAI
+  </text>
+
+  <!-- Secondary repetition (security layer) -->
+  <text x="300" y="380"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="22"
+        fill="url(#wm)"
+        transform="rotate(-30 300 300)">
+    VERIFIED CERTIFICATE • UNIMENTORAI
+  </text>
+
+  <!-- Subtle grid security pattern -->
+  <path d="M0 100 L600 100
+           M0 200 L600 200
+           M0 300 L600 300
+           M0 400 L600 400
+           M0 500 L600 500"
+        stroke="#D4AF37"
+        stroke-width="0.5"
+        opacity="0.03"/>
+
+  <path d="M100 0 L100 600
+           M200 0 L200 600
+           M300 0 L300 600
+           M400 0 L400 600
+           M500 0 L500 600"
+        stroke="#D4AF37"
+        stroke-width="0.5"
+        opacity="0.02"/>
+
+</svg>

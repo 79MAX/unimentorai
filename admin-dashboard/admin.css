@@ -1,0 +1,125 @@
+/* =========================
+   🎨 DESIGN SYSTEM (ENTERPRISE DARK UI)
+========================= */
+:root {
+  --bg: #0f172a;
+  --panel: #1e293b;
+  --panel-dark: #111827;
+  --text: #ffffff;
+  --muted: rgba(255,255,255,0.7);
+  --primary: #3b82f6;
+  --success: #22c55e;
+  --danger: #ef4444;
+}
+
+/* =========================
+   🌍 GLOBAL RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, var(--bg), #0b1220);
+  color: var(--text);
+  text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* =========================
+   📌 HEADER (MODERN SAAS STYLE)
+========================= */
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+
+header p {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* =========================
+   📊 GRID METRICS (RESPONSIVE ENTERPRISE)
+========================= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 10px;
+}
+
+/* =========================
+   🧱 KPI CARD (GLASS + DEPTH)
+========================= */
+.card {
+  background: var(--panel);
+  padding: 20px;
+  border-radius: 14px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+
+  border: 1px solid rgba(255,255,255,0.05);
+
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* =========================
+   📜 LOGS SECTION
+========================= */
+.logs {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: left;
+}
+
+.logs h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* =========================
+   📄 LOG ITEM (CLEAN SAAS STYLE)
+========================= */
+.log {
+  background: var(--panel-dark);
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+
+  border-left: 3px solid var(--primary);
+
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* =========================
+   📱 MOBILE OPTIMIZATION
+========================= */
+@media (max-width: 600px) {
+
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+}

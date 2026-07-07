@@ -1,0 +1,256 @@
+/**
+ * 📊 ADMIN DASHBOARD UI — UNIMENTORAI (PRODUCTION GRADE)
+ * Stripe-level analytics dashboard (safe + scalable + optimized)
+ */
+
+import React, { useEffect, useState, useCallback, useMemo } from "react";
+import {
+  View,
+  Text,
+  ScrollView,
+  ActivityIndicator,
+  RefreshControl
+} from "react-native";
+
+import { AdminAPI } from "../../api/admin.api";
+
+export default function AdminDashboard() {
+
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
+  const [error, setError] = useState(null);
+
+  // 🚀 SAFE DATA FETCH
+  const loadDashboard = useCallback(async () => {
+
+    try {
+
+      setError(null);
+
+      const res = await AdminAPI.getDashboard();
+
+      setData(res?.data || null);
+
+    } catch (err) {
+
+      console.error("Dashboard error:", err);
+
+      setError(err?.message || "LOAD_FAILED");
+
+    } finally {
+
+      setLoading(false);
+      setRefreshing(false);
+    }
+
+  }, []);
+
+  // 🚀 INIT LOAD
+  useEffect(() => {
+    loadDashboard();
+  }, [loadDashboard]);
+
+  // 🔄 REFRESH HANDLER (PULL TO REFRESH READY)
+  const onRefresh = useCallback(() => {
+
+    setRefreshing(true);
+
+    loadDashboard();
+
+  }, [loadDashboard]);
+
+  // 🧠 SAFE DATA EXTRACTION (NO CRASH)
+  const stats = useMemo(() => {
+
+    return {
+      usersTotal: data?.users?.total || 0,
+      usersActive: data?.users?.active || 0,
+      revenue: data?.revenue?.totalRevenue || 0,
+      aiRequests: data?.ai?.totalRequests || 0,
+      systemStatus: data?.system?.status || "UNKNOWN"
+    };
+
+  }, [data]);
+
+  // ⏳ LOADING STATE (FIRST LOAD ONLY)
+  if (loading) {
+
+    return (
+      <View style={styles.center}>
+
+        <ActivityIndicator size="large" color="#3b82f6" />
+
+        <Text style={styles.text}>
+          📊 Loading dashboard...
+        </Text>
+
+      </View>
+    );
+  }
+
+  // ❌ ERROR STATE (UX SAFE)
+  if (error) {
+
+    return (
+      <View style={styles.center}>
+
+        <Text style={styles.errorTitle}>
+          ⚠️ Dashboard Error
+        </Text>
+
+        <Text style={styles.text}>
+          {error}
+        </Text>
+
+      </View>
+    );
+  }
+
+  return (
+    <ScrollView
+      style={styles.container}
+      refreshControl={
+        <RefreshControl
+          refreshing={refreshing}
+          onRefresh={onRefresh}
+          tintColor="#3b82f6"
+        />
+      }
+    >
+
+      {/* HEADER */}
+      <Text style={styles.title}>
+        📊 Admin Dashboard
+      </Text>
+
+      {/* KPI GRID */}
+      <View style={styles.grid}>
+
+        <Card title="Users" value={stats.usersTotal} />
+
+        <Card title="Active" value={stats.usersActive} />
+
+        <Card title="Revenue" value={`$${stats.revenue}`} />
+
+        <Card title="AI Requests" value={stats.aiRequests} />
+
+      </View>
+
+      {/* SYSTEM STATUS */}
+      <View style={styles.section}>
+
+        <Text style={styles.sectionTitle}>
+          🟢 System Status
+        </Text>
+
+        <Text style={styles.status}>
+          {stats.systemStatus}
+        </Text>
+
+      </View>
+
+    </ScrollView>
+  );
+}
+
+/**
+ * 🧩 KPI CARD (REUSABLE)
+ */
+function Card({ title, value }) {
+
+  return (
+    <View style={styles.card}>
+
+      <Text style={styles.cardTitle}>
+        {title}
+      </Text>
+
+      <Text style={styles.cardValue}>
+        {value}
+      </Text>
+
+    </View>
+  );
+}
+
+/* =========================
+   🎨 STYLES (SAAS DESIGN SYSTEM)
+========================= */
+
+const styles = {
+
+  container: {
+    flex: 1,
+    backgroundColor: "#0f172a",
+    padding: 16
+  },
+
+  center: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#0f172a"
+  },
+
+  title: {
+    fontSize: 22,
+    fontWeight: "bold",
+    color: "#fff",
+    marginBottom: 20
+  },
+
+  text: {
+    color: "#94a3b8",
+    marginTop: 10
+  },
+
+  errorTitle: {
+    color: "#ef4444",
+    fontSize: 18,
+    fontWeight: "bold"
+  },
+
+  grid: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-between"
+  },
+
+  card: {
+    width: "48%",
+    backgroundColor: "#1e293b",
+    padding: 14,
+    borderRadius: 12,
+    marginBottom: 10
+  },
+
+  cardTitle: {
+    color: "#94a3b8",
+    fontSize: 12
+  },
+
+  cardValue: {
+    color: "#fff",
+    fontSize: 18,
+    fontWeight: "bold",
+    marginTop: 6
+  },
+
+  section: {
+    marginTop: 20,
+    padding: 15,
+    backgroundColor: "#1e293b",
+    borderRadius: 12
+  },
+
+  sectionTitle: {
+    color: "#fff",
+    marginBottom: 10
+  },
+
+  status: {
+    color: "#10b981",
+    fontWeight: "bold"
+  }
+};

@@ -1,0 +1,193 @@
+
+/* =========================
+   BASE STREAM LAYOUT
+========================= */
+
+.v12-stream {
+    display: grid;
+    gap: 18px;
+    color: #e5e7eb;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.stream-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 2px;
+}
+
+.stream-header h2 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+/* =========================
+   CARD SYSTEM (SILICON STYLE)
+========================= */
+
+.stream-card {
+    background: linear-gradient(
+        145deg,
+        rgba(255,255,255,0.04),
+        rgba(255,255,255,0.02)
+    );
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.25),
+        inset 0 1px 0 rgba(255,255,255,0.05);
+    backdrop-filter: blur(8px);
+    transition: all 0.25s ease;
+}
+
+.stream-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255,255,255,0.15);
+}
+
+/* =========================
+   GLOW STATES (AI STATUS)
+========================= */
+
+.glow {
+    box-shadow:
+        0 0 25px rgba(0,255,136,0.12),
+        0 0 60px rgba(0,255,136,0.05);
+}
+
+/* =========================
+   METRICS BLOCK
+========================= */
+
+.metric-block {
+    margin: 12px 0;
+}
+
+.metric-block label {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+/* =========================
+   BAR VISUAL ENGINE
+========================= */
+
+.bar {
+    font-family: monospace;
+    color: #00ff88;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-shadow: 0 0 8px rgba(0,255,136,0.2);
+}
+
+/* =========================
+   KEY VALUE ROWS
+========================= */
+
+.metric-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    font-size: 13px;
+}
+
+/* =========================
+   STATE GRID (CLEAN DASHBOARD)
+========================= */
+
+.state-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.state-grid div {
+    background: rgba(255,255,255,0.02);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.state-grid span {
+    font-size: 11px;
+    opacity: 0.5;
+    display: block;
+}
+
+.state-grid strong {
+    font-size: 14px;
+    display: block;
+    margin-top: 4px;
+}
+
+/* =========================
+   LOG SYSTEM (DATADOG STYLE)
+========================= */
+
+.log-line {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    padding: 6px 8px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    background: rgba(255,255,255,0.02);
+    border-left: 2px solid transparent;
+}
+
+/* LOG TYPES */
+
+.log-line.info {
+    border-left-color: #3b82f6;
+    color: #93c5fd;
+}
+
+.log-line.warn {
+    border-left-color: #ffcc00;
+    color: #fde68a;
+}
+
+.log-line.error {
+    border-left-color: #ff4d4d;
+    color: #fca5a5;
+}
+
+/* =========================
+   DOT INDICATOR
+========================= */
+
+.dot {
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+/* =========================
+   EMPTY STATE
+========================= */
+
+.empty {
+    text-align: center;
+    opacity: 0.5;
+    padding: 10px;
+    font-size: 12px;
+}
+
+/* =========================
+   MICRO ANIMATIONS
+========================= */
+
+@keyframes pulseGlow {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+}
+
+.glow {
+    animation: pulseGlow 2.5s infinite ease-in-out;
+}

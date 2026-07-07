@@ -1,0 +1,12 @@
+$base = "C:\Users\DJOTOHOU\UNIMENTORAI\unimentorai"
+
+@'
+{
+  "models": {
+    "architect": "qwen3-coder:30b",
+    "critic": "deepseek-r1:8b",
+    "fast": "qwen2.5-coder:7b",
+    "general": "llama3.1:8b"
+  }
+}
+'@ | Out-File "$base\swarm\config.json" -Encoding utf8

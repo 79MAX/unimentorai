@@ -1,0 +1,58 @@
+import { aiQuota } from "../monetization/quota.service.js";
+import { SubscriptionService } from "../subscription/subscription.service.js";
+
+/* =========================
+   🧠 AI SECURITY & MONETIZATION GUARD
+========================= */
+export class AIGuard {
+
+  /* =========================
+     🔍 CHECK AI ACCESS
+  ========================= */
+  static async check(userId) {
+
+    const subscription = SubscriptionService.get(userId);
+
+    const quota = await aiQuota.getUserQuota(userId);
+
+    // 🚨 no subscription fallback
+    if (!subscription) {
+      return {
+        allowed: false,
+        reason: "NO_SUBSCRIPTION"
+      };
+    }
+
+    // 💰 FREE PLAN LIMIT
+    if (subscription.plan === "FREE" && quota.remaining <= 0) {
+      return {
+        allowed: false,
+        reason: "FREE_PLAN_LIMIT_REACHED",
+        upgrade: true
+      };
+    }
+
+    // 🧠 PRO / PREMIUM ALWAYS ALLOWED (with soft limit tracking)
+    if (["PRO", "PREMIUM"].includes(subscription.plan)) {
+      return {
+        allowed: true,
+        remaining: quota.remaining,
+        plan: subscription.plan
+      };
+    }
+
+    // fallback safety
+    if (!quota || quota.remaining <= 0) {
+      return {
+        allowed: false,
+        reason: "AI_QUOTA_EXCEEDED"
+      };
+    }
+
+    return {
+      allowed: true,
+      remaining: quota.remaining
+    };
+  }
+}
+
