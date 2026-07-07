@@ -2,17 +2,19 @@
   "name": "control-center-backend",
   "version": "1.0.0",
   "description": "Backend API for UniMentorAI Control Center",
-  "main": "server.bootstrap.js",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.bootstrap.js",
-    "dev": "node server.bootstrap.js",
+    "start": "node server.js",
+    "dev": "node server.js",
     "test": "echo \"No tests defined\" && exit 0"
   },
   "keywords": [
     "control-center",
     "admin-dashboard",
     "api",
-    "express"
+    "express",
+    "unimentorai"
   ],
   "author": "UniMentorAI",
   "license": "ISC",

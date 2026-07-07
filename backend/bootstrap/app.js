@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { moduleRegistry } from "./module.registry.js";
+import moduleRegistry from "./module.registry.js";
 
 dotenv.config();
 

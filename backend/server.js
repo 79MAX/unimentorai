@@ -1,37 +1,50 @@
+import { assertCleanV12 } from "./core/bootstrap/v12.guard.js";
 import http from "http";
-import express from "express";
-import { WebSocketServer } from "ws";
+import app from "./bootstrap/app.js";
+import dotenv from "dotenv";
 
-const app = express();
+dotenv.config();
+
+/* =====================================================
+   UNIMENTORAI BACKEND V12 SERVER
+   HTTP API ENTRY POINT
+===================================================== */
+
+// Architecture protection
+assertCleanV12();
+
+const PORT = process.env.PORT || 3000;
+
 const server = http.createServer(app);
 
-/* =========================
-   HTTP ROUTE
-========================= */
 
-app.get("/api/health", (req, res) => {
-  res.json({ status: "ok" });
+server.listen(PORT, () => {
+
+  console.log("");
+
+  console.log("🚀 UNIMENTORAI BACKEND V12");
+
+  console.log(`HTTP: http://localhost:${PORT}`);
+
+  console.log("STATUS: ONLINE");
+
 });
 
-/* =========================
-   WS ATTACHED TO HTTP SERVER
-========================= */
 
-const wss = new WebSocketServer({ server });
+/* =====================================================
+   SAFE SHUTDOWN
+===================================================== */
 
-wss.on("connection", (ws) => {
-  console.log("🟢 WS CLIENT CONNECTED");
+process.on("SIGINT", () => {
 
-  ws.send(JSON.stringify({
-    type: "WELCOME",
-    message: "connected"
-  }));
-});
+  console.log("\n🛑 Shutting down V12 server...");
 
-/* =========================
-   START SERVER
-========================= */
+  server.close(() => {
 
-server.listen(3001, () => {
-  console.log("🚀 SERVER RUNNING ON 3001");
+    console.log("✅ SERVER STOPPED");
+
+    process.exit(0);
+
+  });
+
 });

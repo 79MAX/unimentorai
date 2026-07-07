@@ -1,73 +1,227 @@
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
 
-/* =========================
-   V12 CLEAN GUARD (PRO)
-   SAFE + FAST + CONTROLLED
-========================= */
+/* =====================================================
+   UNIMENTORAI V12 CLEAN GUARD PRO
+   ARCHITECTURE PROTECTION LAYER
+   ESM VERSION
+===================================================== */
 
-function assertCleanV12() {
+export function assertCleanV12() {
 
   const root = process.cwd();
 
+
+  /**
+   * =====================================================
+   * LEGACY SIGNATURES INTERDITES
+   * =====================================================
+   */
   const forbiddenPatterns = [
-    "V11.1 STABLE",
-    "ws-server.js",
-    "realtime.server.js",
-    "control-center.server.js"
+    "V11\\.1 STABLE",
+    "ws-server\\.js",
+    "realtime\\.server\\.js",
+    "control-center\\.server\\.js",
+    "src/bootstrap/module\\.registry\\.js",
+    "backend/src/bootstrap/module\\.registry\\.js"
   ];
 
+
+  /**
+   * =====================================================
+   * DOSSIERS EXCLUS DU SCAN
+   * =====================================================
+   */
   const skipDirs = new Set([
     "node_modules",
     ".git",
     "archive-v12",
-    "audit-report"
+    "audit-report",
+    "coverage",
+    "dist",
+    "build"
   ]);
 
+
+  /**
+   * =====================================================
+   * EXTENSIONS SCANNEES
+   * =====================================================
+   */
+  const allowedExtensions = new Set([
+    ".js",
+    ".mjs",
+    ".cjs"
+  ]);
+
+
+  /**
+   * =====================================================
+   * FICHIERS EXCLUS
+   * =====================================================
+   */
+  const ignoredFiles = new Set([
+    "v12.guard.js"
+  ]);
+
+
+  let scannedFiles = 0;
+  let violations = 0;
+
+
+  /**
+   * =====================================================
+   * DIRECTORY SCANNER
+   * =====================================================
+   */
   function scanDir(dir) {
 
-    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    let entries;
+
+    try {
+
+      entries = fs.readdirSync(
+        dir,
+        {
+          withFileTypes: true
+        }
+      );
+
+    } catch {
+
+      console.warn(
+        `⚠️ Unable to scan: ${dir}`
+      );
+
+      return;
+    }
+
 
     for (const entry of entries) {
 
-      const fullPath = path.join(dir, entry.name);
 
+      const fullPath = path.join(
+        dir,
+        entry.name
+      );
+
+
+      /**
+       * DIRECTORY
+       */
       if (entry.isDirectory()) {
 
-        if (skipDirs.has(entry.name)) continue;
+        if (skipDirs.has(entry.name)) {
+          continue;
+        }
 
         scanDir(fullPath);
         continue;
       }
 
-      if (!entry.isFile()) continue;
-      if (!entry.name.endsWith(".js")) continue;
 
-      let content = "";
-
-      try {
-        content = fs.readFileSync(fullPath, "utf-8");
-      } catch (e) {
-        console.warn(`⚠️ Cannot read: ${fullPath}`);
+      /**
+       * FILE CHECK
+       */
+      if (!entry.isFile()) {
         continue;
       }
 
+
+      if (ignoredFiles.has(entry.name)) {
+        continue;
+      }
+
+
+      const ext = path.extname(
+        entry.name
+      );
+
+
+      if (!allowedExtensions.has(ext)) {
+        continue;
+      }
+
+
+      scannedFiles++;
+
+
+      let content;
+
+
+      try {
+
+        content = fs.readFileSync(
+          fullPath,
+          "utf8"
+        );
+
+      } catch {
+
+        console.warn(
+          `⚠️ Cannot read: ${fullPath}`
+        );
+
+        continue;
+      }
+
+
+
+      /**
+       * LEGACY DETECTION
+       */
       for (const pattern of forbiddenPatterns) {
 
-        if (content.includes(pattern)) {
+
+        if (
+          new RegExp(pattern)
+            .test(content)
+        ) {
+
+          violations++;
+
+
           throw new Error(
-            `🚨 V12 VIOLATION DETECTED\n` +
-            `Pattern: ${pattern}\n` +
-            `File: ${fullPath}`
+            [
+              "",
+              "🚨 V12 ARCHITECTURE VIOLATION",
+              "--------------------------------",
+              `Pattern : ${pattern}`,
+              `File    : ${fullPath}`,
+              ""
+            ].join("\n")
           );
         }
       }
     }
   }
 
+
+  /**
+   * EXECUTION
+   */
   scanDir(root);
 
-  console.log("🔒 V12 CLEAN GUARD OK (NO LEGACY DETECTED)");
-}
 
-module.exports = { assertCleanV12 };
+
+  /**
+   * RESULT
+   */
+  console.log(
+    "🔒 V12 CLEAN GUARD PASSED"
+  );
+
+
+  console.log(
+    `📁 Files scanned: ${scannedFiles}`
+  );
+
+
+  return {
+    status: "OK",
+    scannedFiles,
+    violations,
+    version: "V12-CLEAN-GUARD-PRO"
+  };
+
+}
