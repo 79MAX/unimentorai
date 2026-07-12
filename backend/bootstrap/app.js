@@ -1,6 +1,6 @@
 /**
  * ==========================================================
- * UNIMENTORAI BACKEND V12
+ * UNIMENTORAI BACKEND V12.1
  * EXPRESS APPLICATION BOOTSTRAP
  * PRODUCTION READY
  * ==========================================================
@@ -11,7 +11,7 @@ import express from "express";
 
 import cors from "cors";
 
-import helmet from "helmet";
+import helmetConfig from "../src/security/helmet.config.js";
 
 import morgan from "morgan";
 
@@ -32,16 +32,18 @@ const app = express();
 
 
 
+
+
 /**
  * ==========================================================
- * SECURITY MIDDLEWARE
+ * SECURITY MIDDLEWARE V12.1
  * ==========================================================
  */
 
 
 app.use(
 
-  helmet()
+  helmetConfig()
 
 );
 
@@ -60,6 +62,8 @@ app.use(
   })
 
 );
+
+
 
 
 
@@ -103,6 +107,7 @@ app.use(
 
 
 
+
 /**
  * ==========================================================
  * LOGGER
@@ -111,7 +116,9 @@ app.use(
 
 
 if(
+
   process.env.NODE_ENV !== "production"
+
 ){
 
   app.use(
@@ -130,10 +137,9 @@ if(
 
 
 
-
 /**
  * ==========================================================
- * ROOT HEALTH
+ * ROOT HEALTH CHECK
  * ==========================================================
  */
 
@@ -151,7 +157,9 @@ app.get(
 
       system:"UniMentorAI",
 
-      version:"V12",
+      version:"V12.1",
+
+      security:"HARDENED",
 
       status:"ONLINE",
 
@@ -172,6 +180,7 @@ app.get(
 
 
 
+
 /**
  * ==========================================================
  * LOAD MODULES
@@ -179,24 +188,22 @@ app.get(
  *
  * IMPORTANT:
  *
- * On importe index.js
- * PAS user.controller.js
- *
- * index.js initialise :
+ * user.routes.js initialise :
  *
  * UserService
  *      ↓
- * injectUserService()
+ * UserRepository
  *      ↓
- * Controller
+ * Controllers
  *
  * ==========================================================
  */
 
 
+
 const {
 
-  default: userRoutes
+  default:userRoutes
 
 } = await import(
 
@@ -206,16 +213,18 @@ const {
 
 
 
+
+
+
 const {
 
-  default: authRoutes
+  default:authRoutes
 
 } = await import(
 
   "../src/modules/auth/auth.routes.js"
 
 );
-
 
 
 
@@ -258,7 +267,6 @@ app.use(
 
 
 
-
 /**
  * ==========================================================
  * GLOBAL ERROR HANDLER
@@ -269,17 +277,26 @@ app.use(
 app.use(
 
   (
+
     error,
+
     req,
+
     res,
+
     next
+
   )=>{
 
 
     console.error(
+
       "SERVER ERROR:",
+
       error.message
+
     );
+
 
 
 
@@ -292,20 +309,30 @@ app.use(
 
       success:false,
 
+
       message:
+
         error.message ||
+
         "Internal server error",
 
+
+
       code:
+
         error.code ||
+
         "SERVER_ERROR"
 
+
     });
+
 
 
   }
 
 );
+
 
 
 

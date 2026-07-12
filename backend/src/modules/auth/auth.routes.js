@@ -1,6 +1,6 @@
 /**
  * ==========================================================
- * UNIMENTORAI AUTH ROUTES V12
+ * UNIMENTORAI AUTH ROUTES V12.1
  * HTTP ROUTER LAYER
  * PRODUCTION STABLE
  * ==========================================================
@@ -46,7 +46,10 @@ from "./auth.middleware.js";
 
 
 
+
 const router = Router();
+
+
 
 
 
@@ -146,8 +149,83 @@ function controllerMethod(method){
 
 /**
  * ==========================================================
+ * AUTH MODULE ROOT CHECK
+ * PUBLIC
+ *
+ * GET /api/auth
+ * ==========================================================
+ */
+
+
+router.get(
+
+  "/",
+
+  (
+
+    req,
+
+    res
+
+  )=>{
+
+
+    return res.status(200).json({
+
+      success:true,
+
+      module:"AUTH",
+
+      system:"UniMentorAI",
+
+      version:"V12.1",
+
+      status:"ONLINE",
+
+      endpoints:[
+
+        "GET /api/auth",
+
+        "GET /api/auth/health",
+
+        "POST /api/auth/register",
+
+        "POST /api/auth/login",
+
+        "POST /api/auth/refresh",
+
+        "POST /api/auth/logout",
+
+        "GET /api/auth/me"
+
+      ],
+
+      timestamp:
+
+        Date.now()
+
+
+    });
+
+
+  }
+
+);
+
+
+
+
+
+
+
+
+
+/**
+ * ==========================================================
  * HEALTH CHECK
  * PUBLIC
+ *
+ * GET /api/auth/health
  * ==========================================================
  */
 
@@ -167,15 +245,19 @@ router.get(
 
     return res.status(200).json({
 
+      success:true,
+
       module:"auth",
 
       status:"healthy",
 
-      version:"V12",
+      version:"V12.1",
 
       ok:true,
 
-      timestamp:Date.now()
+      timestamp:
+
+        Date.now()
 
     });
 
@@ -196,6 +278,8 @@ router.get(
  * ==========================================================
  * REGISTER
  * PUBLIC
+ *
+ * POST /api/auth/register
  * ==========================================================
  */
 
@@ -205,7 +289,9 @@ router.post(
   "/register",
 
   controllerMethod(
+
     "register"
+
   )
 
 );
@@ -222,6 +308,8 @@ router.post(
  * ==========================================================
  * LOGIN
  * PUBLIC
+ *
+ * POST /api/auth/login
  * ==========================================================
  */
 
@@ -231,7 +319,9 @@ router.post(
   "/login",
 
   controllerMethod(
+
     "login"
+
   )
 
 );
@@ -248,6 +338,8 @@ router.post(
  * ==========================================================
  * REFRESH TOKEN
  * PUBLIC
+ *
+ * POST /api/auth/refresh
  * ==========================================================
  */
 
@@ -257,7 +349,9 @@ router.post(
   "/refresh",
 
   controllerMethod(
+
     "refreshToken"
+
   )
 
 );
@@ -274,6 +368,8 @@ router.post(
  * ==========================================================
  * LOGOUT
  * AUTH REQUIRED
+ *
+ * POST /api/auth/logout
  * ==========================================================
  */
 
@@ -285,7 +381,9 @@ router.post(
   authMiddleware,
 
   controllerMethod(
+
     "logout"
+
   )
 
 );
@@ -302,6 +400,8 @@ router.post(
  * ==========================================================
  * CURRENT AUTH USER
  * AUTH REQUIRED
+ *
+ * GET /api/auth/me
  * ==========================================================
  */
 
@@ -313,7 +413,9 @@ router.get(
   authMiddleware,
 
   controllerMethod(
+
     "me"
+
   )
 
 );
@@ -324,6 +426,13 @@ router.get(
 
 
 
+
+
+/**
+ * ==========================================================
+ * EXPORT ROUTER
+ * ==========================================================
+ */
 
 
 export default router;
