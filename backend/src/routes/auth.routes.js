@@ -1,31 +1,86 @@
+/**
+ * ==========================================================
+ * UNIMENTORAI AUTH ROUTES V12
+ * ==========================================================
+ *
+ * Flow:
+ *
+ * Request
+ *    ↓
+ * Routes
+ *    ↓
+ * AuthController INSTANCE
+ *    ↓
+ * AuthService INSTANCE
+ *
+ * ==========================================================
+ */
+
+
 import { Router } from "express";
-import AuthController from "../modules/auth/auth.controller.js";
+import { authController } from "../modules/auth/index.js";
+import { authMiddleware } from "../modules/auth/auth.middleware.js";
+
 
 const router = Router();
 
+
+
 /**
- * 🔐 AUTH ROUTES (STANDARDIZED)
+ * ==========================================================
+ * PUBLIC ROUTES
+ * ==========================================================
  */
 
-router.post("/login", (req, res, next) =>
-  AuthController.login(req, res, next)
+
+router.post(
+  "/register",
+  (req,res,next)=>
+    authController.register(req,res,next)
 );
 
-router.post("/register", (req, res, next) =>
-  AuthController.register(req, res, next)
+
+
+router.post(
+  "/login",
+  (req,res,next)=>
+    authController.login(req,res,next)
 );
 
-router.post("/refresh", (req, res, next) =>
-  AuthController.refresh(req, res, next)
+
+
+router.post(
+  "/refresh",
+  (req,res,next)=>
+    authController.refreshToken(req,res,next)
 );
 
-router.post("/logout", (req, res, next) =>
-  AuthController.logout(req, res, next)
+
+
+
+/**
+ * ==========================================================
+ * PROTECTED ROUTES
+ * ==========================================================
+ */
+
+
+router.post(
+  "/logout",
+  authMiddleware,
+  (req,res,next)=>
+    authController.logout(req,res,next)
 );
 
-router.get("/me", (req, res, next) =>
-  AuthController.me(req, res, next)
+
+
+router.get(
+  "/me",
+  authMiddleware,
+  (req,res,next)=>
+    authController.me(req,res,next)
 );
 
-// 🔒 IMPORTANT: required for module registry
+
+
 export default router;

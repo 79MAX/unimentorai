@@ -1,121 +1,329 @@
-import express from "express";
-import jwt from "jsonwebtoken";
-import crypto from "crypto";
+/**
+ * ==========================================================
+ * UNIMENTORAI AUTH ROUTES V12
+ * HTTP ROUTER LAYER
+ * PRODUCTION STABLE
+ * ==========================================================
+ *
+ * ROLE:
+ *
+ * HTTP routing only
+ *
+ *
+ * FLOW:
+ *
+ * Request
+ *    ↓
+ * Router
+ *    ↓
+ * AuthController
+ *    ↓
+ * AuthService
+ *    ↓
+ * UserRepository
+ *    ↓
+ * MongoDB
+ *
+ * ==========================================================
+ */
 
-const router = express.Router();
 
-/* =========================
-   🧠 IN-MEMORY STORE (DEV ONLY)
-   👉 replace later with DB (Mongo/Postgres)
-========================= */
-const USERS = new Map();
+import { Router } from "express";
 
-/* =========================
-   🔐 CONFIG
-========================= */
-const SECRET = process.env.JWT_SECRET || "UNIMENTORAI_SECRET";
-const TOKEN_EXPIRY = "7d";
 
-/* =========================
-   🔒 SECURITY UTIL
-========================= */
-function hashPassword(password) {
-  return crypto
-    .createHash("sha256")
-    .update(password)
-    .digest("hex");
+import {
+  authController
 }
+from "./index.js";
 
-function generateToken(user) {
-  return jwt.sign(
-    {
-      email: user.email
-    },
-    SECRET,
-    { expiresIn: TOKEN_EXPIRY }
-  );
+
+import {
+  authMiddleware
 }
+from "./auth.middleware.js";
 
-/* =========================
-   👤 REGISTER
-========================= */
-router.post("/register", (req, res) => {
 
-  const { email, password } = req.body;
 
-  if (!email || !password) {
-    return res.status(400).json({
-      success: false,
-      error: "MISSING_FIELDS"
-    });
+
+
+const router = Router();
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * SAFE CONTROLLER CHECK
+ * ==========================================================
+ */
+
+
+function controllerMethod(method){
+
+
+  if(
+
+    !authController ||
+
+    typeof authController[method] !== "function"
+
+  ){
+
+
+    return (
+
+      req,
+
+      res
+
+    )=>{
+
+
+      return res.status(500).json({
+
+        success:false,
+
+        code:
+          "AUTH_CONTROLLER_METHOD_MISSING",
+
+        message:
+          `Auth controller method ${method} unavailable`
+
+      });
+
+
+    };
+
+
   }
 
-  const normalizedEmail = email.toLowerCase();
 
-  if (USERS.has(normalizedEmail)) {
-    return res.status(409).json({
-      success: false,
-      error: "USER_ALREADY_EXISTS"
-    });
-  }
 
-  const user = {
-    email: normalizedEmail,
-    password: hashPassword(password),
-    createdAt: Date.now()
+
+
+
+
+  return (
+
+    req,
+
+    res,
+
+    next
+
+  )=>{
+
+
+    return authController[method]
+
+      .call(
+
+        authController,
+
+        req,
+
+        res,
+
+        next
+
+      );
+
+
   };
 
-  USERS.set(normalizedEmail, user);
 
-  return res.status(201).json({
-    success: true,
-    message: "USER_CREATED"
-  });
-});
+}
 
-/* =========================
-   🔐 LOGIN
-========================= */
-router.post("/login", (req, res) => {
 
-  const { email, password } = req.body;
 
-  if (!email || !password) {
-    return res.status(400).json({
-      success: false,
-      error: "MISSING_FIELDS"
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * HEALTH CHECK
+ * PUBLIC
+ * ==========================================================
+ */
+
+
+router.get(
+
+  "/health",
+
+  (
+
+    req,
+
+    res
+
+  )=>{
+
+
+    return res.status(200).json({
+
+      module:"auth",
+
+      status:"healthy",
+
+      version:"V12",
+
+      ok:true,
+
+      timestamp:Date.now()
+
     });
+
+
   }
 
-  const normalizedEmail = email.toLowerCase();
-  const user = USERS.get(normalizedEmail);
+);
 
-  if (!user) {
-    return res.status(401).json({
-      success: false,
-      error: "INVALID_CREDENTIALS"
-    });
-  }
 
-  const hashedPassword = hashPassword(password);
 
-  if (user.password !== hashedPassword) {
-    return res.status(401).json({
-      success: false,
-      error: "INVALID_CREDENTIALS"
-    });
-  }
 
-  const token = generateToken(user);
 
-  return res.json({
-    success: true,
-    token,
-    user: {
-      email: user.email
-    }
-  });
-});
+
+
+
+
+/**
+ * ==========================================================
+ * REGISTER
+ * PUBLIC
+ * ==========================================================
+ */
+
+
+router.post(
+
+  "/register",
+
+  controllerMethod(
+    "register"
+  )
+
+);
+
+
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * LOGIN
+ * PUBLIC
+ * ==========================================================
+ */
+
+
+router.post(
+
+  "/login",
+
+  controllerMethod(
+    "login"
+  )
+
+);
+
+
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * REFRESH TOKEN
+ * PUBLIC
+ * ==========================================================
+ */
+
+
+router.post(
+
+  "/refresh",
+
+  controllerMethod(
+    "refreshToken"
+  )
+
+);
+
+
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * LOGOUT
+ * AUTH REQUIRED
+ * ==========================================================
+ */
+
+
+router.post(
+
+  "/logout",
+
+  authMiddleware,
+
+  controllerMethod(
+    "logout"
+  )
+
+);
+
+
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * CURRENT AUTH USER
+ * AUTH REQUIRED
+ * ==========================================================
+ */
+
+
+router.get(
+
+  "/me",
+
+  authMiddleware,
+
+  controllerMethod(
+    "me"
+  )
+
+);
+
+
+
+
+
+
+
+
 
 export default router;
-

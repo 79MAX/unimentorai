@@ -1,4 +1,4 @@
-
+console.log("❌ LEGACY USER MODEL LOADED");
 const mongoose = require("mongoose");
 
 /**

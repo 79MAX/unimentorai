@@ -1,158 +1,422 @@
+/**
+ * ==========================================================
+ * UNIMENTORAI USERS ROUTES V12
+ * HTTP ROUTER LAYER
+ * PRODUCTION STABLE
+ * ==========================================================
+ *
+ * FLOW:
+ *
+ * Request
+ *    ↓
+ * Router
+ *    ↓
+ * Auth Middleware
+ *    ↓
+ * UserController
+ *    ↓
+ * UserService
+ *    ↓
+ * UserRepository
+ *    ↓
+ * MongoDB
+ *
+ * ==========================================================
+ */
+
+
 import express from "express";
 
-import { userController } from "./user.controller.js";
-import { authMiddleware } from "../auth/auth.middleware.js";
+
+import {
+  userController
+}
+from "./index.js";
+
+
+import {
+  authMiddleware
+}
+from "../auth/auth.middleware.js";
+
+
+import {
+  requireRole
+}
+from "../auth/rbac/role.middleware.js";
+
+
 
 const router = express.Router();
 
+
+
+
 /**
- * ==================================================
- * UNIMENTORAI USERS MODULE V12
- * User Management API
- * ==================================================
+ * ==========================================================
+ * CONTROLLER BINDING
+ * ==========================================================
  *
- * routes
- *   ↓
- * controller
- *   ↓
- * service
- *   ↓
- * database
+ * Important:
+ * conserve le contexte du contrôleur
  *
- * SECURITY:
- * - authentication middleware
- * - centralized controller
- * - safe fallback handlers
- * ==================================================
+ * ==========================================================
  */
 
 
-function notImplemented(service) {
-  return (req, res) => {
-    res.status(501).json({
-      success: false,
-      service,
-      message: `${service} not implemented yet`
-    });
+function bindController(method){
+
+
+  if(!userController[method]){
+
+
+    return (req,res)=>{
+
+      return res.status(501).json({
+
+        success:false,
+
+        message:
+          `${method} not implemented`
+
+      });
+
+    };
+
+  }
+
+
+
+  return async(req,res,next)=>{
+
+
+    try{
+
+
+      return await userController[method](
+
+        req,
+
+        res,
+
+        next
+
+      );
+
+
+    }
+
+    catch(error){
+
+
+      next(error);
+
+
+    }
+
+
   };
+
+
 }
 
 
+
+
+
+
+
 /**
- * ==================================================
+ * ==========================================================
  * HEALTH
- * ==================================================
+ * PUBLIC
+ * ==========================================================
  */
 
+
 router.get(
+
   "/health",
-  (req, res, next) =>
-    userController.health
-      ? userController.health(req, res, next)
-      : notImplemented("Users health")(req, res)
+
+  bindController(
+    "health"
+  )
+
 );
 
 
+
+
+
+
+
+
+
 /**
- * ==================================================
+ * ==========================================================
  * CURRENT USER
- * ==================================================
+ * ==========================================================
  */
 
-router.get(
-  "/me",
-  authMiddleware,
-  (req, res, next) =>
-    userController.me
-      ? userController.me(req, res, next)
-      : notImplemented("User profile")(req, res)
-);
-
-
-router.patch(
-  "/me",
-  authMiddleware,
-  (req, res, next) =>
-    userController.updateProfile
-      ? userController.updateProfile(req, res, next)
-      : notImplemented("Profile update")(req, res)
-);
-
 
 router.get(
-  "/me/security",
+
+  "/me",
+
   authMiddleware,
-  (req, res, next) =>
-    userController.getSecurityStatus
-      ? userController.getSecurityStatus(req, res, next)
-      : notImplemented("Security status")(req, res)
+
+  bindController(
+    "me"
+  )
+
 );
+
+
+
+
+
 
 
 /**
- * ==================================================
- * ADMIN USER MANAGEMENT
- * ==================================================
+ * ==========================================================
+ * UPDATE PROFILE
+ * ==========================================================
  */
 
+
+router.patch(
+
+  "/me",
+
+  authMiddleware,
+
+  bindController(
+    "updateProfile"
+  )
+
+);
+
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * SECURITY STATUS
+ * ==========================================================
+ */
+
+
 router.get(
+
+  "/me/security",
+
+  authMiddleware,
+
+  bindController(
+    "getSecurityStatus"
+  )
+
+);
+
+
+
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * ADMIN USER LIST
+ * ==========================================================
+ */
+
+
+router.get(
+
   "/",
+
   authMiddleware,
-  (req, res, next) =>
-    userController.listUsers
-      ? userController.listUsers(req, res, next)
-      : notImplemented("User listing")(req, res)
+
+  requireRole(
+    "admin",
+    "super_admin"
+  ),
+
+  bindController(
+    "listUsers"
+  )
+
 );
+
+
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * ADMIN GET USER
+ * ==========================================================
+ */
 
 
 router.get(
+
   "/:id",
+
   authMiddleware,
-  (req, res, next) =>
-    userController.getUser
-      ? userController.getUser(req, res, next)
-      : notImplemented("User lookup")(req, res)
+
+  requireRole(
+    "admin",
+    "super_admin"
+  ),
+
+  bindController(
+    "getUser"
+  )
+
 );
 
 
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * ROLE MANAGEMENT
+ * ==========================================================
+ */
+
+
 router.patch(
+
   "/:id/role",
+
   authMiddleware,
-  (req, res, next) =>
-    userController.updateRole
-      ? userController.updateRole(req, res, next)
-      : notImplemented("Role management")(req, res)
+
+  requireRole(
+    "super_admin"
+  ),
+
+  bindController(
+    "updateRole"
+  )
+
 );
 
 
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * QUARANTINE
+ * ==========================================================
+ */
+
+
 router.patch(
+
   "/:id/quarantine",
+
   authMiddleware,
-  (req, res, next) =>
-    userController.quarantineUser
-      ? userController.quarantineUser(req, res, next)
-      : notImplemented("User quarantine")(req, res)
+
+  requireRole(
+    "admin",
+    "super_admin"
+  ),
+
+  bindController(
+    "quarantineUser"
+  )
+
 );
+
+
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * RELEASE
+ * ==========================================================
+ */
 
 
 router.patch(
+
   "/:id/release",
+
   authMiddleware,
-  (req, res, next) =>
-    userController.releaseUser
-      ? userController.releaseUser(req, res, next)
-      : notImplemented("User release")(req, res)
+
+  requireRole(
+    "admin",
+    "super_admin"
+  ),
+
+  bindController(
+    "releaseUser"
+  )
+
 );
+
+
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * DELETE
+ * ==========================================================
+ */
 
 
 router.delete(
+
   "/:id",
+
   authMiddleware,
-  (req, res, next) =>
-    userController.deleteUser
-      ? userController.deleteUser(req, res, next)
-      : notImplemented("User deletion")(req, res)
+
+  requireRole(
+    "super_admin"
+  ),
+
+  bindController(
+    "deleteUser"
+  )
+
 );
+
+
+
+
+
 
 
 export default router;

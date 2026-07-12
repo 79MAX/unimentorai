@@ -1,9 +1,0 @@
-export class ModerationEngine {
-  static scan(text = "") {
-    const flags = ["hate","violence","scam"];
-    return {
-      safe: !flags.some(f => text.includes(f)),
-      flags
-    };
-  }
-}
