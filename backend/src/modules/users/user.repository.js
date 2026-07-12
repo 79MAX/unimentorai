@@ -30,13 +30,26 @@ import User from "../../models/user.model.js";
 
 
 
+
+
 class UserRepository {
+
+
 
 
 
   /**
    * ========================================================
    * FIND USER BY ID
+   * ========================================================
+   *
+   * Used by:
+   * - /me
+   * - profile
+   * - account operations
+   *
+   * Password excluded intentionally
+   *
    * ========================================================
    */
 
@@ -51,8 +64,11 @@ class UserRepository {
     }
 
 
+
     return User.findById(id)
+
       .select("-password")
+
       .exec();
 
 
@@ -64,9 +80,25 @@ class UserRepository {
 
 
 
+
   /**
    * ========================================================
    * FIND USER BY EMAIL
+   * ========================================================
+   *
+   * IMPORTANT:
+   *
+   * Login requires password hash.
+   *
+   * User model:
+   *
+   * password:{
+   *   select:false
+   * }
+   *
+   * Therefore we MUST explicitly
+   * request password.
+   *
    * ========================================================
    */
 
@@ -85,9 +117,15 @@ class UserRepository {
     return User.findOne({
 
       email:
-        email.toLowerCase().trim()
+        String(email)
+          .toLowerCase()
+          .trim()
+
 
     })
+
+    .select("+password")
+
     .exec();
 
 
@@ -99,9 +137,15 @@ class UserRepository {
 
 
 
+
+
   /**
    * ========================================================
    * FIND ALL USERS
+   * ========================================================
+   *
+   * Password excluded
+   *
    * ========================================================
    */
 
@@ -130,6 +174,8 @@ class UserRepository {
 
 
 
+
+
   /**
    * ========================================================
    * CREATE USER
@@ -141,6 +187,7 @@ class UserRepository {
 
 
     const user =
+
       await User.create(data);
 
 
@@ -156,28 +203,36 @@ class UserRepository {
 
 
 
+
+
   /**
    * ========================================================
    * UPDATE USER
    * ========================================================
    *
    * - Validation mongoose
-   * - Recalcul fullName
-   * - Retour document frais
+   * - Recalculate fullName
+   * - Return safe document
    *
    * ========================================================
    */
 
 
   async update(
+
     id,
+
     data
+
   ){
 
 
     return this.updateById(
+
       id,
+
       data
+
     );
 
 
@@ -187,14 +242,25 @@ class UserRepository {
 
 
 
+
+
+
+
   async updateById(
+
     id,
+
     data
+
   ){
 
 
+
     const currentUser =
+
       await User.findById(id);
+
+
 
 
 
@@ -203,6 +269,9 @@ class UserRepository {
       return null;
 
     }
+
+
+
 
 
 
@@ -217,6 +286,9 @@ class UserRepository {
 
 
 
+
+
+
     if(
 
       data.firstName !== undefined ||
@@ -224,6 +296,7 @@ class UserRepository {
       data.lastName !== undefined
 
     ){
+
 
 
       const firstName =
@@ -241,6 +314,7 @@ class UserRepository {
 
 
 
+
       update.fullName =
 
         `${firstName} ${lastName}`
@@ -248,7 +322,10 @@ class UserRepository {
         .trim();
 
 
+
     }
+
+
 
 
 
@@ -274,6 +351,7 @@ class UserRepository {
 
       }
 
+
     )
 
     .select("-password")
@@ -281,7 +359,10 @@ class UserRepository {
     .exec();
 
 
+
   }
+
+
 
 
 
@@ -297,6 +378,7 @@ class UserRepository {
 
 
   async deactivate(id){
+
 
 
     return User.findByIdAndUpdate(
@@ -321,6 +403,7 @@ class UserRepository {
 
       }
 
+
     )
 
     .select("-password")
@@ -328,7 +411,10 @@ class UserRepository {
     .exec();
 
 
+
   }
+
+
 
 
 
@@ -347,10 +433,13 @@ class UserRepository {
 
 
     return User.findByIdAndDelete(id)
+
       .exec();
 
 
   }
+
+
 
 
 
@@ -369,6 +458,7 @@ class UserRepository {
 
 
     return User.countDocuments()
+
       .exec();
 
 
@@ -378,9 +468,9 @@ class UserRepository {
 
 
 
-
-
 }
+
+
 
 
 
