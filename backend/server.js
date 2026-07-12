@@ -16,6 +16,8 @@
  * Express App
  *    ↓
  * HTTP Server
+ *    ↓
+ * WebSocket Gateway V12
  *
  * ==========================================================
  */
@@ -25,6 +27,9 @@ import "dotenv/config";
 
 
 import http from "http";
+
+
+import crypto from "crypto";
 
 
 import {
@@ -40,21 +45,37 @@ from "./src/config/database.js";
 
 
 
+/**
+ * ==========================================================
+ * CONFIG
+ * ==========================================================
+ */
+
+
+const PORT = Number(
+  process.env.PORT || 3000
+);
+
+
+
+
 
 
 
 /**
  * ==========================================================
- * CONFIGURATION
+ * RUNTIME STATE
  * ==========================================================
  */
 
 
-const PORT =
+const metrics = {
 
-  Number(
-    process.env.PORT || 3000
-  );
+  messages:0,
+
+  startedAt:new Date()
+
+};
 
 
 
@@ -74,11 +95,20 @@ const PORT =
 async function startServer(){
 
 
+  let server;
+
+  let wss;
+
+  let heartbeat;
+
+  let metricsInterval;
+
+
   try{
 
 
     /**
-     * SECURITY CHECK
+     * SECURITY
      */
 
     assertCleanV12();
@@ -88,8 +118,9 @@ async function startServer(){
 
 
 
+
     /**
-     * DATABASE FIRST
+     * DATABASE
      */
 
     await connectDatabase();
@@ -101,7 +132,7 @@ async function startServer(){
 
 
     /**
-     * LOAD EXPRESS AFTER DB
+     * EXPRESS LOAD
      */
 
     const {
@@ -120,9 +151,11 @@ async function startServer(){
 
 
 
-    const server =
+    /**
+     * HTTP
+     */
 
-      http.createServer(app);
+    server = http.createServer(app);
 
 
 
@@ -133,20 +166,467 @@ async function startServer(){
 
 
     /**
-     * PORT ERROR HANDLER
-     *
-     * évite crash EADDRINUSE
+     * ======================================================
+     * WEBSOCKET V12
+     * ======================================================
      */
+
+
+    const {
+
+      WebSocketServer
+
+    } = await import("ws");
+
+
+
+
+    wss = new WebSocketServer({
+
+      server
+
+    });
+
+
+
+
+    console.log(
+      "👉 WS INITIALIZING..."
+    );
+
+
+
+
+
+
+
+
+
+    /**
+     * ======================================================
+     * BROADCAST
+     * ======================================================
+     */
+
+
+    const broadcast = (payload)=>{
+
+
+      const message = JSON.stringify(payload);
+
+
+
+      wss.clients.forEach(
+
+        client=>{
+
+
+          if(
+
+            client.readyState === 1
+
+          ){
+
+            client.send(message);
+
+          }
+
+
+        }
+
+      );
+
+
+    };
+
+
+
+
+
+
+
+
+
+    /**
+     * ======================================================
+     * METRICS BUILDER
+     * ======================================================
+     */
+
+
+    const buildMetrics = ()=>{
+
+
+      return {
+
+
+        clients:
+
+          wss.clients.size,
+
+
+        messages:
+
+          metrics.messages,
+
+
+        uptime:
+
+          Math.floor(
+
+            process.uptime()
+
+          ),
+
+
+        memory:
+
+          Math.round(
+
+            process.memoryUsage()
+            .heapUsed /
+            1024 /
+            1024
+
+          ) + " MB",
+
+
+
+        startedAt:
+
+          metrics.startedAt.toISOString(),
+
+
+
+        timestamp:
+
+          new Date().toISOString()
+
+
+      };
+
+
+    };
+
+
+
+
+
+
+
+
+
+    /**
+     * ======================================================
+     * WS CONNECTION
+     * ======================================================
+     */
+
+
+    wss.on(
+
+      "connection",
+
+      socket=>{
+
+
+        const clientId =
+          crypto.randomUUID();
+
+
+
+        socket.clientId =
+          clientId;
+
+
+
+        socket.isAlive =
+          true;
+
+
+
+
+
+        console.log(
+
+          "🟢 WS CLIENT CONNECTED:",
+
+          clientId
+
+        );
+
+
+
+
+
+
+
+        /**
+         * WELCOME
+         */
+
+
+        socket.send(
+
+          JSON.stringify({
+
+            type:"WELCOME",
+
+            clientId,
+
+            system:"UniMentorAI",
+
+            version:"V12",
+
+            message:
+            "WebSocket Gateway Online"
+
+          })
+
+        );
+
+
+
+
+
+
+
+
+        /**
+         * INITIAL METRICS
+         */
+
+
+        socket.send(
+
+          JSON.stringify({
+
+            type:"METRIC",
+
+            data:
+            buildMetrics()
+
+          })
+
+        );
+
+
+
+
+
+
+
+
+
+        /**
+         * PONG
+         */
+
+
+        socket.on(
+
+          "pong",
+
+          ()=>{
+
+            socket.isAlive = true;
+
+          }
+
+        );
+
+
+
+
+
+
+
+
+        /**
+         * MESSAGE
+         */
+
+
+        socket.on(
+
+          "message",
+
+          message=>{
+
+
+            metrics.messages++;
+
+
+
+            console.log(
+
+              "📩 WS MESSAGE:",
+
+              message.toString()
+
+            );
+
+
+
+            broadcast({
+
+              type:"METRIC",
+
+              data:
+              buildMetrics()
+
+            });
+
+
+          }
+
+        );
+
+
+
+
+
+
+
+
+
+        /**
+         * CLOSE
+         */
+
+
+        socket.on(
+
+          "close",
+
+          ()=>{
+
+
+            console.log(
+
+              "🔴 WS CLIENT DISCONNECTED:",
+
+              clientId
+
+            );
+
+
+          }
+
+        );
+
+
+
+
+      }
+
+    );
+
+
+
+
+
+
+
+
+
+    /**
+     * ======================================================
+     * AUTO METRICS STREAM
+     * ======================================================
+     */
+
+
+    metricsInterval = setInterval(()=>{
+
+
+      broadcast({
+
+        type:"METRIC",
+
+        data:
+        buildMetrics()
+
+      });
+
+
+    },5000);
+
+
+
+
+
+
+
+
+
+    /**
+     * ======================================================
+     * HEARTBEAT
+     * ======================================================
+     */
+
+
+    heartbeat = setInterval(()=>{
+
+
+      wss.clients.forEach(
+
+        socket=>{
+
+
+          if(
+
+            socket.isAlive === false
+
+          ){
+
+            return socket.terminate();
+
+          }
+
+
+
+          socket.isAlive = false;
+
+
+          socket.ping();
+
+
+
+        }
+
+      );
+
+
+    },30000);
+
+
+
+
+
+
+
+
+
+    /**
+     * ======================================================
+     * ERROR
+     * ======================================================
+     */
+
 
     server.on(
 
       "error",
 
-      (error)=>{
+      error=>{
 
 
         if(
+
           error.code === "EADDRINUSE"
+
         ){
 
 
@@ -180,8 +660,11 @@ async function startServer(){
 
 
     /**
+     * ======================================================
      * START LISTEN
+     * ======================================================
      */
+
 
     server.listen(
 
@@ -193,17 +676,30 @@ async function startServer(){
         console.log("");
 
         console.log(
+
           "🚀 UNIMENTORAI BACKEND V12"
+
         );
 
 
         console.log(
+
           `HTTP: http://localhost:${PORT}`
+
         );
 
 
         console.log(
+
+          `WS: ws://localhost:${PORT}`
+
+        );
+
+
+        console.log(
+
           "STATUS: ONLINE"
+
         );
 
 
@@ -220,10 +716,13 @@ async function startServer(){
 
 
     /**
-     * SAFE SHUTDOWN
+     * ======================================================
+     * SHUTDOWN
+     * ======================================================
      */
 
-    const shutdown = async()=>{
+
+    const shutdown = ()=>{
 
 
       console.log(
@@ -234,20 +733,62 @@ async function startServer(){
 
 
 
-      server.close(()=>{
+      if(heartbeat)
+
+        clearInterval(heartbeat);
 
 
-        console.log(
 
-          "✅ HTTP SERVER CLOSED"
+      if(metricsInterval)
+
+        clearInterval(metricsInterval);
+
+
+
+
+      if(wss){
+
+
+        wss.clients.forEach(
+
+          client=>{
+
+            client.close();
+
+          }
 
         );
 
 
-        process.exit(0);
+        wss.close();
 
 
-      });
+      }
+
+
+
+
+
+      if(server){
+
+
+        server.close(()=>{
+
+
+          console.log(
+
+            "✅ HTTP SERVER CLOSED"
+
+          );
+
+
+          process.exit(0);
+
+
+        });
+
+
+      }
 
 
     };
@@ -256,7 +797,10 @@ async function startServer(){
 
 
 
-    process.on(
+
+
+
+    process.once(
 
       "SIGINT",
 
@@ -265,8 +809,7 @@ async function startServer(){
     );
 
 
-
-    process.on(
+    process.once(
 
       "SIGTERM",
 
@@ -280,7 +823,6 @@ async function startServer(){
 
   }
 
-
   catch(error){
 
 
@@ -288,7 +830,7 @@ async function startServer(){
 
       "❌ BOOT FAILURE:",
 
-      error.message
+      error
 
     );
 
@@ -311,7 +853,7 @@ async function startServer(){
 
 /**
  * ==========================================================
- * GLOBAL PROCESS SAFETY
+ * GLOBAL SAFETY
  * ==========================================================
  */
 
@@ -320,7 +862,7 @@ process.on(
 
   "unhandledRejection",
 
-  (error)=>{
+  error=>{
 
 
     console.error(
@@ -338,11 +880,13 @@ process.on(
 
 
 
+
+
 process.on(
 
   "uncaughtException",
 
-  (error)=>{
+  error=>{
 
 
     console.error(

@@ -1,185 +1,458 @@
+/**
+ * ==========================================================
+ * UNIMENTORAI FRONTEND V12
+ * WEBSOCKET ENGINE
+ * ==========================================================
+ *
+ * Backend:
+ * ws://localhost:3000
+ *
+ * Exports:
+ * - getWS()
+ * - getWSState()
+ * - sendWS()
+ * - subscribeWS()
+ *
+ * ==========================================================
+ */
+
+
+const WS_URL =
+
+  import.meta.env.VITE_WS_URL ||
+
+  "ws://localhost:3000";
+
+
+
 let ws = null;
 
+
 let retry = 0;
-let retryTimer = null;
 
-let isConnecting = false;
-let initialized = false;
 
-let clientId = null;
+let listeners = [];
 
-/* =========================
-   CONFIG
-========================= */
-const URL = "ws://localhost:3001";
 
-/* =========================
-   LOG
-========================= */
-function log(...args) {
-  console.log("[WS ULTRA]", ...args);
-}
 
-/* =========================
-   BACKOFF STRATEGY
-========================= */
-function getBackoff() {
-  return Math.min(30000, 1000 * Math.pow(2, retry));
-}
 
-/* =========================
-   CONNECTION GUARD
-========================= */
-function canConnect() {
-  if (isConnecting) return false;
+const state = {
 
-  if (
+  status: "DISCONNECTED",
+
+  clientId: null,
+
+  retry: 0
+
+};
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * CREATE WEBSOCKET
+ * ==========================================================
+ */
+
+
+function createWS(){
+
+
+  if(
+
     ws &&
-    (ws.readyState === WebSocket.OPEN ||
-      ws.readyState === WebSocket.CONNECTING)
-  ) {
-    return false;
-  }
 
-  return true;
-}
+    (
 
-/* =========================
-   MAIN CONNECTION
-========================= */
-export function getWS() {
-  // 🔒 STRICTMODE SAFE GUARD
-  if (initialized && ws?.readyState === WebSocket.OPEN) {
+      ws.readyState === WebSocket.OPEN ||
+
+      ws.readyState === WebSocket.CONNECTING
+
+    )
+
+  ){
+
     return ws;
+
   }
 
-  if (!canConnect()) return ws;
 
-  initialized = true;
-  isConnecting = true;
 
-  ws = new WebSocket(URL);
 
-  /* =========================
-     OPEN
-  ========================= */
-  ws.onopen = () => {
-    isConnecting = false;
+
+
+  ws = new WebSocket(WS_URL);
+
+
+
+
+
+  ws.onopen = ()=>{
+
+
+    state.status =
+      "CONNECTED";
+
+
+    state.retry =
+      0;
+
+
+
     retry = 0;
 
-    log("CONNECTED ✔");
 
-    if (retryTimer) {
-      clearTimeout(retryTimer);
-      retryTimer = null;
-    }
+
+    emit({
+
+      type:"STATUS",
+
+      status:"CONNECTED"
+
+    });
+
+
+
+    console.log(
+
+      "🟢 WS CONNECTED"
+
+    );
+
+
   };
 
-  /* =========================
-     MESSAGE
-  ========================= */
-  ws.onmessage = (event) => {
-    try {
-      const msg = JSON.parse(event.data);
 
-      switch (msg.type) {
-        case "WELCOME":
-          clientId = msg.id || msg.clientId;
-          log("CLIENT ID:", clientId);
-          break;
 
-        case "METRICS":
-          log("METRICS RECEIVED");
-          break;
 
-        default:
-          log("EVENT:", msg);
+
+
+
+
+  ws.onmessage = (event)=>{
+
+
+    try{
+
+
+      const data =
+
+        JSON.parse(
+
+          event.data
+
+        );
+
+
+
+      if(data.clientId){
+
+
+        state.clientId =
+          data.clientId;
+
+
       }
-    } catch {
-      log("RAW:", event.data);
+
+
+
+      emit(data);
+
+
+
     }
+
+    catch(error){
+
+
+      console.error(
+
+        "WS MESSAGE ERROR",
+
+        error
+
+      );
+
+
+    }
+
+
   };
 
-  /* =========================
-     CLOSE
-  ========================= */
-  ws.onclose = (e) => {
-    isConnecting = false;
-    ws = null;
 
-    log("DISCONNECTED ❌", e.code);
 
-    scheduleReconnect();
+
+
+
+
+
+  ws.onerror = (error)=>{
+
+
+    console.error(
+
+      "🔴 WS ERROR",
+
+      error
+
+    );
+
+
   };
 
-  /* =========================
-     ERROR
-  ========================= */
-  ws.onerror = () => {
-    log("WS ERROR");
-    try {
-      ws?.close();
-    } catch {}
+
+
+
+
+
+
+
+  ws.onclose = ()=>{
+
+
+    state.status =
+      "DISCONNECTED";
+
+
+
+    retry++;
+
+
+    state.retry =
+      retry;
+
+
+
+    emit({
+
+      type:"STATUS",
+
+      status:"DISCONNECTED",
+
+      retry
+
+    });
+
+
+
+    console.warn(
+
+      "🔴 WS DISCONNECTED"
+
+    );
+
+
+
+
+    setTimeout(
+
+      createWS,
+
+      Math.min(
+
+        retry * 2000,
+
+        10000
+
+      )
+
+    );
+
+
   };
+
+
+
+
 
   return ws;
+
 }
 
-/* =========================
-   RECONNECT ENGINE
-========================= */
-function scheduleReconnect() {
-  if (retryTimer) return;
 
-  retry++;
 
-  const delay = getBackoff();
 
-  log(`RECONNECT IN ${delay}ms`);
 
-  retryTimer = setTimeout(() => {
-    retryTimer = null;
-    getWS();
-  }, delay);
+
+
+
+
+/**
+ * ==========================================================
+ * GET CONNECTION
+ * ==========================================================
+ */
+
+
+export function getWS(){
+
+
+  return createWS();
+
+
 }
 
-/* =========================
-   CLEAN RESET (OPTIONAL)
-========================= */
-export function resetWS() {
-  retry = 0;
-  initialized = false;
 
-  if (retryTimer) {
-    clearTimeout(retryTimer);
-    retryTimer = null;
-  }
 
-  if (ws) {
-    try {
-      ws.close();
-    } catch {}
-    ws = null;
-  }
 
-  log("RESET ✔");
-}
 
-/* =========================
-   INFO
-========================= */
-export function getClientId() {
-  return clientId;
-}
 
-/* =========================
-   DEBUG STATE
-========================= */
-export function getWSState() {
+
+
+/**
+ * ==========================================================
+ * GET CURRENT STATE
+ * ==========================================================
+ */
+
+
+export function getWSState(){
+
+
   return {
-    connected: ws?.readyState === WebSocket.OPEN,
-    connecting: isConnecting,
-    retry,
-    clientId,
+
+    ...state,
+
+    readyState:
+
+      ws
+
+      ? ws.readyState
+
+      : WebSocket.CLOSED
+
   };
+
+
 }
+
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * SEND DATA
+ * ==========================================================
+ */
+
+
+export function sendWS(data){
+
+
+  if(
+
+    ws &&
+
+    ws.readyState === WebSocket.OPEN
+
+  ){
+
+
+    ws.send(
+
+      JSON.stringify(data)
+
+    );
+
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+/**
+ * ==========================================================
+ * SUBSCRIBE EVENTS
+ * ==========================================================
+ */
+
+
+export function subscribeWS(callback){
+
+
+  listeners.push(callback);
+
+
+
+  return ()=>{
+
+
+    listeners =
+
+      listeners.filter(
+
+        listener =>
+
+        listener !== callback
+
+      );
+
+
+  };
+
+
+}
+
+
+
+
+
+
+
+function emit(data){
+
+
+  listeners.forEach(
+
+    callback=>{
+
+
+      callback(data);
+
+
+    }
+
+  );
+
+
+}
+
+
+
+
+
+
+
+export default {
+
+  getWS,
+
+  getWSState,
+
+  sendWS,
+
+  subscribeWS
+
+};
+
+/**
+ * ==========================================================
+ * AUTO START CONNECTION
+ * ==========================================================
+ */
+
+createWS();
